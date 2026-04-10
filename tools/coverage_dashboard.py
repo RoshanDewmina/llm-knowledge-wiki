@@ -6,7 +6,7 @@ import argparse
 from collections import Counter, defaultdict
 from typing import Any, Dict, List, Set
 
-from stale_pages import raw_sources_for_page
+from stale_pages import collect_stale_entries
 from wiki_utils import (
     DERIVED_TYPES,
     WIKI_DIR,
@@ -14,7 +14,6 @@ from wiki_utils import (
     load_wiki_pages,
     normalize_wiki_ref,
     now_utc,
-    parse_timestamp,
     render_markdown_page,
     repo_relative,
     write_text_if_changed,
@@ -26,21 +25,7 @@ OUTPUT_PATH = WIKI_DIR / "reviews" / "coverage-dashboard.md"
 def collect_stale_refs() -> Set[str]:
     """Collect page refs that are stale relative to their raw sources."""
 
-    refs: Set[str] = set()
-    for page in load_wiki_pages(include_special=False):
-        page_type = str(page.frontmatter.get("type", ""))
-        if page_type not in {"source"} | DERIVED_TYPES:
-            continue
-        try:
-            compiled_at = parse_timestamp(str(page.frontmatter["compiled_at"]))
-            raw_paths = raw_sources_for_page(page_type, page.frontmatter)
-        except (KeyError, FileNotFoundError, ValueError):
-            refs.add(page.ref)
-            continue
-        newest_source = max(raw_paths, key=lambda raw_path: raw_path.stat().st_mtime)
-        if newest_source.stat().st_mtime > compiled_at.timestamp():
-            refs.add(page.ref)
-    return refs
+    return {item["path"].removeprefix("wiki/").removesuffix(".md") for item in collect_stale_entries()}
 
 
 def build_frontmatter(

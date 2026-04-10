@@ -8,7 +8,7 @@ from typing import Any, Dict, List, Set
 
 from duplicate_pages import collect_duplicates
 from lint_citations import collect_errors as collect_citation_errors
-from stale_pages import raw_sources_for_page
+from stale_pages import collect_stale_entries
 from wiki_utils import (
     DERIVED_TYPES,
     WIKI_DIR,
@@ -18,7 +18,6 @@ from wiki_utils import (
     load_wiki_pages,
     normalize_wiki_ref,
     now_utc,
-    parse_timestamp,
     render_markdown_page,
     repo_relative,
     write_text_if_changed,
@@ -54,27 +53,13 @@ def collect_orphans() -> List[Dict[str, str]]:
 def collect_stale() -> List[Dict[str, str]]:
     """Collect stale pages using the same logic as `stale_pages.py`."""
 
-    stale: List[Dict[str, str]] = []
-    for page in load_wiki_pages(include_special=False):
-        page_type = str(page.frontmatter.get("type", ""))
-        if page_type not in {"source"} | DERIVED_TYPES:
-            continue
-        try:
-            compiled_at = parse_timestamp(str(page.frontmatter["compiled_at"]))
-            raw_paths = raw_sources_for_page(page_type, page.frontmatter)
-        except (KeyError, FileNotFoundError, ValueError) as exc:
-            stale.append({"ref": page.ref, "path": repo_relative(page.path), "reason": str(exc)})
-            continue
-        newest_source = max(raw_paths, key=lambda raw_path: raw_path.stat().st_mtime)
-        if newest_source.stat().st_mtime > compiled_at.timestamp():
-            stale.append(
-                {
-                    "ref": page.ref,
-                    "path": repo_relative(page.path),
-                    "reason": f"source newer than compiled_at: {repo_relative(newest_source)}",
-                }
-            )
-    return stale
+    page_lookup = {page.path: page.ref for page in load_wiki_pages(include_special=False)}
+    items: List[Dict[str, str]] = []
+    for stale in collect_stale_entries():
+        page_path = WIKI_DIR.parent / stale["path"]
+        ref = page_lookup.get(page_path.resolve())
+        items.append({"ref": ref or stale["path"].removeprefix("wiki/").removesuffix(".md"), **stale})
+    return items
 
 
 def collect_low_confidence() -> List[Dict[str, str]]:

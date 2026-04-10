@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T15:32:29Z",
+  "generated_at": "2026-04-10T15:35:46Z",
   "pages": [
     {
       "excerpt": "- A transformer replaces recurrence with layers organized around a residual stream, where self-attention and feed-forward blocks write updates and positional information supplies order.",
@@ -479,7 +479,7 @@
     {
       "excerpt": "---",
       "frontmatter": {
-        "compiled_at": "2026-04-10T15:32:29Z",
+        "compiled_at": "2026-04-10T15:35:46Z",
         "confidence": 0.84,
         "created": "2026-04-07T21:26:24Z",
         "marp": true,
@@ -499,7 +499,7 @@
         "theme": "default",
         "title": "Transformer Orientation",
         "type": "output",
-        "updated": "2026-04-10T15:32:29Z"
+        "updated": "2026-04-10T15:35:46Z"
       },
       "headings": [
         {

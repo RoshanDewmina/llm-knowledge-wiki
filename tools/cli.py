@@ -121,11 +121,21 @@ def requirements_snapshot() -> dict[str, Any]:
     commands = {name: command_status(name) for name in REQUIRED_COMMANDS}
     paths = {path: path_status(path) for path in REQUIRED_PATHS}
     obsidian = obsidian_status()
+    site_dependencies = {
+        "ok": (REPO_ROOT / "apps" / "site" / "node_modules").exists(),
+        "detail": "apps/site/node_modules",
+    }
     return {
         "commands": commands,
         "paths": paths,
         "obsidian": obsidian,
-        "ready": all(item["ok"] for item in commands.values()) and all(item["ok"] for item in paths.values()) and obsidian["ok"],
+        "site_dependencies": site_dependencies,
+        "ready": (
+            all(item["ok"] for item in commands.values())
+            and all(item["ok"] for item in paths.values())
+            and obsidian["ok"]
+            and site_dependencies["ok"]
+        ),
     }
 
 
@@ -263,6 +273,7 @@ def cmd_status(args: argparse.Namespace) -> int:
     else:
         print(f"Platform: {payload['platform']}")
         print(f"Requirements ready: {'yes' if payload['requirements']['ready'] else 'no'}")
+        print(f"Site dependencies installed: {'yes' if payload['requirements']['site_dependencies']['ok'] else 'no'}")
         print(
             "Wiki: {page_count} pages across {raw_documents} raw documents".format(
                 page_count=payload["wiki"]["page_count"],

@@ -54,6 +54,7 @@ fi
 cd "${TARGET_DIR}"
 
 echo "==> Running native onboarding"
+./bin/llm-wiki setup
 if [[ "${OPEN_OBSIDIAN}" == "1" ]]; then
   ./bin/llm-wiki onboard --open-obsidian
 else
