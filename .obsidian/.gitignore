@@ -1,0 +1,9 @@
+workspace*.json
+app.json
+appearance.json
+graph.json
+hotkeys.json
+plugins/
+snippets/
+community-plugins.json
+

@@ -1,0 +1,1880 @@
+{
+  "generated_at": "2026-04-10T15:32:29Z",
+  "pages": [
+    {
+      "excerpt": "- A transformer replaces recurrence with layers organized around a residual stream, where self-attention and feed-forward blocks write updates and positional information supplies order.",
+      "frontmatter": {
+        "compiled_at": "2026-04-08T21:18:05Z",
+        "confidence": 0.9,
+        "created": "2026-04-07T21:26:24Z",
+        "related": [
+          "sources/attention-is-all-you-need-excerpt",
+          "sources/example-com-attention-as-interface",
+          "sources/example-com-residual-stream-notes",
+          "syntheses/transformer-orientation"
+        ],
+        "source_pages": [
+          "sources/attention-is-all-you-need-excerpt",
+          "sources/example-com-attention-as-interface",
+          "sources/example-com-residual-stream-notes"
+        ],
+        "status": "reviewed",
+        "title": "Transformer Architecture",
+        "type": "concept",
+        "updated": "2026-04-08T21:18:05Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "definition",
+          "text": "Definition"
+        },
+        {
+          "depth": 2,
+          "id": "evidence",
+          "text": "Evidence"
+        },
+        {
+          "depth": 2,
+          "id": "citations",
+          "text": "Citations"
+        },
+        {
+          "depth": 2,
+          "id": "contradictions",
+          "text": "Contradictions"
+        },
+        {
+          "depth": 2,
+          "id": "related-pages",
+          "text": "Related Pages"
+        },
+        {
+          "depth": 2,
+          "id": "open-questions",
+          "text": "Open Questions"
+        }
+      ],
+      "markdown": "## Definition\n\n- A transformer replaces recurrence with layers organized around a residual stream, where self-attention and feed-forward blocks write updates and positional information supplies order.\n\n## Evidence\n\n- [[sources/attention-is-all-you-need-excerpt]] states that the architecture swaps recurrence for stacked self-attention and feed-forward blocks.\n- [[sources/example-com-residual-stream-notes]] states that the residual stream is a running state that carries information across transformer layers.\n- [[sources/example-com-residual-stream-notes]] states that attention and feed-forward blocks write into the residual stream rather than replacing it wholesale.\n- [[sources/attention-is-all-you-need-excerpt]] states that positional information must be injected because attention is permutation-invariant.\n- [[sources/example-com-attention-as-interface]] frames attention as a reusable interface for connecting distant tokens.\n\n## Citations\n\n- [[sources/attention-is-all-you-need-excerpt#ex-replaces-recurrence]]\n- [[sources/attention-is-all-you-need-excerpt#ex-positional-information]]\n- [[sources/example-com-residual-stream-notes#ex-running-state]]\n- [[sources/example-com-residual-stream-notes#ex-additive-updates]]\n- [[sources/example-com-attention-as-interface#ex-distant-tokens]]\n\n## Contradictions\n\n- No source in the current corpus contradicts the basic architectural description.\n- [[sources/example-com-attention-as-interface]] and [[sources/example-com-residual-stream-notes]] both caution that interpretive stories about what components mean should not be collapsed into architectural facts.\n\n## Related Pages\n\n- [[syntheses/transformer-orientation]]\n- [[sources/attention-is-all-you-need-excerpt]]\n- [[sources/example-com-attention-as-interface]]\n- [[sources/example-com-residual-stream-notes]]\n\n## Open Questions\n\n- Which properties of multi-head attention are architecture-level guarantees versus empirical tendencies?\n- How should introductory transformer explanations describe the residual stream without smuggling in interpretive claims?",
+      "outbound_targets": [
+        "sources/attention-is-all-you-need-excerpt",
+        "sources/example-com-attention-as-interface",
+        "sources/example-com-residual-stream-notes",
+        "syntheses/transformer-orientation"
+      ],
+      "relative_path": "concepts/transformer-architecture.md",
+      "section": "concepts",
+      "source_path": null,
+      "source_url": null,
+      "target": "concepts/transformer-architecture",
+      "title": "Transformer Architecture",
+      "type": "concept"
+    },
+    {
+      "excerpt": "This is the daily triage note for the vault. Open it when you want to see what changed most recently and what should be reviewed next.",
+      "frontmatter": {},
+      "headings": [
+        {
+          "depth": 2,
+          "id": "start-here",
+          "text": "Start Here"
+        },
+        {
+          "depth": 2,
+          "id": "recent-source-activity",
+          "text": "Recent Source Activity"
+        },
+        {
+          "depth": 2,
+          "id": "next-actions",
+          "text": "Next Actions"
+        },
+        {
+          "depth": 2,
+          "id": "manual-queue",
+          "text": "Manual Queue"
+        }
+      ],
+      "markdown": "This is the daily triage note for the vault. Open it when you want to see what changed most recently and what should be reviewed next.\n\n## Start Here\n\n- [[index]]\n- [[reviews/daily-review]]\n- [[reviews/review-queue]]\n- [[projects/knowledge-wiki-project-memory]]\n- Review the recent source pages below.\n- Extend existing concept or synthesis pages before creating new ones.\n- Run `python3 tools/check_wiki.py` after meaningful wiki edits.\n\n## Recent Source Activity\n\n<!-- AUTO-RECENT-SOURCES:START -->\n- 2026-04-10T12:31:26Z | [[sources/example-transformer-tooling-notes]] | `raw/repos/example-transformer-tooling-notes.md`\n- 2026-04-08T21:18:05Z | [[sources/example-com-residual-stream-notes]] | `raw/articles/2026/2026-04-08-example-com-residual-stream-notes.md`\n- 2026-04-08T13:34:18Z | [[sources/example-com-attention-as-interface]] | `raw/articles/2026/2026-04-07-example-com-attention-as-interface.md`\n- 2026-04-07T21:33:52Z | [[sources/attention-is-all-you-need-excerpt]] | `raw/papers/attention-is-all-you-need-excerpt.md`\n<!-- AUTO-RECENT-SOURCES:END -->\n\n## Next Actions\n\n- Read the newest source page and clear its `## Extraction Queue`.\n- Update the most relevant existing concept or synthesis page.\n- Save durable answers into `wiki/syntheses/` or `wiki/outputs/`.\n- Use `wiki/journal/` and `wiki/questions/` for exploratory thinking before promoting stable outcomes.\n\n## Manual Queue\n\n- Track today's working note in [[journal/2026-04-10-daily-note]].\n- Promote reusable questions into [[questions/when-should-a-note-be-promoted]] or a stronger synthesis/output.",
+      "outbound_targets": [
+        "index",
+        "journal/2026-04-10-daily-note",
+        "projects/knowledge-wiki-project-memory",
+        "questions/when-should-a-note-be-promoted",
+        "reviews/daily-review",
+        "reviews/review-queue",
+        "sources/attention-is-all-you-need-excerpt",
+        "sources/example-com-attention-as-interface",
+        "sources/example-com-residual-stream-notes",
+        "sources/example-transformer-tooling-notes"
+      ],
+      "relative_path": "inbox.md",
+      "section": "index",
+      "source_path": null,
+      "source_url": null,
+      "target": "inbox",
+      "title": "Wiki Inbox",
+      "type": "operational"
+    },
+    {
+      "excerpt": "This is the vault landing page for the compiled knowledge graph. Keep human notes above the auto-managed registry so ingest can update source listings safely.",
+      "frontmatter": {},
+      "headings": [
+        {
+          "depth": 2,
+          "id": "start-here",
+          "text": "Start Here"
+        },
+        {
+          "depth": 2,
+          "id": "active-outputs",
+          "text": "Active Outputs"
+        },
+        {
+          "depth": 2,
+          "id": "use-case-lanes",
+          "text": "Use Case Lanes"
+        },
+        {
+          "depth": 2,
+          "id": "working-rules",
+          "text": "Working Rules"
+        },
+        {
+          "depth": 2,
+          "id": "auto-managed-source-registry",
+          "text": "Auto-Managed Source Registry"
+        }
+      ],
+      "markdown": "This is the vault landing page for the compiled knowledge graph. Keep human notes above the auto-managed registry so ingest can update source listings safely.\n\n## Start Here\n\n- [[inbox]]\n- [[reviews/daily-review]]\n- [[reviews/review-queue]]\n- [[reviews/coverage-dashboard]]\n- [[projects/knowledge-wiki-project-memory]]\n- [[syntheses/context/knowledge-wiki-context-pack]]\n- [[syntheses/research/transformer-research-starter-map]]\n- [[syntheses/transformer-orientation]]\n- [[concepts/transformer-architecture]]\n\n## Active Outputs\n\n- [[outputs/briefs/transformer-orientation-brief]]\n- [[outputs/briefs/codex-initial-smoke]]\n- [[outputs/briefs/claude-sonnet-smoke]]\n- [[outputs/tables/source-use-case-comparison]]\n- [[outputs/timelines/knowledge-wiki-evolution]]\n- [[outputs/slides/transformer-orientation.slides]]\n\n## Use Case Lanes\n\n- Academic research: [[syntheses/research/transformer-research-starter-map]]\n- Context compaction: [[syntheses/context/knowledge-wiki-context-pack]]\n- Codebase memory: [[projects/knowledge-wiki-project-memory]]\n- Thinking partner: [[journal/2026-04-10-daily-note]] and [[questions/when-should-a-note-be-promoted]]\n- Durable outputs: [[outputs/briefs/transformer-orientation-brief]], [[outputs/tables/source-use-case-comparison]], [[outputs/timelines/knowledge-wiki-evolution]]\n\n## Working Rules\n\n- Add or clip new source material under `raw/`.\n- Treat `wiki/` as the maintained, linked, agent-written layer.\n- Write durable answers back into `wiki/syntheses/` or `wiki/outputs/`.\n- Run `python3 tools/check_wiki.py` after meaningful wiki edits.\n\n## Auto-Managed Source Registry\n\n<!-- AUTO-SOURCES:START -->\n- [[sources/attention-is-all-you-need-excerpt]] -> `raw/papers/attention-is-all-you-need-excerpt.md`\n- [[sources/example-com-attention-as-interface]] -> `raw/articles/2026/2026-04-07-example-com-attention-as-interface.md`\n- [[sources/example-com-residual-stream-notes]] -> `raw/articles/2026/2026-04-08-example-com-residual-stream-notes.md`\n- [[sources/example-transformer-tooling-notes]] -> `raw/repos/example-transformer-tooling-notes.md`\n<!-- AUTO-SOURCES:END -->",
+      "outbound_targets": [
+        "concepts/transformer-architecture",
+        "inbox",
+        "journal/2026-04-10-daily-note",
+        "outputs/briefs/claude-sonnet-smoke",
+        "outputs/briefs/codex-initial-smoke",
+        "outputs/briefs/transformer-orientation-brief",
+        "outputs/slides/transformer-orientation.slides",
+        "outputs/tables/source-use-case-comparison",
+        "outputs/timelines/knowledge-wiki-evolution",
+        "projects/knowledge-wiki-project-memory",
+        "questions/when-should-a-note-be-promoted",
+        "reviews/coverage-dashboard",
+        "reviews/daily-review",
+        "reviews/review-queue",
+        "sources/attention-is-all-you-need-excerpt",
+        "sources/example-com-attention-as-interface",
+        "sources/example-com-residual-stream-notes",
+        "sources/example-transformer-tooling-notes",
+        "syntheses/context/knowledge-wiki-context-pack",
+        "syntheses/research/transformer-research-starter-map",
+        "syntheses/transformer-orientation"
+      ],
+      "relative_path": "index.md",
+      "section": "index",
+      "source_path": null,
+      "source_url": null,
+      "target": "index",
+      "title": "Wiki Index",
+      "type": "operational"
+    },
+    {
+      "excerpt": "- Tighten the public setup so a new user can clone the repo, install host tools, and understand the main workflows quickly.",
+      "frontmatter": {
+        "compiled_at": "2026-04-10T12:31:26Z",
+        "confidence": 0.25,
+        "created": "2026-04-10T12:31:26Z",
+        "related": [
+          "inbox",
+          "reviews/daily-review",
+          "projects/knowledge-wiki-project-memory"
+        ],
+        "source_pages": [],
+        "status": "draft",
+        "title": "2026-04-10 Daily Note",
+        "type": "journal",
+        "updated": "2026-04-10T12:31:26Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "focus",
+          "text": "Focus"
+        },
+        {
+          "depth": 2,
+          "id": "todays-sources",
+          "text": "Today's Sources"
+        },
+        {
+          "depth": 2,
+          "id": "questions",
+          "text": "Questions"
+        },
+        {
+          "depth": 2,
+          "id": "notes",
+          "text": "Notes"
+        },
+        {
+          "depth": 2,
+          "id": "promote-to-durable-pages",
+          "text": "Promote To Durable Pages"
+        }
+      ],
+      "markdown": "## Focus\n\n- Tighten the public setup so a new user can clone the repo, install host tools, and understand the main workflows quickly.\n\n## Today's Sources\n\n- Review [[sources/example-transformer-tooling-notes]] for project-memory guidance.\n- Re-read [[sources/attention-is-all-you-need-excerpt]] before expanding the research workflow.\n\n## Questions\n\n- Which questions should stay as journal notes, and which should become durable syntheses or outputs?\n\n## Notes\n\n- The repo should feel like one vault that supports research, codebase memory, and durable outputs without turning into separate products.\n\n## Promote To Durable Pages\n\n- Use [[questions/when-should-a-note-be-promoted]] to decide what should become a synthesis or output next.",
+      "outbound_targets": [
+        "inbox",
+        "projects/knowledge-wiki-project-memory",
+        "questions/when-should-a-note-be-promoted",
+        "reviews/daily-review",
+        "sources/attention-is-all-you-need-excerpt",
+        "sources/example-transformer-tooling-notes"
+      ],
+      "relative_path": "journal/2026-04-10-daily-note.md",
+      "section": "journal",
+      "source_path": null,
+      "source_url": null,
+      "target": "journal/2026-04-10-daily-note",
+      "title": "2026-04-10 Daily Note",
+      "type": "journal"
+    },
+    {
+      "excerpt": "Durable wiki actions belong here. Tooling manages the auto-ingest block; humans can add context above or below it.",
+      "frontmatter": {},
+      "headings": [],
+      "markdown": "Durable wiki actions belong here. Tooling manages the auto-ingest block; humans can add context above or below it.\n\n<!-- AUTO-LOG:START -->\n- 2026-04-07T21:26:24Z | ingest | [[sources/attention-is-all-you-need-excerpt]] | raw/papers/attention-is-all-you-need-excerpt.md\n- 2026-04-08T13:34:18Z | ingest | [[sources/example-com-attention-as-interface]] | raw/articles/2026/2026-04-07-example-com-attention-as-interface.md\n- 2026-04-08T21:17:08Z | ingest | [[sources/example-com-residual-stream-notes]] | raw/articles/2026/2026-04-08-example-com-residual-stream-notes.md\n- 2026-04-10T12:31:26Z | ingest | [[sources/example-transformer-tooling-notes]] | raw/repos/example-transformer-tooling-notes.md\n<!-- AUTO-LOG:END -->\n\n- 2026-04-08T14:19:32Z | output | [[outputs/briefs/codex-initial-smoke]] | Saved durable answer on the wiki's distinction between transformer mechanism and interpretation.\n- 2026-04-08T21:30:00Z | output | [[outputs/briefs/claude-sonnet-smoke]] | Saved durable answer on how to explain the residual stream to a newcomer without overclaiming interpretation.\n- 2026-04-10T12:31:26Z | project | [[projects/knowledge-wiki-project-memory]] | Seeded project-memory examples for codebase and context-compaction workflows.\n- 2026-04-10T12:31:26Z | synthesis | [[syntheses/research/transformer-research-starter-map]] | Seeded the academic research workflow with a starter literature-review page.\n- 2026-04-10T12:31:26Z | synthesis | [[syntheses/context/knowledge-wiki-context-pack]] | Added a compact agent-first context page for large-vault context reduction.\n- 2026-04-10T12:31:26Z | output | [[outputs/briefs/transformer-orientation-brief]] | Added brief, table, timeline, and slide-oriented output examples under the new output folders.",
+      "outbound_targets": [
+        "outputs/briefs/claude-sonnet-smoke",
+        "outputs/briefs/codex-initial-smoke",
+        "outputs/briefs/transformer-orientation-brief",
+        "projects/knowledge-wiki-project-memory",
+        "sources/attention-is-all-you-need-excerpt",
+        "sources/example-com-attention-as-interface",
+        "sources/example-com-residual-stream-notes",
+        "sources/example-transformer-tooling-notes",
+        "syntheses/context/knowledge-wiki-context-pack",
+        "syntheses/research/transformer-research-starter-map"
+      ],
+      "relative_path": "log.md",
+      "section": "index",
+      "source_path": null,
+      "source_url": null,
+      "target": "log",
+      "title": "Wiki Log",
+      "type": "operational"
+    },
+    {
+      "excerpt": "How should this vault explain the residual stream to a newcomer without overclaiming interpretation?",
+      "frontmatter": {
+        "compiled_at": "2026-04-08T21:30:00Z",
+        "confidence": 0.88,
+        "created": "2026-04-08T21:30:00Z",
+        "related": [
+          "concepts/transformer-architecture",
+          "syntheses/transformer-orientation",
+          "sources/example-com-residual-stream-notes",
+          "sources/attention-is-all-you-need-excerpt",
+          "sources/example-com-attention-as-interface",
+          "outputs/briefs/codex-initial-smoke"
+        ],
+        "source_pages": [
+          "sources/example-com-residual-stream-notes",
+          "sources/attention-is-all-you-need-excerpt",
+          "sources/example-com-attention-as-interface"
+        ],
+        "status": "draft",
+        "title": "Explaining the Residual Stream Without Overclaiming",
+        "type": "output",
+        "updated": "2026-04-08T21:30:00Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "question",
+          "text": "Question"
+        },
+        {
+          "depth": 2,
+          "id": "answer",
+          "text": "Answer"
+        },
+        {
+          "depth": 2,
+          "id": "what-to-avoid",
+          "text": "What to Avoid"
+        },
+        {
+          "depth": 2,
+          "id": "recommended-explanation-structure",
+          "text": "Recommended Explanation Structure"
+        },
+        {
+          "depth": 2,
+          "id": "support",
+          "text": "Support"
+        },
+        {
+          "depth": 2,
+          "id": "citations",
+          "text": "Citations"
+        },
+        {
+          "depth": 2,
+          "id": "contradictions",
+          "text": "Contradictions"
+        }
+      ],
+      "markdown": "## Question\n\nHow should this vault explain the residual stream to a newcomer without overclaiming interpretation?\n\n## Answer\n\nIntroduce the residual stream as an architectural fact before any interpretive story is attached to it.\n\nThe vault's compiled evidence supports the following newcomer-safe description:\n\n> A transformer maintains a running state \u2014 the residual stream \u2014 that is passed from layer to layer. Each self-attention block and each feed-forward block reads from that stream and writes an update back into it; they do not replace it wholesale. The final state of the stream at each token position is what the model uses to produce the next output.\n\nThis framing is grounded in [[sources/example-com-residual-stream-notes]], which records two verified claims: the residual stream is a running state carried across layers, and sublayers write into it rather than replacing it. The architectural framing in [[sources/attention-is-all-you-need-excerpt]] corroborates the stacked-block structure without contradicting it.\n\n## What to Avoid\n\nThe vault's synthesis in [[syntheses/transformer-orientation]] makes the key constraint explicit: mechanism-level description and interpretive story must stay separate. For a newcomer, this means:\n\n- **Do not say** \"attention heads attend to syntax\" \u2014 this is an interpretation of observed behavior, not an architectural guarantee.\n- **Do not say** \"the residual stream represents the model's belief\" \u2014 this imports cognitive framing that the mechanism does not license.\n- **Do say** \"each block contributes an additive update to the stream\" \u2014 this is architectural.\n- **Do say** \"what individual components appear to encode is an active research question\" \u2014 this flags interpretation as open.\n\n[[sources/example-com-attention-as-interface]] and [[sources/example-com-residual-stream-notes]] both caution that mechanistic description and interpretive stories should not be collapsed together. [[concepts/transformer-architecture]] records the same tension in its Contradictions section.\n\n## Recommended Explanation Structure\n\nWhen writing a newcomer-facing page about the residual stream, this vault supports the following ordering:\n\n1. **Mechanism first.** Describe what the residual stream is structurally: a tensor that persists across layers and accumulates additive updates.\n2. **Dataflow second.** Say which components write into it (self-attention and feed-forward blocks) and that each layer's output is that block's contribution added to the stream it received.\n3. **Interpretation flagged, not suppressed.** Acknowledge that researchers study what information the stream carries at various positions and depths, but label this as ongoing interpretability work, not settled architecture.\n4. **No role assignments without citation.** Do not assign fixed meanings to specific heads or layers unless a cited source warrants it.\n\n## Support\n\n- [[sources/example-com-residual-stream-notes]] \u2014 verified claims on residual stream as running state and additive write semantics.\n- [[concepts/transformer-architecture]] \u2014 summarizes the base architecture and records the tension between mechanism and interpretation in its Contradictions section.\n- [[syntheses/transformer-orientation]] \u2014 makes explicit that durable answers should separate mechanism from interpretation.\n- [[sources/example-com-attention-as-interface]] \u2014 cautions that attention head specialization is observed but not guaranteed.\n- [[outputs/briefs/codex-initial-smoke]] \u2014 prior output on mechanism vs. interpretation distinction; this page extends that answer to the newcomer framing question.\n\n## Citations\n\n- [[sources/example-com-residual-stream-notes#ex-running-state]]\n- [[sources/example-com-residual-stream-notes#ex-additive-updates]]\n- [[sources/attention-is-all-you-need-excerpt#ex-replaces-recurrence]]\n- [[sources/example-com-attention-as-interface#ex-specialization-not-guaranteed]]\n\n## Contradictions\n\n- No source in the current corpus contradicts the architectural description of the residual stream as a running state with additive updates.\n- A recorded tension exists between architecture-level descriptions of how components update the stream and stronger interpretability claims that individual heads or blocks have fixed semantic roles. See [[syntheses/transformer-orientation]] and [[concepts/transformer-architecture]].\n- The corpus does not yet include a source that directly debates how newcomer explanations should be framed; the guidance here is derived from the general mechanism-vs-interpretation principle already present in the vault, not from a dedicated pedagogy source.",
+      "outbound_targets": [
+        "concepts/transformer-architecture",
+        "outputs/briefs/codex-initial-smoke",
+        "sources/attention-is-all-you-need-excerpt",
+        "sources/example-com-attention-as-interface",
+        "sources/example-com-residual-stream-notes",
+        "syntheses/transformer-orientation"
+      ],
+      "relative_path": "outputs/briefs/claude-sonnet-smoke.md",
+      "section": "outputs",
+      "source_path": null,
+      "source_url": null,
+      "target": "outputs/briefs/claude-sonnet-smoke",
+      "title": "Explaining the Residual Stream Without Overclaiming",
+      "type": "output"
+    },
+    {
+      "excerpt": "- This wiki treats transformer mechanism as the architecture-level structure and dataflow supported by concepts/transformer-architecture: a residual stream carried across layers, with self-attention and feed-forward blocks writing updates into it alongside positional information and multi-head attention.",
+      "frontmatter": {
+        "compiled_at": "2026-04-08T21:18:05Z",
+        "confidence": 0.9,
+        "created": "2026-04-08T14:19:32Z",
+        "related": [
+          "concepts/transformer-architecture",
+          "syntheses/transformer-orientation",
+          "sources/attention-is-all-you-need-excerpt",
+          "sources/example-com-attention-as-interface",
+          "sources/example-com-residual-stream-notes"
+        ],
+        "source_pages": [
+          "sources/attention-is-all-you-need-excerpt",
+          "sources/example-com-attention-as-interface",
+          "sources/example-com-residual-stream-notes"
+        ],
+        "status": "draft",
+        "title": "Transformer Mechanism vs Interpretation",
+        "type": "output",
+        "updated": "2026-04-08T21:18:05Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "answer",
+          "text": "Answer"
+        },
+        {
+          "depth": 2,
+          "id": "support",
+          "text": "Support"
+        },
+        {
+          "depth": 2,
+          "id": "citations",
+          "text": "Citations"
+        },
+        {
+          "depth": 2,
+          "id": "implications",
+          "text": "Implications"
+        },
+        {
+          "depth": 2,
+          "id": "contradictions",
+          "text": "Contradictions"
+        }
+      ],
+      "markdown": "## Answer\n\n- This wiki treats transformer mechanism as the architecture-level structure and dataflow supported by [[concepts/transformer-architecture]]: a residual stream carried across layers, with self-attention and feed-forward blocks writing updates into it alongside positional information and multi-head attention.\n- It treats interpretation as a stronger human reading of observed behavior, especially claims that particular attention heads have fixed semantic roles.\n- In the wiki's framing, mechanism is what the architecture is described as doing, while interpretation is how people explain or label observed specialization or component meaning.\n\n## Support\n\n- [[sources/attention-is-all-you-need-excerpt]] is used for the mechanism-side claims about replacing recurrence with self-attention and feed-forward layers, injecting positional information, and using multi-head attention to model relationships in parallel.\n- [[sources/example-com-residual-stream-notes]] is used for the mechanism-side claim that the residual stream is the running state across layers and that transformer sublayers write into it rather than replacing it wholesale.\n- [[sources/example-com-attention-as-interface]] is used for the interpretation-side caution that head specialization is often observed but not guaranteed.\n- [[syntheses/transformer-orientation]] makes the distinction explicit by saying durable answers should separate mechanism from interpretation.\n\n## Citations\n\n- [[sources/attention-is-all-you-need-excerpt#ex-replaces-recurrence]]\n- [[sources/attention-is-all-you-need-excerpt#ex-multi-head-parallelism]]\n- [[sources/example-com-residual-stream-notes#ex-running-state]]\n- [[sources/example-com-residual-stream-notes#ex-additive-updates]]\n- [[sources/example-com-attention-as-interface#ex-specialization-not-guaranteed]]\n\n## Implications\n\n- The wiki does not treat head specialization or component meaning as an architectural guarantee.\n- It prefers describing residual-stream dataflow separately from interpretability stories about what individual heads or blocks appear to do.\n\n## Contradictions\n\n- No direct contradiction is recorded about the base transformer mechanism or the existence of a residual stream.\n- The wiki does record a tension between architecture-level descriptions of how components update the residual stream and stronger interpretability claims that those components have fixed semantic meanings.",
+      "outbound_targets": [
+        "concepts/transformer-architecture",
+        "sources/attention-is-all-you-need-excerpt",
+        "sources/example-com-attention-as-interface",
+        "sources/example-com-residual-stream-notes",
+        "syntheses/transformer-orientation"
+      ],
+      "relative_path": "outputs/briefs/codex-initial-smoke.md",
+      "section": "outputs",
+      "source_path": null,
+      "source_url": null,
+      "target": "outputs/briefs/codex-initial-smoke",
+      "title": "Transformer Mechanism vs Interpretation",
+      "type": "output"
+    },
+    {
+      "excerpt": "- A newcomer who needs a short, grounded explanation of the current seed corpus.",
+      "frontmatter": {
+        "compiled_at": "2026-04-10T12:31:26Z",
+        "confidence": 0.88,
+        "created": "2026-04-10T12:31:26Z",
+        "related": [
+          "syntheses/transformer-orientation",
+          "syntheses/research/transformer-research-starter-map"
+        ],
+        "source_pages": [
+          "sources/attention-is-all-you-need-excerpt",
+          "sources/example-com-attention-as-interface",
+          "sources/example-com-residual-stream-notes"
+        ],
+        "status": "reviewed",
+        "title": "Transformer Orientation Brief",
+        "type": "output",
+        "updated": "2026-04-10T12:31:26Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "audience",
+          "text": "Audience"
+        },
+        {
+          "depth": 2,
+          "id": "key-takeaways",
+          "text": "Key Takeaways"
+        },
+        {
+          "depth": 2,
+          "id": "supporting-evidence",
+          "text": "Supporting Evidence"
+        },
+        {
+          "depth": 2,
+          "id": "citations",
+          "text": "Citations"
+        },
+        {
+          "depth": 2,
+          "id": "contradictions",
+          "text": "Contradictions"
+        },
+        {
+          "depth": 2,
+          "id": "next-step",
+          "text": "Next Step"
+        }
+      ],
+      "markdown": "## Audience\n\n- A newcomer who needs a short, grounded explanation of the current seed corpus.\n\n## Key Takeaways\n\n- Transformers are described here as residual-stream updates performed by self-attention and feed-forward blocks.\n- Positional information is necessary because attention alone is permutation-invariant.\n- Observed head specialization belongs on the interpretation side of the ledger, not as an architectural guarantee.\n\n## Supporting Evidence\n\n- [[sources/attention-is-all-you-need-excerpt]] provides the baseline architecture.\n- [[sources/example-com-residual-stream-notes]] explains the residual stream as a running state with additive updates.\n- [[sources/example-com-attention-as-interface]] warns against turning observed specialization into fixed meaning.\n\n## Citations\n\n- [[sources/attention-is-all-you-need-excerpt#ex-replaces-recurrence]]\n- [[sources/attention-is-all-you-need-excerpt#ex-positional-information]]\n- [[sources/example-com-residual-stream-notes#ex-running-state]]\n- [[sources/example-com-residual-stream-notes#ex-additive-updates]]\n- [[sources/example-com-attention-as-interface#ex-specialization-not-guaranteed]]\n\n## Contradictions\n\n- The corpus does not contradict the baseline architectural summary.\n- The corpus does preserve a tension between mechanism-level description and stronger interpretive claims about component meaning.\n\n## Next Step\n\n- Use this brief as the short public-facing handoff before opening [[syntheses/transformer-orientation]] or the slide export.",
+      "outbound_targets": [
+        "sources/attention-is-all-you-need-excerpt",
+        "sources/example-com-attention-as-interface",
+        "sources/example-com-residual-stream-notes",
+        "syntheses/research/transformer-research-starter-map",
+        "syntheses/transformer-orientation"
+      ],
+      "relative_path": "outputs/briefs/transformer-orientation-brief.md",
+      "section": "outputs",
+      "source_path": null,
+      "source_url": null,
+      "target": "outputs/briefs/transformer-orientation-brief",
+      "title": "Transformer Orientation Brief",
+      "type": "output"
+    },
+    {
+      "excerpt": "---",
+      "frontmatter": {
+        "compiled_at": "2026-04-10T15:32:29Z",
+        "confidence": 0.84,
+        "created": "2026-04-07T21:26:24Z",
+        "marp": true,
+        "paginate": true,
+        "related": [
+          "concepts/transformer-architecture",
+          "sources/attention-is-all-you-need-excerpt",
+          "sources/example-com-attention-as-interface",
+          "sources/example-com-residual-stream-notes"
+        ],
+        "source_pages": [
+          "sources/attention-is-all-you-need-excerpt",
+          "sources/example-com-attention-as-interface",
+          "sources/example-com-residual-stream-notes"
+        ],
+        "status": "draft",
+        "theme": "default",
+        "title": "Transformer Orientation",
+        "type": "output",
+        "updated": "2026-04-10T15:32:29Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "scope",
+          "text": "Scope"
+        },
+        {
+          "depth": 2,
+          "id": "thesis",
+          "text": "Thesis"
+        },
+        {
+          "depth": 2,
+          "id": "evidence",
+          "text": "Evidence"
+        },
+        {
+          "depth": 2,
+          "id": "citations",
+          "text": "Citations"
+        },
+        {
+          "depth": 2,
+          "id": "contradictions",
+          "text": "Contradictions"
+        },
+        {
+          "depth": 2,
+          "id": "implications",
+          "text": "Implications"
+        },
+        {
+          "depth": 2,
+          "id": "follow-up",
+          "text": "Follow-Up"
+        }
+      ],
+      "markdown": "---\n\n## Scope\n\n- This synthesis orients a new reader to the small seed corpus in this repo.\n\n---\n\n## Thesis\n\n- The current source set supports an architectural summary of transformers as residual-stream updates performed by attention and feed-forward blocks, while also warning against over-reading component behavior as fixed meaning.\n\n---\n\n## Evidence\n\n- [[concepts/transformer-architecture]] summarizes the base architecture.\n- [[sources/attention-is-all-you-need-excerpt]] provides the architectural claims about self-attention, feed-forward blocks, positional information, and multi-head attention.\n- [[sources/example-com-residual-stream-notes]] adds that the residual stream is the running state carried across layers and that transformer sublayers write into it.\n- [[sources/example-com-attention-as-interface]] adds the caution that specialization observations should remain interpretations rather than guarantees.\n\n---\n\n## Citations\n\n- [[sources/attention-is-all-you-need-excerpt#ex-replaces-recurrence]]\n- [[sources/attention-is-all-you-need-excerpt#ex-multi-head-parallelism]]\n- [[sources/example-com-residual-stream-notes#ex-running-state]]\n- [[sources/example-com-residual-stream-notes#ex-mechanism-vs-interpretation]]\n- [[sources/example-com-attention-as-interface#ex-specialization-not-guaranteed]]\n\n---\n\n## Contradictions\n\n- The corpus does not contain a direct contradiction on the architecture itself.\n- The corpus does contain a tension between architecture-level descriptions of how components update the residual stream and stronger interpretability claims that individual heads or components have fixed semantic roles.\n\n---\n\n## Implications\n\n- Durable answers about transformers should separate residual-stream mechanism from interpretation.\n- Future sources should be linked into [[concepts/transformer-architecture]] rather than creating duplicate concept pages.\n\n---\n\n## Follow-Up\n\n- Export this synthesis to slides when a quick presentation artifact is useful.",
+      "outbound_targets": [
+        "concepts/transformer-architecture",
+        "sources/attention-is-all-you-need-excerpt",
+        "sources/example-com-attention-as-interface",
+        "sources/example-com-residual-stream-notes"
+      ],
+      "relative_path": "outputs/slides/transformer-orientation.slides.md",
+      "section": "outputs",
+      "source_path": null,
+      "source_url": null,
+      "target": "outputs/slides/transformer-orientation.slides",
+      "title": "Transformer Orientation",
+      "type": "output"
+    },
+    {
+      "excerpt": "- This table compares how different source types feed the shared wiki.",
+      "frontmatter": {
+        "compiled_at": "2026-04-10T12:31:26Z",
+        "confidence": 0.85,
+        "created": "2026-04-10T12:31:26Z",
+        "related": [
+          "syntheses/research/transformer-research-starter-map",
+          "syntheses/codebases/knowledge-wiki-architecture"
+        ],
+        "source_pages": [
+          "sources/attention-is-all-you-need-excerpt",
+          "sources/example-com-attention-as-interface",
+          "sources/example-transformer-tooling-notes"
+        ],
+        "status": "reviewed",
+        "title": "Source Use Case Comparison",
+        "type": "output",
+        "updated": "2026-04-10T12:31:26Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "purpose",
+          "text": "Purpose"
+        },
+        {
+          "depth": 2,
+          "id": "table",
+          "text": "Table"
+        },
+        {
+          "depth": 2,
+          "id": "citations",
+          "text": "Citations"
+        },
+        {
+          "depth": 2,
+          "id": "contradictions",
+          "text": "Contradictions"
+        }
+      ],
+      "markdown": "## Purpose\n\n- This table compares how different source types feed the shared wiki.\n\n## Table\n\n| Source page | Best use case | Main contribution | Caveat |\n| --- | --- | --- | --- |\n| [[sources/attention-is-all-you-need-excerpt]] | Academic research | Grounds baseline transformer architecture claims. | It is only a small excerpt, not a full literature review. |\n| [[sources/example-com-attention-as-interface]] | Interpretability caution | Distinguishes architectural capability from interpretation. | It is a synthetic clipped article, not a benchmark study. |\n| [[sources/example-transformer-tooling-notes]] | Codebase memory | Explains why project-memory pages and manifest-backed browsing reduce repeated agent context loading. | It is a repo note, not a runtime benchmark. |\n\n## Citations\n\n- [[sources/attention-is-all-you-need-excerpt#ex-replaces-recurrence]]\n- [[sources/example-com-attention-as-interface#ex-capability-vs-interpretation]]\n- [[sources/example-transformer-tooling-notes#ex-project-memory]]\n\n## Contradictions\n\n- Different source types serve different layers of the vault, so direct contradiction is limited.\n- The main caveat is scope mismatch: a repo note can justify workflow choices, but it cannot replace research evidence.",
+      "outbound_targets": [
+        "sources/attention-is-all-you-need-excerpt",
+        "sources/example-com-attention-as-interface",
+        "sources/example-transformer-tooling-notes",
+        "syntheses/codebases/knowledge-wiki-architecture",
+        "syntheses/research/transformer-research-starter-map"
+      ],
+      "relative_path": "outputs/tables/source-use-case-comparison.md",
+      "section": "outputs",
+      "source_path": null,
+      "source_url": null,
+      "target": "outputs/tables/source-use-case-comparison",
+      "title": "Source Use Case Comparison",
+      "type": "output"
+    },
+    {
+      "excerpt": "- 2026-04-07 | The seed paper excerpt establishes the baseline transformer architecture used by the wiki. sources/attention-is-all-you-need-excerpt",
+      "frontmatter": {
+        "compiled_at": "2026-04-10T12:31:26Z",
+        "confidence": 0.84,
+        "created": "2026-04-10T12:31:26Z",
+        "related": [
+          "projects/knowledge-wiki-project-memory",
+          "syntheses/codebases/knowledge-wiki-architecture"
+        ],
+        "source_pages": [
+          "sources/attention-is-all-you-need-excerpt",
+          "sources/example-com-attention-as-interface",
+          "sources/example-com-residual-stream-notes",
+          "sources/example-transformer-tooling-notes"
+        ],
+        "status": "reviewed",
+        "title": "Knowledge Wiki Evolution",
+        "type": "output",
+        "updated": "2026-04-10T12:31:26Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "timeline",
+          "text": "Timeline"
+        },
+        {
+          "depth": 2,
+          "id": "notes",
+          "text": "Notes"
+        },
+        {
+          "depth": 2,
+          "id": "citations",
+          "text": "Citations"
+        },
+        {
+          "depth": 2,
+          "id": "contradictions",
+          "text": "Contradictions"
+        }
+      ],
+      "markdown": "## Timeline\n\n- 2026-04-07 | The seed paper excerpt establishes the baseline transformer architecture used by the wiki. [[sources/attention-is-all-you-need-excerpt]]\n- 2026-04-07 | A clipped article adds the caution that architectural capability and interpretation should stay separate. [[sources/example-com-attention-as-interface]]\n- 2026-04-08 | A residual-stream note sharpens the mechanism-first explanation style used in later syntheses and outputs. [[sources/example-com-residual-stream-notes]]\n- 2026-04-10 | A repo note formalizes project memory and manifest-backed browsing as the way this codebase reduces agent context cost. [[sources/example-transformer-tooling-notes]]\n\n## Notes\n\n- The vault gets more useful when new sources change durable pages instead of living as isolated notes.\n\n## Citations\n\n- [[sources/attention-is-all-you-need-excerpt#ex-replaces-recurrence]]\n- [[sources/example-com-attention-as-interface#ex-capability-vs-interpretation]]\n- [[sources/example-com-residual-stream-notes#ex-mechanism-vs-interpretation]]\n- [[sources/example-transformer-tooling-notes#ex-project-memory]]\n\n## Contradictions\n\n- No direct contradiction is recorded in the timeline itself.\n- The timeline shows how the repo's operational rules became stricter as more source-backed patterns were added.",
+      "outbound_targets": [
+        "projects/knowledge-wiki-project-memory",
+        "sources/attention-is-all-you-need-excerpt",
+        "sources/example-com-attention-as-interface",
+        "sources/example-com-residual-stream-notes",
+        "sources/example-transformer-tooling-notes",
+        "syntheses/codebases/knowledge-wiki-architecture"
+      ],
+      "relative_path": "outputs/timelines/knowledge-wiki-evolution.md",
+      "section": "outputs",
+      "source_path": null,
+      "source_url": null,
+      "target": "outputs/timelines/knowledge-wiki-evolution",
+      "title": "Knowledge Wiki Evolution",
+      "type": "output"
+    },
+    {
+      "excerpt": "- The repo is a local-first markdown knowledge system with  raw/  as immutable source material and  wiki/  as the maintained, linked layer.",
+      "frontmatter": {
+        "compiled_at": "2026-04-10T12:31:26Z",
+        "confidence": 0.88,
+        "created": "2026-04-10T12:31:26Z",
+        "related": [
+          "sources/example-transformer-tooling-notes",
+          "sources/example-com-residual-stream-notes",
+          "syntheses/context/knowledge-wiki-context-pack",
+          "syntheses/codebases/knowledge-wiki-architecture"
+        ],
+        "source_pages": [
+          "sources/example-transformer-tooling-notes",
+          "sources/example-com-residual-stream-notes"
+        ],
+        "status": "reviewed",
+        "title": "Knowledge Wiki Project Memory",
+        "type": "project",
+        "updated": "2026-04-10T12:31:26Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "current-state",
+          "text": "Current State"
+        },
+        {
+          "depth": 2,
+          "id": "stable-rules",
+          "text": "Stable Rules"
+        },
+        {
+          "depth": 2,
+          "id": "open-threads",
+          "text": "Open Threads"
+        },
+        {
+          "depth": 2,
+          "id": "citations",
+          "text": "Citations"
+        },
+        {
+          "depth": 2,
+          "id": "contradictions",
+          "text": "Contradictions"
+        },
+        {
+          "depth": 2,
+          "id": "next-actions",
+          "text": "Next Actions"
+        }
+      ],
+      "markdown": "## Current State\n\n- The repo is a local-first markdown knowledge system with `raw/` as immutable source material and `wiki/` as the maintained, linked layer.\n- The browser frontend is read-only and uses a generated site manifest rather than a separate content store.\n- The most important compaction pages for agents are this project memory page, the context pack, and the reviewed source pages.\n\n## Stable Rules\n\n- Treat `raw/` as evidence, not as a writable workspace.\n- Prefer extending existing concept, synthesis, and output pages over creating duplicates.\n- When a coding agent finishes a useful task, crystallize the result into `wiki/projects/`, `wiki/syntheses/`, or `wiki/outputs/`.\n\n## Open Threads\n\n- Which repo-specific workflows should be promoted from journal/question notes into more permanent syntheses?\n- How much setup should remain native-first before optional Docker support becomes worthwhile?\n- Which pages should agents read first to minimize context cost without losing important caveats?\n\n## Citations\n\n- [[sources/example-transformer-tooling-notes#ex-raw-immutable]]\n- [[sources/example-transformer-tooling-notes#ex-manifest-no-db]]\n- [[sources/example-transformer-tooling-notes#ex-project-memory]]\n- [[sources/example-com-residual-stream-notes#ex-mechanism-vs-interpretation]]\n\n## Contradictions\n\n- No contradiction is recorded about the core repo boundary between `raw/` and `wiki/`.\n- A working tension remains between keeping project memory concise and preserving enough nuance that agents do not over-compress the vault.\n\n## Next Actions\n\n- Refresh [[syntheses/context/knowledge-wiki-context-pack]] whenever the project surface changes materially.\n- Promote stable patterns from [[journal/2026-04-10-daily-note]] and [[questions/when-should-a-note-be-promoted]] into reusable wiki pages.",
+      "outbound_targets": [
+        "journal/2026-04-10-daily-note",
+        "questions/when-should-a-note-be-promoted",
+        "sources/example-com-residual-stream-notes",
+        "sources/example-transformer-tooling-notes",
+        "syntheses/codebases/knowledge-wiki-architecture",
+        "syntheses/context/knowledge-wiki-context-pack"
+      ],
+      "relative_path": "projects/knowledge-wiki-project-memory.md",
+      "section": "projects",
+      "source_path": null,
+      "source_url": null,
+      "target": "projects/knowledge-wiki-project-memory",
+      "title": "Knowledge Wiki Project Memory",
+      "type": "project"
+    },
+    {
+      "excerpt": "- Explain why this question is worth keeping in the vault.",
+      "frontmatter": {
+        "compiled_at": "2026-04-10T12:47:25Z",
+        "confidence": 0.3,
+        "created": "2026-04-10T12:47:25Z",
+        "related": [
+          "inbox",
+          "reviews/daily-review"
+        ],
+        "source_pages": [],
+        "status": "draft",
+        "title": "What should be promoted into a project memory page?",
+        "type": "question",
+        "updated": "2026-04-10T12:47:25Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "why-this-matters",
+          "text": "Why This Matters"
+        },
+        {
+          "depth": 2,
+          "id": "working-notes",
+          "text": "Working Notes"
+        },
+        {
+          "depth": 2,
+          "id": "pages-to-inspect",
+          "text": "Pages To Inspect"
+        },
+        {
+          "depth": 2,
+          "id": "candidate-sources",
+          "text": "Candidate Sources"
+        },
+        {
+          "depth": 2,
+          "id": "contradictions",
+          "text": "Contradictions"
+        },
+        {
+          "depth": 2,
+          "id": "promotion-target",
+          "text": "Promotion Target"
+        }
+      ],
+      "markdown": "## Why This Matters\n\n- Explain why this question is worth keeping in the vault.\n\n## Working Notes\n\n- Capture provisional answers or competing hypotheses here.\n\n## Pages To Inspect\n\n- List the existing wiki pages that should be read before creating a new synthesis.\n\n## Candidate Sources\n\n- Add reviewed source-page refs here, for example `sources/attention-is-all-you-need-excerpt`.\n\n## Contradictions\n\n- Record disagreements explicitly or say none are recorded yet.\n\n## Promotion Target\n\n- If answered well, should this become a concept, synthesis, project memory update, or output?",
+      "outbound_targets": [
+        "inbox",
+        "reviews/daily-review"
+      ],
+      "relative_path": "questions/what-should-be-promoted-into-a-project-memory-page.md",
+      "section": "questions",
+      "source_path": null,
+      "source_url": null,
+      "target": "questions/what-should-be-promoted-into-a-project-memory-page",
+      "title": "What should be promoted into a project memory page?",
+      "type": "question"
+    },
+    {
+      "excerpt": "- The vault should compound over time, which means temporary notes need a clear path into more durable project, synthesis, and output pages.",
+      "frontmatter": {
+        "compiled_at": "2026-04-10T12:31:26Z",
+        "confidence": 0.4,
+        "created": "2026-04-10T12:31:26Z",
+        "related": [
+          "journal/2026-04-10-daily-note",
+          "projects/knowledge-wiki-project-memory",
+          "syntheses/context/knowledge-wiki-context-pack"
+        ],
+        "source_pages": [
+          "sources/example-transformer-tooling-notes"
+        ],
+        "status": "draft",
+        "title": "When Should A Note Be Promoted?",
+        "type": "question",
+        "updated": "2026-04-10T12:31:26Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "why-this-matters",
+          "text": "Why This Matters"
+        },
+        {
+          "depth": 2,
+          "id": "working-notes",
+          "text": "Working Notes"
+        },
+        {
+          "depth": 2,
+          "id": "pages-to-inspect",
+          "text": "Pages To Inspect"
+        },
+        {
+          "depth": 2,
+          "id": "candidate-sources",
+          "text": "Candidate Sources"
+        },
+        {
+          "depth": 2,
+          "id": "contradictions",
+          "text": "Contradictions"
+        },
+        {
+          "depth": 2,
+          "id": "promotion-target",
+          "text": "Promotion Target"
+        }
+      ],
+      "markdown": "## Why This Matters\n\n- The vault should compound over time, which means temporary notes need a clear path into more durable project, synthesis, and output pages.\n\n## Working Notes\n\n- Promote a note when it captures a stable rule, a reusable explanation, a repeated answer, or a context summary that an agent should read again later.\n- Leave a note in `wiki/journal/` when it is still exploratory, local to a single day, or missing enough evidence that formalizing it would create noise.\n\n## Pages To Inspect\n\n- [[projects/knowledge-wiki-project-memory]]\n- [[syntheses/context/knowledge-wiki-context-pack]]\n- [[reviews/daily-review]]\n\n## Candidate Sources\n\n- [[sources/example-transformer-tooling-notes]]\n\n## Contradictions\n\n- The desire to crystallize more knowledge can conflict with the need to keep the vault clean and non-duplicative.\n\n## Promotion Target\n\n- If the answer stabilizes, it should become part of a synthesis or project-memory rule rather than remain an isolated question note.",
+      "outbound_targets": [
+        "journal/2026-04-10-daily-note",
+        "projects/knowledge-wiki-project-memory",
+        "reviews/daily-review",
+        "sources/example-transformer-tooling-notes",
+        "syntheses/context/knowledge-wiki-context-pack"
+      ],
+      "relative_path": "questions/when-should-a-note-be-promoted.md",
+      "section": "questions",
+      "source_path": null,
+      "source_url": null,
+      "target": "questions/when-should-a-note-be-promoted",
+      "title": "When Should A Note Be Promoted?",
+      "type": "question"
+    },
+    {
+      "excerpt": "- Total content pages:  22",
+      "frontmatter": {
+        "compiled_at": "2026-04-10T12:47:42Z",
+        "confidence": 0.92,
+        "created": "2026-04-08T22:32:49Z",
+        "related": [
+          "index",
+          "inbox",
+          "reviews/review-queue"
+        ],
+        "source_pages": [
+          "sources/attention-is-all-you-need-excerpt",
+          "sources/example-com-attention-as-interface",
+          "sources/example-com-residual-stream-notes",
+          "sources/example-transformer-tooling-notes"
+        ],
+        "status": "reviewed",
+        "title": "Coverage Dashboard",
+        "type": "review",
+        "updated": "2026-04-10T12:47:42Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "summary",
+          "text": "Summary"
+        },
+        {
+          "depth": 2,
+          "id": "pages-by-type",
+          "text": "Pages By Type"
+        },
+        {
+          "depth": 2,
+          "id": "pages-by-status",
+          "text": "Pages By Status"
+        },
+        {
+          "depth": 2,
+          "id": "sources-without-concepts",
+          "text": "Sources Without Concepts"
+        },
+        {
+          "depth": 2,
+          "id": "concepts-with-only-one-source",
+          "text": "Concepts With Only One Source"
+        },
+        {
+          "depth": 2,
+          "id": "syntheses-with-thin-support",
+          "text": "Syntheses With Thin Support"
+        },
+        {
+          "depth": 2,
+          "id": "outputs-drifting-from-sources",
+          "text": "Outputs Drifting From Sources"
+        },
+        {
+          "depth": 2,
+          "id": "underlinked-sources",
+          "text": "Underlinked Sources"
+        },
+        {
+          "depth": 2,
+          "id": "notes",
+          "text": "Notes"
+        }
+      ],
+      "markdown": "## Summary\n\n- Total content pages: `22`\n- Source pages: `4`\n- Derived pages: `15`\n\n## Pages By Type\n\n- `concept` -> `1`\n- `journal` -> `1`\n- `output` -> `6`\n- `project` -> `1`\n- `question` -> `2`\n- `review` -> `3`\n- `source` -> `4`\n- `synthesis` -> `4`\n\n## Pages By Status\n\n- `draft` -> `7`\n- `reviewed` -> `15`\n\n## Sources Without Concepts\n\n- [[sources/example-transformer-tooling-notes]] -> no concept page cites this source yet\n\n## Concepts With Only One Source\n\n- No concept page is supported by only one source.\n\n## Syntheses With Thin Support\n\n- Every synthesis currently cites at least two source pages.\n\n## Outputs Drifting From Sources\n\n- No output page is stale relative to its source pages.\n\n## Underlinked Sources\n\n- Every source feeds more than one derived page.\n\n## Notes\n\n- Use [[reviews/review-queue]] for the action-oriented queue.\n- Use this dashboard to decide whether the vault is compounding or just accumulating isolated notes.",
+      "outbound_targets": [
+        "inbox",
+        "index",
+        "reviews/review-queue",
+        "sources/attention-is-all-you-need-excerpt",
+        "sources/example-com-attention-as-interface",
+        "sources/example-com-residual-stream-notes",
+        "sources/example-transformer-tooling-notes"
+      ],
+      "relative_path": "reviews/coverage-dashboard.md",
+      "section": "reviews",
+      "source_path": null,
+      "source_url": null,
+      "target": "reviews/coverage-dashboard",
+      "title": "Coverage Dashboard",
+      "type": "review"
+    },
+    {
+      "excerpt": "- Use this page to decide what to read, review, and promote today.",
+      "frontmatter": {
+        "compiled_at": "2026-04-10T12:47:25Z",
+        "confidence": 0.85,
+        "created": "2026-04-10T12:47:25Z",
+        "related": [
+          "index",
+          "inbox",
+          "reviews/review-queue",
+          "reviews/coverage-dashboard"
+        ],
+        "source_pages": [
+          "sources/attention-is-all-you-need-excerpt",
+          "sources/example-com-attention-as-interface",
+          "sources/example-com-residual-stream-notes",
+          "sources/example-transformer-tooling-notes"
+        ],
+        "status": "reviewed",
+        "title": "Daily Review",
+        "type": "review",
+        "updated": "2026-04-10T12:47:25Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "today",
+          "text": "Today"
+        },
+        {
+          "depth": 2,
+          "id": "recent-source-activity",
+          "text": "Recent Source Activity"
+        },
+        {
+          "depth": 2,
+          "id": "recent-journal-notes",
+          "text": "Recent Journal Notes"
+        },
+        {
+          "depth": 2,
+          "id": "open-questions",
+          "text": "Open Questions"
+        },
+        {
+          "depth": 2,
+          "id": "review-queue-snapshot",
+          "text": "Review Queue Snapshot"
+        },
+        {
+          "depth": 2,
+          "id": "next-best-actions",
+          "text": "Next Best Actions"
+        }
+      ],
+      "markdown": "## Today\n\n- Use this page to decide what to read, review, and promote today.\n- Start in [[inbox]], then use this review to choose the smallest high-value next step.\n\n## Recent Source Activity\n\n- 2026-04-10T12:31:26Z | [[sources/example-transformer-tooling-notes]] | `raw/repos/example-transformer-tooling-notes.md`\n- 2026-04-08T21:18:05Z | [[sources/example-com-residual-stream-notes]] | `raw/articles/2026/2026-04-08-example-com-residual-stream-notes.md`\n- 2026-04-08T13:34:18Z | [[sources/example-com-attention-as-interface]] | `raw/articles/2026/2026-04-07-example-com-attention-as-interface.md`\n- 2026-04-07T21:33:52Z | [[sources/attention-is-all-you-need-excerpt]] | `raw/papers/attention-is-all-you-need-excerpt.md`\n\n## Recent Journal Notes\n\n- 2026-04-10T12:31:26Z | [[journal/2026-04-10-daily-note]]\n\n## Open Questions\n\n- [[questions/what-should-be-promoted-into-a-project-memory-page]] -> status `draft`\n- [[questions/when-should-a-note-be-promoted]] -> status `draft`\n\n## Review Queue Snapshot\n\n- stale pages: `0`\n- source pages still in stub/draft: `0`\n- low-confidence pages: `3`\n\n## Next Best Actions\n\n- Decide whether [[questions/what-should-be-promoted-into-a-project-memory-page]] should become a synthesis or an output.",
+      "outbound_targets": [
+        "inbox",
+        "index",
+        "journal/2026-04-10-daily-note",
+        "questions/what-should-be-promoted-into-a-project-memory-page",
+        "questions/when-should-a-note-be-promoted",
+        "reviews/coverage-dashboard",
+        "reviews/review-queue",
+        "sources/attention-is-all-you-need-excerpt",
+        "sources/example-com-attention-as-interface",
+        "sources/example-com-residual-stream-notes",
+        "sources/example-transformer-tooling-notes"
+      ],
+      "relative_path": "reviews/daily-review.md",
+      "section": "reviews",
+      "source_path": null,
+      "source_url": null,
+      "target": "reviews/daily-review",
+      "title": "Daily Review",
+      "type": "review"
+    },
+    {
+      "excerpt": "- Review this queue from top to bottom and clear the highest-signal items first.",
+      "frontmatter": {
+        "compiled_at": "2026-04-10T12:47:42Z",
+        "confidence": 0.9,
+        "created": "2026-04-08T22:32:49Z",
+        "related": [
+          "index",
+          "inbox",
+          "reviews/coverage-dashboard"
+        ],
+        "source_pages": [
+          "sources/example-transformer-tooling-notes"
+        ],
+        "status": "reviewed",
+        "title": "Review Queue",
+        "type": "review",
+        "updated": "2026-04-10T12:47:42Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "summary",
+          "text": "Summary"
+        },
+        {
+          "depth": 2,
+          "id": "stale-pages",
+          "text": "Stale Pages"
+        },
+        {
+          "depth": 2,
+          "id": "source-pages-needing-review",
+          "text": "Source Pages Needing Review"
+        },
+        {
+          "depth": 2,
+          "id": "low-confidence-pages",
+          "text": "Low-Confidence Pages"
+        },
+        {
+          "depth": 2,
+          "id": "citation-gaps",
+          "text": "Citation Gaps"
+        },
+        {
+          "depth": 2,
+          "id": "orphan-pages",
+          "text": "Orphan Pages"
+        },
+        {
+          "depth": 2,
+          "id": "duplicate-candidates",
+          "text": "Duplicate Candidates"
+        },
+        {
+          "depth": 2,
+          "id": "recommended-next-pass",
+          "text": "Recommended Next Pass"
+        }
+      ],
+      "markdown": "## Summary\n\n- Review this queue from top to bottom and clear the highest-signal items first.\n- Run `python3 tools/check_wiki.py` again after making substantial changes.\n- Open issue groups: `3`\n\n## Stale Pages\n\n- No stale pages detected.\n\n## Source Pages Needing Review\n\n- No source pages remain in stub or draft status.\n\n## Low-Confidence Pages\n\n- [[journal/2026-04-10-daily-note]] -> confidence `0.25`\n- [[questions/what-should-be-promoted-into-a-project-memory-page]] -> confidence `0.3`\n- [[questions/when-should-a-note-be-promoted]] -> confidence `0.4`\n\n## Citation Gaps\n\n- Exact citation coverage looks healthy.\n\n## Orphan Pages\n\n- No orphan pages detected.\n\n## Duplicate Candidates\n\n- No obvious duplicate concept-like pages detected.\n\n## Recommended Next Pass\n\n- Start with the oldest stale page or the newest source page still in `stub`/`draft` status.\n- Add exact evidence anchors under each affected source page before revising derived pages.\n- Prefer updating existing concept, synthesis, and output pages over creating new near-duplicates.",
+      "outbound_targets": [
+        "inbox",
+        "index",
+        "journal/2026-04-10-daily-note",
+        "questions/what-should-be-promoted-into-a-project-memory-page",
+        "questions/when-should-a-note-be-promoted",
+        "reviews/coverage-dashboard",
+        "sources/example-transformer-tooling-notes"
+      ],
+      "relative_path": "reviews/review-queue.md",
+      "section": "reviews",
+      "source_path": null,
+      "source_url": null,
+      "target": "reviews/review-queue",
+      "title": "Review Queue",
+      "type": "review"
+    },
+    {
+      "excerpt": "- Raw file:  raw/papers/attention-is-all-you-need-excerpt.md",
+      "frontmatter": {
+        "compiled_at": "2026-04-07T21:33:52Z",
+        "confidence": 0.95,
+        "created": "2026-04-07T21:26:24Z",
+        "related": [
+          "concepts/transformer-architecture",
+          "syntheses/transformer-orientation"
+        ],
+        "source_hash": "3ffb8116161755cbf1cfbc1369267c177cce4f48ecc823b590ddec499a1e0538",
+        "source_kind": "papers",
+        "source_path": "raw/papers/attention-is-all-you-need-excerpt.md",
+        "status": "reviewed",
+        "title": "Attention Is All You Need Excerpt",
+        "type": "source",
+        "updated": "2026-04-07T21:33:52Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "source-snapshot",
+          "text": "Source Snapshot"
+        },
+        {
+          "depth": 2,
+          "id": "extraction-queue",
+          "text": "Extraction Queue"
+        },
+        {
+          "depth": 2,
+          "id": "verified-claims",
+          "text": "Verified Claims"
+        },
+        {
+          "depth": 2,
+          "id": "evidence-extracts",
+          "text": "Evidence Extracts"
+        },
+        {
+          "depth": 3,
+          "id": "ex-replaces-recurrence",
+          "text": "ex-replaces-recurrence"
+        },
+        {
+          "depth": 3,
+          "id": "ex-positional-information",
+          "text": "ex-positional-information"
+        },
+        {
+          "depth": 3,
+          "id": "ex-multi-head-parallelism",
+          "text": "ex-multi-head-parallelism"
+        },
+        {
+          "depth": 2,
+          "id": "contradictions",
+          "text": "Contradictions"
+        },
+        {
+          "depth": 2,
+          "id": "related-pages",
+          "text": "Related Pages"
+        },
+        {
+          "depth": 2,
+          "id": "compilation-notes",
+          "text": "Compilation Notes"
+        }
+      ],
+      "markdown": "## Source Snapshot\n\n- Raw file: `raw/papers/attention-is-all-you-need-excerpt.md`\n- Source kind: `papers`\n\n## Extraction Queue\n\n- [ ] Add exact section names if the raw paper excerpt becomes more detailed.\n- [ ] Expand this page with architectural caveats if new raw notes are added.\n\n## Verified Claims\n\n- The source states that the architecture replaces recurrence with stacked self-attention and feed-forward blocks.\n- The source states that positional information is needed because attention alone is permutation-invariant.\n- The source states that multi-head attention allows different relationships to be modeled in parallel.\n\n## Evidence Extracts\n\n### ex-replaces-recurrence\n\n- Evidence: The raw excerpt says the architecture replaces recurrence with stacked self-attention and feed-forward blocks.\n- Trace: raw bullet 1 in `raw/papers/attention-is-all-you-need-excerpt.md`\n- Use for: high-level transformer architecture descriptions.\n\n### ex-positional-information\n\n- Evidence: The raw excerpt says positional information is injected because attention alone is permutation-invariant.\n- Trace: raw bullet 2 in `raw/papers/attention-is-all-you-need-excerpt.md`\n- Use for: claims about why positional information is required.\n\n### ex-multi-head-parallelism\n\n- Evidence: The raw excerpt says multi-head attention allows the model to attend to different relationships at different positions.\n- Trace: raw bullet 3 in `raw/papers/attention-is-all-you-need-excerpt.md`\n- Use for: claims about parallel relation modeling in multi-head attention.\n\n## Contradictions\n\n- No direct contradictions are recorded in this source excerpt.\n\n## Related Pages\n\n- [[concepts/transformer-architecture]]\n- [[syntheses/transformer-orientation]]\n\n## Compilation Notes\n\n- This page is a seed summary over a synthetic raw excerpt.",
+      "outbound_targets": [
+        "concepts/transformer-architecture",
+        "syntheses/transformer-orientation"
+      ],
+      "relative_path": "sources/attention-is-all-you-need-excerpt.md",
+      "section": "sources",
+      "source_path": "raw/papers/attention-is-all-you-need-excerpt.md",
+      "source_url": null,
+      "target": "sources/attention-is-all-you-need-excerpt",
+      "title": "Attention Is All You Need Excerpt",
+      "type": "source"
+    },
+    {
+      "excerpt": "Synthetic clipped article used to demonstrate the Obsidian-first ingest flow.",
+      "frontmatter": {
+        "author": "Example Researcher",
+        "captured_at": "2026-04-07T21:26:24Z",
+        "clipper": "obsidian-web-clipper",
+        "compiled_at": "2026-04-08T13:34:18Z",
+        "confidence": 0.9,
+        "created": "2026-04-07T21:26:24Z",
+        "description": "Synthetic clipped article used to demonstrate the Obsidian-first ingest flow.",
+        "published": "2026-04-07",
+        "related": [
+          "concepts/transformer-architecture",
+          "syntheses/transformer-orientation"
+        ],
+        "source_domain": "example.com",
+        "source_hash": "0b9f3d18fc49b359bca9ed29d8906310bbde990328ed4d9a3b5ca00bbef05ace",
+        "source_kind": "articles",
+        "source_path": "raw/articles/2026/2026-04-07-example-com-attention-as-interface.md",
+        "source_url": "https://example.com/attention-as-interface",
+        "status": "reviewed",
+        "tags": [
+          "attention",
+          "transformers",
+          "clipping"
+        ],
+        "title": "Attention as Interface",
+        "type": "source",
+        "updated": "2026-04-08T13:34:18Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "source-snapshot",
+          "text": "Source Snapshot"
+        },
+        {
+          "depth": 2,
+          "id": "extraction-queue",
+          "text": "Extraction Queue"
+        },
+        {
+          "depth": 2,
+          "id": "raw-description",
+          "text": "Raw Description"
+        },
+        {
+          "depth": 2,
+          "id": "verified-claims",
+          "text": "Verified Claims"
+        },
+        {
+          "depth": 2,
+          "id": "evidence-extracts",
+          "text": "Evidence Extracts"
+        },
+        {
+          "depth": 3,
+          "id": "ex-distant-tokens",
+          "text": "ex-distant-tokens"
+        },
+        {
+          "depth": 3,
+          "id": "ex-specialization-not-guaranteed",
+          "text": "ex-specialization-not-guaranteed"
+        },
+        {
+          "depth": 3,
+          "id": "ex-capability-vs-interpretation",
+          "text": "ex-capability-vs-interpretation"
+        },
+        {
+          "depth": 2,
+          "id": "contradictions",
+          "text": "Contradictions"
+        },
+        {
+          "depth": 2,
+          "id": "related-pages",
+          "text": "Related Pages"
+        },
+        {
+          "depth": 2,
+          "id": "compilation-notes",
+          "text": "Compilation Notes"
+        }
+      ],
+      "markdown": "## Source Snapshot\n\n- Raw file: `raw/articles/2026/2026-04-07-example-com-attention-as-interface.md`\n- Source kind: `articles`\n- Source URL: [https://example.com/attention-as-interface](https://example.com/attention-as-interface)\n- Source domain: `example.com`\n- Author: `Example Researcher`\n- Published: `2026-04-07`\n- Captured: `2026-04-07T21:26:24Z`\n- Clipper: `obsidian-web-clipper`\n\n## Extraction Queue\n\n- [ ] Add exact passages or section references if the raw file expands.\n- [ ] Revisit this page if the clip is replaced with a fuller article.\n\n## Raw Description\n\n- Synthetic clipped article used to demonstrate the Obsidian-first ingest flow.\n\n## Verified Claims\n\n- The source states that attention can connect distant tokens without recurrence.\n- The source states that attention-head specialization is often observed but not guaranteed.\n- The source recommends separating architectural capability from interpretation.\n\n## Evidence Extracts\n\n### ex-distant-tokens\n\n- Evidence: The raw note says attention can connect distant tokens without recurrence.\n- Trace: raw bullet 1 in `raw/articles/2026/2026-04-07-example-com-attention-as-interface.md`\n- Use for: architecture-level attention descriptions.\n\n### ex-specialization-not-guaranteed\n\n- Evidence: The raw note says attention heads often appear to specialize, but that observation is contextual rather than guaranteed.\n- Trace: raw bullet 2 in `raw/articles/2026/2026-04-07-example-com-attention-as-interface.md`\n- Use for: caution against turning observed specialization into fixed guarantees.\n\n### ex-capability-vs-interpretation\n\n- Evidence: The raw note says a useful compiled wiki should separate architectural capability from interpretation.\n- Trace: raw bullet 3 in `raw/articles/2026/2026-04-07-example-com-attention-as-interface.md`\n- Use for: pages that separate mechanism from interpretive framing.\n\n## Contradictions\n\n- The source highlights a tension between \"heads can specialize\" and \"specialization is not guaranteed.\"\n\n## Related Pages\n\n- [[concepts/transformer-architecture]]\n- [[syntheses/transformer-orientation]]\n\n## Compilation Notes\n\n- This page remains concise because the raw source is synthetic seed material.",
+      "outbound_targets": [
+        "concepts/transformer-architecture",
+        "syntheses/transformer-orientation"
+      ],
+      "relative_path": "sources/example-com-attention-as-interface.md",
+      "section": "sources",
+      "source_path": "raw/articles/2026/2026-04-07-example-com-attention-as-interface.md",
+      "source_url": "https://example.com/attention-as-interface",
+      "target": "sources/example-com-attention-as-interface",
+      "title": "Attention as Interface",
+      "type": "source"
+    },
+    {
+      "excerpt": "Synthetic clipped article about the residual stream and why architectural mechanism should stay separate from interpretive stories.",
+      "frontmatter": {
+        "author": "Example Researcher",
+        "captured_at": "2026-04-08T14:30:00Z",
+        "clipper": "obsidian-web-clipper",
+        "compiled_at": "2026-04-08T21:18:05Z",
+        "confidence": 0.9,
+        "created": "2026-04-08T21:17:08Z",
+        "description": "Synthetic clipped article about the residual stream and why architectural mechanism should stay separate from interpretive stories.",
+        "published": "2026-04-08",
+        "related": [
+          "concepts/transformer-architecture",
+          "syntheses/transformer-orientation",
+          "outputs/briefs/codex-initial-smoke"
+        ],
+        "source_domain": "example.com",
+        "source_hash": "910c3199ef56a1bc3795d25af1586aceaabedfd485c540d3abddad5e9b518340",
+        "source_kind": "articles",
+        "source_path": "raw/articles/2026/2026-04-08-example-com-residual-stream-notes.md",
+        "source_url": "https://example.com/residual-stream-notes",
+        "status": "reviewed",
+        "tags": [
+          "transformers",
+          "residual-stream",
+          "clipping"
+        ],
+        "title": "Residual Stream Notes",
+        "type": "source",
+        "updated": "2026-04-08T21:18:05Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "source-snapshot",
+          "text": "Source Snapshot"
+        },
+        {
+          "depth": 2,
+          "id": "extraction-queue",
+          "text": "Extraction Queue"
+        },
+        {
+          "depth": 2,
+          "id": "raw-description",
+          "text": "Raw Description"
+        },
+        {
+          "depth": 2,
+          "id": "verified-claims",
+          "text": "Verified Claims"
+        },
+        {
+          "depth": 2,
+          "id": "evidence-extracts",
+          "text": "Evidence Extracts"
+        },
+        {
+          "depth": 3,
+          "id": "ex-running-state",
+          "text": "ex-running-state"
+        },
+        {
+          "depth": 3,
+          "id": "ex-additive-updates",
+          "text": "ex-additive-updates"
+        },
+        {
+          "depth": 3,
+          "id": "ex-mechanism-vs-interpretation",
+          "text": "ex-mechanism-vs-interpretation"
+        },
+        {
+          "depth": 2,
+          "id": "contradictions",
+          "text": "Contradictions"
+        },
+        {
+          "depth": 2,
+          "id": "related-pages",
+          "text": "Related Pages"
+        },
+        {
+          "depth": 2,
+          "id": "compilation-notes",
+          "text": "Compilation Notes"
+        }
+      ],
+      "markdown": "## Source Snapshot\n\n- Raw file: `raw/articles/2026/2026-04-08-example-com-residual-stream-notes.md`\n- Source kind: `articles`\n- Source URL: [https://example.com/residual-stream-notes](https://example.com/residual-stream-notes)\n- Source domain: `example.com`\n- Author: `Example Researcher`\n- Published: `2026-04-08`\n- Captured: `2026-04-08T14:30:00Z`\n- Clipper: `obsidian-web-clipper`\n- Current state: deterministic ingest scaffold\n\n## Extraction Queue\n\n- [ ] Add exact passages or section references if the raw note expands.\n- [ ] Revisit this page if a fuller article clarifies residual-stream terminology.\n\n## Raw Description\n\n- Synthetic clipped article about the residual stream and why architectural mechanism should stay separate from interpretive stories.\n\n## Verified Claims\n\n- The source states that the residual stream is a running state that carries information across transformer layers.\n- The source states that attention and feed-forward blocks write into the residual stream rather than replacing it wholesale.\n- The source states that mechanistic descriptions of the residual stream should stay separate from interpretive claims about what a specific component means.\n\n## Evidence Extracts\n\n### ex-running-state\n\n- Evidence: The raw note says the residual stream is a running state that carries information across transformer layers.\n- Trace: raw bullet 1 in `raw/articles/2026/2026-04-08-example-com-residual-stream-notes.md`\n- Use for: newcomer-safe descriptions of residual-stream mechanism.\n\n### ex-additive-updates\n\n- Evidence: The raw note says attention and feed-forward blocks write into the residual stream rather than replacing it wholesale.\n- Trace: raw bullet 2 in `raw/articles/2026/2026-04-08-example-com-residual-stream-notes.md`\n- Use for: claims about additive updates across transformer layers.\n\n### ex-mechanism-vs-interpretation\n\n- Evidence: The raw note says mechanistic descriptions of the residual stream should stay separate from interpretive claims about what a specific component means.\n- Trace: raw bullet 3 in `raw/articles/2026/2026-04-08-example-com-residual-stream-notes.md`\n- Use for: pages that separate architecture from interpretability stories.\n\n## Contradictions\n\n- No contradictions are recorded within this source note.\n\n## Related Pages\n\n- [[concepts/transformer-architecture]]\n- [[syntheses/transformer-orientation]]\n- [[outputs/briefs/codex-initial-smoke]]\n\n## Compilation Notes\n\n- This page remains concise because the raw source is synthetic seed material.",
+      "outbound_targets": [
+        "concepts/transformer-architecture",
+        "outputs/briefs/codex-initial-smoke",
+        "syntheses/transformer-orientation"
+      ],
+      "relative_path": "sources/example-com-residual-stream-notes.md",
+      "section": "sources",
+      "source_path": "raw/articles/2026/2026-04-08-example-com-residual-stream-notes.md",
+      "source_url": "https://example.com/residual-stream-notes",
+      "target": "sources/example-com-residual-stream-notes",
+      "title": "Residual Stream Notes",
+      "type": "source"
+    },
+    {
+      "excerpt": "Synthetic repo note used to demonstrate project memory and codebase synthesis workflows.",
+      "frontmatter": {
+        "author": "Example Maintainer",
+        "captured_at": "2026-04-10T12:00:00Z",
+        "compiled_at": "2026-04-10T12:31:26Z",
+        "confidence": 0.9,
+        "created": "2026-04-10T12:31:18Z",
+        "description": "Synthetic repo note used to demonstrate project memory and codebase synthesis workflows.",
+        "related": [
+          "projects/knowledge-wiki-project-memory",
+          "syntheses/context/knowledge-wiki-context-pack",
+          "syntheses/codebases/knowledge-wiki-architecture"
+        ],
+        "source_domain": "github.com",
+        "source_hash": "904c5bab82b226552924e652b82830982adcede1cf15522a8387616399d89ac2",
+        "source_kind": "repos",
+        "source_path": "raw/repos/example-transformer-tooling-notes.md",
+        "source_url": "https://github.com/example/transformer-knowledge-wiki",
+        "status": "reviewed",
+        "tags": [
+          "repo",
+          "architecture",
+          "project-memory"
+        ],
+        "title": "Example Transformer Tooling Notes",
+        "type": "source",
+        "updated": "2026-04-10T12:31:26Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "source-snapshot",
+          "text": "Source Snapshot"
+        },
+        {
+          "depth": 2,
+          "id": "extraction-queue",
+          "text": "Extraction Queue"
+        },
+        {
+          "depth": 2,
+          "id": "raw-description",
+          "text": "Raw Description"
+        },
+        {
+          "depth": 2,
+          "id": "verified-claims",
+          "text": "Verified Claims"
+        },
+        {
+          "depth": 2,
+          "id": "evidence-extracts",
+          "text": "Evidence Extracts"
+        },
+        {
+          "depth": 3,
+          "id": "ex-raw-immutable",
+          "text": "ex-raw-immutable"
+        },
+        {
+          "depth": 3,
+          "id": "ex-manifest-no-db",
+          "text": "ex-manifest-no-db"
+        },
+        {
+          "depth": 3,
+          "id": "ex-project-memory",
+          "text": "ex-project-memory"
+        },
+        {
+          "depth": 2,
+          "id": "contradictions",
+          "text": "Contradictions"
+        },
+        {
+          "depth": 2,
+          "id": "related-pages",
+          "text": "Related Pages"
+        },
+        {
+          "depth": 2,
+          "id": "compilation-notes",
+          "text": "Compilation Notes"
+        }
+      ],
+      "markdown": "## Source Snapshot\n\n- Raw file: `raw/repos/example-transformer-tooling-notes.md`\n- Source kind: `repos`\n- Source URL: [https://github.com/example/transformer-knowledge-wiki](https://github.com/example/transformer-knowledge-wiki)\n- Source domain: `github.com`\n- Author: `Example Maintainer`\n- Captured: `2026-04-10T12:00:00Z`\n\n## Extraction Queue\n\n- [ ] Add file-level references if the raw repo note becomes a larger architecture document.\n- [ ] Revisit this page when the project memory workflow changes materially.\n\n## Raw Description\n\n- Synthetic repo note used to demonstrate project memory and codebase synthesis workflows.\n\n## Verified Claims\n\n- The repo keeps `raw/` immutable and treats `wiki/` as the maintained, compiled layer.\n- The web frontend reads a generated site manifest over markdown pages instead of a database-backed content store.\n- Project memory pages should capture current state, open risks, and next actions so agents do not need to reload the whole vault every session.\n\n## Evidence Extracts\n\n### ex-raw-immutable\n\n- Evidence: The raw repo note says the repository keeps `raw/` immutable and treats `wiki/` as the maintained, compiled layer.\n- Trace: raw bullet 1 in `raw/repos/example-transformer-tooling-notes.md`\n- Use for: project-memory pages that restate the repo's core separation of concerns.\n\n### ex-manifest-no-db\n\n- Evidence: The raw repo note says the web frontend reads a generated site manifest instead of a database-backed content store.\n- Trace: raw bullet 2 in `raw/repos/example-transformer-tooling-notes.md`\n- Use for: architecture pages that explain the local-first, file-based web frontend.\n\n### ex-project-memory\n\n- Evidence: The raw repo note says project memory pages should capture current state, open risks, and next actions so agents do not need to reload the whole vault every session.\n- Trace: raw bullet 3 in `raw/repos/example-transformer-tooling-notes.md`\n- Use for: codebase-memory and context-compaction workflows.\n\n## Contradictions\n\n- No contradictions are recorded within this repo note.\n\n## Related Pages\n\n- [[projects/knowledge-wiki-project-memory]]\n- [[syntheses/context/knowledge-wiki-context-pack]]\n- [[syntheses/codebases/knowledge-wiki-architecture]]\n\n## Compilation Notes\n\n- This page grounds the codebase-memory examples in the shared repo rules.",
+      "outbound_targets": [
+        "projects/knowledge-wiki-project-memory",
+        "syntheses/codebases/knowledge-wiki-architecture",
+        "syntheses/context/knowledge-wiki-context-pack"
+      ],
+      "relative_path": "sources/example-transformer-tooling-notes.md",
+      "section": "sources",
+      "source_path": "raw/repos/example-transformer-tooling-notes.md",
+      "source_url": "https://github.com/example/transformer-knowledge-wiki",
+      "target": "sources/example-transformer-tooling-notes",
+      "title": "Example Transformer Tooling Notes",
+      "type": "source"
+    },
+    {
+      "excerpt": "- This synthesis explains the repo as a codebase-memory system rather than a generic note folder.",
+      "frontmatter": {
+        "compiled_at": "2026-04-10T12:31:26Z",
+        "confidence": 0.86,
+        "created": "2026-04-10T12:31:26Z",
+        "related": [
+          "projects/knowledge-wiki-project-memory",
+          "syntheses/context/knowledge-wiki-context-pack"
+        ],
+        "source_pages": [
+          "sources/example-transformer-tooling-notes",
+          "sources/example-com-residual-stream-notes"
+        ],
+        "status": "reviewed",
+        "title": "Knowledge Wiki Architecture",
+        "type": "synthesis",
+        "updated": "2026-04-10T12:31:26Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "scope",
+          "text": "Scope"
+        },
+        {
+          "depth": 2,
+          "id": "thesis",
+          "text": "Thesis"
+        },
+        {
+          "depth": 2,
+          "id": "evidence",
+          "text": "Evidence"
+        },
+        {
+          "depth": 2,
+          "id": "citations",
+          "text": "Citations"
+        },
+        {
+          "depth": 2,
+          "id": "contradictions",
+          "text": "Contradictions"
+        },
+        {
+          "depth": 2,
+          "id": "implications",
+          "text": "Implications"
+        },
+        {
+          "depth": 2,
+          "id": "follow-up",
+          "text": "Follow-Up"
+        }
+      ],
+      "markdown": "## Scope\n\n- This synthesis explains the repo as a codebase-memory system rather than a generic note folder.\n\n## Thesis\n\n- The system works because it keeps one file-based source of truth, compiles higher-signal wiki pages on top of it, and then points agents at the condensed pages before they touch the full corpus.\n\n## Evidence\n\n- [[sources/example-transformer-tooling-notes]] states that the repo keeps `raw/` immutable, uses a manifest-backed frontend, and relies on project memory to avoid reloading the full vault every session.\n- [[sources/example-com-residual-stream-notes]] contributes the repo's favored pattern for explaining systems: describe mechanism first, then flag interpretation separately.\n\n## Citations\n\n- [[sources/example-transformer-tooling-notes#ex-raw-immutable]]\n- [[sources/example-transformer-tooling-notes#ex-manifest-no-db]]\n- [[sources/example-transformer-tooling-notes#ex-project-memory]]\n- [[sources/example-com-residual-stream-notes#ex-mechanism-vs-interpretation]]\n\n## Contradictions\n\n- No contradiction is recorded about the file-based architecture itself.\n- There is an active tradeoff between keeping the web frontend lightweight and adding more interactive affordances for browsing large vaults.\n\n## Implications\n\n- Codebase-memory pages should crystallize completed work into `wiki/projects/` and `wiki/syntheses/codebases/`, not leave it buried in chat or raw notes.\n- Agents should read the context pack and project memory first to reduce token cost and repeated rediscovery.\n\n## Follow-Up\n\n- Add more repo-oriented raw notes as the codebase evolves so this synthesis stays grounded.",
+      "outbound_targets": [
+        "projects/knowledge-wiki-project-memory",
+        "sources/example-com-residual-stream-notes",
+        "sources/example-transformer-tooling-notes",
+        "syntheses/context/knowledge-wiki-context-pack"
+      ],
+      "relative_path": "syntheses/codebases/knowledge-wiki-architecture.md",
+      "section": "syntheses",
+      "source_path": null,
+      "source_url": null,
+      "target": "syntheses/codebases/knowledge-wiki-architecture",
+      "title": "Knowledge Wiki Architecture",
+      "type": "synthesis"
+    },
+    {
+      "excerpt": "- This page is the compact state summary an agent should read before diving into the rest of the vault.",
+      "frontmatter": {
+        "compiled_at": "2026-04-10T12:31:26Z",
+        "confidence": 0.86,
+        "created": "2026-04-10T12:31:26Z",
+        "related": [
+          "projects/knowledge-wiki-project-memory",
+          "syntheses/codebases/knowledge-wiki-architecture",
+          "journal/2026-04-10-daily-note"
+        ],
+        "source_pages": [
+          "sources/example-transformer-tooling-notes",
+          "sources/example-com-attention-as-interface",
+          "sources/example-com-residual-stream-notes"
+        ],
+        "status": "reviewed",
+        "title": "Knowledge Wiki Context Pack",
+        "type": "synthesis",
+        "updated": "2026-04-10T12:31:26Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "scope",
+          "text": "Scope"
+        },
+        {
+          "depth": 2,
+          "id": "current-state",
+          "text": "Current State"
+        },
+        {
+          "depth": 2,
+          "id": "read-first",
+          "text": "Read First"
+        },
+        {
+          "depth": 2,
+          "id": "evidence",
+          "text": "Evidence"
+        },
+        {
+          "depth": 2,
+          "id": "citations",
+          "text": "Citations"
+        },
+        {
+          "depth": 2,
+          "id": "contradictions",
+          "text": "Contradictions"
+        },
+        {
+          "depth": 2,
+          "id": "next-actions",
+          "text": "Next Actions"
+        }
+      ],
+      "markdown": "## Scope\n\n- This page is the compact state summary an agent should read before diving into the rest of the vault.\n\n## Current State\n\n- The repo separates evidence from compiled knowledge: `raw/` is immutable and `wiki/` is the maintained layer.\n- The frontend is a file-backed reader over the generated site manifest, not a parallel content system.\n- The current corpus emphasizes the same discipline the repo uses operationally: separate stable mechanism from stronger interpretive claims.\n\n## Read First\n\n- [[projects/knowledge-wiki-project-memory]]\n- [[concepts/transformer-architecture]]\n- [[syntheses/transformer-orientation]]\n\n## Evidence\n\n- [[sources/example-transformer-tooling-notes]] captures the repo's architecture and the reason project memory exists.\n- [[sources/example-com-residual-stream-notes]] provides the mechanism-versus-interpretation distinction used as a model for broader wiki behavior.\n- [[sources/example-com-attention-as-interface]] reinforces the caution against turning observed behavior into fixed guarantees.\n\n## Citations\n\n- [[sources/example-transformer-tooling-notes#ex-raw-immutable]]\n- [[sources/example-transformer-tooling-notes#ex-manifest-no-db]]\n- [[sources/example-transformer-tooling-notes#ex-project-memory]]\n- [[sources/example-com-residual-stream-notes#ex-mechanism-vs-interpretation]]\n- [[sources/example-com-attention-as-interface#ex-capability-vs-interpretation]]\n\n## Contradictions\n\n- The repo wants compressed context for agents, but over-compression can erase nuance and source caveats.\n- The context pack should stay short, but it must still preserve the explicit distinction between grounded mechanism and stronger interpretive stories.\n\n## Next Actions\n\n- Refresh this page whenever the repo structure or core workflows change.\n- Link any new stable operational rule back into [[projects/knowledge-wiki-project-memory]].",
+      "outbound_targets": [
+        "concepts/transformer-architecture",
+        "journal/2026-04-10-daily-note",
+        "projects/knowledge-wiki-project-memory",
+        "sources/example-com-attention-as-interface",
+        "sources/example-com-residual-stream-notes",
+        "sources/example-transformer-tooling-notes",
+        "syntheses/codebases/knowledge-wiki-architecture",
+        "syntheses/transformer-orientation"
+      ],
+      "relative_path": "syntheses/context/knowledge-wiki-context-pack.md",
+      "section": "syntheses",
+      "source_path": null,
+      "source_url": null,
+      "target": "syntheses/context/knowledge-wiki-context-pack",
+      "title": "Knowledge Wiki Context Pack",
+      "type": "synthesis"
+    },
+    {
+      "excerpt": "- This synthesis maps the current seed corpus into a beginner-friendly literature-review starting point.",
+      "frontmatter": {
+        "compiled_at": "2026-04-10T12:31:26Z",
+        "confidence": 0.87,
+        "created": "2026-04-10T12:31:26Z",
+        "related": [
+          "concepts/transformer-architecture",
+          "syntheses/transformer-orientation",
+          "outputs/briefs/transformer-orientation-brief"
+        ],
+        "source_pages": [
+          "sources/attention-is-all-you-need-excerpt",
+          "sources/example-com-attention-as-interface",
+          "sources/example-com-residual-stream-notes"
+        ],
+        "status": "reviewed",
+        "title": "Transformer Research Starter Map",
+        "type": "synthesis",
+        "updated": "2026-04-10T12:31:26Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "scope",
+          "text": "Scope"
+        },
+        {
+          "depth": 2,
+          "id": "research-questions",
+          "text": "Research Questions"
+        },
+        {
+          "depth": 2,
+          "id": "evidence",
+          "text": "Evidence"
+        },
+        {
+          "depth": 2,
+          "id": "citations",
+          "text": "Citations"
+        },
+        {
+          "depth": 2,
+          "id": "contradictions",
+          "text": "Contradictions"
+        },
+        {
+          "depth": 2,
+          "id": "implications",
+          "text": "Implications"
+        },
+        {
+          "depth": 2,
+          "id": "follow-up",
+          "text": "Follow-Up"
+        }
+      ],
+      "markdown": "## Scope\n\n- This synthesis maps the current seed corpus into a beginner-friendly literature-review starting point.\n\n## Research Questions\n\n- What architectural claims about transformers are stable across the current source set?\n- Where does the corpus shift from architecture into interpretation?\n- Which open questions deserve deeper paper collection next?\n\n## Evidence\n\n- [[sources/attention-is-all-you-need-excerpt]] supports the core architectural claims about replacing recurrence, adding positional information, and using multi-head attention.\n- [[sources/example-com-attention-as-interface]] adds a caution that observed head specialization should not be treated as a fixed architectural guarantee.\n- [[sources/example-com-residual-stream-notes]] grounds the residual stream as the running state across layers and warns against collapsing mechanism into interpretation.\n\n## Citations\n\n- [[sources/attention-is-all-you-need-excerpt#ex-replaces-recurrence]]\n- [[sources/attention-is-all-you-need-excerpt#ex-positional-information]]\n- [[sources/attention-is-all-you-need-excerpt#ex-multi-head-parallelism]]\n- [[sources/example-com-attention-as-interface#ex-capability-vs-interpretation]]\n- [[sources/example-com-residual-stream-notes#ex-running-state]]\n- [[sources/example-com-residual-stream-notes#ex-mechanism-vs-interpretation]]\n\n## Contradictions\n\n- The current corpus does not contradict the baseline architectural description of transformers.\n- The main tension is interpretive: the corpus supports studying specialization and component meaning, but it does not support turning those observations into fixed architectural claims.\n\n## Implications\n\n- A good research workflow should compile papers into exact source anchors first, then update concept and synthesis pages rather than restarting from PDFs every session.\n- New research sources should deepen [[concepts/transformer-architecture]] and related syntheses instead of creating duplicate top-level summaries.\n\n## Follow-Up\n\n- Add a second real paper source to compare claims about interpretability versus architecture.\n- Expand this map into a literature review once the corpus includes more than one paper excerpt.",
+      "outbound_targets": [
+        "concepts/transformer-architecture",
+        "outputs/briefs/transformer-orientation-brief",
+        "sources/attention-is-all-you-need-excerpt",
+        "sources/example-com-attention-as-interface",
+        "sources/example-com-residual-stream-notes",
+        "syntheses/transformer-orientation"
+      ],
+      "relative_path": "syntheses/research/transformer-research-starter-map.md",
+      "section": "syntheses",
+      "source_path": null,
+      "source_url": null,
+      "target": "syntheses/research/transformer-research-starter-map",
+      "title": "Transformer Research Starter Map",
+      "type": "synthesis"
+    },
+    {
+      "excerpt": "- This synthesis orients a new reader to the small seed corpus in this repo.",
+      "frontmatter": {
+        "compiled_at": "2026-04-08T21:18:05Z",
+        "confidence": 0.84,
+        "created": "2026-04-07T21:26:24Z",
+        "related": [
+          "concepts/transformer-architecture",
+          "sources/attention-is-all-you-need-excerpt",
+          "sources/example-com-attention-as-interface",
+          "sources/example-com-residual-stream-notes"
+        ],
+        "source_pages": [
+          "sources/attention-is-all-you-need-excerpt",
+          "sources/example-com-attention-as-interface",
+          "sources/example-com-residual-stream-notes"
+        ],
+        "status": "draft",
+        "title": "Transformer Orientation",
+        "type": "synthesis",
+        "updated": "2026-04-08T21:18:05Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "scope",
+          "text": "Scope"
+        },
+        {
+          "depth": 2,
+          "id": "thesis",
+          "text": "Thesis"
+        },
+        {
+          "depth": 2,
+          "id": "evidence",
+          "text": "Evidence"
+        },
+        {
+          "depth": 2,
+          "id": "citations",
+          "text": "Citations"
+        },
+        {
+          "depth": 2,
+          "id": "contradictions",
+          "text": "Contradictions"
+        },
+        {
+          "depth": 2,
+          "id": "implications",
+          "text": "Implications"
+        },
+        {
+          "depth": 2,
+          "id": "follow-up",
+          "text": "Follow-Up"
+        }
+      ],
+      "markdown": "## Scope\n\n- This synthesis orients a new reader to the small seed corpus in this repo.\n\n## Thesis\n\n- The current source set supports an architectural summary of transformers as residual-stream updates performed by attention and feed-forward blocks, while also warning against over-reading component behavior as fixed meaning.\n\n## Evidence\n\n- [[concepts/transformer-architecture]] summarizes the base architecture.\n- [[sources/attention-is-all-you-need-excerpt]] provides the architectural claims about self-attention, feed-forward blocks, positional information, and multi-head attention.\n- [[sources/example-com-residual-stream-notes]] adds that the residual stream is the running state carried across layers and that transformer sublayers write into it.\n- [[sources/example-com-attention-as-interface]] adds the caution that specialization observations should remain interpretations rather than guarantees.\n\n## Citations\n\n- [[sources/attention-is-all-you-need-excerpt#ex-replaces-recurrence]]\n- [[sources/attention-is-all-you-need-excerpt#ex-multi-head-parallelism]]\n- [[sources/example-com-residual-stream-notes#ex-running-state]]\n- [[sources/example-com-residual-stream-notes#ex-mechanism-vs-interpretation]]\n- [[sources/example-com-attention-as-interface#ex-specialization-not-guaranteed]]\n\n## Contradictions\n\n- The corpus does not contain a direct contradiction on the architecture itself.\n- The corpus does contain a tension between architecture-level descriptions of how components update the residual stream and stronger interpretability claims that individual heads or components have fixed semantic roles.\n\n## Implications\n\n- Durable answers about transformers should separate residual-stream mechanism from interpretation.\n- Future sources should be linked into [[concepts/transformer-architecture]] rather than creating duplicate concept pages.\n\n## Follow-Up\n\n- Export this synthesis to slides when a quick presentation artifact is useful.",
+      "outbound_targets": [
+        "concepts/transformer-architecture",
+        "sources/attention-is-all-you-need-excerpt",
+        "sources/example-com-attention-as-interface",
+        "sources/example-com-residual-stream-notes"
+      ],
+      "relative_path": "syntheses/transformer-orientation.md",
+      "section": "syntheses",
+      "source_path": null,
+      "source_url": null,
+      "target": "syntheses/transformer-orientation",
+      "title": "Transformer Orientation",
+      "type": "synthesis"
+    }
+  ],
+  "raw_documents": [
+    {
+      "excerpt": "Synthetic clipped article used to demonstrate the Obsidian-first ingest flow.",
+      "frontmatter": {
+        "author": "Example Researcher",
+        "captured_at": "2026-04-07T21:26:24Z",
+        "clipper": "obsidian-web-clipper",
+        "description": "Synthetic clipped article used to demonstrate the Obsidian-first ingest flow.",
+        "published": "2026-04-07",
+        "source_domain": "example.com",
+        "source_url": "https://example.com/attention-as-interface",
+        "tags": [
+          "attention",
+          "transformers",
+          "clipping"
+        ],
+        "title": "Attention as Interface"
+      },
+      "headings": [],
+      "markdown": "This is synthetic seed material for the local wiki workflow.\n\n- Attention can connect distant tokens without recurrence.\n- Attention heads often appear to specialize, but that observation is contextual rather than guaranteed.\n- A useful compiled wiki should separate architectural capability from interpretation.",
+      "relative_path": "raw/articles/2026/2026-04-07-example-com-attention-as-interface.md",
+      "source_domain": "example.com",
+      "source_url": "https://example.com/attention-as-interface",
+      "title": "Attention as Interface"
+    },
+    {
+      "excerpt": "Synthetic clipped article about the residual stream and why architectural mechanism should stay separate from interpretive stories.",
+      "frontmatter": {
+        "author": "Example Researcher",
+        "captured_at": "2026-04-08T14:30:00Z",
+        "clipper": "obsidian-web-clipper",
+        "description": "Synthetic clipped article about the residual stream and why architectural mechanism should stay separate from interpretive stories.",
+        "published": "2026-04-08",
+        "source_domain": "example.com",
+        "source_url": "https://example.com/residual-stream-notes",
+        "tags": [
+          "transformers",
+          "residual-stream",
+          "clipping"
+        ],
+        "title": "Residual Stream Notes"
+      },
+      "headings": [],
+      "markdown": "This is synthetic seed material for ingest-path testing.\n\n- The residual stream is a running state that carries information across transformer layers.\n- Attention and feed-forward blocks write into the residual stream rather than replacing it wholesale.\n- Mechanistic descriptions of the residual stream should stay separate from interpretive claims about what a specific component \"means.\"",
+      "relative_path": "raw/articles/2026/2026-04-08-example-com-residual-stream-notes.md",
+      "source_domain": "example.com",
+      "source_url": "https://example.com/residual-stream-notes",
+      "title": "Residual Stream Notes"
+    },
+    {
+      "excerpt": "This is a short synthetic excerpt rather than the original paper.",
+      "frontmatter": {},
+      "headings": [],
+      "markdown": "This is a short synthetic excerpt rather than the original paper.\n\n- The architecture replaces recurrence with stacked self-attention and feed-forward blocks.\n- Positional information is injected because attention alone is permutation-invariant.\n- Multi-head attention allows the model to attend to different relationships at different positions.",
+      "relative_path": "raw/papers/attention-is-all-you-need-excerpt.md",
+      "source_domain": null,
+      "source_url": null,
+      "title": "Synthetic Paper Excerpt: Attention Is All You Need"
+    },
+    {
+      "excerpt": "Synthetic repo note used to demonstrate project memory and codebase synthesis workflows.",
+      "frontmatter": {
+        "author": "Example Maintainer",
+        "captured_at": "2026-04-10T12:00:00Z",
+        "description": "Synthetic repo note used to demonstrate project memory and codebase synthesis workflows.",
+        "source_domain": "github.com",
+        "source_url": "https://github.com/example/transformer-knowledge-wiki",
+        "tags": [
+          "repo",
+          "architecture",
+          "project-memory"
+        ],
+        "title": "Example Transformer Tooling Notes"
+      },
+      "headings": [],
+      "markdown": "- The repository keeps `raw/` immutable and treats `wiki/` as the maintained, compiled layer.\n- The web frontend reads a generated site manifest over markdown pages instead of a database-backed content store.\n- Project memory pages should capture current state, open risks, and next actions so coding agents do not need to reload the whole vault from scratch every session.",
+      "relative_path": "raw/repos/example-transformer-tooling-notes.md",
+      "source_domain": "github.com",
+      "source_url": "https://github.com/example/transformer-knowledge-wiki",
+      "title": "Example Transformer Tooling Notes"
+    }
+  ]
+}
