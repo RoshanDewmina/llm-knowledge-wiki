@@ -100,6 +100,14 @@ class RepoToolingTests(unittest.TestCase):
         self.assertIn("onboard", process.stdout)
         self.assertIn("doctor", process.stdout)
         self.assertIn("health", process.stdout)
+        self.assertIn("review", process.stdout)
+
+    def test_cli_review_regenerates_review_pages(self) -> None:
+        process = run_cli("review")
+        self.assertEqual(process.returncode, 0, process.stdout or process.stderr)
+        self.assertTrue((REPO_ROOT / "wiki" / "reviews" / "daily-review.md").exists())
+        self.assertTrue((REPO_ROOT / "wiki" / "reviews" / "review-queue.md").exists())
+        self.assertTrue((REPO_ROOT / "wiki" / "reviews" / "coverage-dashboard.md").exists())
 
     def test_export_defaults_to_slides_subfolder(self) -> None:
         process = run_cli("export", "wiki/syntheses/transformer-orientation.md")

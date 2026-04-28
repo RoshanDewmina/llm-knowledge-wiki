@@ -85,6 +85,9 @@ def build_parser() -> argparse.ArgumentParser:
     review_daily_parser.add_argument("--stdout", action="store_true", help="Print the note instead of writing it")
     review_daily_parser.set_defaults(func=cmd_review_daily)
 
+    review_parser = subparsers.add_parser("review", help="Regenerate the main review pages")
+    review_parser.set_defaults(func=cmd_review)
+
     manifest_parser = subparsers.add_parser("manifest", help="Regenerate the frontend site manifest")
     manifest_parser.set_defaults(func=cmd_manifest)
 
@@ -358,6 +361,17 @@ def cmd_review_daily(args: argparse.Namespace) -> int:
     return run_python_tool("daily_review.py", extra_args)
 
 
+def cmd_review(_: argparse.Namespace) -> int:
+    """Regenerate the main review pages."""
+
+    commands = ("coverage_dashboard.py", "review_queue.py", "daily_review.py")
+    exit_code = 0
+    for script_name in commands:
+        result = run_python_tool(script_name)
+        exit_code = exit_code or result
+    return exit_code
+
+
 def cmd_manifest(_: argparse.Namespace) -> int:
     """Wrap tools/build_site_manifest.py."""
 
@@ -392,6 +406,7 @@ commands=(
   'daily:scaffold today\\'s journal note'
   'question:scaffold a durable question note'
   'review-daily:regenerate the daily review page'
+  'review:regenerate the main review pages'
   'manifest:regenerate the frontend site manifest'
   'export:export a synthesis or output page to Marp markdown'
   'completion:print or install shell completion scripts'
@@ -426,6 +441,9 @@ case $state in
       daily|review-daily)
         _arguments '--stdout[print the generated note instead of writing it]'
         ;;
+      review)
+        _arguments
+        ;;
       question)
         _arguments '--slug=[question slug override]:slug:' '--stdout[print the generated note instead of writing it]'
         ;;
@@ -453,7 +471,7 @@ def bash_completion() -> str:
   cmd="${{COMP_WORDS[1]}}"
 
   if [[ $COMP_CWORD -eq 1 ]]; then
-    COMPREPLY=( $(compgen -W "setup onboard doctor health status query ingest daily question review-daily manifest export completion" -- "$cur") )
+    COMPREPLY=( $(compgen -W "setup onboard doctor health status query ingest daily question review-daily review manifest export completion" -- "$cur") )
     return 0
   fi
 
@@ -475,6 +493,9 @@ def bash_completion() -> str:
       ;;
     daily|review-daily)
       COMPREPLY=( $(compgen -W "--stdout" -- "$cur") )
+      ;;
+    review)
+      COMPREPLY=()
       ;;
     question)
       COMPREPLY=( $(compgen -W "--slug --stdout" -- "$cur") )
@@ -506,6 +527,7 @@ complete -c {CLI_NAME} -n '__fish_use_subcommand' -a ingest -d 'Register a raw s
 complete -c {CLI_NAME} -n '__fish_use_subcommand' -a daily -d 'Scaffold today\\'s journal note'
 complete -c {CLI_NAME} -n '__fish_use_subcommand' -a question -d 'Scaffold a durable question note'
 complete -c {CLI_NAME} -n '__fish_use_subcommand' -a review-daily -d 'Regenerate the daily review page'
+complete -c {CLI_NAME} -n '__fish_use_subcommand' -a review -d 'Regenerate the main review pages'
 complete -c {CLI_NAME} -n '__fish_use_subcommand' -a manifest -d 'Regenerate the frontend site manifest'
 complete -c {CLI_NAME} -n '__fish_use_subcommand' -a export -d 'Export a synthesis or output page to Marp markdown'
 complete -c {CLI_NAME} -n '__fish_use_subcommand' -a completion -d 'Print or install shell completion scripts'

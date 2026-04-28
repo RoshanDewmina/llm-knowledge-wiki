@@ -31,6 +31,7 @@ It follows the same general pattern used by onboarding-oriented CLIs like OpenCl
 ./bin/llm-wiki doctor
 ./bin/llm-wiki health
 ./bin/llm-wiki status
+./bin/llm-wiki review
 ./bin/llm-wiki query "transformer"
 ./bin/llm-wiki ingest raw/articles/2026/your-file.md
 ./bin/llm-wiki daily
@@ -54,6 +55,8 @@ It follows the same general pattern used by onboarding-oriented CLIs like OpenCl
   - runs the standard vault health checks
 - `status`
   - shows a compact readiness and content summary
+- `review`
+  - regenerates `wiki/reviews/coverage-dashboard.md`, `wiki/reviews/review-queue.md`, and `wiki/reviews/daily-review.md`
 - `query`
   - searches the compiled wiki
 - `ingest`
@@ -92,6 +95,6 @@ If you only want to inspect the script:
 Use:
 
 - `./bin/llm-wiki ...` for onboarding and the most common direct actions
-- `make ...` for task-runner style shortcuts
+- `make ...` only when you want shorter aliases for the same actions or frontend tasks
 
 If you are new, start with the repo CLI first.
