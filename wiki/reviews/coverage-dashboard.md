@@ -2,7 +2,7 @@
 title: Coverage Dashboard
 type: review
 created: 2026-04-08T22:32:49Z
-updated: 2026-04-10T12:47:42Z
+updated: 2026-04-28T22:42:54Z
 status: reviewed
 confidence: 0.92
 related:
@@ -14,32 +14,34 @@ source_pages:
   - sources/example-com-attention-as-interface
   - sources/example-com-residual-stream-notes
   - sources/example-transformer-tooling-notes
-compiled_at: 2026-04-10T12:47:42Z
+  - sources/transformer-circuits-framework
+compiled_at: 2026-04-28T22:42:54Z
 ---
 
 # Coverage Dashboard
 
 ## Summary
 
-- Total content pages: `22`
-- Source pages: `4`
-- Derived pages: `15`
+- Total content pages: `36`
+- Source pages: `5`
+- Derived pages: `28`
 
 ## Pages By Type
 
-- `concept` -> `1`
+- `concept` -> `11`
 - `journal` -> `1`
 - `output` -> `6`
 - `project` -> `1`
 - `question` -> `2`
 - `review` -> `3`
-- `source` -> `4`
+- `source` -> `5`
+- `study` -> `3`
 - `synthesis` -> `4`
 
 ## Pages By Status
 
 - `draft` -> `7`
-- `reviewed` -> `15`
+- `reviewed` -> `29`
 
 ## Sources Without Concepts
 
@@ -47,7 +49,16 @@ compiled_at: 2026-04-10T12:47:42Z
 
 ## Concepts With Only One Source
 
-- No concept page is supported by only one source.
+- [[concepts/attention-head-decomposition]] -> only `1` source page
+- [[concepts/head-composition]] -> only `1` source page
+- [[concepts/induction-head]] -> only `1` source page
+- [[concepts/one-layer-attention-only-skip-trigram-model]] -> only `1` source page
+- [[concepts/ov-circuit]] -> only `1` source page
+- [[concepts/path-expansion]] -> only `1` source page
+- [[concepts/qk-circuit]] -> only `1` source page
+- [[concepts/residual-stream]] -> only `1` source page
+- [[concepts/virtual-weights]] -> only `1` source page
+- [[concepts/zero-layer-transformer]] -> only `1` source page
 
 ## Syntheses With Thin Support
 

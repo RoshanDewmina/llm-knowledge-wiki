@@ -64,6 +64,7 @@ def main() -> int:
         "stale_pages": ["tools/stale_pages.py"],
         "duplicate_pages": ["tools/duplicate_pages.py"],
         "lint_citations": ["tools/lint_citations.py"],
+        "lint_study": ["tools/lint_study.py"],
     }
 
     results = {name: run_check(command) for name, command in generators.items()}

@@ -93,6 +93,10 @@ def collect_stale_entries() -> list[dict[str, str]]:
 
         page_reason = ""
         for source_ref in source_pages:
+            if not str(source_ref).startswith("sources/"):
+                # Study pages can cite other study/concept pages in `source_pages`; only source pages
+                # have source_path/source_hash and participate in raw-source staleness checks.
+                continue
             try:
                 status = source_page_status(str(source_ref))
             except (KeyError, FileNotFoundError, ValueError) as exc:

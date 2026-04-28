@@ -13,6 +13,24 @@ This is the vault landing page for the compiled knowledge graph. Keep human note
 - [[syntheses/research/transformer-research-starter-map]]
 - [[syntheses/transformer-orientation]]
 - [[concepts/transformer-architecture]]
+- [[studies/papers/transformer-circuits-framework]]
+
+## Active Studies
+
+```dataview
+TABLE read_status, mastery_avg, updated
+FROM "wiki/studies"
+WHERE type = "study" AND read_status != "done"
+SORT mastery_avg ASC
+```
+
+## Transformer Circuits Pilot
+
+- Source: [[sources/transformer-circuits-framework]]
+- Study: [[studies/papers/transformer-circuits-framework]]
+- Anki: [[studies/anki/transformer-circuits-framework]]
+- Implementation: [[studies/implementations/implement-combined-qk-ov-attention]]
+- Concepts: [[concepts/residual-stream]], [[concepts/virtual-weights]], [[concepts/attention-head-decomposition]], [[concepts/qk-circuit]], [[concepts/ov-circuit]], [[concepts/zero-layer-transformer]], [[concepts/one-layer-attention-only-skip-trigram-model]], [[concepts/path-expansion]], [[concepts/head-composition]], [[concepts/induction-head]]
 
 ## Active Outputs
 
@@ -45,4 +63,5 @@ This is the vault landing page for the compiled knowledge graph. Keep human note
 - [[sources/example-com-attention-as-interface]] -> `raw/articles/2026/2026-04-07-example-com-attention-as-interface.md`
 - [[sources/example-com-residual-stream-notes]] -> `raw/articles/2026/2026-04-08-example-com-residual-stream-notes.md`
 - [[sources/example-transformer-tooling-notes]] -> `raw/repos/example-transformer-tooling-notes.md`
+- [[sources/transformer-circuits-framework]] -> `raw/papers/2021/2021-12-22-transformer-circuits-framework-evidence.md`
 <!-- AUTO-SOURCES:END -->

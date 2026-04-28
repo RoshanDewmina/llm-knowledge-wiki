@@ -62,6 +62,7 @@ Most important folders:
 - `wiki/journal/`
 - `wiki/questions/`
 - `wiki/outputs/`
+- `wiki/studies/papers/`, `wiki/studies/anki/`, `wiki/studies/derivations/`, and `wiki/studies/implementations/`
 - `wiki/reviews/`
 
 ### `templates/`
@@ -189,3 +190,16 @@ Read:
 - [user-guide.md](user-guide.md)
 - [claude-code.md](claude-code.md)
 - [agent-contract.md](agent-contract.md)
+
+## Paper Mastery Plugins
+
+For paper mastery, install these community plugins manually:
+
+- `obsidian-spaced-repetition`
+  - folder filter: `wiki/studies/anki/`
+  - tag prefix: `#flashcards/`
+  - do not scan `raw/`
+- `dataview`
+  - used by `wiki/index.md` for active-study tables
+
+Do not enable Templater, Obsidian-to-Anki, Calendar, or Periodic Notes for this vault unless the repo contract changes. Personal review history stays out of git; `.obsidian/plugins/obsidian-spaced-repetition/data.json` is ignored.

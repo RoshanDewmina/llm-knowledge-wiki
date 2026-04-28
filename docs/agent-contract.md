@@ -24,6 +24,7 @@ This is the canonical operating contract for agents working in this repository.
 - `wiki/syntheses/codebases/` holds architecture and codebase syntheses.
 - `wiki/journal/` and `wiki/questions/` hold thinking-partner notes.
 - `wiki/outputs/briefs/`, `wiki/outputs/tables/`, `wiki/outputs/timelines/`, and `wiki/outputs/slides/` hold durable outputs.
+- `wiki/studies/` holds private learning scaffolds: paper notes, Anki decks, derivations, and toy implementation specs.
 
 ## Frontmatter Contract
 
@@ -44,7 +45,7 @@ Source pages must also include:
 - `compiled_at`
 - `source_hash`
 
-Derived pages with `type` in `concept`, `entity`, `benchmark`, `project`, `synthesis`, `output`, or `review` must also include:
+Derived pages with `type` in `concept`, `entity`, `benchmark`, `project`, `synthesis`, `output`, `review`, or `study` must also include:
 
 - `source_pages`
 - `compiled_at`
@@ -55,6 +56,8 @@ Lightweight thinking-partner pages with `type` in `journal` or `question` must i
 - `compiled_at`
 
 For `journal` and `question`, `source_pages` may be empty while the note is still exploratory.
+
+Study pages must also include `study_kind`. Valid values are `paper`, `derivation`, `implementation`, and `anki`. Paper studies may link to missing `concepts/...` candidates; run `./bin/llm-wiki concept candidates [slug]` to review them before creating pages.
 
 ## Linking Rules
 
@@ -111,3 +114,11 @@ That health command regenerates:
 - [.codex/config.toml](../.codex/config.toml) is a safe project reference for Codex.
 - [.claude/settings.json](../.claude/settings.json), [../CLAUDE.md](../CLAUDE.md), [../.claude/skills/](../.claude/skills/), and [../.claude/agents/](../.claude/agents/) define the Claude Code project experience.
 - [.obsidian/](../.obsidian/) is intentionally minimal and avoids personal workspace state.
+
+### Study Workflow
+
+1. `./bin/llm-wiki paper start <url-or-id>` creates raw/source/study scaffolds.
+2. `./bin/llm-wiki quiz [slug]` emits active-recall prompts from the study.
+3. `./bin/llm-wiki anki <slug>` creates an in-vault Spaced Repetition deck under `wiki/studies/anki/`.
+4. `./bin/llm-wiki impl <slug> "task"` creates a study spec plus code under `experiments/papers/<slug>/`.
+5. `./bin/llm-wiki promote <slug>` scaffolds a durable output; do not mark reviewed/done until citations are exact.

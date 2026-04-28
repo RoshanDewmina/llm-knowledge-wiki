@@ -32,6 +32,12 @@ It follows the same general pattern used by onboarding-oriented CLIs like OpenCl
 ./bin/llm-wiki health
 ./bin/llm-wiki status
 ./bin/llm-wiki review
+./bin/llm-wiki paper start <url-or-id>
+./bin/llm-wiki paper import-obsidian <old-path> --copy-raw
+./bin/llm-wiki quiz [slug] --n 5
+./bin/llm-wiki anki <slug>
+./bin/llm-wiki impl <slug> "Implement a tiny check"
+./bin/llm-wiki concept candidates [slug]
 ./bin/llm-wiki query "transformer"
 ./bin/llm-wiki ingest raw/articles/2026/your-file.md
 ./bin/llm-wiki daily
@@ -98,3 +104,24 @@ Use:
 - `make ...` only when you want shorter aliases for the same actions or frontend tasks
 
 If you are new, start with the repo CLI first.
+
+## Paper Mastery Commands
+
+- `paper start <url-or-id> [--slug <slug>] [--no-open]`
+  - creates a raw paper stub, source page, paper study note, and up to six concept stubs.
+- `paper import-obsidian <old-path> [--slug <slug>] [--copy-raw] [--dry-run]`
+  - preserves a legacy Obsidian note under `raw/legacy-obsidian/` and scaffolds an equivalent study page.
+- `paper status [slug] [--all]`
+  - lists paper studies with read status and mastery average.
+- `quiz [slug] [--n 5] [--kind recall|confusion|derivation|mixed]`
+  - emits active-recall prompts from a paper study.
+- `anki <slug> [--n 10] [--style qa|cloze|mixed]`
+  - scaffolds `wiki/studies/anki/<slug>.md`; agents fill cards from My Notes and concept definitions.
+- `impl <slug> "<task>" [--lang numpy|pytorch]`
+  - scaffolds an implementation study plus `experiments/papers/<slug>/<task-slug>/`.
+- `promote <slug> [--target brief|table|timeline|slides]`
+  - scaffolds a durable output from the study.
+- `concept <name> [--source-page sources/<slug>]`
+  - scaffolds a user-confirmed concept page.
+- `concept candidates [slug]`
+  - lists study concept links whose pages do not exist yet.

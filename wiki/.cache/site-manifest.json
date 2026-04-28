@@ -1,6 +1,548 @@
 {
-  "generated_at": "2026-04-10T15:35:46Z",
+  "generated_at": "2026-04-28T22:53:02Z",
   "pages": [
+    {
+      "excerpt": "Attention head decomposition rewrites multi-head attention from efficient concatenate-and-project implementation form into a sum of per-head outputs added to the residual stream.",
+      "frontmatter": {
+        "compiled_at": "2026-04-28T22:30:46Z",
+        "confidence": 0.82,
+        "created": "2026-04-28T22:14:32Z",
+        "related": [
+          "sources/transformer-circuits-framework",
+          "concepts/residual-stream",
+          "concepts/qk-circuit",
+          "concepts/ov-circuit",
+          "concepts/path-expansion"
+        ],
+        "source_pages": [
+          "sources/transformer-circuits-framework"
+        ],
+        "status": "reviewed",
+        "title": "Attention Head Decomposition",
+        "type": "concept",
+        "updated": "2026-04-28T22:30:46Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "definition",
+          "text": "Definition"
+        },
+        {
+          "depth": 2,
+          "id": "why-it-matters",
+          "text": "Why It Matters"
+        },
+        {
+          "depth": 2,
+          "id": "how-to-recognize-it",
+          "text": "How To Recognize It"
+        },
+        {
+          "depth": 2,
+          "id": "connections",
+          "text": "Connections"
+        },
+        {
+          "depth": 2,
+          "id": "contradictions",
+          "text": "Contradictions"
+        },
+        {
+          "depth": 2,
+          "id": "citations",
+          "text": "Citations"
+        }
+      ],
+      "markdown": "## Definition\n\nAttention head decomposition rewrites multi-head attention from efficient concatenate-and-project implementation form into a sum of per-head outputs added to the residual stream.\n\n## Why It Matters\n\n- It justifies analyzing heads independently as additive contributors.\n- It clarifies why a head can be treated as an operation that writes into the residual stream.\n- It is the algebraic entry point for QK/OV factorization and path expansion.\n\n## How To Recognize It\n\n- Ask what part of the computation this concept isolates.\n- Check whether the claim is about routing positions, transforming residual-stream information, or composing paths through layers.\n- Use the citations below as the source of truth when reconstructing the math.\n\n## Connections\n\n- [[sources/transformer-circuits-framework]]\n- [[concepts/residual-stream]]\n- [[concepts/qk-circuit]]\n- [[concepts/ov-circuit]]\n- [[concepts/path-expansion]]\n\n## Contradictions\n\n- No contradictions recorded yet.\n\n## Citations\n\n- Independent additive head formulation: [[sources/transformer-circuits-framework#ex-independent-additive-heads]].",
+      "outbound_targets": [
+        "concepts/ov-circuit",
+        "concepts/path-expansion",
+        "concepts/qk-circuit",
+        "concepts/residual-stream",
+        "sources/transformer-circuits-framework"
+      ],
+      "relative_path": "concepts/attention-head-decomposition.md",
+      "section": "concepts",
+      "source_path": null,
+      "source_url": null,
+      "target": "concepts/attention-head-decomposition",
+      "title": "Attention Head Decomposition",
+      "type": "concept"
+    },
+    {
+      "excerpt": "Head composition is when the output of one attention head changes what another head can read, route to, or write. The Transformer Circuits paper distinguishes richer two-layer behavior from one-layer behavior through these compositions.",
+      "frontmatter": {
+        "compiled_at": "2026-04-28T22:30:46Z",
+        "confidence": 0.82,
+        "created": "2026-04-28T22:14:32Z",
+        "related": [
+          "sources/transformer-circuits-framework",
+          "concepts/induction-head",
+          "concepts/path-expansion",
+          "concepts/virtual-weights"
+        ],
+        "source_pages": [
+          "sources/transformer-circuits-framework"
+        ],
+        "status": "reviewed",
+        "title": "Head Composition",
+        "type": "concept",
+        "updated": "2026-04-28T22:30:46Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "definition",
+          "text": "Definition"
+        },
+        {
+          "depth": 2,
+          "id": "why-it-matters",
+          "text": "Why It Matters"
+        },
+        {
+          "depth": 2,
+          "id": "how-to-recognize-it",
+          "text": "How To Recognize It"
+        },
+        {
+          "depth": 2,
+          "id": "connections",
+          "text": "Connections"
+        },
+        {
+          "depth": 2,
+          "id": "contradictions",
+          "text": "Contradictions"
+        },
+        {
+          "depth": 2,
+          "id": "citations",
+          "text": "Citations"
+        }
+      ],
+      "markdown": "## Definition\n\nHead composition is when the output of one attention head changes what another head can read, route to, or write. The Transformer Circuits paper distinguishes richer two-layer behavior from one-layer behavior through these compositions.\n\n## Why It Matters\n\n- It is the main reason two-layer attention-only transformers can implement algorithms more complex than one-layer skip-trigrams.\n- It gives a mechanistic route to induction-head behavior.\n- It forces analysis to include paths across heads, not only isolated heads.\n\n## How To Recognize It\n\n- Ask what part of the computation this concept isolates.\n- Check whether the claim is about routing positions, transforming residual-stream information, or composing paths through layers.\n- Use the citations below as the source of truth when reconstructing the math.\n\n## Connections\n\n- [[sources/transformer-circuits-framework]]\n- [[concepts/induction-head]]\n- [[concepts/path-expansion]]\n- [[concepts/virtual-weights]]\n\n## Contradictions\n\n- No contradictions recorded yet.\n\n## Citations\n\n- Two-layer models use attention-head composition and can create induction heads: [[sources/transformer-circuits-framework#ex-summary-results-zero-one-two]].\n- Path terms can be reasoned about independently and additively combined: [[sources/transformer-circuits-framework#ex-path-expansion]].",
+      "outbound_targets": [
+        "concepts/induction-head",
+        "concepts/path-expansion",
+        "concepts/virtual-weights",
+        "sources/transformer-circuits-framework"
+      ],
+      "relative_path": "concepts/head-composition.md",
+      "section": "concepts",
+      "source_path": null,
+      "source_url": null,
+      "target": "concepts/head-composition",
+      "title": "Head Composition",
+      "type": "concept"
+    },
+    {
+      "excerpt": "An induction head is an attention head involved in a general in-context continuation algorithm: after seeing a repeated prefix or matching context, it helps copy or predict the token that followed the previous occurrence.",
+      "frontmatter": {
+        "compiled_at": "2026-04-28T22:30:46Z",
+        "confidence": 0.82,
+        "created": "2026-04-28T22:14:32Z",
+        "related": [
+          "sources/transformer-circuits-framework",
+          "concepts/head-composition",
+          "concepts/qk-circuit",
+          "concepts/ov-circuit"
+        ],
+        "source_pages": [
+          "sources/transformer-circuits-framework"
+        ],
+        "status": "reviewed",
+        "title": "Induction Head",
+        "type": "concept",
+        "updated": "2026-04-28T22:30:46Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "definition",
+          "text": "Definition"
+        },
+        {
+          "depth": 2,
+          "id": "why-it-matters",
+          "text": "Why It Matters"
+        },
+        {
+          "depth": 2,
+          "id": "how-to-recognize-it",
+          "text": "How To Recognize It"
+        },
+        {
+          "depth": 2,
+          "id": "connections",
+          "text": "Connections"
+        },
+        {
+          "depth": 2,
+          "id": "contradictions",
+          "text": "Contradictions"
+        },
+        {
+          "depth": 2,
+          "id": "citations",
+          "text": "Citations"
+        }
+      ],
+      "markdown": "## Definition\n\nAn induction head is an attention head involved in a general in-context continuation algorithm: after seeing a repeated prefix or matching context, it helps copy or predict the token that followed the previous occurrence.\n\n## Why It Matters\n\n- It is the headline two-layer phenomenon in the paper.\n- It links mechanistic interpretability to in-context learning.\n- It is a later study target after mastering QK/OV, skip-trigrams, and head composition.\n\n## How To Recognize It\n\n- Ask what part of the computation this concept isolates.\n- Check whether the claim is about routing positions, transforming residual-stream information, or composing paths through layers.\n- Use the citations below as the source of truth when reconstructing the math.\n\n## Connections\n\n- [[sources/transformer-circuits-framework]]\n- [[concepts/head-composition]]\n- [[concepts/qk-circuit]]\n- [[concepts/ov-circuit]]\n\n## Contradictions\n\n- No contradictions recorded yet.\n\n## Citations\n\n- Two-layer attention-only transformers can use head composition to create induction heads: [[sources/transformer-circuits-framework#ex-summary-results-zero-one-two]].",
+      "outbound_targets": [
+        "concepts/head-composition",
+        "concepts/ov-circuit",
+        "concepts/qk-circuit",
+        "sources/transformer-circuits-framework"
+      ],
+      "relative_path": "concepts/induction-head.md",
+      "section": "concepts",
+      "source_path": null,
+      "source_url": null,
+      "target": "concepts/induction-head",
+      "title": "Induction Head",
+      "type": "concept"
+    },
+    {
+      "excerpt": "A one-layer attention-only transformer can be viewed as combining direct bigram behavior with attention-mediated skip-trigram behavior of the form  A ... B -  C .",
+      "frontmatter": {
+        "compiled_at": "2026-04-28T22:30:46Z",
+        "confidence": 0.82,
+        "created": "2026-04-28T22:14:32Z",
+        "related": [
+          "sources/transformer-circuits-framework",
+          "concepts/zero-layer-transformer",
+          "concepts/qk-circuit",
+          "concepts/ov-circuit",
+          "concepts/path-expansion"
+        ],
+        "source_pages": [
+          "sources/transformer-circuits-framework"
+        ],
+        "status": "reviewed",
+        "title": "One Layer Attention Only Skip Trigram Model",
+        "type": "concept",
+        "updated": "2026-04-28T22:30:46Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "definition",
+          "text": "Definition"
+        },
+        {
+          "depth": 2,
+          "id": "why-it-matters",
+          "text": "Why It Matters"
+        },
+        {
+          "depth": 2,
+          "id": "how-to-recognize-it",
+          "text": "How To Recognize It"
+        },
+        {
+          "depth": 2,
+          "id": "connections",
+          "text": "Connections"
+        },
+        {
+          "depth": 2,
+          "id": "contradictions",
+          "text": "Contradictions"
+        },
+        {
+          "depth": 2,
+          "id": "citations",
+          "text": "Citations"
+        }
+      ],
+      "markdown": "## Definition\n\nA one-layer attention-only transformer can be viewed as combining direct bigram behavior with attention-mediated skip-trigram behavior of the form `A ... B -> C`.\n\n## Why It Matters\n\n- It is the first setting where attention moves information across positions.\n- It explains why one-layer models can show primitive in-context learning while still being inspectable from weights.\n- It gives concrete examples for testing QK/OV understanding.\n\n## How To Recognize It\n\n- Ask what part of the computation this concept isolates.\n- Check whether the claim is about routing positions, transforming residual-stream information, or composing paths through layers.\n- Use the citations below as the source of truth when reconstructing the math.\n\n## Connections\n\n- [[sources/transformer-circuits-framework]]\n- [[concepts/zero-layer-transformer]]\n- [[concepts/qk-circuit]]\n- [[concepts/ov-circuit]]\n- [[concepts/path-expansion]]\n\n## Contradictions\n\n- No contradictions recorded yet.\n\n## Citations\n\n- One-layer attention-only models as bigram plus skip-trigram ensembles: [[sources/transformer-circuits-framework#ex-summary-results-zero-one-two]].\n- Concrete skip-trigram examples and tokenizer caveats: [[sources/transformer-circuits-framework#ex-skip-trigram-examples]].\n- QK/OV copying behavior in one-layer models: [[sources/transformer-circuits-framework#ex-copying-ov-summary]].",
+      "outbound_targets": [
+        "concepts/ov-circuit",
+        "concepts/path-expansion",
+        "concepts/qk-circuit",
+        "concepts/zero-layer-transformer",
+        "sources/transformer-circuits-framework"
+      ],
+      "relative_path": "concepts/one-layer-attention-only-skip-trigram-model.md",
+      "section": "concepts",
+      "source_path": null,
+      "source_url": null,
+      "target": "concepts/one-layer-attention-only-skip-trigram-model",
+      "title": "One Layer Attention Only Skip Trigram Model",
+      "type": "concept"
+    },
+    {
+      "excerpt": "The OV circuit is the value-output product that determines what residual-stream information is read from the attended source token and how it is written to the destination token.",
+      "frontmatter": {
+        "compiled_at": "2026-04-28T22:30:46Z",
+        "confidence": 0.82,
+        "created": "2026-04-28T22:14:32Z",
+        "related": [
+          "sources/transformer-circuits-framework",
+          "concepts/qk-circuit",
+          "concepts/attention-head-decomposition",
+          "concepts/one-layer-attention-only-skip-trigram-model"
+        ],
+        "source_pages": [
+          "sources/transformer-circuits-framework"
+        ],
+        "status": "reviewed",
+        "title": "OV Circuit",
+        "type": "concept",
+        "updated": "2026-04-28T22:30:46Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "definition",
+          "text": "Definition"
+        },
+        {
+          "depth": 2,
+          "id": "why-it-matters",
+          "text": "Why It Matters"
+        },
+        {
+          "depth": 2,
+          "id": "how-to-recognize-it",
+          "text": "How To Recognize It"
+        },
+        {
+          "depth": 2,
+          "id": "connections",
+          "text": "Connections"
+        },
+        {
+          "depth": 2,
+          "id": "contradictions",
+          "text": "Contradictions"
+        },
+        {
+          "depth": 2,
+          "id": "citations",
+          "text": "Citations"
+        }
+      ],
+      "markdown": "## Definition\n\nThe OV circuit is the value-output product that determines what residual-stream information is read from the attended source token and how it is written to the destination token.\n\n## Why It Matters\n\n- It separates content transformation from attention routing.\n- It can be studied with linear algebra tools such as rank and singular vectors.\n- It explains why some one-layer heads act like copying or token-continuation mechanisms.\n\n## How To Recognize It\n\n- Ask what part of the computation this concept isolates.\n- Check whether the claim is about routing positions, transforming residual-stream information, or composing paths through layers.\n- Use the citations below as the source of truth when reconstructing the math.\n\n## Connections\n\n- [[sources/transformer-circuits-framework]]\n- [[concepts/qk-circuit]]\n- [[concepts/attention-head-decomposition]]\n- [[concepts/one-layer-attention-only-skip-trigram-model]]\n\n## Contradictions\n\n- No contradictions recorded yet.\n\n## Citations\n\n- OV as the output-value part of an attention head: [[sources/transformer-circuits-framework#ex-qk-ov-circuit]].\n- OV read/write role and low-rank structure: [[sources/transformer-circuits-framework#ex-attention-information-movement]].\n- Copying interpretation in one-layer models: [[sources/transformer-circuits-framework#ex-copying-ov-summary]].",
+      "outbound_targets": [
+        "concepts/attention-head-decomposition",
+        "concepts/one-layer-attention-only-skip-trigram-model",
+        "concepts/qk-circuit",
+        "sources/transformer-circuits-framework"
+      ],
+      "relative_path": "concepts/ov-circuit.md",
+      "section": "concepts",
+      "source_path": null,
+      "source_url": null,
+      "target": "concepts/ov-circuit",
+      "title": "OV Circuit",
+      "type": "concept"
+    },
+    {
+      "excerpt": "Path expansion rewrites a product of layer-level transformations into a sum of end-to-end computational paths, so each path can be inspected as an additive contributor to logits or intermediate activations.",
+      "frontmatter": {
+        "compiled_at": "2026-04-28T22:30:46Z",
+        "confidence": 0.82,
+        "created": "2026-04-28T22:14:32Z",
+        "related": [
+          "sources/transformer-circuits-framework",
+          "concepts/virtual-weights",
+          "concepts/attention-head-decomposition",
+          "concepts/head-composition"
+        ],
+        "source_pages": [
+          "sources/transformer-circuits-framework"
+        ],
+        "status": "reviewed",
+        "title": "Path Expansion",
+        "type": "concept",
+        "updated": "2026-04-28T22:30:46Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "definition",
+          "text": "Definition"
+        },
+        {
+          "depth": 2,
+          "id": "why-it-matters",
+          "text": "Why It Matters"
+        },
+        {
+          "depth": 2,
+          "id": "how-to-recognize-it",
+          "text": "How To Recognize It"
+        },
+        {
+          "depth": 2,
+          "id": "connections",
+          "text": "Connections"
+        },
+        {
+          "depth": 2,
+          "id": "contradictions",
+          "text": "Contradictions"
+        },
+        {
+          "depth": 2,
+          "id": "citations",
+          "text": "Citations"
+        }
+      ],
+      "markdown": "## Definition\n\nPath expansion rewrites a product of layer-level transformations into a sum of end-to-end computational paths, so each path can be inspected as an additive contributor to logits or intermediate activations.\n\n## Why It Matters\n\n- It is the algebraic move that turns transformer computation into circuit-like terms.\n- It helps localize which route through components caused an output effect.\n- It makes downstream tasks like term importance and head-composition analysis more concrete.\n\n## How To Recognize It\n\n- Ask what part of the computation this concept isolates.\n- Check whether the claim is about routing positions, transforming residual-stream information, or composing paths through layers.\n- Use the citations below as the source of truth when reconstructing the math.\n\n## Connections\n\n- [[sources/transformer-circuits-framework]]\n- [[concepts/virtual-weights]]\n- [[concepts/attention-head-decomposition]]\n- [[concepts/head-composition]]\n\n## Contradictions\n\n- No contradictions recorded yet.\n\n## Citations\n\n- Path expansion turns products into sums of end-to-end paths: [[sources/transformer-circuits-framework#ex-path-expansion]].\n- Attention-only models as sums of interpretable paths: [[sources/transformer-circuits-framework#ex-independent-additive-heads]].",
+      "outbound_targets": [
+        "concepts/attention-head-decomposition",
+        "concepts/head-composition",
+        "concepts/virtual-weights",
+        "sources/transformer-circuits-framework"
+      ],
+      "relative_path": "concepts/path-expansion.md",
+      "section": "concepts",
+      "source_path": null,
+      "source_url": null,
+      "target": "concepts/path-expansion",
+      "title": "Path Expansion",
+      "type": "concept"
+    },
+    {
+      "excerpt": "The QK circuit is the query-key product that determines the attention pattern: which source positions a destination position attends to.",
+      "frontmatter": {
+        "compiled_at": "2026-04-28T22:30:46Z",
+        "confidence": 0.82,
+        "created": "2026-04-28T22:14:32Z",
+        "related": [
+          "sources/transformer-circuits-framework",
+          "concepts/ov-circuit",
+          "concepts/attention-head-decomposition",
+          "concepts/one-layer-attention-only-skip-trigram-model"
+        ],
+        "source_pages": [
+          "sources/transformer-circuits-framework"
+        ],
+        "status": "reviewed",
+        "title": "QK Circuit",
+        "type": "concept",
+        "updated": "2026-04-28T22:30:46Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "definition",
+          "text": "Definition"
+        },
+        {
+          "depth": 2,
+          "id": "why-it-matters",
+          "text": "Why It Matters"
+        },
+        {
+          "depth": 2,
+          "id": "how-to-recognize-it",
+          "text": "How To Recognize It"
+        },
+        {
+          "depth": 2,
+          "id": "connections",
+          "text": "Connections"
+        },
+        {
+          "depth": 2,
+          "id": "contradictions",
+          "text": "Contradictions"
+        },
+        {
+          "depth": 2,
+          "id": "citations",
+          "text": "Citations"
+        }
+      ],
+      "markdown": "## Definition\n\nThe QK circuit is the query-key product that determines the attention pattern: which source positions a destination position attends to.\n\n## Why It Matters\n\n- It separates routing from content movement.\n- It lets you inspect a head by asking where information comes from, before asking what is moved.\n- It combines with the OV circuit to explain skip-trigram and copying behavior.\n\n## How To Recognize It\n\n- Ask what part of the computation this concept isolates.\n- Check whether the claim is about routing positions, transforming residual-stream information, or composing paths through layers.\n- Use the citations below as the source of truth when reconstructing the math.\n\n## Connections\n\n- [[sources/transformer-circuits-framework]]\n- [[concepts/ov-circuit]]\n- [[concepts/attention-head-decomposition]]\n- [[concepts/one-layer-attention-only-skip-trigram-model]]\n\n## Contradictions\n\n- No contradictions recorded yet.\n\n## Citations\n\n- QK as the attention-pattern circuit: [[sources/transformer-circuits-framework#ex-qk-ov-circuit]].\n- Routing role in copying behavior: [[sources/transformer-circuits-framework#ex-copying-ov-summary]].",
+      "outbound_targets": [
+        "concepts/attention-head-decomposition",
+        "concepts/one-layer-attention-only-skip-trigram-model",
+        "concepts/ov-circuit",
+        "sources/transformer-circuits-framework"
+      ],
+      "relative_path": "concepts/qk-circuit.md",
+      "section": "concepts",
+      "source_path": null,
+      "source_url": null,
+      "target": "concepts/qk-circuit",
+      "title": "QK Circuit",
+      "type": "concept"
+    },
+    {
+      "excerpt": "The residual stream is the additive state channel in a transformer. Embeddings and earlier layers write vectors into it; later attention heads, MLPs, and the unembedding read from it. The useful interpretability framing is communication, not a single contextual word embedding.",
+      "frontmatter": {
+        "compiled_at": "2026-04-28T22:30:46Z",
+        "confidence": 0.82,
+        "created": "2026-04-28T22:14:32Z",
+        "related": [
+          "sources/transformer-circuits-framework",
+          "concepts/virtual-weights",
+          "concepts/attention-head-decomposition",
+          "concepts/qk-circuit",
+          "concepts/ov-circuit"
+        ],
+        "source_pages": [
+          "sources/transformer-circuits-framework"
+        ],
+        "status": "reviewed",
+        "title": "Residual Stream",
+        "type": "concept",
+        "updated": "2026-04-28T22:30:46Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "definition",
+          "text": "Definition"
+        },
+        {
+          "depth": 2,
+          "id": "why-it-matters",
+          "text": "Why It Matters"
+        },
+        {
+          "depth": 2,
+          "id": "how-to-recognize-it",
+          "text": "How To Recognize It"
+        },
+        {
+          "depth": 2,
+          "id": "connections",
+          "text": "Connections"
+        },
+        {
+          "depth": 2,
+          "id": "contradictions",
+          "text": "Contradictions"
+        },
+        {
+          "depth": 2,
+          "id": "citations",
+          "text": "Citations"
+        }
+      ],
+      "markdown": "## Definition\n\nThe residual stream is the additive state channel in a transformer. Embeddings and earlier layers write vectors into it; later attention heads, MLPs, and the unembedding read from it. The useful interpretability framing is communication, not a single contextual word embedding.\n\n## Why It Matters\n\n- It explains why many components can communicate through linear subspaces.\n- It makes path and virtual-weight analysis possible.\n- It prevents the common mistake of treating every residual vector dimension as a directly meaningful neuron.\n\n## How To Recognize It\n\n- Ask what part of the computation this concept isolates.\n- Check whether the claim is about routing positions, transforming residual-stream information, or composing paths through layers.\n- Use the citations below as the source of truth when reconstructing the math.\n\n## Connections\n\n- [[sources/transformer-circuits-framework]]\n- [[concepts/virtual-weights]]\n- [[concepts/attention-head-decomposition]]\n- [[concepts/qk-circuit]]\n- [[concepts/ov-circuit]]\n\n## Contradictions\n\n- No contradictions recorded yet.\n\n## Citations\n\n- Residual-stream communication-channel framing: [[sources/transformer-circuits-framework#ex-residual-stream-communication]].\n- Residual subspaces and path decomposition: [[sources/transformer-circuits-framework#ex-residual-stream-subspaces]].",
+      "outbound_targets": [
+        "concepts/attention-head-decomposition",
+        "concepts/ov-circuit",
+        "concepts/qk-circuit",
+        "concepts/virtual-weights",
+        "sources/transformer-circuits-framework"
+      ],
+      "relative_path": "concepts/residual-stream.md",
+      "section": "concepts",
+      "source_path": null,
+      "source_url": null,
+      "target": "concepts/residual-stream",
+      "title": "Residual Stream",
+      "type": "concept"
+    },
     {
       "excerpt": "- A transformer replaces recurrence with layers organized around a residual stream, where self-attention and feed-forward blocks write updates and positional information supplies order.",
       "frontmatter": {
@@ -71,6 +613,138 @@
       "type": "concept"
     },
     {
+      "excerpt": "Virtual weights are implicit effective connections between model components obtained by multiplying the output weights of an earlier component with the input weights of a later component through the residual stream.",
+      "frontmatter": {
+        "compiled_at": "2026-04-28T22:30:46Z",
+        "confidence": 0.82,
+        "created": "2026-04-28T22:14:32Z",
+        "related": [
+          "sources/transformer-circuits-framework",
+          "concepts/residual-stream",
+          "concepts/path-expansion",
+          "concepts/head-composition"
+        ],
+        "source_pages": [
+          "sources/transformer-circuits-framework"
+        ],
+        "status": "reviewed",
+        "title": "Virtual Weights",
+        "type": "concept",
+        "updated": "2026-04-28T22:30:46Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "definition",
+          "text": "Definition"
+        },
+        {
+          "depth": 2,
+          "id": "why-it-matters",
+          "text": "Why It Matters"
+        },
+        {
+          "depth": 2,
+          "id": "how-to-recognize-it",
+          "text": "How To Recognize It"
+        },
+        {
+          "depth": 2,
+          "id": "connections",
+          "text": "Connections"
+        },
+        {
+          "depth": 2,
+          "id": "contradictions",
+          "text": "Contradictions"
+        },
+        {
+          "depth": 2,
+          "id": "citations",
+          "text": "Citations"
+        }
+      ],
+      "markdown": "## Definition\n\nVirtual weights are implicit effective connections between model components obtained by multiplying the output weights of an earlier component with the input weights of a later component through the residual stream.\n\n## Why It Matters\n\n- They turn indirect communication through the residual stream into concrete matrices you can inspect.\n- They let you ask whether a downstream component reads the information an upstream component wrote.\n- They are a bridge between circuit diagrams and actual parameter products.\n\n## How To Recognize It\n\n- Ask what part of the computation this concept isolates.\n- Check whether the claim is about routing positions, transforming residual-stream information, or composing paths through layers.\n- Use the citations below as the source of truth when reconstructing the math.\n\n## Connections\n\n- [[sources/transformer-circuits-framework]]\n- [[concepts/residual-stream]]\n- [[concepts/path-expansion]]\n- [[concepts/head-composition]]\n\n## Contradictions\n\n- No contradictions recorded yet.\n\n## Citations\n\n- Virtual-weight definition and motivation: [[sources/transformer-circuits-framework#ex-virtual-weights]].",
+      "outbound_targets": [
+        "concepts/head-composition",
+        "concepts/path-expansion",
+        "concepts/residual-stream",
+        "sources/transformer-circuits-framework"
+      ],
+      "relative_path": "concepts/virtual-weights.md",
+      "section": "concepts",
+      "source_path": null,
+      "source_url": null,
+      "target": "concepts/virtual-weights",
+      "title": "Virtual Weights",
+      "type": "concept"
+    },
+    {
+      "excerpt": "A zero-layer transformer has embeddings and unembedding but no attention or MLP blocks, so its next-token logits can be interpreted as a learned bigram table.",
+      "frontmatter": {
+        "compiled_at": "2026-04-28T22:30:46Z",
+        "confidence": 0.82,
+        "created": "2026-04-28T22:14:32Z",
+        "related": [
+          "sources/transformer-circuits-framework",
+          "concepts/path-expansion",
+          "concepts/one-layer-attention-only-skip-trigram-model"
+        ],
+        "source_pages": [
+          "sources/transformer-circuits-framework"
+        ],
+        "status": "reviewed",
+        "title": "Zero Layer Transformer",
+        "type": "concept",
+        "updated": "2026-04-28T22:30:46Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "definition",
+          "text": "Definition"
+        },
+        {
+          "depth": 2,
+          "id": "why-it-matters",
+          "text": "Why It Matters"
+        },
+        {
+          "depth": 2,
+          "id": "how-to-recognize-it",
+          "text": "How To Recognize It"
+        },
+        {
+          "depth": 2,
+          "id": "connections",
+          "text": "Connections"
+        },
+        {
+          "depth": 2,
+          "id": "contradictions",
+          "text": "Contradictions"
+        },
+        {
+          "depth": 2,
+          "id": "citations",
+          "text": "Citations"
+        }
+      ],
+      "markdown": "## Definition\n\nA zero-layer transformer has embeddings and unembedding but no attention or MLP blocks, so its next-token logits can be interpreted as a learned bigram table.\n\n## Why It Matters\n\n- It is the baseline case for path expansion.\n- It shows what the model can do without moving information between positions.\n- It gives the contrast class for one-layer skip-trigram behavior.\n\n## How To Recognize It\n\n- Ask what part of the computation this concept isolates.\n- Check whether the claim is about routing positions, transforming residual-stream information, or composing paths through layers.\n- Use the citations below as the source of truth when reconstructing the math.\n\n## Connections\n\n- [[sources/transformer-circuits-framework]]\n- [[concepts/path-expansion]]\n- [[concepts/one-layer-attention-only-skip-trigram-model]]\n\n## Contradictions\n\n- No contradictions recorded yet.\n\n## Citations\n\n- Zero-layer transformers model bigram statistics: [[sources/transformer-circuits-framework#ex-summary-results-zero-one-two]].",
+      "outbound_targets": [
+        "concepts/one-layer-attention-only-skip-trigram-model",
+        "concepts/path-expansion",
+        "sources/transformer-circuits-framework"
+      ],
+      "relative_path": "concepts/zero-layer-transformer.md",
+      "section": "concepts",
+      "source_path": null,
+      "source_url": null,
+      "target": "concepts/zero-layer-transformer",
+      "title": "Zero Layer Transformer",
+      "type": "concept"
+    },
+    {
       "excerpt": "This is the daily triage note for the vault. Open it when you want to see what changed most recently and what should be reviewed next.",
       "frontmatter": {},
       "headings": [
@@ -95,7 +769,7 @@
           "text": "Manual Queue"
         }
       ],
-      "markdown": "This is the daily triage note for the vault. Open it when you want to see what changed most recently and what should be reviewed next.\n\n## Start Here\n\n- [[index]]\n- [[reviews/daily-review]]\n- [[reviews/review-queue]]\n- [[projects/knowledge-wiki-project-memory]]\n- Review the recent source pages below.\n- Extend existing concept or synthesis pages before creating new ones.\n- Run `python3 tools/check_wiki.py` after meaningful wiki edits.\n\n## Recent Source Activity\n\n<!-- AUTO-RECENT-SOURCES:START -->\n- 2026-04-10T12:31:26Z | [[sources/example-transformer-tooling-notes]] | `raw/repos/example-transformer-tooling-notes.md`\n- 2026-04-08T21:18:05Z | [[sources/example-com-residual-stream-notes]] | `raw/articles/2026/2026-04-08-example-com-residual-stream-notes.md`\n- 2026-04-08T13:34:18Z | [[sources/example-com-attention-as-interface]] | `raw/articles/2026/2026-04-07-example-com-attention-as-interface.md`\n- 2026-04-07T21:33:52Z | [[sources/attention-is-all-you-need-excerpt]] | `raw/papers/attention-is-all-you-need-excerpt.md`\n<!-- AUTO-RECENT-SOURCES:END -->\n\n## Next Actions\n\n- Read the newest source page and clear its `## Extraction Queue`.\n- Update the most relevant existing concept or synthesis page.\n- Save durable answers into `wiki/syntheses/` or `wiki/outputs/`.\n- Use `wiki/journal/` and `wiki/questions/` for exploratory thinking before promoting stable outcomes.\n\n## Manual Queue\n\n- Track today's working note in [[journal/2026-04-10-daily-note]].\n- Promote reusable questions into [[questions/when-should-a-note-be-promoted]] or a stronger synthesis/output.",
+      "markdown": "This is the daily triage note for the vault. Open it when you want to see what changed most recently and what should be reviewed next.\n\n## Start Here\n\n- [[index]]\n- [[reviews/daily-review]]\n- [[reviews/review-queue]]\n- [[projects/knowledge-wiki-project-memory]]\n- Review the recent source pages below.\n- Extend existing concept or synthesis pages before creating new ones.\n- Run `python3 tools/check_wiki.py` after meaningful wiki edits.\n\n## Recent Source Activity\n\n<!-- AUTO-RECENT-SOURCES:START -->\n- 2026-04-28T22:14:05Z | [[sources/transformer-circuits-framework]] | `raw/papers/2026/2026-04-28-transformer-circuits-framework.md`\n- 2026-04-10T12:31:26Z | [[sources/example-transformer-tooling-notes]] | `raw/repos/example-transformer-tooling-notes.md`\n- 2026-04-08T21:18:05Z | [[sources/example-com-residual-stream-notes]] | `raw/articles/2026/2026-04-08-example-com-residual-stream-notes.md`\n- 2026-04-08T13:34:18Z | [[sources/example-com-attention-as-interface]] | `raw/articles/2026/2026-04-07-example-com-attention-as-interface.md`\n- 2026-04-07T21:33:52Z | [[sources/attention-is-all-you-need-excerpt]] | `raw/papers/attention-is-all-you-need-excerpt.md`\n<!-- AUTO-RECENT-SOURCES:END -->\n\n## Next Actions\n\n- Read the newest source page and clear its `## Extraction Queue`.\n- Update the most relevant existing concept or synthesis page.\n- Save durable answers into `wiki/syntheses/` or `wiki/outputs/`.\n- Use `wiki/journal/` and `wiki/questions/` for exploratory thinking before promoting stable outcomes.\n\n## Manual Queue\n\n- Track today's working note in [[journal/2026-04-10-daily-note]].\n- Promote reusable questions into [[questions/when-should-a-note-be-promoted]] or a stronger synthesis/output.",
       "outbound_targets": [
         "index",
         "journal/2026-04-10-daily-note",
@@ -106,7 +780,8 @@
         "sources/attention-is-all-you-need-excerpt",
         "sources/example-com-attention-as-interface",
         "sources/example-com-residual-stream-notes",
-        "sources/example-transformer-tooling-notes"
+        "sources/example-transformer-tooling-notes",
+        "sources/transformer-circuits-framework"
       ],
       "relative_path": "inbox.md",
       "section": "index",
@@ -124,6 +799,16 @@
           "depth": 2,
           "id": "start-here",
           "text": "Start Here"
+        },
+        {
+          "depth": 2,
+          "id": "active-studies",
+          "text": "Active Studies"
+        },
+        {
+          "depth": 2,
+          "id": "transformer-circuits-pilot",
+          "text": "Transformer Circuits Pilot"
         },
         {
           "depth": 2,
@@ -146,9 +831,19 @@
           "text": "Auto-Managed Source Registry"
         }
       ],
-      "markdown": "This is the vault landing page for the compiled knowledge graph. Keep human notes above the auto-managed registry so ingest can update source listings safely.\n\n## Start Here\n\n- [[inbox]]\n- [[reviews/daily-review]]\n- [[reviews/review-queue]]\n- [[reviews/coverage-dashboard]]\n- [[projects/knowledge-wiki-project-memory]]\n- [[syntheses/context/knowledge-wiki-context-pack]]\n- [[syntheses/research/transformer-research-starter-map]]\n- [[syntheses/transformer-orientation]]\n- [[concepts/transformer-architecture]]\n\n## Active Outputs\n\n- [[outputs/briefs/transformer-orientation-brief]]\n- [[outputs/briefs/codex-initial-smoke]]\n- [[outputs/briefs/claude-sonnet-smoke]]\n- [[outputs/tables/source-use-case-comparison]]\n- [[outputs/timelines/knowledge-wiki-evolution]]\n- [[outputs/slides/transformer-orientation.slides]]\n\n## Use Case Lanes\n\n- Academic research: [[syntheses/research/transformer-research-starter-map]]\n- Context compaction: [[syntheses/context/knowledge-wiki-context-pack]]\n- Codebase memory: [[projects/knowledge-wiki-project-memory]]\n- Thinking partner: [[journal/2026-04-10-daily-note]] and [[questions/when-should-a-note-be-promoted]]\n- Durable outputs: [[outputs/briefs/transformer-orientation-brief]], [[outputs/tables/source-use-case-comparison]], [[outputs/timelines/knowledge-wiki-evolution]]\n\n## Working Rules\n\n- Add or clip new source material under `raw/`.\n- Treat `wiki/` as the maintained, linked, agent-written layer.\n- Write durable answers back into `wiki/syntheses/` or `wiki/outputs/`.\n- Run `python3 tools/check_wiki.py` after meaningful wiki edits.\n\n## Auto-Managed Source Registry\n\n<!-- AUTO-SOURCES:START -->\n- [[sources/attention-is-all-you-need-excerpt]] -> `raw/papers/attention-is-all-you-need-excerpt.md`\n- [[sources/example-com-attention-as-interface]] -> `raw/articles/2026/2026-04-07-example-com-attention-as-interface.md`\n- [[sources/example-com-residual-stream-notes]] -> `raw/articles/2026/2026-04-08-example-com-residual-stream-notes.md`\n- [[sources/example-transformer-tooling-notes]] -> `raw/repos/example-transformer-tooling-notes.md`\n<!-- AUTO-SOURCES:END -->",
+      "markdown": "This is the vault landing page for the compiled knowledge graph. Keep human notes above the auto-managed registry so ingest can update source listings safely.\n\n## Start Here\n\n- [[inbox]]\n- [[reviews/daily-review]]\n- [[reviews/review-queue]]\n- [[reviews/coverage-dashboard]]\n- [[projects/knowledge-wiki-project-memory]]\n- [[syntheses/context/knowledge-wiki-context-pack]]\n- [[syntheses/research/transformer-research-starter-map]]\n- [[syntheses/transformer-orientation]]\n- [[concepts/transformer-architecture]]\n- [[studies/papers/transformer-circuits-framework]]\n\n## Active Studies\n\n```dataview\nTABLE read_status, mastery_avg, updated\nFROM \"wiki/studies\"\nWHERE type = \"study\" AND read_status != \"done\"\nSORT mastery_avg ASC\n```\n\n## Transformer Circuits Pilot\n\n- Source: [[sources/transformer-circuits-framework]]\n- Study: [[studies/papers/transformer-circuits-framework]]\n- Anki: [[studies/anki/transformer-circuits-framework]]\n- Implementation: [[studies/implementations/implement-combined-qk-ov-attention]]\n- Concepts: [[concepts/residual-stream]], [[concepts/virtual-weights]], [[concepts/attention-head-decomposition]], [[concepts/qk-circuit]], [[concepts/ov-circuit]], [[concepts/zero-layer-transformer]], [[concepts/one-layer-attention-only-skip-trigram-model]], [[concepts/path-expansion]], [[concepts/head-composition]], [[concepts/induction-head]]\n\n## Active Outputs\n\n- [[outputs/briefs/transformer-orientation-brief]]\n- [[outputs/briefs/codex-initial-smoke]]\n- [[outputs/briefs/claude-sonnet-smoke]]\n- [[outputs/tables/source-use-case-comparison]]\n- [[outputs/timelines/knowledge-wiki-evolution]]\n- [[outputs/slides/transformer-orientation.slides]]\n\n## Use Case Lanes\n\n- Academic research: [[syntheses/research/transformer-research-starter-map]]\n- Context compaction: [[syntheses/context/knowledge-wiki-context-pack]]\n- Codebase memory: [[projects/knowledge-wiki-project-memory]]\n- Thinking partner: [[journal/2026-04-10-daily-note]] and [[questions/when-should-a-note-be-promoted]]\n- Durable outputs: [[outputs/briefs/transformer-orientation-brief]], [[outputs/tables/source-use-case-comparison]], [[outputs/timelines/knowledge-wiki-evolution]]\n\n## Working Rules\n\n- Add or clip new source material under `raw/`.\n- Treat `wiki/` as the maintained, linked, agent-written layer.\n- Write durable answers back into `wiki/syntheses/` or `wiki/outputs/`.\n- Run `python3 tools/check_wiki.py` after meaningful wiki edits.\n\n## Auto-Managed Source Registry\n\n<!-- AUTO-SOURCES:START -->\n- [[sources/attention-is-all-you-need-excerpt]] -> `raw/papers/attention-is-all-you-need-excerpt.md`\n- [[sources/example-com-attention-as-interface]] -> `raw/articles/2026/2026-04-07-example-com-attention-as-interface.md`\n- [[sources/example-com-residual-stream-notes]] -> `raw/articles/2026/2026-04-08-example-com-residual-stream-notes.md`\n- [[sources/example-transformer-tooling-notes]] -> `raw/repos/example-transformer-tooling-notes.md`\n- [[sources/transformer-circuits-framework]] -> `raw/papers/2021/2021-12-22-transformer-circuits-framework-evidence.md`\n<!-- AUTO-SOURCES:END -->",
       "outbound_targets": [
+        "concepts/attention-head-decomposition",
+        "concepts/head-composition",
+        "concepts/induction-head",
+        "concepts/one-layer-attention-only-skip-trigram-model",
+        "concepts/ov-circuit",
+        "concepts/path-expansion",
+        "concepts/qk-circuit",
+        "concepts/residual-stream",
         "concepts/transformer-architecture",
+        "concepts/virtual-weights",
+        "concepts/zero-layer-transformer",
         "inbox",
         "journal/2026-04-10-daily-note",
         "outputs/briefs/claude-sonnet-smoke",
@@ -166,6 +861,10 @@
         "sources/example-com-attention-as-interface",
         "sources/example-com-residual-stream-notes",
         "sources/example-transformer-tooling-notes",
+        "sources/transformer-circuits-framework",
+        "studies/anki/transformer-circuits-framework",
+        "studies/implementations/implement-combined-qk-ov-attention",
+        "studies/papers/transformer-circuits-framework",
         "syntheses/context/knowledge-wiki-context-pack",
         "syntheses/research/transformer-research-starter-map",
         "syntheses/transformer-orientation"
@@ -243,7 +942,7 @@
       "excerpt": "Durable wiki actions belong here. Tooling manages the auto-ingest block; humans can add context above or below it.",
       "frontmatter": {},
       "headings": [],
-      "markdown": "Durable wiki actions belong here. Tooling manages the auto-ingest block; humans can add context above or below it.\n\n<!-- AUTO-LOG:START -->\n- 2026-04-07T21:26:24Z | ingest | [[sources/attention-is-all-you-need-excerpt]] | raw/papers/attention-is-all-you-need-excerpt.md\n- 2026-04-08T13:34:18Z | ingest | [[sources/example-com-attention-as-interface]] | raw/articles/2026/2026-04-07-example-com-attention-as-interface.md\n- 2026-04-08T21:17:08Z | ingest | [[sources/example-com-residual-stream-notes]] | raw/articles/2026/2026-04-08-example-com-residual-stream-notes.md\n- 2026-04-10T12:31:26Z | ingest | [[sources/example-transformer-tooling-notes]] | raw/repos/example-transformer-tooling-notes.md\n<!-- AUTO-LOG:END -->\n\n- 2026-04-08T14:19:32Z | output | [[outputs/briefs/codex-initial-smoke]] | Saved durable answer on the wiki's distinction between transformer mechanism and interpretation.\n- 2026-04-08T21:30:00Z | output | [[outputs/briefs/claude-sonnet-smoke]] | Saved durable answer on how to explain the residual stream to a newcomer without overclaiming interpretation.\n- 2026-04-10T12:31:26Z | project | [[projects/knowledge-wiki-project-memory]] | Seeded project-memory examples for codebase and context-compaction workflows.\n- 2026-04-10T12:31:26Z | synthesis | [[syntheses/research/transformer-research-starter-map]] | Seeded the academic research workflow with a starter literature-review page.\n- 2026-04-10T12:31:26Z | synthesis | [[syntheses/context/knowledge-wiki-context-pack]] | Added a compact agent-first context page for large-vault context reduction.\n- 2026-04-10T12:31:26Z | output | [[outputs/briefs/transformer-orientation-brief]] | Added brief, table, timeline, and slide-oriented output examples under the new output folders.",
+      "markdown": "Durable wiki actions belong here. Tooling manages the auto-ingest block; humans can add context above or below it.\n\n<!-- AUTO-LOG:START -->\n- 2026-04-07T21:26:24Z | ingest | [[sources/attention-is-all-you-need-excerpt]] | raw/papers/attention-is-all-you-need-excerpt.md\n- 2026-04-08T13:34:18Z | ingest | [[sources/example-com-attention-as-interface]] | raw/articles/2026/2026-04-07-example-com-attention-as-interface.md\n- 2026-04-08T21:17:08Z | ingest | [[sources/example-com-residual-stream-notes]] | raw/articles/2026/2026-04-08-example-com-residual-stream-notes.md\n- 2026-04-10T12:31:26Z | ingest | [[sources/example-transformer-tooling-notes]] | raw/repos/example-transformer-tooling-notes.md\n- 2026-04-28T22:14:05Z | ingest | [[sources/transformer-circuits-framework]] | raw/papers/2021/2021-12-22-transformer-circuits-framework-evidence.md\n<!-- AUTO-LOG:END -->\n\n- 2026-04-08T14:19:32Z | output | [[outputs/briefs/codex-initial-smoke]] | Saved durable answer on the wiki's distinction between transformer mechanism and interpretation.\n- 2026-04-08T21:30:00Z | output | [[outputs/briefs/claude-sonnet-smoke]] | Saved durable answer on how to explain the residual stream to a newcomer without overclaiming interpretation.\n- 2026-04-10T12:31:26Z | project | [[projects/knowledge-wiki-project-memory]] | Seeded project-memory examples for codebase and context-compaction workflows.\n- 2026-04-10T12:31:26Z | synthesis | [[syntheses/research/transformer-research-starter-map]] | Seeded the academic research workflow with a starter literature-review page.\n- 2026-04-10T12:31:26Z | synthesis | [[syntheses/context/knowledge-wiki-context-pack]] | Added a compact agent-first context page for large-vault context reduction.\n- 2026-04-10T12:31:26Z | output | [[outputs/briefs/transformer-orientation-brief]] | Added brief, table, timeline, and slide-oriented output examples under the new output folders.\n\n- 2026-04-28T22:05:43Z | migration | [[studies/papers/transformer-circuits-framework]] | Ported Hermes paper-mastery workflow; legacy note preserved at raw/legacy-obsidian/papers/2026-04-28-a-mathematical-framework-for-transformer-circuits.md; old vault preserved read-only at ~/Documents/Obsidian/files.\n- 2026-04-28T22:30:46Z | study | [[studies/papers/transformer-circuits-framework]] | Completed first-pass paper-mastery pilot: reviewed source anchors backed by immutable raw evidence extracts, filled concept pages, Anki cards, and NumPy QK/OV equivalence implementation.",
       "outbound_targets": [
         "outputs/briefs/claude-sonnet-smoke",
         "outputs/briefs/codex-initial-smoke",
@@ -253,6 +952,8 @@
         "sources/example-com-attention-as-interface",
         "sources/example-com-residual-stream-notes",
         "sources/example-transformer-tooling-notes",
+        "sources/transformer-circuits-framework",
+        "studies/papers/transformer-circuits-framework",
         "syntheses/context/knowledge-wiki-context-pack",
         "syntheses/research/transformer-research-starter-map"
       ],
@@ -870,9 +1571,9 @@
       "type": "question"
     },
     {
-      "excerpt": "- Total content pages:  22",
+      "excerpt": "- Total content pages:  36",
       "frontmatter": {
-        "compiled_at": "2026-04-10T12:47:42Z",
+        "compiled_at": "2026-04-28T22:42:54Z",
         "confidence": 0.92,
         "created": "2026-04-08T22:32:49Z",
         "related": [
@@ -884,12 +1585,13 @@
           "sources/attention-is-all-you-need-excerpt",
           "sources/example-com-attention-as-interface",
           "sources/example-com-residual-stream-notes",
-          "sources/example-transformer-tooling-notes"
+          "sources/example-transformer-tooling-notes",
+          "sources/transformer-circuits-framework"
         ],
         "status": "reviewed",
         "title": "Coverage Dashboard",
         "type": "review",
-        "updated": "2026-04-10T12:47:42Z"
+        "updated": "2026-04-28T22:42:54Z"
       },
       "headings": [
         {
@@ -938,15 +1640,26 @@
           "text": "Notes"
         }
       ],
-      "markdown": "## Summary\n\n- Total content pages: `22`\n- Source pages: `4`\n- Derived pages: `15`\n\n## Pages By Type\n\n- `concept` -> `1`\n- `journal` -> `1`\n- `output` -> `6`\n- `project` -> `1`\n- `question` -> `2`\n- `review` -> `3`\n- `source` -> `4`\n- `synthesis` -> `4`\n\n## Pages By Status\n\n- `draft` -> `7`\n- `reviewed` -> `15`\n\n## Sources Without Concepts\n\n- [[sources/example-transformer-tooling-notes]] -> no concept page cites this source yet\n\n## Concepts With Only One Source\n\n- No concept page is supported by only one source.\n\n## Syntheses With Thin Support\n\n- Every synthesis currently cites at least two source pages.\n\n## Outputs Drifting From Sources\n\n- No output page is stale relative to its source pages.\n\n## Underlinked Sources\n\n- Every source feeds more than one derived page.\n\n## Notes\n\n- Use [[reviews/review-queue]] for the action-oriented queue.\n- Use this dashboard to decide whether the vault is compounding or just accumulating isolated notes.",
+      "markdown": "## Summary\n\n- Total content pages: `36`\n- Source pages: `5`\n- Derived pages: `28`\n\n## Pages By Type\n\n- `concept` -> `11`\n- `journal` -> `1`\n- `output` -> `6`\n- `project` -> `1`\n- `question` -> `2`\n- `review` -> `3`\n- `source` -> `5`\n- `study` -> `3`\n- `synthesis` -> `4`\n\n## Pages By Status\n\n- `draft` -> `7`\n- `reviewed` -> `29`\n\n## Sources Without Concepts\n\n- [[sources/example-transformer-tooling-notes]] -> no concept page cites this source yet\n\n## Concepts With Only One Source\n\n- [[concepts/attention-head-decomposition]] -> only `1` source page\n- [[concepts/head-composition]] -> only `1` source page\n- [[concepts/induction-head]] -> only `1` source page\n- [[concepts/one-layer-attention-only-skip-trigram-model]] -> only `1` source page\n- [[concepts/ov-circuit]] -> only `1` source page\n- [[concepts/path-expansion]] -> only `1` source page\n- [[concepts/qk-circuit]] -> only `1` source page\n- [[concepts/residual-stream]] -> only `1` source page\n- [[concepts/virtual-weights]] -> only `1` source page\n- [[concepts/zero-layer-transformer]] -> only `1` source page\n\n## Syntheses With Thin Support\n\n- Every synthesis currently cites at least two source pages.\n\n## Outputs Drifting From Sources\n\n- No output page is stale relative to its source pages.\n\n## Underlinked Sources\n\n- Every source feeds more than one derived page.\n\n## Notes\n\n- Use [[reviews/review-queue]] for the action-oriented queue.\n- Use this dashboard to decide whether the vault is compounding or just accumulating isolated notes.",
       "outbound_targets": [
+        "concepts/attention-head-decomposition",
+        "concepts/head-composition",
+        "concepts/induction-head",
+        "concepts/one-layer-attention-only-skip-trigram-model",
+        "concepts/ov-circuit",
+        "concepts/path-expansion",
+        "concepts/qk-circuit",
+        "concepts/residual-stream",
+        "concepts/virtual-weights",
+        "concepts/zero-layer-transformer",
         "inbox",
         "index",
         "reviews/review-queue",
         "sources/attention-is-all-you-need-excerpt",
         "sources/example-com-attention-as-interface",
         "sources/example-com-residual-stream-notes",
-        "sources/example-transformer-tooling-notes"
+        "sources/example-transformer-tooling-notes",
+        "sources/transformer-circuits-framework"
       ],
       "relative_path": "reviews/coverage-dashboard.md",
       "section": "reviews",
@@ -959,7 +1672,7 @@
     {
       "excerpt": "- Use this page to decide what to read, review, and promote today.",
       "frontmatter": {
-        "compiled_at": "2026-04-10T12:47:25Z",
+        "compiled_at": "2026-04-28T22:53:01Z",
         "confidence": 0.85,
         "created": "2026-04-10T12:47:25Z",
         "related": [
@@ -972,12 +1685,13 @@
           "sources/attention-is-all-you-need-excerpt",
           "sources/example-com-attention-as-interface",
           "sources/example-com-residual-stream-notes",
-          "sources/example-transformer-tooling-notes"
+          "sources/example-transformer-tooling-notes",
+          "sources/transformer-circuits-framework"
         ],
         "status": "reviewed",
         "title": "Daily Review",
         "type": "review",
-        "updated": "2026-04-10T12:47:25Z"
+        "updated": "2026-04-28T22:53:01Z"
       },
       "headings": [
         {
@@ -1011,7 +1725,7 @@
           "text": "Next Best Actions"
         }
       ],
-      "markdown": "## Today\n\n- Use this page to decide what to read, review, and promote today.\n- Start in [[inbox]], then use this review to choose the smallest high-value next step.\n\n## Recent Source Activity\n\n- 2026-04-10T12:31:26Z | [[sources/example-transformer-tooling-notes]] | `raw/repos/example-transformer-tooling-notes.md`\n- 2026-04-08T21:18:05Z | [[sources/example-com-residual-stream-notes]] | `raw/articles/2026/2026-04-08-example-com-residual-stream-notes.md`\n- 2026-04-08T13:34:18Z | [[sources/example-com-attention-as-interface]] | `raw/articles/2026/2026-04-07-example-com-attention-as-interface.md`\n- 2026-04-07T21:33:52Z | [[sources/attention-is-all-you-need-excerpt]] | `raw/papers/attention-is-all-you-need-excerpt.md`\n\n## Recent Journal Notes\n\n- 2026-04-10T12:31:26Z | [[journal/2026-04-10-daily-note]]\n\n## Open Questions\n\n- [[questions/what-should-be-promoted-into-a-project-memory-page]] -> status `draft`\n- [[questions/when-should-a-note-be-promoted]] -> status `draft`\n\n## Review Queue Snapshot\n\n- stale pages: `0`\n- source pages still in stub/draft: `0`\n- low-confidence pages: `3`\n\n## Next Best Actions\n\n- Decide whether [[questions/what-should-be-promoted-into-a-project-memory-page]] should become a synthesis or an output.",
+      "markdown": "## Today\n\n- Use this page to decide what to read, review, and promote today.\n- Start in [[inbox]], then use this review to choose the smallest high-value next step.\n\n## Recent Source Activity\n\n- 2026-04-28T22:30:46Z | [[sources/transformer-circuits-framework]] | `raw/papers/2021/2021-12-22-transformer-circuits-framework-evidence.md`\n- 2026-04-10T12:31:26Z | [[sources/example-transformer-tooling-notes]] | `raw/repos/example-transformer-tooling-notes.md`\n- 2026-04-08T21:18:05Z | [[sources/example-com-residual-stream-notes]] | `raw/articles/2026/2026-04-08-example-com-residual-stream-notes.md`\n- 2026-04-08T13:34:18Z | [[sources/example-com-attention-as-interface]] | `raw/articles/2026/2026-04-07-example-com-attention-as-interface.md`\n- 2026-04-07T21:33:52Z | [[sources/attention-is-all-you-need-excerpt]] | `raw/papers/attention-is-all-you-need-excerpt.md`\n\n## Recent Journal Notes\n\n- 2026-04-10T12:31:26Z | [[journal/2026-04-10-daily-note]]\n\n## Open Questions\n\n- [[questions/what-should-be-promoted-into-a-project-memory-page]] -> status `draft`\n- [[questions/when-should-a-note-be-promoted]] -> status `draft`\n\n## Review Queue Snapshot\n\n- stale pages: `0`\n- source pages still in stub/draft: `0`\n- low-confidence pages: `3`\n\n## Next Best Actions\n\n- Decide whether [[questions/what-should-be-promoted-into-a-project-memory-page]] should become a synthesis or an output.",
       "outbound_targets": [
         "inbox",
         "index",
@@ -1023,7 +1737,8 @@
         "sources/attention-is-all-you-need-excerpt",
         "sources/example-com-attention-as-interface",
         "sources/example-com-residual-stream-notes",
-        "sources/example-transformer-tooling-notes"
+        "sources/example-transformer-tooling-notes",
+        "sources/transformer-circuits-framework"
       ],
       "relative_path": "reviews/daily-review.md",
       "section": "reviews",
@@ -1036,7 +1751,7 @@
     {
       "excerpt": "- Review this queue from top to bottom and clear the highest-signal items first.",
       "frontmatter": {
-        "compiled_at": "2026-04-10T12:47:42Z",
+        "compiled_at": "2026-04-28T22:42:55Z",
         "confidence": 0.9,
         "created": "2026-04-08T22:32:49Z",
         "related": [
@@ -1050,7 +1765,7 @@
         "status": "reviewed",
         "title": "Review Queue",
         "type": "review",
-        "updated": "2026-04-10T12:47:42Z"
+        "updated": "2026-04-28T22:42:55Z"
       },
       "headings": [
         {
@@ -1498,6 +2213,479 @@
       "type": "source"
     },
     {
+      "excerpt": "Source page for the Transformer Circuits framework paper and paper-mastery pilot. Exact evidence passages below were checked against the live source URL on 2026-04-28.",
+      "frontmatter": {
+        "author": "Nelson Elhage, Neel Nanda, Catherine Olsson, Tom Henighan, Anthropic",
+        "captured_at": "2026-04-28T22:13:57Z",
+        "compiled_at": "2026-04-28T22:30:46Z",
+        "confidence": 0.85,
+        "created": "2026-04-28T22:14:05Z",
+        "description": "Source page for the Transformer Circuits framework paper and paper-mastery pilot. Exact evidence passages below were checked against the live source URL on 2026-04-28.",
+        "published": "2021-12-22",
+        "related": [
+          "concepts/residual-stream",
+          "concepts/virtual-weights",
+          "concepts/attention-head-decomposition",
+          "concepts/qk-circuit",
+          "concepts/ov-circuit",
+          "concepts/zero-layer-transformer",
+          "concepts/one-layer-attention-only-skip-trigram-model",
+          "concepts/path-expansion",
+          "concepts/head-composition",
+          "concepts/induction-head"
+        ],
+        "source_domain": "transformer-circuits.pub",
+        "source_hash": "817fd32d62f167115b7a6571232e21aa78c3e4a677db6df801172e3eeefedac2",
+        "source_kind": "papers",
+        "source_path": "raw/papers/2021/2021-12-22-transformer-circuits-framework-evidence.md",
+        "source_url": "https://transformer-circuits.pub/2021/framework/index.html",
+        "status": "reviewed",
+        "title": "A Mathematical Framework for Transformer Circuits",
+        "type": "source",
+        "updated": "2026-04-28T22:30:46Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "source-snapshot",
+          "text": "Source Snapshot"
+        },
+        {
+          "depth": 2,
+          "id": "extraction-queue",
+          "text": "Extraction Queue"
+        },
+        {
+          "depth": 2,
+          "id": "verified-claims",
+          "text": "Verified Claims"
+        },
+        {
+          "depth": 2,
+          "id": "evidence-extracts",
+          "text": "Evidence Extracts"
+        },
+        {
+          "depth": 3,
+          "id": "ex-summary-results-zero-one-two",
+          "text": "ex-summary-results-zero-one-two"
+        },
+        {
+          "depth": 3,
+          "id": "ex-independent-additive-heads",
+          "text": "ex-independent-additive-heads"
+        },
+        {
+          "depth": 3,
+          "id": "ex-qk-ov-circuit",
+          "text": "ex-qk-ov-circuit"
+        },
+        {
+          "depth": 3,
+          "id": "ex-residual-stream-communication",
+          "text": "ex-residual-stream-communication"
+        },
+        {
+          "depth": 3,
+          "id": "ex-residual-stream-subspaces",
+          "text": "ex-residual-stream-subspaces"
+        },
+        {
+          "depth": 3,
+          "id": "ex-virtual-weights",
+          "text": "ex-virtual-weights"
+        },
+        {
+          "depth": 3,
+          "id": "ex-attention-information-movement",
+          "text": "ex-attention-information-movement"
+        },
+        {
+          "depth": 3,
+          "id": "ex-path-expansion",
+          "text": "ex-path-expansion"
+        },
+        {
+          "depth": 3,
+          "id": "ex-skip-trigram-examples",
+          "text": "ex-skip-trigram-examples"
+        },
+        {
+          "depth": 3,
+          "id": "ex-copying-ov-summary",
+          "text": "ex-copying-ov-summary"
+        },
+        {
+          "depth": 2,
+          "id": "contradictions",
+          "text": "Contradictions"
+        },
+        {
+          "depth": 2,
+          "id": "related-pages",
+          "text": "Related Pages"
+        },
+        {
+          "depth": 2,
+          "id": "compilation-notes",
+          "text": "Compilation Notes"
+        }
+      ],
+      "markdown": "## Source Snapshot\n\n- Raw evidence file: `raw/papers/2021/2021-12-22-transformer-circuits-framework-evidence.md`\n- Original ingest stub: `raw/papers/2026/2026-04-28-transformer-circuits-framework.md`\n- Legacy study note: `raw/legacy-obsidian/papers/2026-04-28-a-mathematical-framework-for-transformer-circuits.md`\n- Source URL: [https://transformer-circuits.pub/2021/framework/index.html](https://transformer-circuits.pub/2021/framework/index.html)\n- Source domain: `transformer-circuits.pub`\n- Author: `Nelson Elhage, Neel Nanda, Catherine Olsson, Tom Henighan, Anthropic`\n- Published: `2021-12-22`\n- Captured: `2026-04-28T22:13:57Z`\n- Current state: reviewed source page for the Transformer Circuits paper-mastery workflow.\n\n## Extraction Queue\n\n- [x] Verify core claims against the original web source.\n- [x] Add exact evidence anchors under `## Evidence Extracts`.\n- [x] Link the source to study, Anki, implementation, and concept pages.\n- [x] Optional later pass completed for this pilot: exact evidence passages are preserved in `raw/papers/2021/2021-12-22-transformer-circuits-framework-evidence.md`; the original ingest stub remains immutable.\n\n## Verified Claims\n\n- The paper argues that small attention-only transformers become more interpretable when rewritten into mathematically equivalent circuit terms: residual-stream communication, additive heads, QK/OV circuits, and path expansions. [[sources/transformer-circuits-framework#ex-summary-results-zero-one-two]] [[sources/transformer-circuits-framework#ex-independent-additive-heads]] [[sources/transformer-circuits-framework#ex-qk-ov-circuit]]\n- The residual stream is framed as an additive communication channel: components read from it, write back into it, and can be analyzed through linear paths or subspaces rather than as a single contextual embedding. [[sources/transformer-circuits-framework#ex-residual-stream-communication]] [[sources/transformer-circuits-framework#ex-residual-stream-subspaces]]\n- Multi-head attention can be viewed as independent head outputs added into the residual stream, even if efficient implementations concatenate head results. [[sources/transformer-circuits-framework#ex-independent-additive-heads]]\n- QK and OV are the main attention-head interpretability objects: QK determines the attention pattern; OV determines what information is read and written when attention occurs. [[sources/transformer-circuits-framework#ex-qk-ov-circuit]] [[sources/transformer-circuits-framework#ex-attention-information-movement]]\n- Zero-layer models correspond to bigram statistics; one-layer attention-only models add skip-trigram behavior; two-layer attention-only models can use head composition to form induction heads. [[sources/transformer-circuits-framework#ex-summary-results-zero-one-two]] [[sources/transformer-circuits-framework#ex-skip-trigram-examples]]\n- Path expansion turns layer-product views into sums of end-to-end paths, which the paper treats as independently reasoned-about additive contributions to behavior. [[sources/transformer-circuits-framework#ex-path-expansion]]\n\n## Evidence Extracts\n\n### ex-summary-results-zero-one-two\n\nExact source passages checked from `https://transformer-circuits.pub/2021/framework/index.html`:\n\n> Zero layer transformers model bigram statistics. The bigram table can be accessed directly from the weights.\n\n> One layer attention-only transformers are an ensemble of bigram and \u201cskip-trigram\u201d (sequences of the form \"A\u2026 B C\") models. The bigram and skip-trigram tables can be accessed directly from the weights, without running the model. These skip-trigrams can be surprisingly expressive. This includes implementing a kind of very simple in-context learning.\n\n> Two layer attention-only transformers can implement much more complex algorithms using compositions of attention heads. These compositional algorithms can also be detected directly from the weights. Notably, two layer models use attention head composition to create \u201cinduction heads\u201d, a very general in-context learning algorithm. We\u2019ll explore induction heads in much more detail in a forthcoming paper.\n\n### ex-independent-additive-heads\n\nExact source passage checked from `https://transformer-circuits.pub/2021/framework/index.html`:\n\n> Attention heads can be understood as independent operations, each outputting a result which is added into the residual stream. Attention heads are often described in an alternate \u201cconcatenate and multiply\u201d formulation for computational efficiency, but this is mathematically equivalent.\n\n### ex-qk-ov-circuit\n\nExact source passages checked from `https://transformer-circuits.pub/2021/framework/index.html`:\n\n> Attention heads can be understood as having two largely independent computations: a QK (\u201cquery-key\u201d) circuit which computes the attention pattern, and an OV (\u201coutput-value\u201d) circuit which computes how each token affects the output if attended to.\n\n> What about the attention pattern? Typically, one computes the keys k_i = W_K x_i , computes the queries q_i = W_Q x_i and then computes the attention pattern from the dot products of each key and query vector A = \\text{softmax}(q^T k) . But we can do it all in one step without referring to keys and queries: A = \\text{softmax}(x^T W_Q^T W_K x) .\n\n### ex-residual-stream-communication\n\nExact source passage checked from `https://transformer-circuits.pub/2021/framework/index.html`:\n\n> One of the main features of the high level architecture of a transformer is that each layer adds its results into what we call the \u201cresidual stream.\u201d Constructing models with a residual stream traces back to early work by the Schmidhuber group, such as highway networks and LSTMs , which have found significant modern success in the more recent residual network architecture . In transformers, the residual stream vectors are often called the \u201cembedding.\u201d We prefer the residual stream terminology, both because it emphasizes the residual nature (which we believe to be important) and also because we believe the residual stream often dedicates subspaces to tokens other than the present token, breaking the intuitions the embedding terminology suggests. The residual stream is simply the sum of the output of all the previous layers and the original embedding. We generally think of the residual stream as a communication channel, since it doesn't do any processing itself and all layers communicate through it.\n\n### ex-residual-stream-subspaces\n\nExact source passage checked from `https://transformer-circuits.pub/2021/framework/index.html`:\n\n> All components of a transformer (the token embedding, attention heads, MLP layers, and unembedding) communicate with each other by reading and writing to different subspaces of the residual stream. Rather than analyze the residual stream vectors, it can be helpful to decompose the residual stream into all these different communication channels, corresponding to paths through the model.\n\n### ex-virtual-weights\n\nExact source passage checked from `https://transformer-circuits.pub/2021/framework/index.html`:\n\n> An especially useful consequence of the residual stream being linear is that one can think of implicit \"virtual weights\" directly connecting any pair of layers (even those separated by many other layers), by multiplying out their interactions through the residual stream. These virtual weights are the product of the output weights of one layer with the input weights Note that for attention layers, there are three different kinds of input weights: W_Q , W_K , and W_V . For simplicity and generality, we think of layers as just having input and output weights here. of another (ie. W_{I}^2W_{O}^1 ), and describe the extent to which a later layer reads in the information written by a previous layer.\n\n### ex-attention-information-movement\n\nExact source passages checked from `https://transformer-circuits.pub/2021/framework/index.html`:\n\n> A governs which token's information is moved from and to.\n\n> W_O W_V governs which information is read from the source token and how it is written to the destination token. What do we mean when we say that W_{OV}=W_O W_V governs which subspace of the residual stream the attention head reads and writes to when it moves information? It can be helpful to consider the singular value decomposition USV = W_{OV} . Since d_{head} < d_{model} , W_{OV} is low-rank and only a subset of the diagonal entries in S are non-zero. The right singular vectors V describe which subspace of the residual stream being attended to is \u201cread in\u201d (somehow stored as a value vector), while the left singular vectors U describe what subspace of the destination residual stream they are written to.\n\n### ex-path-expansion\n\nExact source passages checked from `https://transformer-circuits.pub/2021/framework/index.html`:\n\n> Our key trick is to simply expand the product. This transforms the product (where every term corresponds to a layer), into a sum where every term corresponds to an end-to-end path .\n\n> We claim each of these end-to-end path terms is tractable to understand, can be reasoned about independently, and additively combine to create model behavior.\n\n### ex-skip-trigram-examples\n\nExact source passages checked from `https://transformer-circuits.pub/2021/framework/index.html`:\n\n> For a single head, here are some trigrams associated with the query \" and\" : back and \u2192 forth , eat and \u2192 drink , trying and \u2192 failing , day and \u2192 night , far and \u2192 away , created and \u2192 maintained , forward and \u2192 backward , past and \u2192 present , happy and \u2192 satisfied , walking and \u2192 talking , sick and \u2192 tired , \u2026 (see 12 head model, head 0:0 )\n\n> One thing to note is that the learned skip-trigrams are often related to idiosyncrasies of one's tokenization. For example collapsing whitespace together allows individual tokens to reveal indentation. Not merging backslash into text tokens means that when the model is predicting LaTeX, there's a token after backslash that must be an escape sequence. And so on.\n\n### ex-copying-ov-summary\n\nExact source passage checked from `https://transformer-circuits.pub/2021/framework/index.html`:\n\n> One of the most striking things about looking at these matrices is that most attention heads in one layer models dedicate an enormous fraction of their capacity to copying. The OV circuit sets things up so that tokens, if attended to by the head, increase the probability of that token, and to a lesser extent, similar tokens. The QK circuit then only attends back to tokens which could plausibly be the next token. Thus, tokens are copied, but only to places where bigram-ish statistics make them seem plausible.\n\n## Contradictions\n\n- No contradictions recorded yet.\n\n## Related Pages\n\n- [[studies/papers/transformer-circuits-framework]]\n- [[studies/anki/transformer-circuits-framework]]\n- [[studies/implementations/implement-combined-qk-ov-attention]]\n- [[concepts/residual-stream]]\n- [[concepts/virtual-weights]]\n- [[concepts/attention-head-decomposition]]\n- [[concepts/qk-circuit]]\n- [[concepts/ov-circuit]]\n- [[concepts/zero-layer-transformer]]\n- [[concepts/one-layer-attention-only-skip-trigram-model]]\n- [[concepts/path-expansion]]\n- [[concepts/head-composition]]\n- [[concepts/induction-head]]\n\n## Compilation Notes\n\n- This source page points at the immutable evidence-extract raw file and also records the original ingest stub plus preserved legacy Obsidian note.\n- The exact evidence passages were extracted from the live paper page on 2026-04-28 and kept short enough for citation-level verification.",
+      "outbound_targets": [
+        "concepts/attention-head-decomposition",
+        "concepts/head-composition",
+        "concepts/induction-head",
+        "concepts/one-layer-attention-only-skip-trigram-model",
+        "concepts/ov-circuit",
+        "concepts/path-expansion",
+        "concepts/qk-circuit",
+        "concepts/residual-stream",
+        "concepts/virtual-weights",
+        "concepts/zero-layer-transformer",
+        "sources/transformer-circuits-framework",
+        "studies/anki/transformer-circuits-framework",
+        "studies/implementations/implement-combined-qk-ov-attention",
+        "studies/papers/transformer-circuits-framework"
+      ],
+      "relative_path": "sources/transformer-circuits-framework.md",
+      "section": "sources",
+      "source_path": "raw/papers/2021/2021-12-22-transformer-circuits-framework-evidence.md",
+      "source_url": "https://transformer-circuits.pub/2021/framework/index.html",
+      "target": "sources/transformer-circuits-framework",
+      "title": "A Mathematical Framework for Transformer Circuits",
+      "type": "source"
+    },
+    {
+      "excerpt": "Residual stream :: The shared additive channel that embeddings and prior layers write into, and later components read from; it is not just the current token embedding. <!-- src: sources/transformer-circuits-framework ex-residual-stream-communication --",
+      "frontmatter": {
+        "compiled_at": "2026-04-28T22:30:46Z",
+        "confidence": 0.8,
+        "created": "2026-04-28T22:15:53Z",
+        "mastery_avg": 3.0,
+        "rating": null,
+        "read_status": "done",
+        "related": [
+          "studies/papers/transformer-circuits-framework",
+          "sources/transformer-circuits-framework"
+        ],
+        "source_pages": [
+          "studies/papers/transformer-circuits-framework"
+        ],
+        "status": "reviewed",
+        "study_kind": "anki",
+        "tags": [
+          "study",
+          "anki"
+        ],
+        "title": "Transformer Circuits Framework Anki",
+        "type": "study",
+        "updated": "2026-04-28T22:30:46Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "cards",
+          "text": "Cards"
+        },
+        {
+          "depth": 2,
+          "id": "source-notes",
+          "text": "Source Notes"
+        },
+        {
+          "depth": 2,
+          "id": "citations",
+          "text": "Citations"
+        }
+      ],
+      "markdown": "#flashcards/transformer-circuits-framework\n\n## Cards\n\nResidual stream :: The shared additive channel that embeddings and prior layers write into, and later components read from; it is not just the current token embedding. <!-- src: [[sources/transformer-circuits-framework#ex-residual-stream-communication]] -->\n\nVirtual weights :: Effective implicit connections between components obtained by multiplying an earlier component's output weights with a later component's input weights through the residual stream. <!-- src: [[sources/transformer-circuits-framework#ex-virtual-weights]] -->\n\nIndependent additive heads :: Multi-head attention can be rewritten as a sum of per-head outputs added into the residual stream, even if efficient implementations concatenate and multiply. <!-- src: [[sources/transformer-circuits-framework#ex-independent-additive-heads]] -->\n\nQK circuit :: The effective query-key product that computes the attention pattern, i.e. which source position each destination position attends to. <!-- src: [[sources/transformer-circuits-framework#ex-qk-ov-circuit]] -->\n\nOV circuit :: The effective output-value product that determines what information is read from the attended source token and written to the destination residual stream. <!-- src: [[sources/transformer-circuits-framework#ex-attention-information-movement]] -->\n\nZero-layer transformer :: With no attention or MLP layers, the model can express bigram statistics directly through embedding-to-unembedding weights. <!-- src: [[sources/transformer-circuits-framework#ex-summary-results-zero-one-two]] -->\n\nOne-layer attention-only transformer :: A model that combines direct bigram behavior with attention-mediated skip-trigram behavior of the form `A ... B -> C`. <!-- src: [[sources/transformer-circuits-framework#ex-summary-results-zero-one-two]] -->\n\nPath expansion :: The trick of expanding a product of layer terms into a sum of end-to-end computational paths that can be reasoned about independently. <!-- src: [[sources/transformer-circuits-framework#ex-path-expansion]] -->\n\nHead composition :: In a two-layer attention-only model, one head can write information that another head uses, enabling algorithms richer than one-layer skip-trigrams. <!-- src: [[sources/transformer-circuits-framework#ex-summary-results-zero-one-two]] -->\n\nInduction head :: A two-layer attention-head behavior tied to general in-context continuation/copying, arising from attention-head composition. <!-- src: [[sources/transformer-circuits-framework#ex-summary-results-zero-one-two]] -->\n\nQK vs OV :: QK chooses where to read from; OV chooses what transformed payload is written after attention selects a source. <!-- src: [[sources/transformer-circuits-framework#ex-qk-ov-circuit]] -->\n\nCopying in one-layer heads :: OV can increase the probability of the attended token or similar tokens, while QK restricts copying to destinations where bigram-like statistics make sense. <!-- src: [[sources/transformer-circuits-framework#ex-copying-ov-summary]] -->\n\n## Source Notes\n\n- Study: [[studies/papers/transformer-circuits-framework]]\n- Source: [[sources/transformer-circuits-framework]]\n\n## Citations\n\n- Cards are source-commented inline with HTML `src` comments pointing at exact source anchors.",
+      "outbound_targets": [
+        "sources/transformer-circuits-framework",
+        "studies/papers/transformer-circuits-framework"
+      ],
+      "relative_path": "studies/anki/transformer-circuits-framework.md",
+      "section": "studies",
+      "source_path": null,
+      "source_url": null,
+      "target": "studies/anki/transformer-circuits-framework",
+      "title": "Transformer Circuits Framework Anki",
+      "type": "study"
+    },
+    {
+      "excerpt": "Build a minimal NumPy equivalence check showing that the standard single-head attention computation equals the Transformer Circuits rewrite using combined QK and OV matrices.",
+      "frontmatter": {
+        "compiled_at": "2026-04-28T22:30:46Z",
+        "confidence": 0.8,
+        "created": "2026-04-28T22:15:53Z",
+        "lang": "numpy",
+        "mastery_avg": 3.0,
+        "rating": null,
+        "read_status": "done",
+        "related": [
+          "studies/papers/transformer-circuits-framework",
+          "sources/transformer-circuits-framework",
+          "concepts/qk-circuit",
+          "concepts/ov-circuit",
+          "concepts/attention-head-decomposition"
+        ],
+        "source_pages": [
+          "studies/papers/transformer-circuits-framework"
+        ],
+        "status": "reviewed",
+        "study_kind": "implementation",
+        "tags": [
+          "study",
+          "implementation"
+        ],
+        "title": "Implement Combined QK/OV Attention",
+        "type": "study",
+        "updated": "2026-04-28T22:30:46Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "task",
+          "text": "Task"
+        },
+        {
+          "depth": 2,
+          "id": "three-step-plan",
+          "text": "Three-Step Plan"
+        },
+        {
+          "depth": 2,
+          "id": "equivalence-check-checklist",
+          "text": "Equivalence-Check Checklist"
+        },
+        {
+          "depth": 2,
+          "id": "experiment-directory",
+          "text": "Experiment Directory"
+        },
+        {
+          "depth": 2,
+          "id": "what-this-tests",
+          "text": "What This Tests"
+        },
+        {
+          "depth": 2,
+          "id": "citations",
+          "text": "Citations"
+        }
+      ],
+      "markdown": "## Task\n\nBuild a minimal NumPy equivalence check showing that the standard single-head attention computation equals the Transformer Circuits rewrite using combined QK and OV matrices.\n\n## Three-Step Plan\n\n1. Build deterministic toy residual-stream inputs and random-but-seeded matrices.\n2. Implement the reference path in `numpy`: `Q = X W_Q`, `K = X W_K`, `V = X W_V`, `A = softmax(Q K^T / sqrt(d_head))`, `Y = A V W_O`.\n3. Implement the equivalent rewritten path: `W_QK = W_Q W_K^T`, `W_OV = W_V W_O`, `A = softmax(X W_QK X^T / sqrt(d_head))`, `Y = A X W_OV`, then compare outputs.\n\n## Equivalence-Check Checklist\n\n- [x] Shapes match at each intermediate step.\n- [x] Outputs match within a stated tolerance.\n- [x] A failure case is included by perturbing the combined OV matrix and asserting that outputs diverge.\n- [x] Script exits non-zero on failed assertions.\n\n## Experiment Directory\n\n- `experiments/papers/transformer-circuits-framework/implement-combined-qk-ov-attention/`\n\nRun:\n\n```bash\npython3 experiments/papers/transformer-circuits-framework/implement-combined-qk-ov-attention/main.py\n```\n\nExpected result:\n\n```text\nok: standard attention equals combined QK/OV rewrite\n```\n\n## What This Tests\n\nThis does not prove interpretability. It verifies the algebraic equivalence behind the useful interpretability rewrite: keys/queries/values are not the only valid conceptual objects; the effective QK and OV products can reproduce the same attention output under the same attention pattern.\n\n## Citations\n\n- QK/OV circuit split and mathematical equivalence: [[sources/transformer-circuits-framework#ex-qk-ov-circuit]].\n- Attention as information movement through `A` and `W_O W_V`: [[sources/transformer-circuits-framework#ex-attention-information-movement]].",
+      "outbound_targets": [
+        "concepts/attention-head-decomposition",
+        "concepts/ov-circuit",
+        "concepts/qk-circuit",
+        "sources/transformer-circuits-framework",
+        "studies/papers/transformer-circuits-framework"
+      ],
+      "relative_path": "studies/implementations/implement-combined-qk-ov-attention.md",
+      "section": "studies",
+      "source_path": null,
+      "source_url": null,
+      "target": "studies/implementations/implement-combined-qk-ov-attention",
+      "title": "Implement Combined QK/OV Attention",
+      "type": "study"
+    },
+    {
+      "excerpt": "This is a foundation paper for transformer mechanistic interpretability. The main move is to rewrite transformer computations in a form that makes internal circuits easier to reason about: residual-stream communication, virtual weights, independent additive attention heads, QK/OV factorization, path expansion, and composition between heads.",
+      "frontmatter": {
+        "arxiv_id": null,
+        "authors": [
+          "Nelson Elhage",
+          "Neel Nanda",
+          "Catherine Olsson",
+          "Tom Henighan",
+          "Anthropic"
+        ],
+        "compiled_at": "2026-04-28T22:30:46Z",
+        "confidence": 0.8,
+        "created": "2026-04-28T22:14:21Z",
+        "mastery_avg": 2.6,
+        "pdf_url": null,
+        "rating": null,
+        "read_status": "reading",
+        "related": [
+          "sources/transformer-circuits-framework",
+          "concepts/residual-stream",
+          "concepts/virtual-weights",
+          "concepts/qk-circuit",
+          "concepts/ov-circuit",
+          "concepts/attention-head-decomposition",
+          "concepts/zero-layer-transformer",
+          "concepts/one-layer-attention-only-skip-trigram-model",
+          "concepts/path-expansion",
+          "concepts/head-composition",
+          "concepts/induction-head"
+        ],
+        "source_pages": [
+          "sources/transformer-circuits-framework"
+        ],
+        "status": "reviewed",
+        "study_kind": "paper",
+        "tags": [
+          "study",
+          "paper"
+        ],
+        "title": "A Mathematical Framework for Transformer Circuits",
+        "type": "study",
+        "updated": "2026-04-28T22:30:46Z"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "why-this-paper-matters",
+          "text": "Why This Paper Matters"
+        },
+        {
+          "depth": 2,
+          "id": "core-claim",
+          "text": "Core Claim"
+        },
+        {
+          "depth": 2,
+          "id": "scope-for-first-pass",
+          "text": "Scope For First Pass"
+        },
+        {
+          "depth": 2,
+          "id": "concept-map",
+          "text": "Concept Map"
+        },
+        {
+          "depth": 2,
+          "id": "mastery-tracker",
+          "text": "Mastery Tracker"
+        },
+        {
+          "depth": 2,
+          "id": "reading-log",
+          "text": "Reading Log"
+        },
+        {
+          "depth": 3,
+          "id": "2026-04-28-first-pass-completed",
+          "text": "2026-04-28 \u2014 First pass completed"
+        },
+        {
+          "depth": 2,
+          "id": "key-claims-verified",
+          "text": "Key Claims Verified"
+        },
+        {
+          "depth": 2,
+          "id": "equations-derivations-to-reconstruct",
+          "text": "Equations / Derivations To Reconstruct"
+        },
+        {
+          "depth": 3,
+          "id": "1-independent-additive-heads",
+          "text": "1. Independent additive heads"
+        },
+        {
+          "depth": 3,
+          "id": "2-ov-circuit",
+          "text": "2. OV circuit"
+        },
+        {
+          "depth": 3,
+          "id": "3-qk-circuit",
+          "text": "3. QK circuit"
+        },
+        {
+          "depth": 2,
+          "id": "confusions-resolved-still-open",
+          "text": "Confusions Resolved / Still Open"
+        },
+        {
+          "depth": 2,
+          "id": "active-recall-questions",
+          "text": "Active Recall Questions"
+        },
+        {
+          "depth": 2,
+          "id": "tiny-examples-built-to-build",
+          "text": "Tiny Examples Built / To Build"
+        },
+        {
+          "depth": 2,
+          "id": "connections",
+          "text": "Connections"
+        },
+        {
+          "depth": 3,
+          "id": "prior-prerequisites",
+          "text": "Prior prerequisites"
+        },
+        {
+          "depth": 3,
+          "id": "later-anthropic-papers-this-unlocks",
+          "text": "Later Anthropic papers this unlocks"
+        },
+        {
+          "depth": 2,
+          "id": "my-notes",
+          "text": "My notes"
+        },
+        {
+          "depth": 3,
+          "id": "residual-stream-explanation-from-memory",
+          "text": "Residual stream explanation from memory"
+        },
+        {
+          "depth": 3,
+          "id": "qk-vs-ov-explanation-from-memory",
+          "text": "QK vs OV explanation from memory"
+        },
+        {
+          "depth": 3,
+          "id": "one-thing-i-still-do-not-understand",
+          "text": "One thing I still do not understand"
+        },
+        {
+          "depth": 2,
+          "id": "quiz-log",
+          "text": "Quiz Log"
+        },
+        {
+          "depth": 2,
+          "id": "citations",
+          "text": "Citations"
+        },
+        {
+          "depth": 2,
+          "id": "output-artifact-target",
+          "text": "Output Artifact Target"
+        }
+      ],
+      "markdown": "## Why This Paper Matters\n\nThis is a foundation paper for transformer mechanistic interpretability. The main move is to rewrite transformer computations in a form that makes internal circuits easier to reason about: residual-stream communication, virtual weights, independent additive attention heads, QK/OV factorization, path expansion, and composition between heads.\n\nTreat it as a notation-and-framework paper. The goal is to reconstruct the framework from scratch and use it on small transformers, not just remember the prose.\n\n## Core Claim\n\nTransformer internals become more interpretable when viewed as compositions of linear-ish communication pathways through the residual stream, rather than only as the standard efficient implementation with embeddings, heads, concatenation, and layer blocks. The current pilot pass verifies the one-layer/QK/OV/residual-stream core and leaves deeper two-layer induction-head analysis as the next reading pass.\n\n## Scope For First Pass\n\nCompleted first-pass scope:\n\n1. Introduction / motivation\n2. Summary of Results\n3. Transformer Overview\n4. Residual stream / virtual weights\n5. Independent additive attention heads\n6. Zero-layer transformers\n7. One-layer attention-only transformers\n8. QK/OV split and skip-trigram interpretation\n\nNext pass starts with two-layer attention-only transformers and induction heads.\n\n## Concept Map\n\n```text\nTransformer circuits\n\u251c\u2500\u2500 Residual stream as communication channel\n\u2502   \u251c\u2500\u2500 components read from residual stream\n\u2502   \u251c\u2500\u2500 components write back by addition\n\u2502   \u251c\u2500\u2500 information can persist unless deleted\n\u2502   \u2514\u2500\u2500 different subspaces carry different information\n\u251c\u2500\u2500 Virtual weights\n\u2502   \u251c\u2500\u2500 implicit connections between components\n\u2502   \u2514\u2500\u2500 products of output and input matrices\n\u251c\u2500\u2500 Attention heads as independent additive operations\n\u2502   \u251c\u2500\u2500 standard concatenate form\n\u2502   \u2514\u2500\u2500 equivalent sum-over-heads form\n\u251c\u2500\u2500 Attention as information movement\n\u2502   \u251c\u2500\u2500 QK circuit: where to attend\n\u2502   \u251c\u2500\u2500 OV circuit: what information to move/write\n\u2502   \u2514\u2500\u2500 attention pattern is nonlinear; OV is linear\n\u251c\u2500\u2500 Zero-layer transformers\n\u2502   \u2514\u2500\u2500 bigram statistics\n\u251c\u2500\u2500 One-layer attention-only transformers\n\u2502   \u2514\u2500\u2500 bigram + skip-trigram behavior\n\u2514\u2500\u2500 Two-layer attention-only transformers\n    \u2514\u2500\u2500 head composition and induction heads\n```\n\n## Mastery Tracker\n\n| Topic | Concept Page | Intuition | Equation | Visual | Trace | Comparison | Practice | Mastery |\n|---|---|---|---|---|---|---|---|---|\n| Residual stream as communication channel | [[concepts/residual-stream]] | done | partial | partial | done | partial | todo | 3/5 |\n| Virtual weights | [[concepts/virtual-weights]] | done | partial | todo | partial | partial | todo | 2/5 |\n| Independent additive heads | [[concepts/attention-head-decomposition]] | done | done | partial | done | partial | done | 3/5 |\n| QK vs OV circuits | [[concepts/qk-circuit]] / [[concepts/ov-circuit]] | done | done | partial | done | done | done | 4/5 |\n| Zero-layer transformer = bigram model | [[concepts/zero-layer-transformer]] | done | partial | todo | partial | done | todo | 2/5 |\n| One-layer attention-only = skip-trigram model | [[concepts/one-layer-attention-only-skip-trigram-model]] | done | partial | todo | partial | done | todo | 2/5 |\n| Path expansion | [[concepts/path-expansion]] | done | partial | todo | partial | partial | todo | 2/5 |\n| Head composition | [[concepts/head-composition]] | partial | todo | todo | todo | partial | todo | 1/5 |\n| Induction heads | [[concepts/induction-head]] | partial | todo | todo | todo | partial | todo | 1/5 |\n\nMastery means: define it, explain it intuitively, write the key equation, trace a tiny example, compare to the nearest confusable idea, identify a pitfall, and connect it back to the paper's motivation.\n\n## Reading Log\n\n### 2026-04-28 \u2014 First pass completed\n\nCompleted the first-pass source-backed scaffold: source anchors, concept pages, Anki cards, and a NumPy QK/OV equivalence implementation. The paper is still marked `reading` because the two-layer/induction-head parts deserve a separate deep pass.\n\n## Key Claims Verified\n\n- [x] Attention heads can be treated as independent additive operations.\n- [x] The residual stream is best viewed as a communication channel, not just a contextual embedding.\n- [x] QK and OV are the meaningful coupled matrices for interpreting heads.\n- [x] Zero-layer transformers model bigram statistics.\n- [x] One-layer attention-only transformers can implement skip-trigram behavior.\n- [x] Two-layer attention-only transformers enable richer head composition, including induction heads.\n\n## Equations / Derivations To Reconstruct\n\n### 1. Independent additive heads\n\nStandard implementation concatenates head results and applies a shared output matrix. The interpretability rewrite splits the output matrix into per-head blocks and shows this equals a sum of per-head outputs:\n\n```text\nW_O^H [r^{h_1}; r^{h_2}; ...] = \u03a3_i W_O^{h_i} r^{h_i}\n```\n\nWhy it matters: each head can be treated as an additive operation that writes its result into the residual stream.\n\n### 2. OV circuit\n\n```text\nW_OV = W_V W_O        # row-vector NumPy convention\n```\n\nPlain-English target: if a head attends from destination token i to source token j, the OV circuit says what information is read from token j's residual stream and how that information is written into token i's residual stream.\n\n### 3. QK circuit\n\n```text\nW_QK = W_Q W_K^T      # row-vector NumPy convention\nA = softmax(x W_QK x^T / sqrt(d_head))\n```\n\nPlain-English target: QK determines the attention pattern: which source positions each destination position attends to.\n\n## Confusions Resolved / Still Open\n\n- [x] Why is the residual stream not just \"the embedding\"? Because it is the sum of the original embedding and all prior component outputs, and can carry subspaces not directly about the present token.\n- [x] Why are keys/queries/values described as somewhat superficial in this framework? Because QK and OV products are the effective low-rank maps; individual Q/K/V bases can be less directly interpretable.\n- [x] What exactly is low-rank about `W_OV` and `W_QK`? They factor through the head dimension, so their rank is capped by `d_head` rather than `d_model`.\n- [x] What does it mean for a head to \"move information\"? QK chooses source/destination routing and OV transforms the selected source residual information into a write at the destination.\n- [ ] Why does freezing the attention pattern make a head linear? Need a separate derivation card.\n- [x] Why can a zero-layer transformer be interpreted as bigram statistics? With no cross-position layers, output logits come from embedding-to-unembedding interactions for the current token.\n- [x] How exactly does a skip-trigram differ from a bigram? A bigram predicts from adjacent/current token statistics; a skip-trigram captures `A ... B -> C` patterns mediated by attention to an earlier source token.\n\n## Active Recall Questions\n\nDo not answer these by looking unless stuck.\n\n1. In one sentence, what problem is this paper trying to solve?\n2. Why do the authors focus on attention-only toy transformers?\n3. What is the residual stream, and why do the authors call it a communication channel?\n4. What are virtual weights?\n5. Show why concatenated multi-head attention output is equivalent to adding independent head outputs.\n6. What does the OV circuit control?\n7. What does the QK circuit control?\n8. Why are QK and OV better interpretability objects than Q, K, V separately?\n9. What does a zero-layer transformer learn?\n10. What is a skip-trigram?\n11. How does QK/OV explain copying behavior in a one-layer attention-only model?\n12. What must be added in a two-layer model to get induction-head-style behavior?\n\n## Tiny Examples Built / To Build\n\n- [x] Implement a NumPy function that computes attention both ways: standard Q/K/V form and combined QK/OV form; verify same output.\n- [ ] Write a 2-token, 2-dimensional residual-stream toy example showing a head copying one feature from token 1 to token 2.\n- [ ] Make a tiny bigram table and show how a zero-layer transformer can represent next-token logits.\n- [ ] Make a toy skip-trigram example: `A ... B -> C`.\n\n## Connections\n\n### Prior prerequisites\n\n- [[sources/attention-is-all-you-need-excerpt|Attention Is All You Need]]\n- residual connections\n- linear algebra: matrix multiplication, rank, SVD, change of basis\n- softmax and attention\n- autoregressive language modeling\n\n### Later Anthropic papers this unlocks\n\n- In-context Learning and Induction Heads\n- Toy Models of Superposition\n- Towards Monosemanticity\n- Mapping the Mind of a Large Language Model\n\n## My notes\n\n### Residual stream explanation from memory\n\nThe residual stream is the shared workspace. Components do not hand messages to each other directly; they read from the current workspace vector and add new vectors back into it. This is why multiplying output weights from one component by input weights from another can reveal an implicit communication channel.\n\n### QK vs OV explanation from memory\n\nQK is routing: where does this destination token look? OV is payload: if it looks there, what transformed information gets written back? For interpretability, the product matrices are better objects than individual Q/K/V matrices because they describe the effective computation after cancelling arbitrary intermediate bases.\n\n### One thing I still do not understand\n\nThe exact two-layer induction-head construction should get its own derivation note. I understand the high-level role of composition, but not yet the full path expansion for Q-composition/K-composition/V-composition.\n\n## Quiz Log\n\n- 2026-04-28: First quiz seed captured in [[studies/anki/transformer-circuits-framework]].\n\n## Citations\n\n- Core summary of zero/one/two-layer results: [[sources/transformer-circuits-framework#ex-summary-results-zero-one-two]].\n- Independent additive attention heads: [[sources/transformer-circuits-framework#ex-independent-additive-heads]].\n- QK/OV split: [[sources/transformer-circuits-framework#ex-qk-ov-circuit]].\n- Residual stream as communication channel: [[sources/transformer-circuits-framework#ex-residual-stream-communication]].\n- Path expansion: [[sources/transformer-circuits-framework#ex-path-expansion]].\n\n## Output Artifact Target\n\nBy the end, produce one of these:\n\n- a public writeup: `Transformer Circuits From Scratch`\n- or a GitHub notebook: `qk-ov-circuits.ipynb`\n- or a short essay in `ideas/`: `what-mechanistic-interpretability-means-by-circuits.md`\n\nMinimum bar reached for this pass: source-backed QK vs OV explanation plus a tiny NumPy equivalence reproduction.",
+      "outbound_targets": [
+        "concepts/attention-head-decomposition",
+        "concepts/head-composition",
+        "concepts/induction-head",
+        "concepts/one-layer-attention-only-skip-trigram-model",
+        "concepts/ov-circuit",
+        "concepts/path-expansion",
+        "concepts/qk-circuit",
+        "concepts/residual-stream",
+        "concepts/virtual-weights",
+        "concepts/zero-layer-transformer",
+        "sources/attention-is-all-you-need-excerpt",
+        "sources/transformer-circuits-framework",
+        "studies/anki/transformer-circuits-framework"
+      ],
+      "relative_path": "studies/papers/transformer-circuits-framework.md",
+      "section": "studies",
+      "source_path": null,
+      "source_url": null,
+      "target": "studies/papers/transformer-circuits-framework",
+      "title": "A Mathematical Framework for Transformer Circuits",
+      "type": "study"
+    },
+    {
       "excerpt": "- This synthesis explains the repo as a codebase-memory system rather than a generic note folder.",
       "frontmatter": {
         "compiled_at": "2026-04-10T12:31:26Z",
@@ -1843,6 +3031,248 @@
       "source_domain": "example.com",
       "source_url": "https://example.com/residual-stream-notes",
       "title": "Residual Stream Notes"
+    },
+    {
+      "excerpt": "This is a foundation paper for transformer mechanistic interpretability. The main move is to rewrite transformer computations in a form that makes internal circuits easier to reason about: residual stream communication, virtual weights, independent additive attention heads, QK/OV factorization, path expansion, and composition between heads.",
+      "frontmatter": {
+        "arxiv_id": null,
+        "authors": "[\"Nelson Elhage\", \"Neel Nanda\", \"Catherine Olsson\", \"Tom Henighan\", \"Anthropic\"]",
+        "captured_at": "2026-04-28",
+        "pdf_url": null,
+        "rating": null,
+        "read_status": "reading",
+        "source": "https://transformer-circuits.pub/2021/framework/index.html",
+        "source_alt": "https://www.anthropic.com/research/a-mathematical-framework-for-transformer-circuits",
+        "tags": "[\"ml/llm\", \"ml/interpretability\", \"ml/mechanistic-interpretability\", \"transformers\"]",
+        "title": "A Mathematical Framework for Transformer Circuits",
+        "type": "paper"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "why-this-paper-matters",
+          "text": "Why this paper matters"
+        },
+        {
+          "depth": 2,
+          "id": "core-claim",
+          "text": "Core claim"
+        },
+        {
+          "depth": 2,
+          "id": "scope-for-first-pass",
+          "text": "Scope for first pass"
+        },
+        {
+          "depth": 2,
+          "id": "concept-map",
+          "text": "Concept map"
+        },
+        {
+          "depth": 2,
+          "id": "mastery-tracker",
+          "text": "Mastery tracker"
+        },
+        {
+          "depth": 2,
+          "id": "reading-log",
+          "text": "Reading log"
+        },
+        {
+          "depth": 3,
+          "id": "2026-04-28-start",
+          "text": "2026-04-28 \u2014 Start"
+        },
+        {
+          "depth": 2,
+          "id": "key-claims-to-verify",
+          "text": "Key claims to verify"
+        },
+        {
+          "depth": 2,
+          "id": "equations-derivations-to-reconstruct",
+          "text": "Equations / derivations to reconstruct"
+        },
+        {
+          "depth": 3,
+          "id": "1-independent-additive-heads",
+          "text": "1. Independent additive heads"
+        },
+        {
+          "depth": 3,
+          "id": "2-ov-circuit",
+          "text": "2. OV circuit"
+        },
+        {
+          "depth": 3,
+          "id": "3-qk-circuit",
+          "text": "3. QK circuit"
+        },
+        {
+          "depth": 2,
+          "id": "confusions-to-resolve",
+          "text": "Confusions to resolve"
+        },
+        {
+          "depth": 2,
+          "id": "active-recall-questions",
+          "text": "Active recall questions"
+        },
+        {
+          "depth": 2,
+          "id": "tiny-examples-to-build",
+          "text": "Tiny examples to build"
+        },
+        {
+          "depth": 2,
+          "id": "connections",
+          "text": "Connections"
+        },
+        {
+          "depth": 3,
+          "id": "prior-prerequisites",
+          "text": "Prior prerequisites"
+        },
+        {
+          "depth": 3,
+          "id": "later-anthropic-papers-this-unlocks",
+          "text": "Later Anthropic papers this unlocks"
+        },
+        {
+          "depth": 2,
+          "id": "my-notes",
+          "text": "My notes"
+        },
+        {
+          "depth": 3,
+          "id": "residual-stream-explanation-from-memory",
+          "text": "Residual stream explanation from memory"
+        },
+        {
+          "depth": 3,
+          "id": "qk-vs-ov-explanation-from-memory",
+          "text": "QK vs OV explanation from memory"
+        },
+        {
+          "depth": 3,
+          "id": "one-thing-i-still-do-not-understand",
+          "text": "One thing I still do not understand"
+        },
+        {
+          "depth": 2,
+          "id": "output-artifact",
+          "text": "Output artifact"
+        }
+      ],
+      "markdown": "## Why this paper matters\n\nThis is a foundation paper for transformer mechanistic interpretability. The main move is to rewrite transformer computations in a form that makes internal circuits easier to reason about: residual stream communication, virtual weights, independent additive attention heads, QK/OV factorization, path expansion, and composition between heads.\n\nDo not treat this as a paper to skim. Treat it as a notation-and-framework paper. The goal is not to memorize the claims; the goal is to be able to reconstruct the framework from scratch and use it on small transformers.\n\n## Core claim\n\nTransformer internals become more interpretable when viewed as compositions of linear-ish communication pathways through the residual stream, rather than only as the standard efficient implementation with embeddings, heads, concatenation, and layer blocks.\n\n## Scope for first pass\n\nRead only these sections first:\n\n1. Introduction / motivation\n2. Summary of Results\n3. Transformer Overview\n4. Zero-Layer Transformers\n5. One-Layer Attention-Only Transformers\n\nStop before two-layer attention-only transformers unless the above is solid.\n\n## Concept map\n\n```text\nTransformer circuits\n\u251c\u2500\u2500 Residual stream as communication channel\n\u2502   \u251c\u2500\u2500 components read from residual stream\n\u2502   \u251c\u2500\u2500 components write back by addition\n\u2502   \u251c\u2500\u2500 information can persist unless deleted\n\u2502   \u2514\u2500\u2500 different subspaces carry different information\n\u251c\u2500\u2500 Virtual weights\n\u2502   \u251c\u2500\u2500 implicit connections between components\n\u2502   \u2514\u2500\u2500 products of output and input matrices\n\u251c\u2500\u2500 Attention heads as independent additive operations\n\u2502   \u251c\u2500\u2500 standard concatenate form\n\u2502   \u2514\u2500\u2500 equivalent sum-over-heads form\n\u251c\u2500\u2500 Attention as information movement\n\u2502   \u251c\u2500\u2500 QK circuit: where to attend\n\u2502   \u251c\u2500\u2500 OV circuit: what information to move/write\n\u2502   \u2514\u2500\u2500 attention pattern is nonlinear; OV is linear\n\u251c\u2500\u2500 Zero-layer transformers\n\u2502   \u2514\u2500\u2500 bigram statistics\n\u251c\u2500\u2500 One-layer attention-only transformers\n\u2502   \u2514\u2500\u2500 bigram + skip-trigram behavior\n\u2514\u2500\u2500 Two-layer attention-only transformers\n    \u2514\u2500\u2500 head composition and induction heads\n```\n\n## Mastery tracker\n\n| Topic | Intuition | Equation | Visual | Trace | Comparison | Practice | Paper Link | Mastery |\n|---|---|---|---|---|---|---|---|\n| Residual stream as communication channel | todo | todo | todo | todo | todo | todo | source | 0/5 |\n| Virtual weights | todo | todo | todo | todo | todo | todo | source | 0/5 |\n| Independent additive heads | todo | todo | todo | todo | todo | todo | source | 0/5 |\n| QK vs OV circuits | todo | todo | todo | todo | todo | todo | source | 0/5 |\n| Zero-layer transformer = bigram model | todo | todo | todo | todo | todo | todo | source | 0/5 |\n| One-layer attention-only = skip-trigram model | todo | todo | todo | todo | todo | todo | source | 0/5 |\n| Path expansion | todo | todo | todo | todo | todo | todo | source | 0/5 |\n| Head composition | todo | todo | todo | todo | todo | todo | source | 0/5 |\n| Induction heads | todo | todo | todo | todo | todo | todo | source | 0/5 |\n\nMastery means: define it, explain it intuitively, write the key equation, trace a tiny example, compare to the nearest confusable idea, identify a pitfall, and connect it back to the paper's motivation.\n\n## Reading log\n\n### 2026-04-28 \u2014 Start\n\nGoal: build the framework slowly. Do not summarize the whole paper yet.\n\n## Key claims to verify\n\n- [ ] Attention heads can be treated as independent additive operations.\n- [ ] The residual stream is best viewed as a communication channel, not just a contextual embedding.\n- [ ] QK and OV are the meaningful coupled matrices for interpreting heads.\n- [ ] Zero-layer transformers model bigram statistics.\n- [ ] One-layer attention-only transformers can implement skip-trigram behavior.\n- [ ] Two-layer attention-only transformers enable richer head composition, including induction heads.\n\n## Equations / derivations to reconstruct\n\n### 1. Independent additive heads\n\nStandard implementation concatenates head results and applies a shared output matrix. The interpretability rewrite splits the output matrix into per-head blocks and shows this equals a sum of per-head outputs.\n\nNeed to reconstruct:\n\n```text\nW_O^H [r^{h_1}; r^{h_2}; ...] = \u03a3_i W_O^{h_i} r^{h_i}\n```\n\nSymbols to define later:\n\n| Symbol | Meaning |\n|---|---|\n| `h_i` | attention head i |\n| `r^{h_i}` | result vector produced by head i before output projection |\n| `W_O^H` | combined output matrix for the whole attention layer |\n| `W_O^{h_i}` | output matrix block corresponding to head i |\n\nCheckpoint: why is this rewrite useful for interpretability even though the concatenate form is better for efficient implementation?\n\n### 2. OV circuit\n\nNeed to reconstruct:\n\n```text\nW_OV = W_O W_V\n```\n\nPlain-English target: if a head attends from destination token i to source token j, the OV circuit says what information is read from token j's residual stream and how that information is written into token i's residual stream.\n\n### 3. QK circuit\n\nNeed to reconstruct:\n\n```text\nW_QK = W_Q^T W_K\nA = softmax(x^T W_Q^T W_K x)\n```\n\nPlain-English target: QK determines the attention pattern: which source positions each destination position attends to.\n\n## Confusions to resolve\n\n- [ ] Why is the residual stream not just \"the embedding\"?\n- [ ] Why are keys/queries/values described as somewhat superficial in this framework?\n- [ ] What exactly is low-rank about `W_OV` and `W_QK`?\n- [ ] What does it mean for a head to \"move information\"?\n- [ ] Why does freezing the attention pattern make a head linear?\n- [ ] Why can a zero-layer transformer be interpreted as bigram statistics?\n- [ ] How exactly does a skip-trigram differ from a bigram?\n\n## Active recall questions\n\nDo not answer these by looking unless stuck.\n\n1. In one sentence, what problem is this paper trying to solve?\n2. Why do the authors focus on attention-only toy transformers?\n3. What is the residual stream, and why do the authors call it a communication channel?\n4. What are virtual weights?\n5. Show why concatenated multi-head attention output is equivalent to adding independent head outputs.\n6. What does the OV circuit control?\n7. What does the QK circuit control?\n8. Why are QK and OV better interpretability objects than Q, K, V separately?\n9. What does a zero-layer transformer learn?\n10. What is a skip-trigram?\n\n## Tiny examples to build\n\n- [ ] Write a 2-token, 2-dimensional residual-stream toy example showing a head copying one feature from token 1 to token 2.\n- [ ] Make a tiny bigram table and show how a zero-layer transformer can represent next-token logits.\n- [ ] Make a toy skip-trigram example: `A ... B -> C`.\n- [ ] Implement a NumPy function that computes attention both ways: standard Q/K/V form and combined QK/OV form; verify same output.\n\n## Connections\n\n### Prior prerequisites\n\n- [[Attention Is All You Need]]\n- residual connections\n- linear algebra: matrix multiplication, rank, SVD, change of basis\n- softmax and attention\n- autoregressive language modeling\n\n### Later Anthropic papers this unlocks\n\n- [[In-context Learning and Induction Heads]]\n- [[Toy Models of Superposition]]\n- [[Towards Monosemanticity]]\n- [[Mapping the Mind of a Large Language Model]]\n\n## My notes\n\nUse this section for your own explanations, not copied paper text.\n\n### Residual stream explanation from memory\n\n\n\n### QK vs OV explanation from memory\n\n\n\n### One thing I still do not understand\n\n\n\n## Output artifact\n\nBy the end, produce one of these:\n\n- a public writeup: `Transformer Circuits From Scratch`\n- or a GitHub notebook: `qk-ov-circuits.ipynb`\n- or a short essay in `ideas/`: `what-mechanistic-interpretability-means-by-circuits.md`\n\nMinimum bar: one clean explanation of QK vs OV plus one tiny NumPy reproduction.",
+      "relative_path": "raw/legacy-obsidian/papers/2026-04-28-a-mathematical-framework-for-transformer-circuits.md",
+      "source_domain": null,
+      "source_url": null,
+      "title": "A Mathematical Framework for Transformer Circuits"
+    },
+    {
+      "excerpt": "This immutable raw file preserves the exact evidence passages used by  wiki/sources/transformer-circuits-framework.md . Passages were checked against the live source URL on 2026-04-28.",
+      "frontmatter": {
+        "author": "Nelson Elhage, Neel Nanda, Catherine Olsson, Tom Henighan, Anthropic",
+        "capture_kind": "verified-evidence-extracts",
+        "captured_at": "2026-04-28T22:30:46Z",
+        "published": "2021-12-22",
+        "source_domain": "transformer-circuits.pub",
+        "source_url": "https://transformer-circuits.pub/2021/framework/index.html",
+        "title": "A Mathematical Framework for Transformer Circuits Evidence Extracts"
+      },
+      "headings": [
+        {
+          "depth": 2,
+          "id": "evidence-extracts",
+          "text": "Evidence Extracts`."
+        },
+        {
+          "depth": 2,
+          "id": "verified-claims",
+          "text": "Verified Claims"
+        },
+        {
+          "depth": 2,
+          "id": "evidence-extracts",
+          "text": "Evidence Extracts"
+        },
+        {
+          "depth": 3,
+          "id": "ex-summary-results-zero-one-two",
+          "text": "ex-summary-results-zero-one-two"
+        },
+        {
+          "depth": 3,
+          "id": "ex-independent-additive-heads",
+          "text": "ex-independent-additive-heads"
+        },
+        {
+          "depth": 3,
+          "id": "ex-qk-ov-circuit",
+          "text": "ex-qk-ov-circuit"
+        },
+        {
+          "depth": 3,
+          "id": "ex-residual-stream-communication",
+          "text": "ex-residual-stream-communication"
+        },
+        {
+          "depth": 3,
+          "id": "ex-residual-stream-subspaces",
+          "text": "ex-residual-stream-subspaces"
+        },
+        {
+          "depth": 3,
+          "id": "ex-virtual-weights",
+          "text": "ex-virtual-weights"
+        },
+        {
+          "depth": 3,
+          "id": "ex-attention-information-movement",
+          "text": "ex-attention-information-movement"
+        },
+        {
+          "depth": 3,
+          "id": "ex-path-expansion",
+          "text": "ex-path-expansion"
+        },
+        {
+          "depth": 3,
+          "id": "ex-skip-trigram-examples",
+          "text": "ex-skip-trigram-examples"
+        },
+        {
+          "depth": 3,
+          "id": "ex-copying-ov-summary",
+          "text": "ex-copying-ov-summary"
+        }
+      ],
+      "markdown": "This immutable raw file preserves the exact evidence passages used by `wiki/sources/transformer-circuits-framework.md`. Passages were checked against the live source URL on 2026-04-28.\n\n## Evidence Extracts`.\n- [x] Link the source to study, Anki, implementation, and concept pages.\n- [ ] Optional later pass: replace the stub raw paper file with an immutable full-text capture saved under a new raw path, then ingest that raw capture as a separate source if desired. Do not rewrite the existing raw stub.\n\n## Verified Claims\n\n- The paper argues that small attention-only transformers become more interpretable when rewritten into mathematically equivalent circuit terms: residual-stream communication, additive heads, QK/OV circuits, and path expansions. [[sources/transformer-circuits-framework#ex-summary-results-zero-one-two]] [[sources/transformer-circuits-framework#ex-independent-additive-heads]] [[sources/transformer-circuits-framework#ex-qk-ov-circuit]]\n- The residual stream is framed as an additive communication channel: components read from it, write back into it, and can be analyzed through linear paths or subspaces rather than as a single contextual embedding. [[sources/transformer-circuits-framework#ex-residual-stream-communication]] [[sources/transformer-circuits-framework#ex-residual-stream-subspaces]]\n- Multi-head attention can be viewed as independent head outputs added into the residual stream, even if efficient implementations concatenate head results. [[sources/transformer-circuits-framework#ex-independent-additive-heads]]\n- QK and OV are the main attention-head interpretability objects: QK determines the attention pattern; OV determines what information is read and written when attention occurs. [[sources/transformer-circuits-framework#ex-qk-ov-circuit]] [[sources/transformer-circuits-framework#ex-attention-information-movement]]\n- Zero-layer models correspond to bigram statistics; one-layer attention-only models add skip-trigram behavior; two-layer attention-only models can use head composition to form induction heads. [[sources/transformer-circuits-framework#ex-summary-results-zero-one-two]] [[sources/transformer-circuits-framework#ex-skip-trigram-examples]]\n- Path expansion turns layer-product views into sums of end-to-end paths, which the paper treats as independently reasoned-about additive contributions to behavior. [[sources/transformer-circuits-framework#ex-path-expansion]]\n\n## Evidence Extracts\n\n### ex-summary-results-zero-one-two\n\nExact source passages checked from `https://transformer-circuits.pub/2021/framework/index.html`:\n\n> Zero layer transformers model bigram statistics. The bigram table can be accessed directly from the weights.\n\n> One layer attention-only transformers are an ensemble of bigram and \u201cskip-trigram\u201d (sequences of the form \"A\u2026 B C\") models. The bigram and skip-trigram tables can be accessed directly from the weights, without running the model. These skip-trigrams can be surprisingly expressive. This includes implementing a kind of very simple in-context learning.\n\n> Two layer attention-only transformers can implement much more complex algorithms using compositions of attention heads. These compositional algorithms can also be detected directly from the weights. Notably, two layer models use attention head composition to create \u201cinduction heads\u201d, a very general in-context learning algorithm. We\u2019ll explore induction heads in much more detail in a forthcoming paper.\n\n### ex-independent-additive-heads\n\nExact source passage checked from `https://transformer-circuits.pub/2021/framework/index.html`:\n\n> Attention heads can be understood as independent operations, each outputting a result which is added into the residual stream. Attention heads are often described in an alternate \u201cconcatenate and multiply\u201d formulation for computational efficiency, but this is mathematically equivalent.\n\n### ex-qk-ov-circuit\n\nExact source passages checked from `https://transformer-circuits.pub/2021/framework/index.html`:\n\n> Attention heads can be understood as having two largely independent computations: a QK (\u201cquery-key\u201d) circuit which computes the attention pattern, and an OV (\u201coutput-value\u201d) circuit which computes how each token affects the output if attended to.\n\n> What about the attention pattern? Typically, one computes the keys k_i = W_K x_i , computes the queries q_i = W_Q x_i and then computes the attention pattern from the dot products of each key and query vector A = \\text{softmax}(q^T k) . But we can do it all in one step without referring to keys and queries: A = \\text{softmax}(x^T W_Q^T W_K x) .\n\n### ex-residual-stream-communication\n\nExact source passage checked from `https://transformer-circuits.pub/2021/framework/index.html`:\n\n> One of the main features of the high level architecture of a transformer is that each layer adds its results into what we call the \u201cresidual stream.\u201d Constructing models with a residual stream traces back to early work by the Schmidhuber group, such as highway networks and LSTMs , which have found significant modern success in the more recent residual network architecture . In transformers, the residual stream vectors are often called the \u201cembedding.\u201d We prefer the residual stream terminology, both because it emphasizes the residual nature (which we believe to be important) and also because we believe the residual stream often dedicates subspaces to tokens other than the present token, breaking the intuitions the embedding terminology suggests. The residual stream is simply the sum of the output of all the previous layers and the original embedding. We generally think of the residual stream as a communication channel, since it doesn't do any processing itself and all layers communicate through it.\n\n### ex-residual-stream-subspaces\n\nExact source passage checked from `https://transformer-circuits.pub/2021/framework/index.html`:\n\n> All components of a transformer (the token embedding, attention heads, MLP layers, and unembedding) communicate with each other by reading and writing to different subspaces of the residual stream. Rather than analyze the residual stream vectors, it can be helpful to decompose the residual stream into all these different communication channels, corresponding to paths through the model.\n\n### ex-virtual-weights\n\nExact source passage checked from `https://transformer-circuits.pub/2021/framework/index.html`:\n\n> An especially useful consequence of the residual stream being linear is that one can think of implicit \"virtual weights\" directly connecting any pair of layers (even those separated by many other layers), by multiplying out their interactions through the residual stream. These virtual weights are the product of the output weights of one layer with the input weights Note that for attention layers, there are three different kinds of input weights: W_Q , W_K , and W_V . For simplicity and generality, we think of layers as just having input and output weights here. of another (ie. W_{I}^2W_{O}^1 ), and describe the extent to which a later layer reads in the information written by a previous layer.\n\n### ex-attention-information-movement\n\nExact source passages checked from `https://transformer-circuits.pub/2021/framework/index.html`:\n\n> A governs which token's information is moved from and to.\n\n> W_O W_V governs which information is read from the source token and how it is written to the destination token. What do we mean when we say that W_{OV}=W_O W_V governs which subspace of the residual stream the attention head reads and writes to when it moves information? It can be helpful to consider the singular value decomposition USV = W_{OV} . Since d_{head} < d_{model} , W_{OV} is low-rank and only a subset of the diagonal entries in S are non-zero. The right singular vectors V describe which subspace of the residual stream being attended to is \u201cread in\u201d (somehow stored as a value vector), while the left singular vectors U describe what subspace of the destination residual stream they are written to.\n\n### ex-path-expansion\n\nExact source passages checked from `https://transformer-circuits.pub/2021/framework/index.html`:\n\n> Our key trick is to simply expand the product. This transforms the product (where every term corresponds to a layer), into a sum where every term corresponds to an end-to-end path .\n\n> We claim each of these end-to-end path terms is tractable to understand, can be reasoned about independently, and additively combine to create model behavior.\n\n### ex-skip-trigram-examples\n\nExact source passages checked from `https://transformer-circuits.pub/2021/framework/index.html`:\n\n> For a single head, here are some trigrams associated with the query \" and\" : back and \u2192 forth , eat and \u2192 drink , trying and \u2192 failing , day and \u2192 night , far and \u2192 away , created and \u2192 maintained , forward and \u2192 backward , past and \u2192 present , happy and \u2192 satisfied , walking and \u2192 talking , sick and \u2192 tired , \u2026 (see 12 head model, head 0:0 )\n\n> One thing to note is that the learned skip-trigrams are often related to idiosyncrasies of one's tokenization. For example collapsing whitespace together allows individual tokens to reveal indentation. Not merging backslash into text tokens means that when the model is predicting LaTeX, there's a token after backslash that must be an escape sequence. And so on.\n\n### ex-copying-ov-summary\n\nExact source passage checked from `https://transformer-circuits.pub/2021/framework/index.html`:\n\n> One of the most striking things about looking at these matrices is that most attention heads in one layer models dedicate an enormous fraction of their capacity to copying. The OV circuit sets things up so that tokens, if attended to by the head, increase the probability of that token, and to a lesser extent, similar tokens. The QK circuit then only attends back to tokens which could plausibly be the next token. Thus, tokens are copied, but only to places where bigram-ish statistics make them seem plausible.",
+      "relative_path": "raw/papers/2021/2021-12-22-transformer-circuits-framework-evidence.md",
+      "source_domain": "transformer-circuits.pub",
+      "source_url": "https://transformer-circuits.pub/2021/framework/index.html",
+      "title": "A Mathematical Framework for Transformer Circuits Evidence Extracts"
+    },
+    {
+      "excerpt": "Raw stub for the Transformer Circuits framework paper; legacy Hermes study note is preserved under raw/legacy-obsidian/papers/.",
+      "frontmatter": {
+        "arxiv_id": null,
+        "author": "Nelson Elhage, Neel Nanda, Catherine Olsson, Tom Henighan, Anthropic",
+        "captured_at": "2026-04-28T22:13:57Z",
+        "description": "Raw stub for the Transformer Circuits framework paper; legacy Hermes study note is preserved under raw/legacy-obsidian/papers/.",
+        "pdf_url": null,
+        "published": "2021-12-22",
+        "source_domain": "transformer-circuits.pub",
+        "source_url": "https://transformer-circuits.pub/2021/framework/index.html",
+        "title": "A Mathematical Framework for Transformer Circuits"
+      },
+      "headings": [],
+      "markdown": "Source: see source_url. Full text intentionally not auto-fetched during migration.",
+      "relative_path": "raw/papers/2026/2026-04-28-transformer-circuits-framework.md",
+      "source_domain": "transformer-circuits.pub",
+      "source_url": "https://transformer-circuits.pub/2021/framework/index.html",
+      "title": "A Mathematical Framework for Transformer Circuits"
     },
     {
       "excerpt": "This is a short synthetic excerpt rather than the original paper.",

@@ -105,6 +105,9 @@ def validate_page(path: Path, source_anchor_map: Dict[str, Set[str]]) -> List[Di
     if page_type not in CITATION_REQUIRED_TYPES:
         return errors
 
+    if str(frontmatter.get("status", "")) == "stub":
+        return errors
+
     if page_type == "output" and frontmatter.get("marp") is True:
         return errors
 

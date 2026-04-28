@@ -2,7 +2,7 @@
 title: Daily Review
 type: review
 created: 2026-04-10T12:47:25Z
-updated: 2026-04-10T12:47:25Z
+updated: 2026-04-28T22:53:01Z
 status: reviewed
 confidence: 0.85
 related:
@@ -15,7 +15,8 @@ source_pages:
   - sources/example-com-attention-as-interface
   - sources/example-com-residual-stream-notes
   - sources/example-transformer-tooling-notes
-compiled_at: 2026-04-10T12:47:25Z
+  - sources/transformer-circuits-framework
+compiled_at: 2026-04-28T22:53:01Z
 ---
 
 # Daily Review
@@ -27,6 +28,7 @@ compiled_at: 2026-04-10T12:47:25Z
 
 ## Recent Source Activity
 
+- 2026-04-28T22:30:46Z | [[sources/transformer-circuits-framework]] | `raw/papers/2021/2021-12-22-transformer-circuits-framework-evidence.md`
 - 2026-04-10T12:31:26Z | [[sources/example-transformer-tooling-notes]] | `raw/repos/example-transformer-tooling-notes.md`
 - 2026-04-08T21:18:05Z | [[sources/example-com-residual-stream-notes]] | `raw/articles/2026/2026-04-08-example-com-residual-stream-notes.md`
 - 2026-04-08T13:34:18Z | [[sources/example-com-attention-as-interface]] | `raw/articles/2026/2026-04-07-example-com-attention-as-interface.md`

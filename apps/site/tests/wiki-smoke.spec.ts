@@ -45,6 +45,10 @@ test.describe("wiki reader", () => {
     await expect(page.locator(".pageTitle")).toHaveText("Sources");
     await expect(page.getByRole("link", { name: /Residual Stream Notes/i }).first()).toBeVisible();
 
+    await page.goto("/studies");
+    await expect(page.locator(".pageTitle")).toHaveText("Studies");
+    await expect(page.getByRole("link", { name: /A Mathematical Framework for Transformer Circuits/i }).first()).toBeVisible();
+
     await page.goto("/search?q=transformer");
     await expect(page.locator(".pageTitle")).toHaveText("Search The Wiki");
     await expect(page.getByRole("link", { name: /Transformer Architecture/i }).first()).toBeVisible();

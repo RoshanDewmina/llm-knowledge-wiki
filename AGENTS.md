@@ -17,6 +17,10 @@ Read [docs/agent-contract.md](docs/agent-contract.md) before making durable chan
 - `./bin/llm-wiki health`
 - `./bin/llm-wiki status`
 - `./bin/llm-wiki review`
+- `./bin/llm-wiki paper start <url-or-id>`
+- `./bin/llm-wiki quiz [slug]`
+- `./bin/llm-wiki anki <slug>`
+- `./bin/llm-wiki impl <slug> "task"`
 - `./bin/llm-wiki query "question terms"`
 - `./bin/llm-wiki daily`
 - `./bin/llm-wiki question "..."`
@@ -34,6 +38,7 @@ Read [docs/agent-contract.md](docs/agent-contract.md) before making durable chan
 - `wiki/syntheses/codebases/` for repo or architecture syntheses
 - `wiki/journal/` and `wiki/questions/` for thinking-partner notes
 - `wiki/outputs/briefs/`, `wiki/outputs/tables/`, `wiki/outputs/timelines/`, and `wiki/outputs/slides/` for durable outputs
+- `wiki/studies/papers/`, `wiki/studies/anki/`, `wiki/studies/derivations/`, and `wiki/studies/implementations/` for private paper-mastery scaffolding
 
 ## Workflow
 
@@ -49,5 +54,13 @@ Read [docs/agent-contract.md](docs/agent-contract.md) before making durable chan
 - Reviewed source pages should include exact evidence anchors under `## Evidence Extracts` using `### ex-...` headings.
 - Concept, synthesis, and output pages should include exact `## Citations` with `[[sources/...#ex-...]]` links.
 - Prefer extending existing pages over creating duplicates.
+- Study skills may point to missing `concepts/...` candidates, but they must not auto-create concept pages without user confirmation.
 - Set `created`, `updated`, and `compiled_at` from `date -u +%Y-%m-%dT%H:%M:%SZ` when creating or refreshing durable pages.
 - When adding durable pages, update `wiki/index.md` and `wiki/log.md`.
+
+## Study Workflow
+
+- `Paper mode: <URL>` maps to `./bin/llm-wiki paper start <url-or-id>`.
+- Legacy paper notes live under `raw/legacy-obsidian/`; active study notes live under `wiki/studies/papers/`.
+- Use `./bin/llm-wiki concept candidates [slug]` to list concept links that need user-confirmed pages.
+- Never write `### ex-...` source anchors unless exact source text has been verified and the user confirmed.

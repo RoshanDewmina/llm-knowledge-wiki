@@ -137,6 +137,7 @@ const CONTENT_SECTIONS = [
   "benchmarks",
   "projects",
   "syntheses",
+  "studies",
   "outputs",
   "reviews",
 ] as const;
@@ -532,6 +533,7 @@ export async function getSidebarSections(): Promise<SidebarSection[]> {
     },
     { title: "Concepts", items: sectionLink("concepts").slice(0, 8) },
     { title: "Syntheses", items: sectionLink("syntheses").slice(0, 8) },
+    { title: "Studies", items: sectionLink("studies").slice(0, 8) },
     { title: "Outputs", items: sectionLink("outputs").slice(0, 8) },
     { title: "Recent Sources", items: recentSources },
   ].filter((section) => section.items.length > 0);
@@ -602,6 +604,8 @@ export async function getSectionDirectory(section: string): Promise<SectionDirec
     projects: "Project pages that gather local experiments, implementation notes, and related sources.",
     syntheses:
       "Multi-source explanations that combine several source pages into a durable, higher-level view.",
+    studies:
+      "Private paper-mastery scaffolding: active paper notes, Anki decks, derivations, and toy implementation specs.",
     outputs:
       "Deliverables, saved answers, and slide-ready artifacts written back into the wiki for reuse.",
     reviews: "Structured review pages for contradictions, quality checks, or periodic audits.",

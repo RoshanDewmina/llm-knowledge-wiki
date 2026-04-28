@@ -15,6 +15,7 @@ This is the daily triage note for the vault. Open it when you want to see what c
 ## Recent Source Activity
 
 <!-- AUTO-RECENT-SOURCES:START -->
+- 2026-04-28T22:14:05Z | [[sources/transformer-circuits-framework]] | `raw/papers/2026/2026-04-28-transformer-circuits-framework.md`
 - 2026-04-10T12:31:26Z | [[sources/example-transformer-tooling-notes]] | `raw/repos/example-transformer-tooling-notes.md`
 - 2026-04-08T21:18:05Z | [[sources/example-com-residual-stream-notes]] | `raw/articles/2026/2026-04-08-example-com-residual-stream-notes.md`
 - 2026-04-08T13:34:18Z | [[sources/example-com-attention-as-interface]] | `raw/articles/2026/2026-04-07-example-com-attention-as-interface.md`

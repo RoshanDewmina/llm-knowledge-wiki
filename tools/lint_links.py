@@ -43,6 +43,10 @@ def validate_page(path: Path) -> List[Dict[str, Any]]:
                 errors.append({"path": repo_relative(path), "type": "wikilink", "target": target, "message": "empty wikilink"})
                 continue
             if not resolved.exists():
+                if in_wiki and str(frontmatter.get("type")) == "study" and target.startswith("concepts/"):
+                    # Study mastery trackers may point at concept candidates before the user confirms page creation.
+                    # `tools/concept_candidates.py` reports these advisory links separately.
+                    continue
                 errors.append(
                     {
                         "path": repo_relative(path),

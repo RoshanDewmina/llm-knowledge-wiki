@@ -71,6 +71,55 @@ def build_parser() -> argparse.ArgumentParser:
     ingest_parser.add_argument("--dry-run", action="store_true", help="Show planned changes without writing")
     ingest_parser.set_defaults(func=cmd_ingest)
 
+
+    paper_parser = subparsers.add_parser("paper", help="Paper mastery workflows")
+    paper_subparsers = paper_parser.add_subparsers(dest="paper_command", required=True)
+    paper_start_parser = paper_subparsers.add_parser("start", help="Start paper mode from a URL or arXiv ID")
+    paper_start_parser.add_argument("paper")
+    paper_start_parser.add_argument("--slug")
+    paper_start_parser.add_argument("--no-open", action="store_true")
+    paper_start_parser.add_argument("--no-concepts", action="store_true", help="Deprecated no-op; concept pages are never auto-created")
+    paper_start_parser.set_defaults(func=cmd_paper_start)
+    paper_import_parser = paper_subparsers.add_parser("import-obsidian", help="Import a legacy Obsidian paper note")
+    paper_import_parser.add_argument("old_path")
+    paper_import_parser.add_argument("--slug")
+    paper_import_parser.add_argument("--copy-raw", action="store_true")
+    paper_import_parser.add_argument("--dry-run", action="store_true")
+    paper_import_parser.set_defaults(func=cmd_paper_import_obsidian)
+    paper_status_parser = paper_subparsers.add_parser("status", help="List paper studies")
+    paper_status_parser.add_argument("slug", nargs="?")
+    paper_status_parser.add_argument("--all", action="store_true")
+    paper_status_parser.set_defaults(func=cmd_paper_status)
+
+    quiz_parser = subparsers.add_parser("quiz", help="Emit quiz prompts from a study")
+    quiz_parser.add_argument("slug", nargs="?")
+    quiz_parser.add_argument("--n", type=int, default=5)
+    quiz_parser.add_argument("--kind", choices=("recall", "confusion", "derivation", "mixed"), default="mixed")
+    quiz_parser.set_defaults(func=cmd_quiz)
+
+    anki_parser = subparsers.add_parser("anki", help="Scaffold an Anki deck for a study")
+    anki_parser.add_argument("slug")
+    anki_parser.add_argument("--n", type=int, default=10)
+    anki_parser.add_argument("--style", choices=("qa", "cloze", "mixed"), default="mixed")
+    anki_parser.set_defaults(func=cmd_anki)
+
+    impl_parser = subparsers.add_parser("impl", help="Scaffold a toy implementation task")
+    impl_parser.add_argument("slug")
+    impl_parser.add_argument("task")
+    impl_parser.add_argument("--lang", choices=("numpy", "pytorch"), default="numpy")
+    impl_parser.set_defaults(func=cmd_impl)
+
+    promote_parser = subparsers.add_parser("promote", help="Promote a study into an output scaffold")
+    promote_parser.add_argument("slug")
+    promote_parser.add_argument("--target", choices=("brief", "table", "timeline", "slides"), default="brief")
+    promote_parser.set_defaults(func=cmd_promote)
+
+    concept_parser = subparsers.add_parser("concept", help="Concept scaffolding and study candidates")
+    concept_parser.add_argument("concept_args", nargs="+", help="`candidates [slug]` or a concept name")
+    concept_parser.add_argument("--from-study")
+    concept_parser.add_argument("--source-page", default="")
+    concept_parser.set_defaults(func=cmd_concept)
+
     daily_parser = subparsers.add_parser("daily", help="Scaffold today's journal note")
     daily_parser.add_argument("--stdout", action="store_true", help="Print the note instead of writing it")
     daily_parser.set_defaults(func=cmd_daily)
@@ -336,6 +385,84 @@ def cmd_ingest(args: argparse.Namespace) -> int:
     return run_python_tool("ingest.py", extra_args)
 
 
+
+
+def cmd_paper_start(args: argparse.Namespace) -> int:
+    extra_args: list[str] = [args.paper]
+    if args.slug:
+        extra_args.extend(["--slug", args.slug])
+    if args.no_open:
+        extra_args.append("--no-open")
+    if args.no_concepts:
+        extra_args.append("--no-concepts")
+    return run_python_tool("paper_start.py", extra_args)
+
+
+def cmd_paper_import_obsidian(args: argparse.Namespace) -> int:
+    extra_args: list[str] = [args.old_path]
+    if args.slug:
+        extra_args.extend(["--slug", args.slug])
+    if args.copy_raw:
+        extra_args.append("--copy-raw")
+    if args.dry_run:
+        extra_args.append("--dry-run")
+    return run_python_tool("paper_import_obsidian.py", extra_args)
+
+
+def cmd_paper_status(args: argparse.Namespace) -> int:
+    studies_dir = WIKI_DIR / "studies" / "papers"
+    if args.slug:
+        candidates = [studies_dir / f"{args.slug}.md"]
+    else:
+        candidates = sorted(studies_dir.glob("*.md")) if studies_dir.exists() else []
+    if not candidates:
+        print("no paper studies found")
+        return 0
+    for path in candidates:
+        if not path.exists():
+            print(f"missing: {path.relative_to(REPO_ROOT)}")
+            continue
+        try:
+            frontmatter, _ = __import__("wiki_utils").load_markdown_page(path)
+            print("{0} | {1} | read_status={2} | mastery_avg={3}".format(
+                path.relative_to(REPO_ROOT),
+                frontmatter.get("title", path.stem),
+                frontmatter.get("read_status", "unknown"),
+                frontmatter.get("mastery_avg", "unknown"),
+            ))
+        except Exception as exc:
+            print(f"{path.relative_to(REPO_ROOT)} | error: {exc}")
+    return 0
+
+
+def cmd_quiz(args: argparse.Namespace) -> int:
+    extra_args: list[str] = []
+    if args.slug:
+        extra_args.append(args.slug)
+    extra_args.extend(["--n", str(args.n), "--kind", args.kind])
+    return run_python_tool("quiz.py", extra_args)
+
+
+def cmd_anki(args: argparse.Namespace) -> int:
+    return run_python_tool("anki_scaffold.py", [args.slug, "--n", str(args.n), "--style", args.style])
+
+
+def cmd_impl(args: argparse.Namespace) -> int:
+    return run_python_tool("impl_scaffold.py", [args.slug, args.task, "--lang", args.lang])
+
+
+def cmd_promote(args: argparse.Namespace) -> int:
+    return run_python_tool("promote.py", [args.slug, "--target", args.target])
+
+
+def cmd_concept(args: argparse.Namespace) -> int:
+    if args.concept_args[0] == "candidates":
+        extra_args = args.concept_args[1:2]
+        return run_python_tool("concept_candidates.py", extra_args)
+    name = " ".join(args.concept_args)
+    source_page = args.source_page or (f"studies/papers/{args.from_study}" if args.from_study else "")
+    return run_python_tool("scaffold_concept.py", [name, "--source-page", source_page])
+
 def cmd_daily(args: argparse.Namespace) -> int:
     """Wrap tools/scaffold_daily.py."""
 
@@ -407,6 +534,12 @@ commands=(
   'question:scaffold a durable question note'
   'review-daily:regenerate the daily review page'
   'review:regenerate the main review pages'
+  'paper:paper mastery workflows'
+  'quiz:emit quiz prompts from a study'
+  'anki:scaffold an Anki deck'
+  'impl:scaffold a toy implementation task'
+  'promote:promote a study into an output'
+  'concept:concept scaffolding and candidates'
   'manifest:regenerate the frontend site manifest'
   'export:export a synthesis or output page to Marp markdown'
   'completion:print or install shell completion scripts'
@@ -471,7 +604,7 @@ def bash_completion() -> str:
   cmd="${{COMP_WORDS[1]}}"
 
   if [[ $COMP_CWORD -eq 1 ]]; then
-    COMPREPLY=( $(compgen -W "setup onboard doctor health status query ingest daily question review-daily review manifest export completion" -- "$cur") )
+    COMPREPLY=( $(compgen -W "setup onboard doctor health status query ingest daily question review-daily paper quiz anki impl promote concept review manifest export completion" -- "$cur") )
     return 0
   fi
 

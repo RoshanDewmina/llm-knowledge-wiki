@@ -21,6 +21,12 @@
   - `/codebase-memory [task]`
   - `/durable-output [task]`
   - `/daily-review [task]`
+  - `/paper-mode [notes]`
+  - `/quiz-me [slug]`
+  - `/anki-generate [slug]`
+  - `/derivation-coach [concept]`
+  - `/toy-implementation-coach [task]`
+  - `/promote-study [slug]`
 - The project includes two custom subagents under `.claude/agents/`:
   - `wiki-researcher` for read-only query and page-mapping work
   - `wiki-auditor` for read-only vault audits, stale-page checks, and citation hygiene

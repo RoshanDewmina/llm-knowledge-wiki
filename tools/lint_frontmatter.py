@@ -29,6 +29,9 @@ from wiki_utils import (
 COMMON_REQUIRED = {"title", "type", "created", "updated", "status", "confidence", "related"}
 SOURCE_REQUIRED = {"source_path", "source_kind", "compiled_at", "source_hash"}
 DERIVED_REQUIRED = {"source_pages", "compiled_at"}
+STUDY_REQUIRED = {"study_kind"}
+VALID_STUDY_KINDS = {"paper", "derivation", "implementation", "anki"}
+VALID_READ_STATUSES = {"todo", "reading", "done"}
 LIGHTWEIGHT_REQUIRED = {"source_pages", "compiled_at"}
 
 
@@ -60,6 +63,8 @@ def validate_page(path: Path) -> list[dict[str, Any]]:
         required |= SOURCE_REQUIRED
     elif page_type in DERIVED_TYPES:
         required |= DERIVED_REQUIRED
+        if page_type == "study":
+            required |= STUDY_REQUIRED
     elif page_type in LIGHTWEIGHT_TYPES:
         required |= LIGHTWEIGHT_REQUIRED
 
@@ -114,6 +119,20 @@ def validate_page(path: Path) -> list[dict[str, Any]]:
         source_hash = frontmatter.get("source_hash")
         if not isinstance(source_hash, str) or not source_hash.strip():
             errors.append({"path": repo_relative(path), "message": "source_hash must be a non-empty string"})
+
+    if page_type == "study":
+        study_kind = frontmatter.get("study_kind")
+        if study_kind not in VALID_STUDY_KINDS:
+            errors.append({"path": repo_relative(path), "message": f"invalid study_kind: {study_kind}"})
+        read_status = frontmatter.get("read_status")
+        if read_status is not None and read_status not in VALID_READ_STATUSES:
+            errors.append({"path": repo_relative(path), "message": f"invalid read_status: {read_status}"})
+        mastery_avg = frontmatter.get("mastery_avg")
+        if mastery_avg is not None and (not isinstance(mastery_avg, (int, float)) or not 0.0 <= float(mastery_avg) <= 5.0):
+            errors.append({"path": repo_relative(path), "message": "mastery_avg must be a number in [0, 5]"})
+        rating = frontmatter.get("rating")
+        if rating is not None and (not isinstance(rating, int) or not 1 <= rating <= 5):
+            errors.append({"path": repo_relative(path), "message": "rating must be null or an integer in [1, 5]"})
 
     if page_type in DERIVED_TYPES:
         source_pages = frontmatter.get("source_pages")
