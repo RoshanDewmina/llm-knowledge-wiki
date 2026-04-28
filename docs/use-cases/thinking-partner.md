@@ -15,16 +15,16 @@ Use this lane when Obsidian is your working space for daily thinking, and you wa
 ## Best Prompt
 
 ```text
-Read AGENTS.md or CLAUDE.md and docs/agent-contract.md. Help me think through this topic inside the vault. Use or create a daily note or question page first, then promote any stable insight into a synthesis, project page, or output if warranted, and run make check.
+Read AGENTS.md or CLAUDE.md and docs/agent-contract.md. Help me think through this topic inside the vault. Use or create a daily note or question page first, then promote any stable insight into a synthesis, project page, or output if warranted, and run ./bin/llm-wiki health.
 ```
 
 ## Checks
 
 ```bash
-make daily
-make question QUESTION="your question"
-make review-daily
-make check
+./bin/llm-wiki daily
+./bin/llm-wiki question "your question"
+./bin/llm-wiki review-daily
+./bin/llm-wiki health
 ```
 
 ## Done Looks Like

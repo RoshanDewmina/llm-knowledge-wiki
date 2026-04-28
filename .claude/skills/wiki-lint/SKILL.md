@@ -22,9 +22,8 @@ Use this skill when:
 
 Run:
 
-- `make check`
-- `python3 tools/check_wiki.py`
+- `./bin/llm-wiki health`
 
-`check_wiki.py` also regenerates `wiki/reviews/review-queue.md`, `wiki/reviews/coverage-dashboard.md`, refreshes `wiki/.cache/site-manifest.json`, and runs exact citation linting.
+That health command also regenerates `wiki/reviews/review-queue.md`, `wiki/reviews/coverage-dashboard.md`, refreshes `wiki/.cache/site-manifest.json`, and runs exact citation linting.
 
 If it reports failures, drill into the individual tools to fix them.

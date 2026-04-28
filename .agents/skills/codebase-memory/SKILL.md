@@ -19,4 +19,4 @@ Steps:
 2. Update the relevant page in `wiki/projects/`.
 3. Refresh `wiki/syntheses/context/` or `wiki/syntheses/codebases/` if the codebase state changed materially.
 4. Favor compact pages that agents can read first before opening more raw notes.
-5. Run `make check` after meaningful changes.
+5. Run `./bin/llm-wiki health` after meaningful changes.

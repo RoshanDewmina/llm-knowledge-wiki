@@ -20,8 +20,7 @@ Open Terminal, go into this folder, and run:
 
 ```bash
 cd /path/to/llm-knowledge-wiki
-./bin/llm-wiki onboard
-open -a Obsidian .
+./bin/llm-wiki onboard --open-obsidian
 make site-dev
 ```
 

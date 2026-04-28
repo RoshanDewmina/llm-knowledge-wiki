@@ -15,15 +15,15 @@ Use this lane when your vault is getting large and you want agents to read a com
 ## Best Prompt
 
 ```text
-Read AGENTS.md or CLAUDE.md and docs/agent-contract.md. Refresh the project memory page and the context pack so an agent can understand the current state of this vault without rereading the whole repo, then run make check.
+Read AGENTS.md or CLAUDE.md and docs/agent-contract.md. Refresh the project memory page and the context pack so an agent can understand the current state of this vault without rereading the whole repo, then run ./bin/llm-wiki health.
 ```
 
 ## Checks
 
 ```bash
 make project-demo
-make review-daily
-make check
+./bin/llm-wiki review-daily
+./bin/llm-wiki health
 ```
 
 ## Done Looks Like

@@ -41,7 +41,7 @@ Linux can be added next. Windows is not the first-class path yet.
 From the repo root:
 
 ```bash
-./bin/llm-wiki onboard
+./bin/llm-wiki onboard --open-obsidian
 ./bin/llm-wiki health
 make site-dev
 ```
@@ -86,9 +86,9 @@ make project-demo
 Thinking partner:
 
 ```bash
-make daily
-make question QUESTION="What should this vault explain next?"
-make review-daily
+./bin/llm-wiki daily
+./bin/llm-wiki question "What should this vault explain next?"
+./bin/llm-wiki review-daily
 ```
 
 ### Option 2: Add Your Own First Source
@@ -104,7 +104,7 @@ raw/repos/your-repo-note.md
 2. Ingest it:
 
 ```bash
-python3 tools/ingest.py raw/.../your-file.md
+./bin/llm-wiki ingest raw/.../your-file.md
 ```
 
 3. Open the matching page in `wiki/sources/`
@@ -113,7 +113,7 @@ python3 tools/ingest.py raw/.../your-file.md
 6. Run:
 
 ```bash
-make check
+./bin/llm-wiki health
 ```
 
 ## Which Folder To Use

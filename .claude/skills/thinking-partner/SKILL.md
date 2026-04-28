@@ -26,5 +26,5 @@ Steps:
 1. Create or open a note in `wiki/journal/` or `wiki/questions/`.
 2. Keep exploratory notes there until a stable rule or answer emerges.
 3. Promote reusable outcomes into `wiki/syntheses/`, `wiki/projects/`, or `wiki/outputs/`.
-4. Regenerate `wiki/reviews/daily-review.md` when deciding what to do next.
-5. Run `make check` after meaningful durable edits.
+4. Regenerate `wiki/reviews/daily-review.md` with `./bin/llm-wiki review-daily` when deciding what to do next.
+5. Run `./bin/llm-wiki health` after meaningful durable edits.

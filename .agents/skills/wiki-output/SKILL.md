@@ -24,5 +24,5 @@ Steps:
 3. Set `created`, `updated`, and `compiled_at` from `date -u +%Y-%m-%dT%H:%M:%SZ` when creating a page; update `updated` and `compiled_at` when refreshing one.
 4. Include exact source anchors under `## Citations`, not just page-level traceability, and keep an explicit `## Contradictions` section.
 5. Update `wiki/index.md` and `wiki/log.md`.
-6. Run `python3 tools/export_marp.py wiki/...` when slides are needed.
-7. Run `python3 tools/check_wiki.py` after meaningful edits.
+6. Run `./bin/llm-wiki export wiki/...` when slides are needed.
+7. Run `./bin/llm-wiki health` after meaningful edits.

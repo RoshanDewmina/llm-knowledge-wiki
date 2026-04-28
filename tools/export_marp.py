@@ -107,7 +107,7 @@ def main() -> int:
         "theme": "default",
         "paginate": True,
     }
-    unchanged = existing_frontmatter and existing_body == slide_body and all(
+    unchanged = existing_frontmatter and existing_body.rstrip() == slide_body.rstrip() and all(
         existing_frontmatter.get(key) == value for key, value in base_frontmatter.items()
     )
     if unchanged:

@@ -14,20 +14,20 @@ help:
 		'  make setup                         Run the native macOS bootstrap script' \
 		'  make doctor                        Verify host tools, repo structure, site build, and vault checks' \
 		'  make health                        Run the standard vault health checks through the repo CLI' \
+		'  make check                         Alias for make health' \
 		'  make status                        Show a compact readiness and content summary' \
-		'  make check                         Run the standard vault health checks' \
-		'  make review                        Regenerate the review queue and coverage dashboard' \
-		'  make review-daily                  Regenerate the daily review page' \
-		'  make manifest                      Regenerate the frontend site manifest' \
-		'  make query QUERY="transformer"     Search the compiled wiki' \
-		'  make query-json QUERY="..."        Search the compiled wiki as JSON' \
-		'  make ingest SOURCE=raw/...         Ingest one raw source file' \
+		'  make review                        Regenerate the main review pages through the repo CLI' \
+		'  make review-daily                  Regenerate the daily review page through the repo CLI' \
+		'  make manifest                      Regenerate the frontend site manifest through the repo CLI' \
+		'  make query QUERY="transformer"     Search the compiled wiki through the repo CLI' \
+		'  make query-json QUERY="..."        Search the compiled wiki as JSON through the repo CLI' \
+		'  make ingest SOURCE=raw/...         Ingest one raw source file through the repo CLI' \
 		'  make ingest-demo                   Ingest the seeded demo article' \
-		'  make daily                         Scaffold today'\''s journal note' \
-		'  make question QUESTION="..."       Scaffold a durable question note' \
+		'  make daily                         Scaffold today'\''s journal note through the repo CLI' \
+		'  make question QUESTION="..."       Scaffold a durable question note through the repo CLI' \
 		'  make research-demo                 Walk the seeded academic research workflow' \
 		'  make project-demo                  Walk the seeded codebase-memory workflow' \
-		'  make export SYNTHESIS=wiki/...     Export a synthesis/output to Marp markdown' \
+		'  make export SYNTHESIS=wiki/...     Export a synthesis/output to Marp markdown through the repo CLI' \
 		'  make export-demo                   Export the seeded demo synthesis' \
 		'  make test                          Run Python tests plus frontend lint/build/e2e' \
 		'  make site-dev                      Run the Next.js frontend with Bun' \
@@ -51,52 +51,50 @@ status:
 	$(CLI) status
 
 check:
-	$(PYTHON) tools/check_wiki.py
+	$(CLI) health
 
 review:
-	$(PYTHON) tools/coverage_dashboard.py
-	$(PYTHON) tools/review_queue.py
-	$(PYTHON) tools/daily_review.py
+	$(CLI) review
 
 review-daily:
-	$(PYTHON) tools/daily_review.py
+	$(CLI) review-daily
 
 manifest:
-	$(PYTHON) tools/build_site_manifest.py
+	$(CLI) manifest
 
 query:
-	$(PYTHON) tools/query_index.py "$(QUERY)"
+	$(CLI) query "$(QUERY)"
 
 query-json:
-	$(PYTHON) tools/query_index.py "$(QUERY)" --json
+	$(CLI) query "$(QUERY)" --json
 
 ingest:
-	$(PYTHON) tools/ingest.py "$(SOURCE)"
+	$(CLI) ingest "$(SOURCE)"
 
 ingest-demo:
-	$(PYTHON) tools/ingest.py raw/articles/2026/2026-04-07-example-com-attention-as-interface.md
+	$(CLI) ingest raw/articles/2026/2026-04-07-example-com-attention-as-interface.md
 
 daily:
-	$(PYTHON) tools/scaffold_daily.py
+	$(CLI) daily
 
 question:
-	$(PYTHON) tools/scaffold_question.py "$(QUESTION)"
+	$(CLI) question "$(QUESTION)"
 
 research-demo:
-	$(PYTHON) tools/ingest.py raw/papers/attention-is-all-you-need-excerpt.md
-	$(PYTHON) tools/query_index.py "transformer" --section syntheses --path-prefix wiki/syntheses/research/ --type synthesis
-	$(PYTHON) tools/check_wiki.py
+	$(CLI) ingest raw/papers/attention-is-all-you-need-excerpt.md
+	$(CLI) query "transformer" --section syntheses --path-prefix wiki/syntheses/research/ --type synthesis
+	$(CLI) health
 
 project-demo:
-	$(PYTHON) tools/ingest.py raw/repos/example-transformer-tooling-notes.md
-	$(PYTHON) tools/query_index.py "project memory" --section projects
-	$(PYTHON) tools/check_wiki.py
+	$(CLI) ingest raw/repos/example-transformer-tooling-notes.md
+	$(CLI) query "project memory" --section projects
+	$(CLI) health
 
 export:
-	$(PYTHON) tools/export_marp.py "$(SYNTHESIS)"
+	$(CLI) export "$(SYNTHESIS)"
 
 export-demo:
-	$(PYTHON) tools/export_marp.py wiki/syntheses/transformer-orientation.md
+	$(CLI) export wiki/syntheses/transformer-orientation.md
 
 test:
 	$(PYTHON) -m unittest discover -s tests -p 'test_*.py'

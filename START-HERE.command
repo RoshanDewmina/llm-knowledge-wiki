@@ -9,7 +9,7 @@ cd "${REPO_ROOT}"
 echo "Starting first-time setup for LLM Knowledge Wiki..."
 echo
 
-./bin/llm-wiki onboard
+./bin/llm-wiki onboard --open-obsidian
 
 echo
 echo "Opening the beginner study guide..."
@@ -17,7 +17,7 @@ open "${REPO_ROOT}/START-HERE-STUDYING.md"
 
 echo
 echo "Next steps:"
-echo "  1. Open Obsidian and select this folder as a vault"
+echo "  1. If Obsidian did not open automatically, open it and select this folder as a vault"
 echo "  2. Read START-HERE-STUDYING.md"
 echo "  3. Add your class notes or transcripts into raw/"
 echo "  4. Run ./bin/llm-wiki ingest raw/.../your-file.md"

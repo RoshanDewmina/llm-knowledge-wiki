@@ -24,8 +24,8 @@ Steps:
 
 1. Treat the repo root as the Obsidian vault.
 2. Keep `raw/` immutable except for adding new source files.
-3. Ingest new clips with `python3 tools/ingest.py raw/articles/YYYY/...`.
+3. Ingest new clips with `./bin/llm-wiki ingest raw/articles/YYYY/...`.
 4. Open `wiki/inbox.md` to review recent source activity and next actions.
 5. Add exact evidence anchors under `## Evidence Extracts` on reviewed source pages, and cite them from derived pages under `## Citations`.
 6. Save durable notes into `wiki/syntheses/` or `wiki/outputs/` with current UTC `created`/`updated`/`compiled_at` values from `date -u +%Y-%m-%dT%H:%M:%SZ`.
-7. Run `make check` or `python3 tools/check_wiki.py` before concluding meaningful vault edits, then inspect `wiki/reviews/`.
+7. Run `./bin/llm-wiki health` before concluding meaningful vault edits, then inspect `wiki/reviews/`.

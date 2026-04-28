@@ -22,8 +22,8 @@ Use this skill when:
 
 Steps:
 
-1. Run `make review-daily`.
+1. Run `./bin/llm-wiki review-daily`.
 2. Open `wiki/reviews/daily-review.md`, `wiki/reviews/review-queue.md`, and `wiki/inbox.md`.
 3. Pick the smallest high-value next action: review a source, answer a durable question, or refresh a stale page.
 4. Promote any stable result into `wiki/projects/`, `wiki/syntheses/`, or `wiki/outputs/`.
-5. Run `make check` after meaningful edits.
+5. Run `./bin/llm-wiki health` after meaningful edits.

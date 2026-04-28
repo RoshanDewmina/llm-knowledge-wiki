@@ -86,7 +86,7 @@ Use it when you want:
 ### Research
 
 ```text
-/research-assistant ingest this paper, add exact evidence anchors, extend the research synthesis, and run make check
+/research-assistant ingest this paper, add exact evidence anchors, extend the research synthesis, and run ./bin/llm-wiki health
 ```
 
 ### Thinking Partner
@@ -98,13 +98,13 @@ Use it when you want:
 ### Codebase Memory
 
 ```text
-/codebase-memory ingest this repo note, refresh the project memory page, update the codebase synthesis if needed, and run make check
+/codebase-memory ingest this repo note, refresh the project memory page, update the codebase synthesis if needed, and run ./bin/llm-wiki health
 ```
 
 ### Durable Output
 
 ```text
-/durable-output turn this into a brief or table in wiki/outputs/ with exact citations and run make check
+/durable-output turn this into a brief or table in wiki/outputs/ with exact citations and run ./bin/llm-wiki health
 ```
 
 ### Generic Query
@@ -134,5 +134,5 @@ Use local-only memory for:
 If you only remember one prompt, use this:
 
 ```text
-Read CLAUDE.md and docs/agent-contract.md. Work only from the repo state. Keep raw/ immutable, extend existing wiki pages before creating duplicates, write durable answers back into wiki/, include exact citations where available, and run make check before finishing meaningful wiki edits.
+Read CLAUDE.md and docs/agent-contract.md. Work only from the repo state. Keep raw/ immutable, extend existing wiki pages before creating duplicates, write durable answers back into wiki/, include exact citations where available, and run ./bin/llm-wiki health before finishing meaningful wiki edits.
 ```

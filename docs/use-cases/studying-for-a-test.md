@@ -39,8 +39,7 @@ cd ~/Downloads/llm-knowledge-wiki
 From the repo root:
 
 ```bash
-./bin/llm-wiki onboard
-open -a Obsidian .
+./bin/llm-wiki onboard --open-obsidian
 make site-dev
 ```
 

@@ -23,4 +23,4 @@ Steps:
 2. Use exact `## Citations` with `[[sources/...#ex-...]]` links.
 3. Keep an explicit `## Contradictions` section when relevant.
 4. Update `wiki/index.md` and `wiki/log.md` when adding a new durable page.
-5. Run `make check`, then `python3 tools/export_marp.py wiki/...` when slides are needed.
+5. Run `./bin/llm-wiki health`, then `./bin/llm-wiki export wiki/...` when slides are needed.

@@ -16,15 +16,15 @@ Use this lane when you want to collect papers and articles, compile them into re
 ## Best Prompt
 
 ```text
-Read AGENTS.md or CLAUDE.md and docs/agent-contract.md. Ingest this paper or article, add exact evidence anchors on the source page, extend the relevant existing concept pages, update the research synthesis in wiki/syntheses/research/, and run make check.
+Read AGENTS.md or CLAUDE.md and docs/agent-contract.md. Ingest this paper or article, add exact evidence anchors on the source page, extend the relevant existing concept pages, update the research synthesis in wiki/syntheses/research/, and run ./bin/llm-wiki health.
 ```
 
 ## Checks
 
 ```bash
-make ingest SOURCE=raw/papers/your-paper.md
-make query QUERY="your topic"
-make check
+./bin/llm-wiki ingest raw/papers/your-paper.md
+./bin/llm-wiki query "your topic"
+./bin/llm-wiki health
 ```
 
 ## Done Looks Like

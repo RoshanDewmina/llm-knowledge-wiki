@@ -3,7 +3,7 @@
 These templates are designed for a simple local-first flow:
 
 1. Clip into `raw/articles/YYYY/`
-2. Run `python3 tools/ingest.py raw/articles/YYYY/...`
+2. Run `./bin/llm-wiki ingest raw/articles/YYYY/...`
 3. Update linked notes in `wiki/`
 
 They use current official Web Clipper variables and filters such as `{{title}}`, `{{url}}`, `{{domain}}`, `{{date}}`, `{{time}}`, `{{content}}`, `{{highlights}}`, `safe_name`, and `replace`.
@@ -108,4 +108,3 @@ clipper: obsidian-web-clipper
 - These templates are intentionally file-first and markdown-first.
 - They do not require MCP.
 - They keep enough metadata in the raw file for `tools/ingest.py` to normalize a source page without fabricating a summary.
-

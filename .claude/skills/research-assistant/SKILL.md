@@ -26,4 +26,4 @@ Steps:
 2. Add exact `### ex-...` evidence anchors on the reviewed source page.
 3. Extend existing concept pages before creating new ones.
 4. Save literature-review style notes in `wiki/syntheses/research/`.
-5. Run `make check` after meaningful changes.
+5. Run `./bin/llm-wiki health` after meaningful changes.

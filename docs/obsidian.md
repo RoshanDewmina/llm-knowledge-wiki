@@ -91,7 +91,7 @@ raw/repos/your-repo-note.md
 Run:
 
 ```bash
-python3 tools/ingest.py raw/.../your-file.md
+./bin/llm-wiki ingest raw/.../your-file.md
 ```
 
 ### 3. Open The Source Page
@@ -122,7 +122,7 @@ For exploratory work:
 Run:
 
 ```bash
-make check
+./bin/llm-wiki health
 ```
 
 Then inspect:
@@ -170,7 +170,7 @@ Good habits:
 
 - extend existing notes instead of making duplicates
 - save durable answers back into `wiki/`
-- run `make check` after meaningful changes
+- run `./bin/llm-wiki health` after meaningful changes
 - use `wiki/reviews/daily-review.md` and `wiki/reviews/review-queue.md` to choose the next action
 
 ## Recommended Tabs To Keep Open

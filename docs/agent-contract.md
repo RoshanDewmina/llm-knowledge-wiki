@@ -75,7 +75,7 @@ For `journal` and `question`, `source_pages` may be empty while the note is stil
 ### Ingest
 
 1. Confirm the raw file already exists under `raw/`.
-2. Run `python3 tools/ingest.py raw/...`.
+2. Run `./bin/llm-wiki ingest raw/...`.
 3. Review the created or refreshed source page.
 4. Add `## Evidence Extracts` anchors once exact source support has been verified.
 5. Read related wiki pages before updating concepts, projects, or syntheses.
@@ -83,7 +83,7 @@ For `journal` and `question`, `source_pages` may be empty while the note is stil
 
 ### Query
 
-1. Run `python3 tools/query_index.py "..."` or `make query QUERY="..."`.
+1. Run `./bin/llm-wiki query "..."`.
 2. Read the highest-signal hits in `wiki/`.
 3. Answer from compiled wiki pages.
 4. If the answer is durable, save it into `wiki/syntheses/` or `wiki/outputs/` with exact `## Citations`.
@@ -96,9 +96,9 @@ For `journal` and `question`, `source_pages` may be empty while the note is stil
 
 ### Maintenance
 
-Run `python3 tools/check_wiki.py` before concluding a meaningful wiki edit.
+Run `./bin/llm-wiki health` before concluding a meaningful wiki edit.
 
-`check_wiki.py` regenerates:
+That health command regenerates:
 
 - `wiki/reviews/coverage-dashboard.md`
 - `wiki/reviews/review-queue.md`

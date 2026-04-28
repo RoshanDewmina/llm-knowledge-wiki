@@ -14,7 +14,7 @@ Use this skill when:
 
 Steps:
 
-1. Run `make query QUERY="..."` or `python3 tools/query_index.py "..."`, adding `--type`, `--section`, `--status`, or `--min-confidence` when useful.
+1. Run `./bin/llm-wiki query "..."`, adding `--type`, `--section`, `--status`, or `--min-confidence` when useful.
 2. Read the top wiki hits directly.
 3. Answer from compiled pages, not from raw files alone.
 4. If the answer is durable, write it back into `wiki/syntheses/` or `wiki/outputs/` with exact `## Citations`.

@@ -17,7 +17,7 @@ Use this skill when:
 Steps:
 
 1. Confirm the source already lives under `raw/`, usually `raw/articles/YYYY/`.
-2. Run `python3 tools/ingest.py raw/...`.
+2. Run `./bin/llm-wiki ingest raw/...`.
 3. Read the resulting `wiki/sources/` page, add exact `### ex-...` evidence anchors once the source is reviewed, and search for related existing pages before adding content.
 4. Refresh affected concept or synthesis pages if the source changes the compiled wiki.
 5. Cite exact source anchors from derived pages instead of relying on page-level traceability alone.

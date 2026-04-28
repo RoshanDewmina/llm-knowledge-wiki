@@ -16,16 +16,13 @@ Read [docs/agent-contract.md](docs/agent-contract.md) before making durable chan
 - `./bin/llm-wiki doctor`
 - `./bin/llm-wiki health`
 - `./bin/llm-wiki status`
-- `make setup`
-- `make doctor`
-- `make check`
-- `make review`
-- `make review-daily`
-- `make query QUERY="question terms"`
-- `make daily`
-- `make question QUESTION="..."`
+- `./bin/llm-wiki review`
+- `./bin/llm-wiki query "question terms"`
+- `./bin/llm-wiki daily`
+- `./bin/llm-wiki question "..."`
 - `make research-demo`
 - `make project-demo`
+- `make help`
 
 ## Main Folders
 
@@ -43,7 +40,7 @@ Read [docs/agent-contract.md](docs/agent-contract.md) before making durable chan
 1. New source in `raw/`: ingest it, review the matching `wiki/sources/` page, add `## Evidence Extracts`, then update the relevant concept, project, synthesis, or output pages.
 2. User question: query `wiki/`, read the top hits, answer from compiled notes, then save anything durable back into `wiki/`.
 3. Daily triage: open `wiki/inbox.md`, `wiki/reviews/daily-review.md`, and `wiki/reviews/review-queue.md` before choosing the next edit.
-4. Significant wiki edit: run `make check` before concluding.
+4. Significant wiki edit: run `./bin/llm-wiki health` before concluding.
 
 ## Required Invariants
 

@@ -55,8 +55,7 @@ Use this as the default public onboarding flow:
 ```bash
 git clone <your-template-repo-url> llm-knowledge-wiki
 cd llm-knowledge-wiki
-./bin/llm-wiki onboard
-open -a Obsidian .
+./bin/llm-wiki onboard --open-obsidian
 ```
 
 If you are just sharing this quickly with one person, a `.zip` also works, but Git clone is better for future updates.
@@ -129,6 +128,14 @@ If you are new, read these in order:
 4. [docs/claude-code.md](docs/claude-code.md)
 5. [docs/cli.md](docs/cli.md)
 
+Primary terminal interface:
+
+```bash
+./bin/llm-wiki
+```
+
+`make` still exists as a shortcut layer, but the CLI is the source of truth for onboarding and day-to-day actions.
+
 ## Use Case Lanes
 
 This repo now supports these main workflows:
@@ -179,23 +186,13 @@ apps/site/                      Bun + Next.js frontend
 ./bin/llm-wiki doctor
 ./bin/llm-wiki health
 ./bin/llm-wiki status
+./bin/llm-wiki review
 ./bin/llm-wiki query "your topic"
 ./bin/llm-wiki ingest raw/articles/YYYY/your-file.md
 ./bin/llm-wiki daily
 ./bin/llm-wiki question "your question"
+./bin/llm-wiki export wiki/syntheses/your-note.md
 make help
-make setup
-make doctor
-make check
-make review
-make review-daily
-make ingest SOURCE=raw/articles/YYYY/your-file.md
-make query QUERY="your topic"
-make daily
-make question QUESTION="your question"
-make research-demo
-make project-demo
-make export SYNTHESIS=wiki/syntheses/your-note.md
 make site-dev
 make test
 ```
@@ -207,7 +204,7 @@ make test
 3. Add exact evidence anchors under `## Evidence Extracts`.
 4. Update the relevant concept, project, synthesis, or output page.
 5. Use `wiki/journal/` and `wiki/questions/` for thinking-partner work before promoting stable ideas.
-6. Run `make check`.
+6. Run `./bin/llm-wiki health`.
 7. Browse the result in Obsidian or the local site.
 
 ## Claude Code Quick Start
@@ -252,8 +249,8 @@ The repo is validated locally with:
 ./bin/llm-wiki onboard --skip-site-build
 ./bin/llm-wiki status
 ./bin/llm-wiki health
-make doctor
-make check
+./bin/llm-wiki review
+./bin/llm-wiki doctor
 make test
 ```
 

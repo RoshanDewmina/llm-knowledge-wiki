@@ -15,15 +15,15 @@ Use this lane when the repo itself is part of what you are studying, building, o
 ## Best Prompt
 
 ```text
-Read AGENTS.md or CLAUDE.md and docs/agent-contract.md. Ingest this repo note, refresh the project memory page, update the codebase synthesis if needed, and run make check.
+Read AGENTS.md or CLAUDE.md and docs/agent-contract.md. Ingest this repo note, refresh the project memory page, update the codebase synthesis if needed, and run ./bin/llm-wiki health.
 ```
 
 ## Checks
 
 ```bash
-make ingest SOURCE=raw/repos/your-repo-note.md
+./bin/llm-wiki ingest raw/repos/your-repo-note.md
 make project-demo
-make check
+./bin/llm-wiki health
 ```
 
 ## Done Looks Like

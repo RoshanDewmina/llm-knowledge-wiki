@@ -28,9 +28,9 @@ Then use [cli.md](cli.md) for the rest of the terminal workflow.
 Use this when adding papers or research articles.
 
 ```bash
-python3 tools/ingest.py raw/papers/your-paper.md
-make query QUERY="your topic"
-make check
+./bin/llm-wiki ingest raw/papers/your-paper.md
+./bin/llm-wiki query "your topic"
+./bin/llm-wiki health
 ```
 
 Maintain:
@@ -53,9 +53,9 @@ Maintain:
 Typical loop:
 
 ```bash
-make review-daily
-make query QUERY="project memory"
-make check
+./bin/llm-wiki review-daily
+./bin/llm-wiki query "project memory"
+./bin/llm-wiki health
 ```
 
 Read [use-cases/context-compaction.md](use-cases/context-compaction.md).
@@ -80,9 +80,9 @@ Read [use-cases/studying-for-a-test.md](use-cases/studying-for-a-test.md).
 Use this when you are thinking inside the vault before deciding what should become durable.
 
 ```bash
-make daily
-make question QUESTION="your question"
-make review-daily
+./bin/llm-wiki daily
+./bin/llm-wiki question "your question"
+./bin/llm-wiki review-daily
 ```
 
 Maintain:
@@ -103,9 +103,9 @@ Read [use-cases/thinking-partner.md](use-cases/thinking-partner.md).
 Use this when the repo itself is part of the knowledge you want agents to retain.
 
 ```bash
-python3 tools/ingest.py raw/repos/your-repo-note.md
+./bin/llm-wiki ingest raw/repos/your-repo-note.md
 make project-demo
-make check
+./bin/llm-wiki health
 ```
 
 Maintain:
@@ -129,8 +129,8 @@ Output homes:
 Typical loop:
 
 ```bash
-make export SYNTHESIS=wiki/syntheses/your-note.md
-make check
+./bin/llm-wiki export wiki/syntheses/your-note.md
+./bin/llm-wiki health
 ```
 
 Read [use-cases/durable-outputs.md](use-cases/durable-outputs.md).
@@ -179,38 +179,40 @@ Important subfolders:
 ### For Codex
 
 ```text
-Read AGENTS.md and docs/agent-contract.md. Ingest this source, review the related pages, add exact evidence anchors where needed, update the relevant existing wiki pages, avoid duplicates, and run make check.
+Read AGENTS.md and docs/agent-contract.md. Ingest this source, review the related pages, add exact evidence anchors where needed, update the relevant existing wiki pages, avoid duplicates, and run ./bin/llm-wiki health.
 ```
 
 ### For Claude Code
 
 ```text
-Read CLAUDE.md and docs/agent-contract.md. Answer this from the compiled wiki only. If the answer is durable, save it into wiki/outputs/ or wiki/syntheses/, include exact citations, and run make check.
+Read CLAUDE.md and docs/agent-contract.md. Answer this from the compiled wiki only. If the answer is durable, save it into wiki/outputs/ or wiki/syntheses/, include exact citations, and run ./bin/llm-wiki health.
 ```
 
 ### For Thinking Partner Work
 
 ```text
-Read CLAUDE.md and docs/agent-contract.md. Use the vault as a thinking workspace first. Create or update a daily note or question page, then promote any stable insight into a synthesis, project page, or output if warranted, and run make check.
+Read CLAUDE.md and docs/agent-contract.md. Use the vault as a thinking workspace first. Create or update a daily note or question page, then promote any stable insight into a synthesis, project page, or output if warranted, and run ./bin/llm-wiki health.
 ```
 
 ## Common Commands
 
 ```bash
-make setup
-make doctor
-make check
-make review
-make review-daily
-make ingest SOURCE=raw/.../your-file.md
-make query QUERY="your topic"
-make daily
-make question QUESTION="your question"
+./bin/llm-wiki setup
+./bin/llm-wiki doctor
+./bin/llm-wiki health
+./bin/llm-wiki review
+./bin/llm-wiki review-daily
+./bin/llm-wiki ingest raw/.../your-file.md
+./bin/llm-wiki query "your topic"
+./bin/llm-wiki daily
+./bin/llm-wiki question "your question"
 make research-demo
 make project-demo
 make site-dev
 make test
 ```
+
+`make` still works for shortcuts, but prefer `./bin/llm-wiki` as the main command surface.
 
 ## Common Files To Open
 
@@ -225,14 +227,14 @@ make test
 - do not let the model rewrite existing files in `raw/`
 - do not create a new concept or synthesis page when an existing one should be extended
 - do not keep durable knowledge only in chat
-- do not skip `make check` after meaningful changes
+- do not skip `./bin/llm-wiki health` after meaningful changes
 - do not rely on page-level traceability alone when exact source anchors are available
 
 ## Troubleshooting
 
-### `make check` fails
+### `./bin/llm-wiki health` fails
 
-Read the named file, fix the issue, and run `make check` again.
+Read the named file, fix the issue, and run `./bin/llm-wiki health` again.
 
 ### I do not know what to work on next
 
