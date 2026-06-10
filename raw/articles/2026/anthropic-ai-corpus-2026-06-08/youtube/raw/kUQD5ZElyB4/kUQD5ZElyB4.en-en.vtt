@@ -1,0 +1,201 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.090 --> 00:00:03.510
+When I was 16, I was
+focusing on becoming
+
+00:00:03.510 --> 00:00:05.340
+a good open source developer.
+
+00:00:05.340 --> 00:00:07.590
+I love the fact that I'm
+still working on something
+
+00:00:07.590 --> 00:00:09.750
+I was passionate about as a teenager,
+
+00:00:09.750 --> 00:00:12.024
+and I think this is
+gonna be my life mission.
+
+00:00:12.024 --> 00:00:14.524
+(calm music)
+
+00:00:15.720 --> 00:00:18.810
+Replit is the place where
+you go with an idea in mind,
+
+00:00:18.810 --> 00:00:20.700
+no coding skills whatsoever,
+
+00:00:20.700 --> 00:00:23.370
+expressing in natural language
+what you want to build,
+
+00:00:23.370 --> 00:00:26.070
+and then they see the
+magic for the first time.
+
+00:00:26.070 --> 00:00:29.460
+We made coding so accessible to everyone.
+
+00:00:29.460 --> 00:00:31.590
+They don't even feel that
+they're writing code anymore.
+
+00:00:31.590 --> 00:00:34.050
+They're just creating an
+idea they have in their mind
+
+00:00:34.050 --> 00:00:35.880
+and turning it into one application,
+
+00:00:35.880 --> 00:00:37.350
+turning it into a website.
+
+00:00:37.350 --> 00:00:39.960
+- So when you started
+building the Replit agent
+
+00:00:39.960 --> 00:00:42.150
+and you were experimenting
+with different models,
+
+00:00:42.150 --> 00:00:44.490
+why did you land on using Claude?
+
+00:00:44.490 --> 00:00:48.180
+- We need high IQ level in our agent.
+
+00:00:48.180 --> 00:00:49.440
+I love to use this analogy
+
+00:00:49.440 --> 00:00:51.420
+where models are like the car engine
+
+00:00:51.420 --> 00:00:54.870
+and we're building the entire
+car around it ourselves.
+
+00:00:54.870 --> 00:00:58.320
+In order for us to remove the
+barrier of entry of coding,
+
+00:00:58.320 --> 00:01:01.350
+the power of the model is
+what makes the difference.
+
+00:01:01.350 --> 00:01:04.290
+We made a choice back in early 2024,
+
+00:01:04.290 --> 00:01:06.960
+where Sonnet 3.5 came out,
+
+00:01:06.960 --> 00:01:09.840
+and since then, Anthropic
+kept the lead in having
+
+00:01:09.840 --> 00:01:12.090
+the best coding models on the market.
+
+00:01:12.090 --> 00:01:14.340
+- So one of my favorite parts of my job
+
+00:01:14.340 --> 00:01:16.860
+in applied AI is when we work with you
+
+00:01:16.860 --> 00:01:19.890
+on early research previews
+of our newest models.
+
+00:01:19.890 --> 00:01:23.719
+- It feels like receiving
+a shiny toy at Christmas.
+
+00:01:23.719 --> 00:01:24.690
+(both laughing)
+
+00:01:24.690 --> 00:01:26.820
+The discovery process of finding out
+
+00:01:26.820 --> 00:01:30.303
+what it's capable to do is the
+most exciting window of time.
+
+00:01:31.470 --> 00:01:35.520
+Early 2025, you gave us
+access to Sonnet 3.7.
+
+00:01:35.520 --> 00:01:38.310
+We rushed to create Replit Agent V2,
+
+00:01:38.310 --> 00:01:41.040
+and the moment Anthropic
+launched the new model
+
+00:01:41.040 --> 00:01:42.690
+and we launched it in the same day,
+
+00:01:42.690 --> 00:01:46.710
+our new agent, there was a
+incredible marketing pop.
+
+00:01:46.710 --> 00:01:47.910
+- And this is something that's used
+
+00:01:47.910 --> 00:01:49.770
+by relatively few people at the moment?
+
+00:01:49.770 --> 00:01:52.500
+It's kind of a hidden secret or?
+
+00:01:52.500 --> 00:01:55.380
+- I think we recently crossed
+40 million registered users.
+
+00:01:55.380 --> 00:01:58.350
+We got a lot of attention
+because users experienced
+
+00:01:58.350 --> 00:02:01.920
+something that they've never
+seen before in our product.
+
+00:02:01.920 --> 00:02:04.110
+- [Hannah] So what makes Replit unique?
+
+00:02:04.110 --> 00:02:06.030
+- We remove all the complexity
+
+00:02:06.030 --> 00:02:09.090
+that makes the job of a
+software engineer really hard.
+
+00:02:09.090 --> 00:02:11.730
+That barrier has been
+completely crushed by Replit.
+
+00:02:11.730 --> 00:02:14.730
+I'm approached by people
+that didn't even feel
+
+00:02:14.730 --> 00:02:17.130
+the permission to create
+software in their life.
+
+00:02:17.130 --> 00:02:19.290
+They always had like an
+amazing business idea.
+
+00:02:19.290 --> 00:02:22.293
+Now, they're doing the zero
+to one complete in Replit.
+
+00:02:23.503 --> 00:02:25.702
+This is changing people's lives.
+
+00:02:25.702 --> 00:02:28.369
+(upbeat music)
+

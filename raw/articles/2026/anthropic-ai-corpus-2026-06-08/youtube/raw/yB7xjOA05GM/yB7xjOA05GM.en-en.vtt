@@ -1,0 +1,208 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.126 --> 00:00:02.544
+Some of the challenges we faced
+
+00:00:02.544 --> 00:00:03.712
+within Slack is
+
+00:00:03.712 --> 00:00:05.463
+traditionally information overload.
+
+00:00:05.463 --> 00:00:07.007
+One of our product principles is 
+
+00:00:07.007 --> 00:00:08.216
+be a great host.
+
+00:00:08.216 --> 00:00:09.217
+And so one of the things
+
+00:00:09.217 --> 00:00:10.385
+we wanted to help people with
+
+00:00:10.385 --> 00:00:11.261
+from the beginning,
+
+00:00:11.261 --> 00:00:12.387
+was actually distilling
+
+00:00:12.387 --> 00:00:13.346
+through the noise
+
+00:00:13.346 --> 00:00:14.222
+and actually figuring out
+
+00:00:14.222 --> 00:00:15.306
+what's important.
+
+00:00:21.730 --> 00:00:22.939
+When AI emerged,
+
+00:00:22.939 --> 00:00:25.025
+we had some very clear problems
+
+00:00:25.025 --> 00:00:26.276
+we wanted to solve.
+
+00:00:26.276 --> 00:00:28.236
+And those were specifically search
+
+00:00:28.236 --> 00:00:29.154
+and then summarizing
+
+00:00:29.154 --> 00:00:30.822
+high volumes of information.
+
+00:00:30.822 --> 00:00:32.407
+So we started to experiment with it,
+
+00:00:32.407 --> 00:00:33.742
+and with Claude in particular,
+
+00:00:33.742 --> 00:00:34.993
+and when we started to get
+
+00:00:34.993 --> 00:00:36.494
+our first search answers back,
+
+00:00:36.494 --> 00:00:37.787
+we saw like an immediate,
+
+00:00:37.787 --> 00:00:39.664
+almost like, mind meld with Claude
+
+00:00:39.664 --> 00:00:41.207
+that was our first
+
+00:00:41.207 --> 00:00:43.126
+holy cow moment.
+
+00:00:43.126 --> 00:00:44.377
+The system automatically
+
+00:00:44.377 --> 00:00:45.628
+takes care of answering
+
+00:00:45.628 --> 00:00:46.504
+things for me,
+
+00:00:46.504 --> 00:00:48.006
+summarizes information for me,
+
+00:00:48.006 --> 00:00:49.424
+and that just gives me minutes
+
+00:00:49.424 --> 00:00:51.051
+every single day.
+
+00:00:51.051 --> 00:00:52.135
+We track a number of
+
+00:00:52.135 --> 00:00:53.386
+metrics throughout Slack.
+
+00:00:53.386 --> 00:00:54.554
+One is query success rate.
+
+00:00:54.554 --> 00:00:56.431
+And two is the number of users that
+
+00:00:56.431 --> 00:00:58.808
+self-report Slack as feeling noisy
+
+00:00:58.808 --> 00:00:59.476
+and we've seen
+
+00:00:59.476 --> 00:01:01.186
+one of our biggest improvements
+
+00:01:01.186 --> 00:01:03.063
+with both of those metrics.
+
+00:01:03.313 --> 00:01:04.981
+Not only are we using Claude for
+
+00:01:04.981 --> 00:01:07.067
+some of our customer facing features
+
+00:01:07.067 --> 00:01:09.069
+but we're also using it with Claude Code
+
+00:01:09.069 --> 00:01:11.112
+to do things like fix bugs
+
+00:01:11.112 --> 00:01:12.489
+and really power teams
+
+00:01:12.489 --> 00:01:14.157
+internally to move faster.
+
+00:01:14.157 --> 00:01:16.743
+The limitation now is creativity
+
+00:01:16.743 --> 00:01:17.660
+and imagination.
+
+00:01:17.660 --> 00:01:19.621
+It's not really a question
+
+00:01:19.621 --> 00:01:21.456
+of how to build the thing.
+
+00:01:21.456 --> 00:01:22.582
+It's a question of
+
+00:01:22.582 --> 00:01:23.958
+what do you want to build?
+
+00:01:23.958 --> 00:01:25.251
+Now I find myself
+
+00:01:25.251 --> 00:01:26.503
+spending a lot more time
+
+00:01:26.503 --> 00:01:27.545
+doing the planning
+
+00:01:27.545 --> 00:01:30.131
+and the architecture and less time
+
+00:01:30.131 --> 00:01:32.217
+actually coding up the solution.
+
+00:01:32.217 --> 00:01:32.675
+There's a lot more
+
+00:01:32.675 --> 00:01:34.427
+deep thinking going on.
+
+00:01:34.427 --> 00:01:36.638
+The benefits are largely time savings,
+
+00:01:36.638 --> 00:01:37.514
+and together with Claude,
+
+00:01:37.514 --> 00:01:38.348
+I think we could do something
+
+00:01:38.348 --> 00:01:39.432
+incredible to help people
+
+00:01:39.432 --> 00:01:40.391
+get even more
+
+00:01:40.391 --> 00:01:41.559
+throughout their days.
+
+00:01:41.559 --> 00:01:42.602
+This is the most excited
+
+00:01:42.602 --> 00:01:43.895
+I've been to be in technology
+
+00:01:43.895 --> 00:01:45.605
+in my entire career.
+

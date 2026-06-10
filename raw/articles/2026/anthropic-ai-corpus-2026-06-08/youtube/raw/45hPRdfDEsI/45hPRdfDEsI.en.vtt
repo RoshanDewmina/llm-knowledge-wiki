@@ -1,0 +1,253 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.166 --> 00:00:01.084
+Hi, I'm Eric.
+
+00:00:01.084 --> 00:00:02.711
+I'm a product manager at Notion,
+
+00:00:02.711 --> 00:00:05.714
+and I work on our agents
+and agent orchestration.
+
+00:00:06.089 --> 00:00:09.134
+I had 30 tasks to make a prototype.
+
+00:00:09.134 --> 00:00:12.053
+I took all of that
+and just drag it to start, and it was
+
+00:00:12.053 --> 00:00:13.972
+like a Claude running wild.
+
+00:00:13.972 --> 00:00:15.890
+I was like, oh,
+I don't need to watch this.
+
+00:00:15.890 --> 00:00:17.475
+So I got like a snack.
+
+00:00:17.475 --> 00:00:19.936
+I came back and like,
+all the prototypes were made.
+
+00:00:19.936 --> 00:00:22.939
+That was sort of the unlock.
+
+00:00:23.898 --> 00:00:25.400
+We want Notion to be
+
+00:00:25.400 --> 00:00:28.403
+the agent orchestration platform.
+
+00:00:29.571 --> 00:00:33.199
+Notion is such a good place
+for human and agent collaboration.
+
+00:00:33.199 --> 00:00:35.368
+You bring the right agent together
+
+00:00:35.368 --> 00:00:39.622
+for the job, and we help to manage
+all of your workflows.
+
+00:00:39.622 --> 00:00:43.334
+We were really excited about bringing managed agents into Notion,
+
+00:00:43.334 --> 00:00:47.338
+because Claude is really good at complex,
+long running tasks.
+
+00:00:47.422 --> 00:00:53.386
+If you work to roll it up yourself,
+it's like a mega brain engineering effort.
+
+00:00:53.386 --> 00:00:56.890
+You need like a PhD in all of this
+to make it work.
+
+00:00:56.931 --> 00:01:00.643
+And so the managed agent product was great
+because it makes it really plug and play
+
+00:01:00.643 --> 00:01:03.396
+to bring in Claude.
+It runs the sessions in the cloud.
+
+00:01:03.396 --> 00:01:07.192
+We just pull in the API
+and it works for our customers.
+
+00:01:07.233 --> 00:01:10.820
+What that means is that they can kick off
+a ton of jobs in Notion.
+
+00:01:11.696 --> 00:01:14.365
+I'd love to show a use case of how
+
+00:01:14.365 --> 00:01:18.119
+we use managed agents
+to build agent orchestration in Notion.
+
+00:01:19.412 --> 00:01:20.872
+So this example is something
+
+00:01:20.872 --> 00:01:25.376
+that a lot of our non-technical users do,
+which is they'll onboard clients.
+
+00:01:25.376 --> 00:01:28.880
+Let's take a fictitious client
+called Harbor and Pine.
+
+00:01:29.089 --> 00:01:33.468
+They are a lifestyle brand
+and now here are all the action items.
+
+00:01:34.219 --> 00:01:37.931
+We have within Notions a custom agent,
+and we've basically
+
+00:01:37.931 --> 00:01:41.309
+given it all of the client databases
+and task boards.
+
+00:01:41.309 --> 00:01:43.311
+So it has the full context to onboard,
+
+00:01:43.311 --> 00:01:47.107
+and it helps us in the onboarding
+workflows for clients behind the scenes.
+
+00:01:47.148 --> 00:01:49.609
+This agent has Claude as well.
+
+00:01:49.609 --> 00:01:54.739
+It is pulling in all the contexts
+within notion to go and generate this.
+
+00:01:55.198 --> 00:01:59.285
+And so what I want to do
+is call upon the client onboarding manager
+
+00:01:59.869 --> 00:02:04.415
+and then take these action items,
+turn them into tasks so you can see them.
+
+00:02:04.415 --> 00:02:06.376
+They're all in this task board.
+
+00:02:06.376 --> 00:02:07.252
+And this is what I like about it.
+
+00:02:07.252 --> 00:02:09.295
+Like I can take all of this
+and just dump it here.
+
+00:02:09.295 --> 00:02:10.380
+And you can see on the side
+
+00:02:11.631 --> 00:02:15.051
+that it kicks off a bunch
+of agent threads.
+
+00:02:15.760 --> 00:02:18.429
+And that all basically
+feeds into Claude.
+
+00:02:18.429 --> 00:02:21.641
+And then Claude will then kick off
+a Claude session on that.
+
+00:02:21.766 --> 00:02:26.563
+And so now you can, talk to that
+Claude session within Notion here,
+
+00:02:26.771 --> 00:02:29.816
+which mirrors the actual session
+that was kicked off.
+
+00:02:30.191 --> 00:02:33.027
+So if we go into the Claude platform
+
+00:02:33.027 --> 00:02:36.114
+so you can see that this session
+is running for Claude manage agents,
+
+00:02:36.114 --> 00:02:39.117
+it kind of gives you a different view
+of what's happening.
+
+00:02:39.951 --> 00:02:42.370
+And it's useful for us
+on the development side.
+
+00:02:42.537 --> 00:02:44.914
+To go and see like what's happening,
+but also actually
+
+00:02:44.914 --> 00:02:47.584
+to feed all of these traces to go
+and improve our agent.
+
+00:02:47.917 --> 00:02:51.045
+Having a harness that can do
+long running tasks is really essential.
+
+00:02:51.045 --> 00:02:54.048
+You might need to run it for 20 minutes
+an hour.
+
+00:02:54.090 --> 00:02:59.262
+That ability to continue to run it,
+to manage memory, to have high quality
+
+00:02:59.262 --> 00:03:01.472
+outputs over time, is a layer that's
+
+00:03:01.472 --> 00:03:03.933
+super critical on 
+top of the model itself.
+
+00:03:04.184 --> 00:03:07.187
+A lot of the tasks are
+completed already.
+
+00:03:07.187 --> 00:03:11.691
+This is what a example
+homepage could look like,
+
+00:03:11.691 --> 00:03:17.322
+and it is pulling in all the contexts
+within Notion to go and generate this
+
+00:03:17.322 --> 00:03:21.993
+and if we wanted to iterate on that,
+we can talk to Claude directly here.
+
+00:03:22.160 --> 00:03:25.788
+That's how we used
+managed agents in Notion
+
+00:03:25.788 --> 00:03:27.916
+to help ourselves and help our customers.
+
+00:03:29.375 --> 00:03:30.919
+So the managed
+agent product is
+
+00:03:30.919 --> 00:03:32.253
+like a playground for me.
+
+00:03:32.253 --> 00:03:34.130
+And I just really cool to be able to
+
+00:03:34.130 --> 00:03:36.007
+kick off all these jobs
+at the same time.
+
+00:03:36.049 --> 00:03:37.383
+I just love building cool s#!t.
+

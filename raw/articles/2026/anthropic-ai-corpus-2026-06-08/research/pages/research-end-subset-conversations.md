@@ -1,0 +1,64 @@
+---
+title: "Claude Opus 4 and 4.1 can now end a rare subset of conversations \ Anthropic"
+source_url: "https://www.anthropic.com/research/end-subset-conversations"
+canonical_url: "https://www.anthropic.com/research/end-subset-conversations"
+lastmod: "2025-08-15T19:36:25.000Z"
+captured_at: "2026-06-08T09:06:35Z"
+section: "research"
+source_kind: "anthropic_web_page"
+extraction_method: "sitemap_requests_bs4_main_text"
+status_code: "200"
+sha256_html: "570b5a07aac202d6e2ebc454e8bcbf21e36d5f7f9442248396364b27589576af"
+include_reason: "matches AI/LLM/ML/CS topic keywords"
+---
+
+# Claude Opus 4 and 4.1 can now end a rare subset of conversations \ Anthropic
+
+Source: https://www.anthropic.com/research/end-subset-conversations
+
+## Description
+
+An update on our exploratory research on model welfare
+
+## Clean Text
+
+Alignment
+Claude Opus 4 and 4.1 can now end a rare subset of conversations
+Aug 15, 2025
+We recently gave Claude Opus 4 and 4.1 the ability to end conversations in our consumer chat interfaces. This ability is intended for use in rare, extreme cases of persistently harmful or abusive user interactions. This feature was developed primarily as part of our exploratory work on potential AI welfare, though it has broader relevance to model alignment and safeguards.
+We remain highly uncertain about the potential moral status of Claude and other LLMs, now or in the future. However,
+we take the issue seriously
+, and alongside our research program we’re working to identify and implement low-cost interventions to mitigate risks to model welfare, in case such welfare is possible. Allowing models to end or exit potentially distressing interactions is one such intervention.
+In
+pre-deployment testing of Claude Opus 4
+, we included a preliminary model welfare assessment. As part of that assessment, we investigated Claude’s self-reported and behavioral preferences, and found a robust and consistent aversion to harm. This included, for example, requests from users for sexual content involving minors and attempts to solicit information that would enable large-scale violence or acts of terror. Claude Opus 4 showed:
+A strong preference against engaging with harmful tasks;
+A pattern of apparent distress when engaging with real-world users seeking harmful content; and
+A tendency to end harmful conversations when given the ability to do so in simulated user interactions.
+These behaviors primarily arose in cases where users
+persisted
+with harmful requests and/or abuse despite Claude repeatedly refusing to comply and attempting to productively redirect the interactions.
+Our implementation of Claude’s ability to end chats reflects these findings while continuing to prioritize user wellbeing. Claude is directed not to use this ability in cases where users might be at imminent risk of harming themselves or others.
+In all cases, Claude is only to use its conversation-ending ability as a last resort when multiple attempts at redirection have failed and hope of a productive interaction has been exhausted, or when a user explicitly asks Claude to end a chat (the latter scenario is illustrated in the figure below). The scenarios where this will occur are extreme edge cases—the vast majority of users will not notice or be affected by this feature in any normal product use, even when discussing highly controversial issues with Claude.
+Claude demonstrating the ending of a conversation in response to a user’s request. When Claude ends a conversation, the user can start a new chat, give feedback, or edit and retry previous messages.
+When Claude chooses to end a conversation, the user will no longer be able to send new messages in that conversation. However, this will not affect other conversations on their account, and they will be able to start a new chat immediately. To address the potential loss of important long-running conversations, users will still be able to edit and retry previous messages to create new branches of ended conversations.
+We’re treating this feature as an ongoing experiment and will continue refining our approach. If users encounter a surprising use of the conversation-ending ability, we encourage them to submit feedback by reacting to Claude’s message with Thumbs or using the dedicated “Give feedback” button.
+Related content
+Making Claude a chemist
+Read more
+Coding agents in the social sciences
+Results from a survey of 1,260 social scientists about AI and coding agent use.
+Read more
+Project Glasswing: An initial update
+An early update on what we've learned from Project Glasswing.
+Read more
+
+## Main Links
+
+- [we take the issue seriously](https://www.anthropic.com/research/exploring-model-welfare)
+- [pre-deployment testing of Claude Opus 4](https://www.anthropic.com/claude-4-model-card)
+- [https://twitter.com/intent/tweet?text=https://www.anthropic.com/research/end-subset-conversations](https://twitter.com/intent/tweet?text=https://www.anthropic.com/research/end-subset-conversations)
+- [https://www.linkedin.com/shareArticle?mini=true&url=https://www.anthropic.com/research/end-subset-conversations](https://www.linkedin.com/shareArticle?mini=true&url=https://www.anthropic.com/research/end-subset-conversations)
+- [Read more](https://www.anthropic.com/research/making-claude-a-chemist)
+- [Read more](https://www.anthropic.com/research/coding-agents-social-sciences)
+- [Read more](https://www.anthropic.com/research/glasswing-initial-update)

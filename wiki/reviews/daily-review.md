@@ -2,7 +2,7 @@
 title: Daily Review
 type: review
 created: 2026-04-10T12:47:25Z
-updated: 2026-04-28T22:53:01Z
+updated: 2026-06-10T12:39:55Z
 status: reviewed
 confidence: 0.85
 related:
@@ -11,12 +11,13 @@ related:
   - reviews/review-queue
   - reviews/coverage-dashboard
 source_pages:
-  - sources/attention-is-all-you-need-excerpt
-  - sources/example-com-attention-as-interface
-  - sources/example-com-residual-stream-notes
-  - sources/example-transformer-tooling-notes
-  - sources/transformer-circuits-framework
-compiled_at: 2026-04-28T22:53:01Z
+  - sources/0xdepressionn-ai-persona-agency
+  - sources/roshan-personal-expanded-facts-2026-05-09
+  - sources/roshan-personal-info-quick-scan-2026-05-09
+  - sources/roshan-personal-travel-documents-2026-05-09
+  - sources/roshan-profile-2026-05-06
+  - sources/x-com-launching-a-real-shopify-store-used-to-cost-3-000-claude-just-made-that-0
+compiled_at: 2026-06-10T12:39:55Z
 ---
 
 # Daily Review
@@ -28,15 +29,20 @@ compiled_at: 2026-04-28T22:53:01Z
 
 ## Recent Source Activity
 
-- 2026-04-28T22:30:46Z | [[sources/transformer-circuits-framework]] | `raw/papers/2021/2021-12-22-transformer-circuits-framework-evidence.md`
-- 2026-04-10T12:31:26Z | [[sources/example-transformer-tooling-notes]] | `raw/repos/example-transformer-tooling-notes.md`
-- 2026-04-08T21:18:05Z | [[sources/example-com-residual-stream-notes]] | `raw/articles/2026/2026-04-08-example-com-residual-stream-notes.md`
-- 2026-04-08T13:34:18Z | [[sources/example-com-attention-as-interface]] | `raw/articles/2026/2026-04-07-example-com-attention-as-interface.md`
-- 2026-04-07T21:33:52Z | [[sources/attention-is-all-you-need-excerpt]] | `raw/papers/attention-is-all-you-need-excerpt.md`
+- 2026-05-11T04:29:23Z | [[sources/roshan-profile-2026-05-06]] | `raw/transcripts/2026/2026-05-06-roshan-profile.md`
+- 2026-05-09T20:14:55Z | [[sources/roshan-personal-expanded-facts-2026-05-09]] | `raw/transcripts/2026/2026-05-09-roshan-personal-facts.jsonl`
+- 2026-05-09T19:05:46Z | [[sources/roshan-personal-info-quick-scan-2026-05-09]] | `raw/transcripts/2026/2026-05-09-roshan-personal-info-quick-scan.md`
+- 2026-05-09T16:41:53Z | [[sources/roshan-personal-travel-documents-2026-05-09]] | `raw/transcripts/2026/2026-05-09-roshan-immigration-documents.md`
+- 2026-05-06T23:54:00Z | [[sources/x-com-launching-a-real-shopify-store-used-to-cost-3-000-claude-just-made-that-0]] | `raw/articles/2026/2026-05-06-0xdepressionn-shopify-mcp-claude-store.md`
+- 2026-05-06T23:35:03Z | [[sources/0xdepressionn-ai-persona-agency]] | `raw/articles/2026/2026-05-04-0xdepressionn-ai-persona-agency.md`
 
 ## Recent Journal Notes
 
-- 2026-04-10T12:31:26Z | [[journal/2026-04-10-daily-note]]
+- 2026-06-10T12:39:24Z | [[outputs/briefs/2026-06-10-market-brief-pre-open]]
+- 2026-06-09T21:14:32Z | [[outputs/briefs/2026-06-09-market-brief-post-close]]
+- 2026-06-08T16:38:53Z | [[outputs/briefs/2026-06-08-market-brief-midday]]
+- 2026-06-07T14:14:06.691935Z | [[outputs/briefs/2026-06-07-market-brief-midday]]
+- 2026-06-07T00:00:00Z | [[journal/market-watchlist]]
 
 ## Open Questions
 
@@ -46,9 +52,10 @@ compiled_at: 2026-04-28T22:53:01Z
 ## Review Queue Snapshot
 
 - stale pages: `0`
-- source pages still in stub/draft: `0`
-- low-confidence pages: `3`
+- source pages still in stub/draft: `3`
+- low-confidence pages: `33`
 
 ## Next Best Actions
 
+- Review [[sources/2026-04-28-a-mathematical-framework-for-transformer-circuits]] and clear its extraction queue.
 - Decide whether [[questions/what-should-be-promoted-into-a-project-memory-page]] should become a synthesis or an output.

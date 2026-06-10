@@ -1,0 +1,760 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:03.640 --> 00:00:06.030 align:start position:0%
+ 
+Context<00:00:04.160><c> is</c><00:00:04.400><c> Claude's</c><00:00:04.800><c> working</c><00:00:05.120><c> memory.</c>
+
+00:00:06.030 --> 00:00:06.040 align:start position:0%
+Context is Claude's working memory.
+ 
+
+00:00:06.040 --> 00:00:07.950 align:start position:0%
+Context is Claude's working memory.
+Every<00:00:06.320><c> file</c><00:00:06.640><c> it</c><00:00:06.760><c> reads,</c><00:00:07.080><c> every</c><00:00:07.320><c> command</c><00:00:07.840><c> it</c>
+
+00:00:07.950 --> 00:00:07.960 align:start position:0%
+Every file it reads, every command it
+ 
+
+00:00:07.960 --> 00:00:10.590 align:start position:0%
+Every file it reads, every command it
+runs,<00:00:08.560><c> every</c><00:00:08.800><c> message</c><00:00:09.240><c> you</c><00:00:09.360><c> send,</c><00:00:10.120><c> it</c><00:00:10.360><c> all</c>
+
+00:00:10.590 --> 00:00:10.600 align:start position:0%
+runs, every message you send, it all
+ 
+
+00:00:10.600 --> 00:00:15.230 align:start position:0%
+runs, every message you send, it all
+takes<00:00:10.920><c> up</c><00:00:11.120><c> space</c><00:00:11.560><c> in</c><00:00:11.720><c> the</c><00:00:11.880><c> context</c><00:00:12.400><c> window.</c>
+
+00:00:15.230 --> 00:00:15.240 align:start position:0%
+ 
+ 
+
+00:00:15.240 --> 00:00:17.510 align:start position:0%
+ 
+Think<00:00:15.600><c> of</c><00:00:15.800><c> the</c><00:00:16.040><c> context</c><00:00:16.640><c> window</c><00:00:17.080><c> as</c><00:00:17.360><c> the</c>
+
+00:00:17.510 --> 00:00:17.520 align:start position:0%
+Think of the context window as the
+ 
+
+00:00:17.520 --> 00:00:19.790 align:start position:0%
+Think of the context window as the
+amount<00:00:17.880><c> of</c><00:00:18.000><c> space</c><00:00:18.400><c> that</c><00:00:18.600><c> Claude</c><00:00:19.120><c> can</c><00:00:19.320><c> hold</c><00:00:19.720><c> in</c>
+
+00:00:19.790 --> 00:00:19.800 align:start position:0%
+amount of space that Claude can hold in
+ 
+
+00:00:19.800 --> 00:00:21.070 align:start position:0%
+amount of space that Claude can hold in
+its<00:00:19.960><c> memory.</c>
+
+00:00:21.070 --> 00:00:21.080 align:start position:0%
+its memory.
+ 
+
+00:00:21.080 --> 00:00:22.670 align:start position:0%
+its memory.
+Whenever<00:00:21.360><c> you</c><00:00:21.480><c> enter</c><00:00:21.720><c> a</c><00:00:21.760><c> prompt,</c><00:00:22.280><c> Claude</c>
+
+00:00:22.670 --> 00:00:22.680 align:start position:0%
+Whenever you enter a prompt, Claude
+ 
+
+00:00:22.680 --> 00:00:25.190 align:start position:0%
+Whenever you enter a prompt, Claude
+reads<00:00:22.960><c> a</c><00:00:23.080><c> file,</c><00:00:23.680><c> runs</c><00:00:23.960><c> a</c><00:00:24.000><c> tool</c><00:00:24.240><c> call,</c><00:00:24.920><c> gets</c><00:00:25.120><c> a</c>
+
+00:00:25.190 --> 00:00:25.200 align:start position:0%
+reads a file, runs a tool call, gets a
+ 
+
+00:00:25.200 --> 00:00:27.550 align:start position:0%
+reads a file, runs a tool call, gets a
+tool<00:00:25.400><c> call</c><00:00:25.600><c> result.</c><00:00:26.480><c> This</c><00:00:26.720><c> is</c><00:00:26.920><c> added</c><00:00:27.200><c> onto</c><00:00:27.440><c> the</c>
+
+00:00:27.550 --> 00:00:27.560 align:start position:0%
+tool call result. This is added onto the
+ 
+
+00:00:27.560 --> 00:00:29.870 align:start position:0%
+tool call result. This is added onto the
+context<00:00:28.040><c> window.</c><00:00:28.880><c> And</c><00:00:29.080><c> since</c><00:00:29.320><c> there's</c><00:00:29.520><c> only</c><00:00:29.760><c> a</c>
+
+00:00:29.870 --> 00:00:29.880 align:start position:0%
+context window. And since there's only a
+ 
+
+00:00:29.880 --> 00:00:31.510 align:start position:0%
+context window. And since there's only a
+finite<00:00:30.680><c> amount</c><00:00:30.920><c> you</c><00:00:31.000><c> can</c><00:00:31.080><c> can</c><00:00:31.160><c> put</c><00:00:31.320><c> in</c><00:00:31.440><c> the</c>
+
+00:00:31.510 --> 00:00:31.520 align:start position:0%
+finite amount you can can put in the
+ 
+
+00:00:31.520 --> 00:00:34.230 align:start position:0%
+finite amount you can can put in the
+context<00:00:31.920><c> window,</c><00:00:32.720><c> it</c><00:00:32.880><c> becomes</c><00:00:33.520><c> extremely</c>
+
+00:00:34.230 --> 00:00:34.240 align:start position:0%
+context window, it becomes extremely
+ 
+
+00:00:34.240 --> 00:00:36.110 align:start position:0%
+context window, it becomes extremely
+important<00:00:34.720><c> to</c><00:00:34.880><c> optimize</c><00:00:35.400><c> this</c><00:00:35.640><c> as</c><00:00:35.800><c> much</c><00:00:36.000><c> as</c>
+
+00:00:36.110 --> 00:00:36.120 align:start position:0%
+important to optimize this as much as
+ 
+
+00:00:36.120 --> 00:00:39.150 align:start position:0%
+important to optimize this as much as
+possible.
+
+00:00:39.150 --> 00:00:39.160 align:start position:0%
+ 
+ 
+
+00:00:39.160 --> 00:00:41.190 align:start position:0%
+ 
+Now,<00:00:39.360><c> when</c><00:00:39.520><c> you</c><00:00:39.680><c> approach</c><00:00:40.120><c> this</c><00:00:40.320><c> limit,</c><00:00:41.080><c> the</c>
+
+00:00:41.190 --> 00:00:41.200 align:start position:0%
+Now, when you approach this limit, the
+ 
+
+00:00:41.200 --> 00:00:42.990 align:start position:0%
+Now, when you approach this limit, the
+context<00:00:41.640><c> window</c><00:00:41.920><c> is</c><00:00:42.160><c> automatically</c>
+
+00:00:42.990 --> 00:00:43.000 align:start position:0%
+context window is automatically
+ 
+
+00:00:43.000 --> 00:00:44.710 align:start position:0%
+context window is automatically
+compacted.
+
+00:00:44.710 --> 00:00:44.720 align:start position:0%
+compacted.
+ 
+
+00:00:44.720 --> 00:00:46.550 align:start position:0%
+compacted.
+Compaction<00:00:45.480><c> will</c><00:00:45.640><c> summarize</c><00:00:46.160><c> important</c>
+
+00:00:46.550 --> 00:00:46.560 align:start position:0%
+Compaction will summarize important
+ 
+
+00:00:46.560 --> 00:00:48.670 align:start position:0%
+Compaction will summarize important
+details<00:00:47.080><c> and</c><00:00:47.200><c> remove</c><00:00:47.560><c> the</c><00:00:47.840><c> unnecessary</c><00:00:48.480><c> tool</c>
+
+00:00:48.670 --> 00:00:48.680 align:start position:0%
+details and remove the unnecessary tool
+ 
+
+00:00:48.680 --> 00:00:50.470 align:start position:0%
+details and remove the unnecessary tool
+call<00:00:48.880><c> results</c><00:00:49.320><c> and</c><00:00:49.520><c> free</c><00:00:49.760><c> up</c><00:00:49.880><c> a</c><00:00:49.920><c> lot</c><00:00:50.120><c> of</c><00:00:50.200><c> space</c>
+
+00:00:50.470 --> 00:00:50.480 align:start position:0%
+call results and free up a lot of space
+ 
+
+00:00:50.480 --> 00:00:52.270 align:start position:0%
+call results and free up a lot of space
+in<00:00:50.560><c> your</c><00:00:50.680><c> context</c><00:00:51.160><c> window.</c>
+
+00:00:52.270 --> 00:00:52.280 align:start position:0%
+in your context window.
+ 
+
+00:00:52.280 --> 00:00:53.390 align:start position:0%
+in your context window.
+Do<00:00:52.520><c> note</c><00:00:52.720><c> though</c><00:00:52.880><c> that</c><00:00:53.080><c> this</c><00:00:53.240><c> could</c>
+
+00:00:53.390 --> 00:00:53.400 align:start position:0%
+Do note though that this could
+ 
+
+00:00:53.400 --> 00:00:55.430 align:start position:0%
+Do note though that this could
+potentially<00:00:53.960><c> lose</c><00:00:54.360><c> details</c><00:00:55.080><c> in</c><00:00:55.280><c> your</c>
+
+00:00:55.430 --> 00:00:55.440 align:start position:0%
+potentially lose details in your
+ 
+
+00:00:55.440 --> 00:00:57.910 align:start position:0%
+potentially lose details in your
+previous<00:00:55.840><c> conversation.</c>
+
+00:00:57.910 --> 00:00:57.920 align:start position:0%
+previous conversation.
+ 
+
+00:00:57.920 --> 00:00:59.470 align:start position:0%
+previous conversation.
+You<00:00:58.040><c> can</c><00:00:58.200><c> run</c><00:00:58.360><c> the</c><00:00:58.440><c> compaction</c><00:00:58.960><c> manually</c><00:00:59.360><c> as</c>
+
+00:00:59.470 --> 00:00:59.480 align:start position:0%
+You can run the compaction manually as
+ 
+
+00:00:59.480 --> 00:01:02.390 align:start position:0%
+You can run the compaction manually as
+well<00:01:00.080><c> with</c><00:01:00.320><c> the</c><00:01:00.480><c> {slash}</c><00:01:00.800><c> compact</c><00:01:01.280><c> command.</c>
+
+00:01:02.390 --> 00:01:02.400 align:start position:0%
+well with the {slash} compact command.
+ 
+
+00:01:02.400 --> 00:01:03.790 align:start position:0%
+well with the {slash} compact command.
+This<00:01:02.600><c> will</c><00:01:02.720><c> compact</c><00:01:03.160><c> everything</c><00:01:03.440><c> that</c><00:01:03.600><c> you've</c>
+
+00:01:03.790 --> 00:01:03.800 align:start position:0%
+This will compact everything that you've
+ 
+
+00:01:03.800 --> 00:01:05.670 align:start position:0%
+This will compact everything that you've
+done<00:01:04.160><c> up</c><00:01:04.320><c> to</c><00:01:04.400><c> that</c><00:01:04.559><c> point,</c><00:01:04.920><c> which</c><00:01:05.400><c> could</c><00:01:05.560><c> be</c>
+
+00:01:05.670 --> 00:01:05.680 align:start position:0%
+done up to that point, which could be
+ 
+
+00:01:05.680 --> 00:01:07.430 align:start position:0%
+done up to that point, which could be
+handy<00:01:06.000><c> if</c><00:01:06.160><c> you</c><00:01:06.280><c> want</c><00:01:06.520><c> to</c><00:01:06.640><c> clear</c><00:01:06.920><c> up</c><00:01:07.040><c> context</c>
+
+00:01:07.430 --> 00:01:07.440 align:start position:0%
+handy if you want to clear up context
+ 
+
+00:01:07.440 --> 00:01:09.430 align:start position:0%
+handy if you want to clear up context
+space,<00:01:07.720><c> but</c><00:01:07.920><c> also</c><00:01:08.200><c> have</c><00:01:08.400><c> a</c><00:01:08.440><c> memory</c><00:01:08.800><c> of</c><00:01:09.200><c> what</c>
+
+00:01:09.430 --> 00:01:09.440 align:start position:0%
+space, but also have a memory of what
+ 
+
+00:01:09.440 --> 00:01:11.390 align:start position:0%
+space, but also have a memory of what
+you<00:01:09.560><c> previously</c><00:01:10.040><c> worked</c><00:01:10.320><c> on.</c>
+
+00:01:11.390 --> 00:01:11.400 align:start position:0%
+you previously worked on.
+ 
+
+00:01:11.400 --> 00:01:12.870 align:start position:0%
+you previously worked on.
+If<00:01:11.560><c> you</c><00:01:11.720><c> want</c><00:01:11.960><c> to</c><00:01:12.080><c> completely</c><00:01:12.560><c> start</c><00:01:12.760><c> from</c>
+
+00:01:12.870 --> 00:01:12.880 align:start position:0%
+If you want to completely start from
+ 
+
+00:01:12.880 --> 00:01:14.710 align:start position:0%
+If you want to completely start from
+scratch<00:01:13.200><c> without</c><00:01:13.560><c> memory</c><00:01:14.040><c> of</c><00:01:14.440><c> what</c><00:01:14.600><c> was</c>
+
+00:01:14.710 --> 00:01:14.720 align:start position:0%
+scratch without memory of what was
+ 
+
+00:01:14.720 --> 00:01:16.670 align:start position:0%
+scratch without memory of what was
+previously<00:01:15.200><c> worked</c><00:01:15.440><c> on,</c><00:01:15.880><c> you</c><00:01:16.000><c> can</c><00:01:16.120><c> also</c><00:01:16.440><c> run</c>
+
+00:01:16.670 --> 00:01:16.680 align:start position:0%
+previously worked on, you can also run
+ 
+
+00:01:16.680 --> 00:01:18.590 align:start position:0%
+previously worked on, you can also run
+{slash}<00:01:17.080><c> clear</c><00:01:17.640><c> and</c><00:01:17.760><c> that</c><00:01:17.920><c> will</c><00:01:18.040><c> remove</c>
+
+00:01:18.590 --> 00:01:18.600 align:start position:0%
+{slash} clear and that will remove
+ 
+
+00:01:18.600 --> 00:01:21.590 align:start position:0%
+{slash} clear and that will remove
+everything,<00:01:19.560><c> starting</c><00:01:20.000><c> from</c><00:01:20.200><c> scratch.</c>
+
+00:01:21.590 --> 00:01:21.600 align:start position:0%
+everything, starting from scratch.
+ 
+
+00:01:21.600 --> 00:01:23.590 align:start position:0%
+everything, starting from scratch.
+To<00:01:21.720><c> check</c><00:01:21.920><c> the</c><00:01:22.000><c> state</c><00:01:22.360><c> of</c><00:01:22.480><c> your</c><00:01:22.600><c> context,</c><00:01:23.360><c> run</c>
+
+00:01:23.590 --> 00:01:23.600 align:start position:0%
+To check the state of your context, run
+ 
+
+00:01:23.600 --> 00:01:25.750 align:start position:0%
+To check the state of your context, run
+the<00:01:23.680><c> {slash}</c><00:01:24.000><c> context</c><00:01:24.440><c> command.</c><00:01:25.440><c> Here,</c>
+
+00:01:25.750 --> 00:01:25.760 align:start position:0%
+the {slash} context command. Here,
+ 
+
+00:01:25.760 --> 00:01:27.630 align:start position:0%
+the {slash} context command. Here,
+you'll<00:01:25.920><c> get</c><00:01:26.200><c> a</c><00:01:26.360><c> big</c><00:01:26.600><c> picture</c><00:01:27.040><c> of</c><00:01:27.200><c> how</c><00:01:27.360><c> large</c>
+
+00:01:27.630 --> 00:01:27.640 align:start position:0%
+you'll get a big picture of how large
+ 
+
+00:01:27.640 --> 00:01:29.510 align:start position:0%
+you'll get a big picture of how large
+your<00:01:27.760><c> context</c><00:01:28.200><c> size</c><00:01:28.480><c> is,</c><00:01:29.120><c> the</c><00:01:29.200><c> different</c>
+
+00:01:29.510 --> 00:01:29.520 align:start position:0%
+your context size is, the different
+ 
+
+00:01:29.520 --> 00:01:31.110 align:start position:0%
+your context size is, the different
+categories<00:01:30.080><c> that</c><00:01:30.200><c> are</c><00:01:30.280><c> taking</c><00:01:30.600><c> up</c><00:01:30.720><c> the</c><00:01:30.840><c> most</c>
+
+00:01:31.110 --> 00:01:31.120 align:start position:0%
+categories that are taking up the most
+ 
+
+00:01:31.120 --> 00:01:33.430 align:start position:0%
+categories that are taking up the most
+context,<00:01:31.680><c> and</c><00:01:31.800><c> a</c><00:01:31.880><c> graphic</c><00:01:32.640><c> showing</c><00:01:32.960><c> you</c><00:01:33.280><c> all</c>
+
+00:01:33.430 --> 00:01:33.440 align:start position:0%
+context, and a graphic showing you all
+ 
+
+00:01:33.440 --> 00:01:35.390 align:start position:0%
+context, and a graphic showing you all
+of<00:01:33.520><c> this.</c>
+
+00:01:35.390 --> 00:01:35.400 align:start position:0%
+of this.
+ 
+
+00:01:35.400 --> 00:01:37.070 align:start position:0%
+of this.
+A<00:01:35.520><c> general</c><00:01:35.960><c> rule</c><00:01:36.200><c> of</c><00:01:36.280><c> thumb</c><00:01:36.560><c> is</c><00:01:36.680><c> when</c><00:01:36.880><c> you're</c>
+
+00:01:37.070 --> 00:01:37.080 align:start position:0%
+A general rule of thumb is when you're
+ 
+
+00:01:37.080 --> 00:01:38.830 align:start position:0%
+A general rule of thumb is when you're
+working<00:01:37.440><c> on</c><00:01:37.560><c> a</c><00:01:37.600><c> specific</c><00:01:38.120><c> feature</c><00:01:38.560><c> and</c><00:01:38.720><c> are</c>
+
+00:01:38.830 --> 00:01:38.840 align:start position:0%
+working on a specific feature and are
+ 
+
+00:01:38.840 --> 00:01:40.750 align:start position:0%
+working on a specific feature and are
+going<00:01:39.200><c> over</c><00:01:39.480><c> the</c><00:01:39.600><c> context</c><00:01:40.040><c> window,</c><00:01:40.320><c> but</c><00:01:40.560><c> need</c>
+
+00:01:40.750 --> 00:01:40.760 align:start position:0%
+going over the context window, but need
+ 
+
+00:01:40.760 --> 00:01:43.470 align:start position:0%
+going over the context window, but need
+to<00:01:40.840><c> continue,</c><00:01:41.880><c> then</c><00:01:42.240><c> compact.</c>
+
+00:01:43.470 --> 00:01:43.480 align:start position:0%
+to continue, then compact.
+ 
+
+00:01:43.480 --> 00:01:45.070 align:start position:0%
+to continue, then compact.
+Keeping<00:01:43.800><c> the</c><00:01:43.920><c> context</c><00:01:44.400><c> relevant</c><00:01:44.800><c> for</c><00:01:44.880><c> this</c>
+
+00:01:45.070 --> 00:01:45.080 align:start position:0%
+Keeping the context relevant for this
+ 
+
+00:01:45.080 --> 00:01:46.750 align:start position:0%
+Keeping the context relevant for this
+feature<00:01:45.440><c> is</c><00:01:45.600><c> important</c><00:01:46.080><c> when</c><00:01:46.240><c> continuing</c>
+
+00:01:46.750 --> 00:01:46.760 align:start position:0%
+feature is important when continuing
+ 
+
+00:01:46.760 --> 00:01:48.110 align:start position:0%
+feature is important when continuing
+development.
+
+00:01:48.110 --> 00:01:48.120 align:start position:0%
+development.
+ 
+
+00:01:48.120 --> 00:01:49.670 align:start position:0%
+development.
+If<00:01:48.320><c> you</c><00:01:48.560><c> have</c><00:01:48.720><c> finished</c><00:01:49.000><c> the</c><00:01:49.080><c> plan</c><00:01:49.400><c> and</c><00:01:49.520><c> want</c>
+
+00:01:49.670 --> 00:01:49.680 align:start position:0%
+If you have finished the plan and want
+ 
+
+00:01:49.680 --> 00:01:52.510 align:start position:0%
+If you have finished the plan and want
+to<00:01:49.800><c> start</c><00:01:50.040><c> on</c><00:01:50.160><c> a</c><00:01:50.200><c> new</c><00:01:50.400><c> feature,</c><00:01:51.040><c> then</c><00:01:51.480><c> clear.</c>
+
+00:01:52.510 --> 00:01:52.520 align:start position:0%
+to start on a new feature, then clear.
+ 
+
+00:01:52.520 --> 00:01:54.190 align:start position:0%
+to start on a new feature, then clear.
+You<00:01:52.560><c> don't</c><00:01:52.760><c> want</c><00:01:53.000><c> the</c><00:01:53.080><c> previous</c><00:01:53.520><c> conversation</c>
+
+00:01:54.190 --> 00:01:54.200 align:start position:0%
+You don't want the previous conversation
+ 
+
+00:01:54.200 --> 00:01:56.310 align:start position:0%
+You don't want the previous conversation
+to<00:01:54.320><c> present</c><00:01:54.640><c> bias</c><00:01:55.040><c> in</c><00:01:55.200><c> anything</c><00:01:55.680><c> new</c><00:01:56.000><c> that</c><00:01:56.200><c> you</c>
+
+00:01:56.310 --> 00:01:56.320 align:start position:0%
+to present bias in anything new that you
+ 
+
+00:01:56.320 --> 00:01:58.190 align:start position:0%
+to present bias in anything new that you
+want<00:01:56.480><c> to</c><00:01:56.560><c> create.</c><00:01:57.280><c> For</c><00:01:57.480><c> things</c><00:01:57.680><c> that</c><00:01:57.840><c> you</c><00:01:57.960><c> do</c>
+
+00:01:58.190 --> 00:01:58.200 align:start position:0%
+want to create. For things that you do
+ 
+
+00:01:58.200 --> 00:01:59.670 align:start position:0%
+want to create. For things that you do
+want<00:01:58.440><c> Claude</c><00:01:58.680><c> to</c><00:01:58.800><c> remember</c><00:01:59.240><c> in</c><00:01:59.440><c> other</c>
+
+00:01:59.670 --> 00:01:59.680 align:start position:0%
+want Claude to remember in other
+ 
+
+00:01:59.680 --> 00:02:02.550 align:start position:0%
+want Claude to remember in other
+sessions,<00:02:00.440><c> put</c><00:02:00.600><c> it</c><00:02:00.680><c> in</c><00:02:00.760><c> the</c><00:02:00.880><c> Claude.md</c><00:02:01.680><c> file.</c>
+
+00:02:02.550 --> 00:02:02.560 align:start position:0%
+sessions, put it in the Claude.md file.
+ 
+
+00:02:02.560 --> 00:02:04.230 align:start position:0%
+sessions, put it in the Claude.md file.
+That<00:02:02.760><c> way,</c><00:02:03.080><c> it</c><00:02:03.200><c> doesn't</c><00:02:03.440><c> have</c><00:02:03.560><c> to</c><00:02:03.680><c> rediscover</c>
+
+00:02:04.230 --> 00:02:04.240 align:start position:0%
+That way, it doesn't have to rediscover
+ 
+
+00:02:04.240 --> 00:02:08.029 align:start position:0%
+That way, it doesn't have to rediscover
+things<00:02:04.479><c> from</c><00:02:04.640><c> scratch</c><00:02:05.040><c> all</c><00:02:05.200><c> over</c><00:02:05.440><c> again.</c>
+
+00:02:08.029 --> 00:02:08.039 align:start position:0%
+ 
+ 
+
+00:02:08.039 --> 00:02:10.749 align:start position:0%
+ 
+Be<00:02:08.200><c> specific.</c><00:02:09.320><c> The</c><00:02:09.600><c> irony</c><00:02:09.960><c> behind</c><00:02:10.360><c> writing</c><00:02:10.679><c> a</c>
+
+00:02:10.749 --> 00:02:10.759 align:start position:0%
+Be specific. The irony behind writing a
+ 
+
+00:02:10.759 --> 00:02:12.790 align:start position:0%
+Be specific. The irony behind writing a
+smaller<00:02:11.200><c> prompt</c><00:02:11.560><c> is</c><00:02:11.640><c> that</c><00:02:11.959><c> it</c><00:02:12.280><c> in</c><00:02:12.400><c> the</c><00:02:12.520><c> long</c>
+
+00:02:12.790 --> 00:02:12.800 align:start position:0%
+smaller prompt is that it in the long
+ 
+
+00:02:12.800 --> 00:02:15.110 align:start position:0%
+smaller prompt is that it in the long
+run,<00:02:13.080><c> it</c><00:02:13.200><c> will</c><00:02:13.320><c> take</c><00:02:13.600><c> up</c><00:02:13.720><c> more</c><00:02:13.880><c> context.</c>
+
+00:02:15.110 --> 00:02:15.120 align:start position:0%
+run, it will take up more context.
+ 
+
+00:02:15.120 --> 00:02:17.390 align:start position:0%
+run, it will take up more context.
+Without<00:02:15.640><c> being</c><00:02:15.920><c> explicit,</c><00:02:16.560><c> Claude</c><00:02:16.880><c> is</c><00:02:17.080><c> forced</c>
+
+00:02:17.390 --> 00:02:17.400 align:start position:0%
+Without being explicit, Claude is forced
+ 
+
+00:02:17.400 --> 00:02:19.350 align:start position:0%
+Without being explicit, Claude is forced
+to<00:02:17.560><c> look</c><00:02:17.760><c> around</c><00:02:18.080><c> your</c><00:02:18.200><c> code</c><00:02:18.440><c> base</c><00:02:18.640><c> more</c><00:02:19.160><c> and</c>
+
+00:02:19.350 --> 00:02:19.360 align:start position:0%
+to look around your code base more and
+ 
+
+00:02:19.360 --> 00:02:20.990 align:start position:0%
+to look around your code base more and
+do<00:02:19.480><c> his</c><00:02:19.640><c> own</c><00:02:19.760><c> thinking,</c><00:02:20.200><c> which</c><00:02:20.600><c> takes</c><00:02:20.800><c> up</c><00:02:20.920><c> a</c>
+
+00:02:20.990 --> 00:02:21.000 align:start position:0%
+do his own thinking, which takes up a
+ 
+
+00:02:21.000 --> 00:02:22.710 align:start position:0%
+do his own thinking, which takes up a
+lot<00:02:21.200><c> more</c><00:02:21.400><c> context</c><00:02:21.840><c> window</c><00:02:22.080><c> space</c><00:02:22.400><c> than</c><00:02:22.600><c> if</c>
+
+00:02:22.710 --> 00:02:22.720 align:start position:0%
+lot more context window space than if
+ 
+
+00:02:22.720 --> 00:02:24.590 align:start position:0%
+lot more context window space than if
+you<00:02:22.800><c> were</c><00:02:22.920><c> just</c><00:02:23.160><c> a</c><00:02:23.240><c> little</c><00:02:23.680><c> bit</c><00:02:23.880><c> more</c><00:02:24.040><c> clear</c>
+
+00:02:24.590 --> 00:02:24.600 align:start position:0%
+you were just a little bit more clear
+ 
+
+00:02:24.600 --> 00:02:26.710 align:start position:0%
+you were just a little bit more clear
+with<00:02:24.760><c> a</c><00:02:24.800><c> sentence</c><00:02:25.320><c> or</c><00:02:25.440><c> two.</c>
+
+00:02:26.710 --> 00:02:26.720 align:start position:0%
+with a sentence or two.
+ 
+
+00:02:26.720 --> 00:02:28.710 align:start position:0%
+with a sentence or two.
+MCP<00:02:27.360><c> servers</c><00:02:27.680><c> load</c><00:02:28.080><c> all</c><00:02:28.280><c> of</c><00:02:28.360><c> the</c><00:02:28.440><c> tools</c>
+
+00:02:28.710 --> 00:02:28.720 align:start position:0%
+MCP servers load all of the tools
+ 
+
+00:02:28.720 --> 00:02:31.630 align:start position:0%
+MCP servers load all of the tools
+available<00:02:29.240><c> into</c><00:02:29.520><c> context</c><00:02:30.080><c> by</c><00:02:30.240><c> default.</c><00:02:31.400><c> So,</c>
+
+00:02:31.630 --> 00:02:31.640 align:start position:0%
+available into context by default. So,
+ 
+
+00:02:31.640 --> 00:02:34.030 align:start position:0%
+available into context by default. So,
+if<00:02:31.800><c> you</c><00:02:31.959><c> have</c><00:02:32.240><c> a</c><00:02:32.320><c> lot</c><00:02:32.720><c> of</c><00:02:32.800><c> MCP</c><00:02:33.320><c> servers</c><00:02:33.760><c> for</c>
+
+00:02:34.030 --> 00:02:34.040 align:start position:0%
+if you have a lot of MCP servers for
+ 
+
+00:02:34.040 --> 00:02:35.510 align:start position:0%
+if you have a lot of MCP servers for
+things<00:02:34.360><c> that</c><00:02:34.520><c> are</c><00:02:34.840><c> unrelated</c><00:02:35.360><c> to</c><00:02:35.440><c> the</c>
+
+00:02:35.510 --> 00:02:35.520 align:start position:0%
+things that are unrelated to the
+ 
+
+00:02:35.520 --> 00:02:37.510 align:start position:0%
+things that are unrelated to the
+project,<00:02:36.320><c> it</c><00:02:36.480><c> might</c><00:02:36.680><c> be</c><00:02:36.840><c> worth</c><00:02:37.080><c> turning</c><00:02:37.360><c> them</c>
+
+00:02:37.510 --> 00:02:37.520 align:start position:0%
+project, it might be worth turning them
+ 
+
+00:02:37.520 --> 00:02:40.190 align:start position:0%
+project, it might be worth turning them
+off.<00:02:38.400><c> You</c><00:02:38.520><c> can</c><00:02:38.680><c> also</c><00:02:38.920><c> try</c><00:02:39.200><c> out</c><00:02:39.480><c> skills,</c><00:02:39.959><c> which</c>
+
+00:02:40.190 --> 00:02:40.200 align:start position:0%
+off. You can also try out skills, which
+ 
+
+00:02:40.200 --> 00:02:42.590 align:start position:0%
+off. You can also try out skills, which
+works<00:02:40.480><c> similarly</c><00:02:41.080><c> to</c><00:02:41.400><c> MCP</c><00:02:41.880><c> servers,</c><00:02:42.440><c> but</c>
+
+00:02:42.590 --> 00:02:42.600 align:start position:0%
+works similarly to MCP servers, but
+ 
+
+00:02:42.600 --> 00:02:43.870 align:start position:0%
+works similarly to MCP servers, but
+doesn't<00:02:42.880><c> put</c><00:02:43.040><c> the</c><00:02:43.120><c> entire</c><00:02:43.480><c> thing</c><00:02:43.640><c> into</c>
+
+00:02:43.870 --> 00:02:43.880 align:start position:0%
+doesn't put the entire thing into
+ 
+
+00:02:43.880 --> 00:02:46.750 align:start position:0%
+doesn't put the entire thing into
+context,<00:02:44.640><c> saving</c><00:02:44.959><c> you</c><00:02:45.040><c> space.</c>
+
+00:02:46.750 --> 00:02:46.760 align:start position:0%
+context, saving you space.
+ 
+
+00:02:46.760 --> 00:02:48.670 align:start position:0%
+context, saving you space.
+Sub<00:02:47.080><c> agents</c><00:02:47.480><c> run</c><00:02:47.680><c> in</c><00:02:47.800><c> parallel</c><00:02:48.360><c> with</c><00:02:48.560><c> your</c>
+
+00:02:48.670 --> 00:02:48.680 align:start position:0%
+Sub agents run in parallel with your
+ 
+
+00:02:48.680 --> 00:02:50.430 align:start position:0%
+Sub agents run in parallel with your
+main<00:02:48.920><c> agent,</c><00:02:49.240><c> but</c><00:02:49.400><c> has</c><00:02:49.600><c> a</c><00:02:49.640><c> complete</c><00:02:50.080><c> separate</c>
+
+00:02:50.430 --> 00:02:50.440 align:start position:0%
+main agent, but has a complete separate
+ 
+
+00:02:50.440 --> 00:02:52.990 align:start position:0%
+main agent, but has a complete separate
+context<00:02:50.880><c> window.</c><00:02:51.800><c> So,</c><00:02:52.160><c> for</c><00:02:52.440><c> tasks</c><00:02:52.880><c> that</c>
+
+00:02:52.990 --> 00:02:53.000 align:start position:0%
+context window. So, for tasks that
+ 
+
+00:02:53.000 --> 00:02:54.470 align:start position:0%
+context window. So, for tasks that
+require<00:02:53.400><c> an</c><00:02:53.480><c> answer</c><00:02:53.800><c> without</c><00:02:54.040><c> the</c><00:02:54.120><c> journey,</c>
+
+00:02:54.470 --> 00:02:54.480 align:start position:0%
+require an answer without the journey,
+ 
+
+00:02:54.480 --> 00:02:56.270 align:start position:0%
+require an answer without the journey,
+like<00:02:55.040><c> where</c><00:02:55.320><c> is</c><00:02:55.480><c> the</c><00:02:55.600><c> authentication</c>
+
+00:02:56.270 --> 00:02:56.280 align:start position:0%
+like where is the authentication
+ 
+
+00:02:56.280 --> 00:02:58.670 align:start position:0%
+like where is the authentication
+endpoints<00:02:56.640><c> located,</c><00:02:57.600><c> you</c><00:02:57.720><c> can</c><00:02:57.959><c> have</c><00:02:58.320><c> the</c><00:02:58.440><c> sub</c>
+
+00:02:58.670 --> 00:02:58.680 align:start position:0%
+endpoints located, you can have the sub
+ 
+
+00:02:58.680 --> 00:03:00.830 align:start position:0%
+endpoints located, you can have the sub
+agent<00:02:59.000><c> do</c><00:02:59.080><c> the</c><00:02:59.200><c> work</c><00:02:59.720><c> and</c><00:02:59.840><c> return</c><00:03:00.560><c> just</c><00:03:00.800><c> a</c>
+
+00:03:00.830 --> 00:03:00.840 align:start position:0%
+agent do the work and return just a
+ 
+
+00:03:00.840 --> 00:03:06.670 align:start position:0%
+agent do the work and return just a
+summary<00:03:01.360><c> to</c><00:03:01.519><c> your</c><00:03:01.640><c> main</c><00:03:01.840><c> agent.</c>
+
+00:03:06.670 --> 00:03:06.680 align:start position:0%
+ 
+ 
+
+00:03:06.680 --> 00:03:08.550 align:start position:0%
+ 
+Managing<00:03:07.040><c> context</c><00:03:07.480><c> within</c><00:03:07.720><c> Claude</c><00:03:08.000><c> code</c><00:03:08.320><c> is</c>
+
+00:03:08.550 --> 00:03:08.560 align:start position:0%
+Managing context within Claude code is
+ 
+
+00:03:08.560 --> 00:03:11.790 align:start position:0%
+Managing context within Claude code is
+crucial.<00:03:09.640><c> Use</c><00:03:10.160><c> /compact</c><00:03:11.000><c> to</c><00:03:11.160><c> summarize</c><00:03:11.600><c> long</c>
+
+00:03:11.790 --> 00:03:11.800 align:start position:0%
+crucial. Use /compact to summarize long
+ 
+
+00:03:11.800 --> 00:03:14.590 align:start position:0%
+crucial. Use /compact to summarize long
+sessions<00:03:12.560><c> and</c><00:03:12.800><c> /clear</c><00:03:13.519><c> to</c><00:03:13.640><c> start</c><00:03:13.920><c> fresh.</c><00:03:14.440><c> To</c>
+
+00:03:14.590 --> 00:03:14.600 align:start position:0%
+sessions and /clear to start fresh. To
+ 
+
+00:03:14.600 --> 00:03:16.590 align:start position:0%
+sessions and /clear to start fresh. To
+use<00:03:14.800><c> your</c><00:03:14.920><c> context</c><00:03:15.360><c> window</c><00:03:15.560><c> effectively,</c><00:03:16.440><c> be</c>
+
+00:03:16.590 --> 00:03:16.600 align:start position:0%
+use your context window effectively, be
+ 
+
+00:03:16.600 --> 00:03:18.457 align:start position:0%
+use your context window effectively, be
+specific<00:03:17.160><c> with</c><00:03:17.320><c> what</c><00:03:17.480><c> you</c><00:03:17.640><c> want.</c>
+
+00:03:18.457 --> 00:03:18.467 align:start position:0%
+specific with what you want.
+ 
+
+00:03:18.467 --> 00:03:18.590 align:start position:0%
+specific with what you want.
+&gt;&gt; [music]
+
+00:03:18.590 --> 00:03:18.600 align:start position:0%
+&gt;&gt; [music]
+ 
+
+00:03:18.600 --> 00:03:20.190 align:start position:0%
+&gt;&gt; [music]
+&gt;&gt; Check<00:03:18.840><c> what's</c><00:03:19.040><c> using</c><00:03:19.360><c> your</c><00:03:19.480><c> current</c><00:03:19.800><c> context</c>
+
+00:03:20.190 --> 00:03:20.200 align:start position:0%
+&gt;&gt; Check what's using your current context
+ 
+
+00:03:20.200 --> 00:03:22.229 align:start position:0%
+&gt;&gt; Check what's using your current context
+window<00:03:20.680><c> and</c><00:03:20.920><c> use</c><00:03:21.120><c> sub</c><00:03:21.360><c> agents</c><00:03:21.720><c> to</c><00:03:21.840><c> delegate</c>
+
+00:03:22.229 --> 00:03:22.239 align:start position:0%
+window and use sub agents to delegate
+ 
+
+00:03:22.239 --> 00:03:26.560 align:start position:0%
+window and use sub agents to delegate
+tasks<00:03:22.959><c> you</c><00:03:23.239><c> only</c><00:03:23.480><c> need</c><00:03:23.680><c> the</c><00:03:23.800><c> answer</c><00:03:24.120><c> for.</c>
+

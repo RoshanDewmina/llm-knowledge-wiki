@@ -1,0 +1,2596 @@
+{
+  "root": "/Users/roshansilva/.hermes/knowledge-base/raw/articles/2026/anthropic-ai-corpus-2026-06-08",
+  "generated_at": "2026-06-08T09:15:13Z",
+  "files": [
+    {
+      "path": "00-INDEX.md",
+      "bytes": 45307,
+      "lines": 277
+    },
+    {
+      "path": "00-README.md",
+      "bytes": 1579,
+      "lines": 35
+    },
+    {
+      "path": "MANIFEST.json",
+      "bytes": 63905,
+      "lines": 2596
+    },
+    {
+      "path": "PLAN.md",
+      "bytes": 605,
+      "lines": 5
+    },
+    {
+      "path": "learn/pages/learn-build-with-claude.md",
+      "bytes": 18670,
+      "lines": 299
+    },
+    {
+      "path": "learn/pages/learn-claude-for-work.md",
+      "bytes": 5574,
+      "lines": 115
+    },
+    {
+      "path": "learn/pages/learn-claude-for-you.md",
+      "bytes": 6485,
+      "lines": 148
+    },
+    {
+      "path": "learn/pages/learn.md",
+      "bytes": 2194,
+      "lines": 54
+    },
+    {
+      "path": "logs/anthropic-web-extract.log",
+      "bytes": 668,
+      "lines": 20
+    },
+    {
+      "path": "logs/youtube-download.log",
+      "bytes": 273620,
+      "lines": 2989
+    },
+    {
+      "path": "logs/youtube-enumerate.log",
+      "bytes": 0,
+      "lines": 1
+    },
+    {
+      "path": "logs/youtube-process.log",
+      "bytes": 234,
+      "lines": 9
+    },
+    {
+      "path": "manifests/anthropic-web-summary.json",
+      "bytes": 804,
+      "lines": 20
+    },
+    {
+      "path": "manifests/learn-pages.json",
+      "bytes": 42160,
+      "lines": 846
+    },
+    {
+      "path": "manifests/research-excluded.json",
+      "bytes": 478847,
+      "lines": 1755
+    },
+    {
+      "path": "manifests/research-pages.json",
+      "bytes": 1503146,
+      "lines": 8173
+    },
+    {
+      "path": "manifests/sitemap-all.json",
+      "bytes": 80131,
+      "lines": 2187
+    },
+    {
+      "path": "manifests/youtube-summary.json",
+      "bytes": 20797,
+      "lines": 625
+    },
+    {
+      "path": "manifests/youtube-transcripts.json",
+      "bytes": 74445,
+      "lines": 2027
+    },
+    {
+      "path": "research/pages/research-2028-ai-leadership.md",
+      "bytes": 47914,
+      "lines": 449
+    },
+    {
+      "path": "research/pages/research-a-general-language-assistant-as-a-laboratory-for-alignment.md",
+      "bytes": 3294,
+      "lines": 49
+    },
+    {
+      "path": "research/pages/research-a-mathematical-framework-for-transformer-circuits.md",
+      "bytes": 2152,
+      "lines": 47
+    },
+    {
+      "path": "research/pages/research-agentic-misalignment.md",
+      "bytes": 55088,
+      "lines": 345
+    },
+    {
+      "path": "research/pages/research-ai-assistance-coding-skills.md",
+      "bytes": 16731,
+      "lines": 175
+    },
+    {
+      "path": "research/pages/research-ai-fluency-index.md",
+      "bytes": 17852,
+      "lines": 166
+    },
+    {
+      "path": "research/pages/research-alignment-faking.md",
+      "bytes": 15886,
+      "lines": 156
+    },
+    {
+      "path": "research/pages/research-anthropic-interviewer.md",
+      "bytes": 44412,
+      "lines": 348
+    },
+    {
+      "path": "research/pages/research-assistant-axis.md",
+      "bytes": 25929,
+      "lines": 344
+    },
+    {
+      "path": "research/pages/research-auditing-hidden-objectives.md",
+      "bytes": 20718,
+      "lines": 178
+    },
+    {
+      "path": "research/pages/research-automated-alignment-researchers.md",
+      "bytes": 15402,
+      "lines": 136
+    },
+    {
+      "path": "research/pages/research-bloom.md",
+      "bytes": 12500,
+      "lines": 105
+    },
+    {
+      "path": "research/pages/research-building-ai-cyber-defenders.md",
+      "bytes": 17975,
+      "lines": 156
+    },
+    {
+      "path": "research/pages/research-building-effective-agents.md",
+      "bytes": 20397,
+      "lines": 225
+    },
+    {
+      "path": "research/pages/research-circuits-updates-april-2024.md",
+      "bytes": 2517,
+      "lines": 49
+    },
+    {
+      "path": "research/pages/research-circuits-updates-august-2024.md",
+      "bytes": 2524,
+      "lines": 49
+    },
+    {
+      "path": "research/pages/research-circuits-updates-july-2024.md",
+      "bytes": 2503,
+      "lines": 49
+    },
+    {
+      "path": "research/pages/research-circuits-updates-june-2024.md",
+      "bytes": 2506,
+      "lines": 49
+    },
+    {
+      "path": "research/pages/research-circuits-updates-may-2023.md",
+      "bytes": 2288,
+      "lines": 49
+    },
+    {
+      "path": "research/pages/research-circuits-updates-sept-2024.md",
+      "bytes": 2525,
+      "lines": 49
+    },
+    {
+      "path": "research/pages/research-claude-character.md",
+      "bytes": 11906,
+      "lines": 92
+    },
+    {
+      "path": "research/pages/research-claude-personal-guidance.md",
+      "bytes": 16525,
+      "lines": 130
+    },
+    {
+      "path": "research/pages/research-clio.md",
+      "bytes": 17357,
+      "lines": 173
+    },
+    {
+      "path": "research/pages/research-coding-agents-social-sciences.md",
+      "bytes": 19919,
+      "lines": 156
+    },
+    {
+      "path": "research/pages/research-collective-constitutional-ai-aligning-a-language-model-with-public-input.md",
+      "bytes": 25619,
+      "lines": 227
+    },
+    {
+      "path": "research/pages/research-confidential-inference-trusted-vms.md",
+      "bytes": 10887,
+      "lines": 115
+    },
+    {
+      "path": "research/pages/research-constitutional-ai-harmlessness-from-ai-feedback.md",
+      "bytes": 3650,
+      "lines": 52
+    },
+    {
+      "path": "research/pages/research-constitutional-classifiers.md",
+      "bytes": 21746,
+      "lines": 221
+    },
+    {
+      "path": "research/pages/research-crosscoder-model-diffing.md",
+      "bytes": 2366,
+      "lines": 49
+    },
+    {
+      "path": "research/pages/research-decomposing-language-models-into-understandable-components.md",
+      "bytes": 7727,
+      "lines": 71
+    },
+    {
+      "path": "research/pages/research-deprecation-commitments.md",
+      "bytes": 7768,
+      "lines": 72
+    },
+    {
+      "path": "research/pages/research-deprecation-updates-opus-3.md",
+      "bytes": 9675,
+      "lines": 90
+    },
+    {
+      "path": "research/pages/research-diff-tool.md",
+      "bytes": 16640,
+      "lines": 189
+    },
+    {
+      "path": "research/pages/research-discovering-language-model-behaviors-with-model-written-evaluations.md",
+      "bytes": 3621,
+      "lines": 49
+    },
+    {
+      "path": "research/pages/research-disempowerment-patterns.md",
+      "bytes": 18339,
+      "lines": 145
+    },
+    {
+      "path": "research/pages/research-distributed-representations-composition-superposition.md",
+      "bytes": 4563,
+      "lines": 64
+    },
+    {
+      "path": "research/pages/research-donating-open-source-petri.md",
+      "bytes": 5333,
+      "lines": 88
+    },
+    {
+      "path": "research/pages/research-emergent-misalignment-reward-hacking.md",
+      "bytes": 15048,
+      "lines": 141
+    },
+    {
+      "path": "research/pages/research-emotion-concepts-function.md",
+      "bytes": 22898,
+      "lines": 157
+    },
+    {
+      "path": "research/pages/research-end-subset-conversations.md",
+      "bytes": 5433,
+      "lines": 65
+    },
+    {
+      "path": "research/pages/research-engineering-challenges-interpretability.md",
+      "bytes": 13163,
+      "lines": 142
+    },
+    {
+      "path": "research/pages/research-evaluating-ai-systems.md",
+      "bytes": 25101,
+      "lines": 171
+    },
+    {
+      "path": "research/pages/research-evaluating-and-mitigating-discrimination-in-language-model-decisions.md",
+      "bytes": 4175,
+      "lines": 55
+    },
+    {
+      "path": "research/pages/research-evaluating-feature-steering.md",
+      "bytes": 28681,
+      "lines": 218
+    },
+    {
+      "path": "research/pages/research-exploring-model-welfare.md",
+      "bytes": 4564,
+      "lines": 70
+    },
+    {
+      "path": "research/pages/research-features-as-classifiers.md",
+      "bytes": 2395,
+      "lines": 48
+    },
+    {
+      "path": "research/pages/research-forecasting-rare-behaviors.md",
+      "bytes": 8253,
+      "lines": 91
+    },
+    {
+      "path": "research/pages/research-glasswing-initial-update.md",
+      "bytes": 20847,
+      "lines": 188
+    },
+    {
+      "path": "research/pages/research-how-ai-is-transforming-work-at-anthropic.md",
+      "bytes": 49939,
+      "lines": 283
+    },
+    {
+      "path": "research/pages/research-impact-software-development.md",
+      "bytes": 18496,
+      "lines": 141
+    },
+    {
+      "path": "research/pages/research-in-context-learning-and-induction-heads.md",
+      "bytes": 2081,
+      "lines": 47
+    },
+    {
+      "path": "research/pages/research-influence-functions.md",
+      "bytes": 9623,
+      "lines": 74
+    },
+    {
+      "path": "research/pages/research-interpretability-dreams.md",
+      "bytes": 2870,
+      "lines": 53
+    },
+    {
+      "path": "research/pages/research-introspection.md",
+      "bytes": 27236,
+      "lines": 211
+    },
+    {
+      "path": "research/pages/research-language-models-mostly-know-what-they-know.md",
+      "bytes": 3553,
+      "lines": 49
+    },
+    {
+      "path": "research/pages/research-long-running-claude.md",
+      "bytes": 15339,
+      "lines": 159
+    },
+    {
+      "path": "research/pages/research-making-claude-a-chemist.md",
+      "bytes": 18133,
+      "lines": 117
+    },
+    {
+      "path": "research/pages/research-many-shot-jailbreaking.md",
+      "bytes": 12356,
+      "lines": 105
+    },
+    {
+      "path": "research/pages/research-mapping-mind-language-model.md",
+      "bytes": 15610,
+      "lines": 138
+    },
+    {
+      "path": "research/pages/research-measuring-agent-autonomy.md",
+      "bytes": 43418,
+      "lines": 352
+    },
+    {
+      "path": "research/pages/research-measuring-faithfulness-in-chain-of-thought-reasoning.md",
+      "bytes": 3323,
+      "lines": 49
+    },
+    {
+      "path": "research/pages/research-measuring-model-persuasiveness.md",
+      "bytes": 29475,
+      "lines": 208
+    },
+    {
+      "path": "research/pages/research-measuring-progress-on-scalable-oversight-for-large-language-models.md",
+      "bytes": 3599,
+      "lines": 49
+    },
+    {
+      "path": "research/pages/research-natural-language-autoencoders.md",
+      "bytes": 14865,
+      "lines": 173
+    },
+    {
+      "path": "research/pages/research-next-generation-constitutional-classifiers.md",
+      "bytes": 11806,
+      "lines": 89
+    },
+    {
+      "path": "research/pages/research-open-source-circuit-tracing.md",
+      "bytes": 5113,
+      "lines": 93
+    },
+    {
+      "path": "research/pages/research-persona-selection-model.md",
+      "bytes": 10315,
+      "lines": 120
+    },
+    {
+      "path": "research/pages/research-persona-vectors.md",
+      "bytes": 14500,
+      "lines": 152
+    },
+    {
+      "path": "research/pages/research-petri-open-source-auditing.md",
+      "bytes": 12122,
+      "lines": 126
+    },
+    {
+      "path": "research/pages/research-predictability-and-surprise-in-large-generative-models.md",
+      "bytes": 4010,
+      "lines": 52
+    },
+    {
+      "path": "research/pages/research-privileged-bases-in-the-transformer-residual-stream.md",
+      "bytes": 2913,
+      "lines": 50
+    },
+    {
+      "path": "research/pages/research-probes-catch-sleeper-agents.md",
+      "bytes": 31087,
+      "lines": 245
+    },
+    {
+      "path": "research/pages/research-project-fetch-robot-dog.md",
+      "bytes": 23249,
+      "lines": 187
+    },
+    {
+      "path": "research/pages/research-project-vend-1.md",
+      "bytes": 20476,
+      "lines": 182
+    },
+    {
+      "path": "research/pages/research-project-vend-2.md",
+      "bytes": 21927,
+      "lines": 211
+    },
+    {
+      "path": "research/pages/research-prompt-injection-defenses.md",
+      "bytes": 7973,
+      "lines": 86
+    },
+    {
+      "path": "research/pages/research-question-decomposition-improves-the-faithfulness-of-model-generated-reasoning.md",
+      "bytes": 3851,
+      "lines": 49
+    },
+    {
+      "path": "research/pages/research-reasoning-models-dont-say-think.md",
+      "bytes": 14429,
+      "lines": 118
+    },
+    {
+      "path": "research/pages/research-red-teaming-language-models-to-reduce-harms-methods-scaling-behaviors-and-lessons-learned.md",
+      "bytes": 4018,
+      "lines": 52
+    },
+    {
+      "path": "research/pages/research-reward-tampering.md",
+      "bytes": 12994,
+      "lines": 104
+    },
+    {
+      "path": "research/pages/research-sabotage-evaluations.md",
+      "bytes": 12159,
+      "lines": 109
+    },
+    {
+      "path": "research/pages/research-scaling-laws-and-interpretability-of-learning-from-repeated-data.md",
+      "bytes": 4470,
+      "lines": 51
+    },
+    {
+      "path": "research/pages/research-shade-arena-sabotage-monitoring.md",
+      "bytes": 15076,
+      "lines": 134
+    },
+    {
+      "path": "research/pages/research-sleeper-agents-training-deceptive-llms-that-persist-through-safety-training.md",
+      "bytes": 3856,
+      "lines": 48
+    },
+    {
+      "path": "research/pages/research-small-samples-poison.md",
+      "bytes": 15849,
+      "lines": 181
+    },
+    {
+      "path": "research/pages/research-softmax-linear-units.md",
+      "bytes": 2972,
+      "lines": 49
+    },
+    {
+      "path": "research/pages/research-specific-versus-general-principles-for-constitutional-ai.md",
+      "bytes": 3350,
+      "lines": 49
+    },
+    {
+      "path": "research/pages/research-statistical-approach-to-model-evals.md",
+      "bytes": 14522,
+      "lines": 168
+    },
+    {
+      "path": "research/pages/research-studying-large-language-model-generalization-with-influence-functions.md",
+      "bytes": 3951,
+      "lines": 49
+    },
+    {
+      "path": "research/pages/research-superposition-memorization-and-double-descent.md",
+      "bytes": 4367,
+      "lines": 58
+    },
+    {
+      "path": "research/pages/research-swe-bench-sonnet.md",
+      "bytes": 20439,
+      "lines": 298
+    },
+    {
+      "path": "research/pages/research-teaching-claude-why.md",
+      "bytes": 16030,
+      "lines": 145
+    },
+    {
+      "path": "research/pages/research-team-alignment.md",
+      "bytes": 6948,
+      "lines": 120
+    },
+    {
+      "path": "research/pages/research-team-interpretability.md",
+      "bytes": 7672,
+      "lines": 120
+    },
+    {
+      "path": "research/pages/research-the-capacity-for-moral-self-correction-in-large-language-models.md",
+      "bytes": 3527,
+      "lines": 52
+    },
+    {
+      "path": "research/pages/research-towards-measuring-the-representation-of-subjective-global-opinions-in-language-models.md",
+      "bytes": 4028,
+      "lines": 55
+    },
+    {
+      "path": "research/pages/research-towards-monosemanticity-decomposing-language-models-with-dictionary-learning.md",
+      "bytes": 3525,
+      "lines": 52
+    },
+    {
+      "path": "research/pages/research-towards-understanding-sycophancy-in-language-models.md",
+      "bytes": 3316,
+      "lines": 49
+    },
+    {
+      "path": "research/pages/research-toy-models-of-superposition.md",
+      "bytes": 2341,
+      "lines": 49
+    },
+    {
+      "path": "research/pages/research-tracing-thoughts-language-model.md",
+      "bytes": 23803,
+      "lines": 204
+    },
+    {
+      "path": "research/pages/research-training-a-helpful-and-harmless-assistant-with-reinforcement-learning-from-human-feedback.md",
+      "bytes": 3972,
+      "lines": 51
+    },
+    {
+      "path": "research/pages/research-transformer-circuits.md",
+      "bytes": 2182,
+      "lines": 48
+    },
+    {
+      "path": "research/pages/research-trustworthy-agents.md",
+      "bytes": 15331,
+      "lines": 149
+    },
+    {
+      "path": "research/pages/research-values-wild.md",
+      "bytes": 13498,
+      "lines": 146
+    },
+    {
+      "path": "research/pages/research-vibe-physics.md",
+      "bytes": 37070,
+      "lines": 324
+    },
+    {
+      "path": "research/pages/research-visible-extended-thinking.md",
+      "bytes": 18466,
+      "lines": 177
+    },
+    {
+      "path": "research/pages/research.md",
+      "bytes": 6730,
+      "lines": 120
+    },
+    {
+      "path": "scripts/extract_anthropic_pages.py",
+      "bytes": 10809,
+      "lines": 237
+    },
+    {
+      "path": "scripts/process_youtube_transcripts.py",
+      "bytes": 4777,
+      "lines": 109
+    },
+    {
+      "path": "youtube/raw/-AkiUPvAqbU/-AkiUPvAqbU.en-orig.vtt",
+      "bytes": 1755,
+      "lines": 113
+    },
+    {
+      "path": "youtube/raw/-AkiUPvAqbU/-AkiUPvAqbU.en.vtt",
+      "bytes": 1755,
+      "lines": 113
+    },
+    {
+      "path": "youtube/raw/-AkiUPvAqbU/-AkiUPvAqbU.info.json",
+      "bytes": 562658,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/-INveHwbRz4/-INveHwbRz4.info.json",
+      "bytes": 74760,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/005JLRt3gXI/005JLRt3gXI.en-orig.vtt",
+      "bytes": 42197,
+      "lines": 1081
+    },
+    {
+      "path": "youtube/raw/005JLRt3gXI/005JLRt3gXI.en.vtt",
+      "bytes": 42197,
+      "lines": 1081
+    },
+    {
+      "path": "youtube/raw/005JLRt3gXI/005JLRt3gXI.info.json",
+      "bytes": 565069,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/0SgCiUfoYo8/0SgCiUfoYo8.en-orig.vtt",
+      "bytes": 98,
+      "lines": 9
+    },
+    {
+      "path": "youtube/raw/0SgCiUfoYo8/0SgCiUfoYo8.en.vtt",
+      "bytes": 98,
+      "lines": 9
+    },
+    {
+      "path": "youtube/raw/0SgCiUfoYo8/0SgCiUfoYo8.info.json",
+      "bytes": 557547,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/0kILa02vKuI/0kILa02vKuI.en-orig.vtt",
+      "bytes": 26746,
+      "lines": 665
+    },
+    {
+      "path": "youtube/raw/0kILa02vKuI/0kILa02vKuI.en.vtt",
+      "bytes": 26746,
+      "lines": 665
+    },
+    {
+      "path": "youtube/raw/0kILa02vKuI/0kILa02vKuI.info.json",
+      "bytes": 566747,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/19HDQ9HppOA/19HDQ9HppOA.en-orig.vtt",
+      "bytes": 369150,
+      "lines": 8857
+    },
+    {
+      "path": "youtube/raw/19HDQ9HppOA/19HDQ9HppOA.en.vtt",
+      "bytes": 369150,
+      "lines": 8857
+    },
+    {
+      "path": "youtube/raw/19HDQ9HppOA/19HDQ9HppOA.info.json",
+      "bytes": 560399,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/2fHVTe7c--4/2fHVTe7c--4.info.json",
+      "bytes": 77807,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/45hPRdfDEsI/45hPRdfDEsI.en-en.vtt",
+      "bytes": 5550,
+      "lines": 254
+    },
+    {
+      "path": "youtube/raw/45hPRdfDEsI/45hPRdfDEsI.en-orig.vtt",
+      "bytes": 32386,
+      "lines": 757
+    },
+    {
+      "path": "youtube/raw/45hPRdfDEsI/45hPRdfDEsI.en.vtt",
+      "bytes": 5550,
+      "lines": 254
+    },
+    {
+      "path": "youtube/raw/45hPRdfDEsI/45hPRdfDEsI.info.json",
+      "bytes": 1048575,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/4KBAE92he8E/4KBAE92he8E.en-orig.vtt",
+      "bytes": 349,
+      "lines": 17
+    },
+    {
+      "path": "youtube/raw/4KBAE92he8E/4KBAE92he8E.en.vtt",
+      "bytes": 349,
+      "lines": 17
+    },
+    {
+      "path": "youtube/raw/4KBAE92he8E/4KBAE92he8E.info.json",
+      "bytes": 550044,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/54BdUqMQUMI/54BdUqMQUMI.en-orig.vtt",
+      "bytes": 59472,
+      "lines": 1505
+    },
+    {
+      "path": "youtube/raw/54BdUqMQUMI/54BdUqMQUMI.en.vtt",
+      "bytes": 59472,
+      "lines": 1505
+    },
+    {
+      "path": "youtube/raw/54BdUqMQUMI/54BdUqMQUMI.info.json",
+      "bytes": 543794,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/5HVPeux24WU/5HVPeux24WU.info.json",
+      "bytes": 77617,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/5YHIrTYxM3w/5YHIrTYxM3w.en-orig.vtt",
+      "bytes": 177750,
+      "lines": 4345
+    },
+    {
+      "path": "youtube/raw/5YHIrTYxM3w/5YHIrTYxM3w.en.vtt",
+      "bytes": 177750,
+      "lines": 4345
+    },
+    {
+      "path": "youtube/raw/5YHIrTYxM3w/5YHIrTYxM3w.info.json",
+      "bytes": 554024,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/6amLO7I9xdg/6amLO7I9xdg.en-orig.vtt",
+      "bytes": 341670,
+      "lines": 8465
+    },
+    {
+      "path": "youtube/raw/6amLO7I9xdg/6amLO7I9xdg.en.vtt",
+      "bytes": 341670,
+      "lines": 8465
+    },
+    {
+      "path": "youtube/raw/6amLO7I9xdg/6amLO7I9xdg.info.json",
+      "bytes": 554574,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/6bs5b4FltCU/6bs5b4FltCU.en-orig.vtt",
+      "bytes": 22199,
+      "lines": 569
+    },
+    {
+      "path": "youtube/raw/6bs5b4FltCU/6bs5b4FltCU.en.vtt",
+      "bytes": 22199,
+      "lines": 569
+    },
+    {
+      "path": "youtube/raw/6bs5b4FltCU/6bs5b4FltCU.info.json",
+      "bytes": 566694,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/7-1tNo8HAwk/7-1tNo8HAwk.info.json",
+      "bytes": 70963,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/7oO37GRhwGk/7oO37GRhwGk.info.json",
+      "bytes": 68577,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/7xco5Qd2Oo8/7xco5Qd2Oo8.info.json",
+      "bytes": 77136,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/8N1-XHNupfg/8N1-XHNupfg.en-orig.vtt",
+      "bytes": 2338,
+      "lines": 97
+    },
+    {
+      "path": "youtube/raw/8N1-XHNupfg/8N1-XHNupfg.en.vtt",
+      "bytes": 2338,
+      "lines": 97
+    },
+    {
+      "path": "youtube/raw/8N1-XHNupfg/8N1-XHNupfg.info.json",
+      "bytes": 567127,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/91AJ0cpgLlQ/91AJ0cpgLlQ.en-orig.vtt",
+      "bytes": 25518,
+      "lines": 593
+    },
+    {
+      "path": "youtube/raw/91AJ0cpgLlQ/91AJ0cpgLlQ.en.vtt",
+      "bytes": 25518,
+      "lines": 593
+    },
+    {
+      "path": "youtube/raw/91AJ0cpgLlQ/91AJ0cpgLlQ.info.json",
+      "bytes": 566906,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/A3rmSUp6Dxg/A3rmSUp6Dxg.info.json",
+      "bytes": 64155,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/BbYSGxtsMic/BbYSGxtsMic.en-orig.vtt",
+      "bytes": 147378,
+      "lines": 3577
+    },
+    {
+      "path": "youtube/raw/BbYSGxtsMic/BbYSGxtsMic.en.vtt",
+      "bytes": 147378,
+      "lines": 3577
+    },
+    {
+      "path": "youtube/raw/BbYSGxtsMic/BbYSGxtsMic.info.json",
+      "bytes": 557876,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/BrpB-h1e--k/BrpB-h1e--k.en-orig.vtt",
+      "bytes": 227893,
+      "lines": 5505
+    },
+    {
+      "path": "youtube/raw/BrpB-h1e--k/BrpB-h1e--k.en.vtt",
+      "bytes": 227893,
+      "lines": 5505
+    },
+    {
+      "path": "youtube/raw/BrpB-h1e--k/BrpB-h1e--k.info.json",
+      "bytes": 556360,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/CG7Rcl49C2w/CG7Rcl49C2w.en-en.vtt",
+      "bytes": 4927,
+      "lines": 224
+    },
+    {
+      "path": "youtube/raw/CG7Rcl49C2w/CG7Rcl49C2w.en-orig.vtt",
+      "bytes": 31692,
+      "lines": 825
+    },
+    {
+      "path": "youtube/raw/CG7Rcl49C2w/CG7Rcl49C2w.en.vtt",
+      "bytes": 4927,
+      "lines": 224
+    },
+    {
+      "path": "youtube/raw/CG7Rcl49C2w/CG7Rcl49C2w.info.json",
+      "bytes": 1029793,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/DNRddIEoH3c/DNRddIEoH3c.info.json",
+      "bytes": 67043,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/DlTCu_pNDHE/DlTCu_pNDHE.en-en.vtt",
+      "bytes": 41856,
+      "lines": 1222
+    },
+    {
+      "path": "youtube/raw/DlTCu_pNDHE/DlTCu_pNDHE.en.vtt",
+      "bytes": 41856,
+      "lines": 1222
+    },
+    {
+      "path": "youtube/raw/DlTCu_pNDHE/DlTCu_pNDHE.info.json",
+      "bytes": 539139,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/E9gaQHrw_rg/E9gaQHrw_rg.info.json",
+      "bytes": 65442,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/EOg4gY0Yln0/EOg4gY0Yln0.en-orig.vtt",
+      "bytes": 146460,
+      "lines": 3609
+    },
+    {
+      "path": "youtube/raw/EOg4gY0Yln0/EOg4gY0Yln0.en.vtt",
+      "bytes": 146460,
+      "lines": 3609
+    },
+    {
+      "path": "youtube/raw/EOg4gY0Yln0/EOg4gY0Yln0.info.json",
+      "bytes": 538269,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/EPUg9pmfPk0/EPUg9pmfPk0.en-orig.vtt",
+      "bytes": 32125,
+      "lines": 825
+    },
+    {
+      "path": "youtube/raw/EPUg9pmfPk0/EPUg9pmfPk0.en.vtt",
+      "bytes": 32125,
+      "lines": 825
+    },
+    {
+      "path": "youtube/raw/EPUg9pmfPk0/EPUg9pmfPk0.info.json",
+      "bytes": 551929,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/EdmuYPBt_EM/EdmuYPBt_EM.info.json",
+      "bytes": 69569,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/F6dzjaBCBtU/F6dzjaBCBtU.info.json",
+      "bytes": 78437,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/FPPTnI88RR8/FPPTnI88RR8.en-en.vtt",
+      "bytes": 5830,
+      "lines": 169
+    },
+    {
+      "path": "youtube/raw/FPPTnI88RR8/FPPTnI88RR8.en-orig.vtt",
+      "bytes": 36263,
+      "lines": 865
+    },
+    {
+      "path": "youtube/raw/FPPTnI88RR8/FPPTnI88RR8.en.vtt",
+      "bytes": 5830,
+      "lines": 169
+    },
+    {
+      "path": "youtube/raw/FPPTnI88RR8/FPPTnI88RR8.info.json",
+      "bytes": 1041152,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/G2B0YWuJUgI/G2B0YWuJUgI.en-orig.vtt",
+      "bytes": 241618,
+      "lines": 5729
+    },
+    {
+      "path": "youtube/raw/G2B0YWuJUgI/G2B0YWuJUgI.en.vtt",
+      "bytes": 241618,
+      "lines": 5729
+    },
+    {
+      "path": "youtube/raw/G2B0YWuJUgI/G2B0YWuJUgI.info.json",
+      "bytes": 549128,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/GMIWm5y90xA/GMIWm5y90xA.info.json",
+      "bytes": 82884,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/Gen8rG40ntA/Gen8rG40ntA.info.json",
+      "bytes": 76964,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/I1BvAHOsjBU/I1BvAHOsjBU.en-orig.vtt",
+      "bytes": 98,
+      "lines": 9
+    },
+    {
+      "path": "youtube/raw/I1BvAHOsjBU/I1BvAHOsjBU.en.vtt",
+      "bytes": 98,
+      "lines": 9
+    },
+    {
+      "path": "youtube/raw/I1BvAHOsjBU/I1BvAHOsjBU.info.json",
+      "bytes": 564297,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/IA5LWIGqnyM/IA5LWIGqnyM.en-orig.vtt",
+      "bytes": 276066,
+      "lines": 6353
+    },
+    {
+      "path": "youtube/raw/IA5LWIGqnyM/IA5LWIGqnyM.en.vtt",
+      "bytes": 276066,
+      "lines": 6353
+    },
+    {
+      "path": "youtube/raw/IA5LWIGqnyM/IA5LWIGqnyM.info.json",
+      "bytes": 556501,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/IGAVa4uyo2w/IGAVa4uyo2w.en-en.vtt",
+      "bytes": 31737,
+      "lines": 1405
+    },
+    {
+      "path": "youtube/raw/IGAVa4uyo2w/IGAVa4uyo2w.en-orig.vtt",
+      "bytes": 204235,
+      "lines": 4737
+    },
+    {
+      "path": "youtube/raw/IGAVa4uyo2w/IGAVa4uyo2w.en.vtt",
+      "bytes": 31737,
+      "lines": 1405
+    },
+    {
+      "path": "youtube/raw/IGAVa4uyo2w/IGAVa4uyo2w.info.json",
+      "bytes": 1016821,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/IGo225tfF2I/IGo225tfF2I.en-orig.vtt",
+      "bytes": 157008,
+      "lines": 4345
+    },
+    {
+      "path": "youtube/raw/IGo225tfF2I/IGo225tfF2I.en.vtt",
+      "bytes": 157008,
+      "lines": 4345
+    },
+    {
+      "path": "youtube/raw/IGo225tfF2I/IGo225tfF2I.info.json",
+      "bytes": 555200,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/IMZa42k6L6M/IMZa42k6L6M.info.json",
+      "bytes": 74513,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/Ii99RU3mOJM/Ii99RU3mOJM.en-orig.vtt",
+      "bytes": 1304,
+      "lines": 81
+    },
+    {
+      "path": "youtube/raw/Ii99RU3mOJM/Ii99RU3mOJM.en.vtt",
+      "bytes": 1304,
+      "lines": 81
+    },
+    {
+      "path": "youtube/raw/Ii99RU3mOJM/Ii99RU3mOJM.info.json",
+      "bytes": 565573,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/IkaPHiMDazM/IkaPHiMDazM.en-orig.vtt",
+      "bytes": 25518,
+      "lines": 705
+    },
+    {
+      "path": "youtube/raw/IkaPHiMDazM/IkaPHiMDazM.en.vtt",
+      "bytes": 25518,
+      "lines": 705
+    },
+    {
+      "path": "youtube/raw/IkaPHiMDazM/IkaPHiMDazM.info.json",
+      "bytes": 568192,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/IlqJqcl8ONE/IlqJqcl8ONE.en-orig.vtt",
+      "bytes": 254437,
+      "lines": 6857
+    },
+    {
+      "path": "youtube/raw/IlqJqcl8ONE/IlqJqcl8ONE.en.vtt",
+      "bytes": 254437,
+      "lines": 6857
+    },
+    {
+      "path": "youtube/raw/IlqJqcl8ONE/IlqJqcl8ONE.info.json",
+      "bytes": 558215,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/Jp83_JMK74o/Jp83_JMK74o.en-orig.vtt",
+      "bytes": 25218,
+      "lines": 577
+    },
+    {
+      "path": "youtube/raw/Jp83_JMK74o/Jp83_JMK74o.en.vtt",
+      "bytes": 25218,
+      "lines": 577
+    },
+    {
+      "path": "youtube/raw/Jp83_JMK74o/Jp83_JMK74o.info.json",
+      "bytes": 534700,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/K4-flzsPraE/K4-flzsPraE.info.json",
+      "bytes": 68220,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/KLCuxMDZSDg/KLCuxMDZSDg.en-orig.vtt",
+      "bytes": 167259,
+      "lines": 4185
+    },
+    {
+      "path": "youtube/raw/KLCuxMDZSDg/KLCuxMDZSDg.en.vtt",
+      "bytes": 167259,
+      "lines": 4185
+    },
+    {
+      "path": "youtube/raw/KLCuxMDZSDg/KLCuxMDZSDg.info.json",
+      "bytes": 547668,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/Ko7_tC1fMMM/Ko7_tC1fMMM.en-orig.vtt",
+      "bytes": 22268,
+      "lines": 545
+    },
+    {
+      "path": "youtube/raw/Ko7_tC1fMMM/Ko7_tC1fMMM.en.vtt",
+      "bytes": 22268,
+      "lines": 545
+    },
+    {
+      "path": "youtube/raw/Ko7_tC1fMMM/Ko7_tC1fMMM.info.json",
+      "bytes": 565995,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/LZMWsZbZU5w/LZMWsZbZU5w.info.json",
+      "bytes": 76167,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/Lbml7IuGJYw/Lbml7IuGJYw.en-orig.vtt",
+      "bytes": 33015,
+      "lines": 857
+    },
+    {
+      "path": "youtube/raw/Lbml7IuGJYw/Lbml7IuGJYw.en.vtt",
+      "bytes": 33015,
+      "lines": 857
+    },
+    {
+      "path": "youtube/raw/Lbml7IuGJYw/Lbml7IuGJYw.info.json",
+      "bytes": 569410,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/M5uwBawBDpw/M5uwBawBDpw.en-orig.vtt",
+      "bytes": 265321,
+      "lines": 6481
+    },
+    {
+      "path": "youtube/raw/M5uwBawBDpw/M5uwBawBDpw.en.vtt",
+      "bytes": 265321,
+      "lines": 6481
+    },
+    {
+      "path": "youtube/raw/M5uwBawBDpw/M5uwBawBDpw.info.json",
+      "bytes": 554954,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/MWhSjFu_K7E/MWhSjFu_K7E.info.json",
+      "bytes": 60112,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/MyYe6C4NVu0/MyYe6C4NVu0.en-en.vtt",
+      "bytes": 3256,
+      "lines": 162
+    },
+    {
+      "path": "youtube/raw/MyYe6C4NVu0/MyYe6C4NVu0.en-orig.vtt",
+      "bytes": 17046,
+      "lines": 449
+    },
+    {
+      "path": "youtube/raw/MyYe6C4NVu0/MyYe6C4NVu0.en.vtt",
+      "bytes": 3256,
+      "lines": 162
+    },
+    {
+      "path": "youtube/raw/MyYe6C4NVu0/MyYe6C4NVu0.info.json",
+      "bytes": 1031064,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/NAauIR6JFps/NAauIR6JFps.info.json",
+      "bytes": 76874,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/NAwvkrxompk/NAwvkrxompk.info.json",
+      "bytes": 75664,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/NLWiIj47IdI/NLWiIj47IdI.en-orig.vtt",
+      "bytes": 32091,
+      "lines": 801
+    },
+    {
+      "path": "youtube/raw/NLWiIj47IdI/NLWiIj47IdI.en.vtt",
+      "bytes": 32091,
+      "lines": 801
+    },
+    {
+      "path": "youtube/raw/NLWiIj47IdI/NLWiIj47IdI.info.json",
+      "bytes": 568881,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/O0FGCxkHM-U/O0FGCxkHM-U.en-orig.vtt",
+      "bytes": 26353,
+      "lines": 657
+    },
+    {
+      "path": "youtube/raw/O0FGCxkHM-U/O0FGCxkHM-U.en.vtt",
+      "bytes": 26353,
+      "lines": 657
+    },
+    {
+      "path": "youtube/raw/O0FGCxkHM-U/O0FGCxkHM-U.info.json",
+      "bytes": 567087,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/OFDm3T7pVlc/OFDm3T7pVlc.info.json",
+      "bytes": 68269,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/OXJO4LldSnc/OXJO4LldSnc.en-orig.vtt",
+      "bytes": 202600,
+      "lines": 4945
+    },
+    {
+      "path": "youtube/raw/OXJO4LldSnc/OXJO4LldSnc.en.vtt",
+      "bytes": 202600,
+      "lines": 4945
+    },
+    {
+      "path": "youtube/raw/OXJO4LldSnc/OXJO4LldSnc.info.json",
+      "bytes": 555186,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/P0uMXS6emHA/P0uMXS6emHA.en-orig.vtt",
+      "bytes": 273116,
+      "lines": 6801
+    },
+    {
+      "path": "youtube/raw/P0uMXS6emHA/P0uMXS6emHA.en.vtt",
+      "bytes": 273116,
+      "lines": 6801
+    },
+    {
+      "path": "youtube/raw/P0uMXS6emHA/P0uMXS6emHA.info.json",
+      "bytes": 558237,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/QIriO1-vHYw/QIriO1-vHYw.info.json",
+      "bytes": 67614,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/RKsADl0ZC3Y/RKsADl0ZC3Y.en-orig.vtt",
+      "bytes": 603,
+      "lines": 41
+    },
+    {
+      "path": "youtube/raw/RKsADl0ZC3Y/RKsADl0ZC3Y.en.vtt",
+      "bytes": 603,
+      "lines": 41
+    },
+    {
+      "path": "youtube/raw/RKsADl0ZC3Y/RKsADl0ZC3Y.info.json",
+      "bytes": 563725,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/RnOWJoHU_NY/RnOWJoHU_NY.en-orig.vtt",
+      "bytes": 31551,
+      "lines": 801
+    },
+    {
+      "path": "youtube/raw/RnOWJoHU_NY/RnOWJoHU_NY.en.vtt",
+      "bytes": 31551,
+      "lines": 801
+    },
+    {
+      "path": "youtube/raw/RnOWJoHU_NY/RnOWJoHU_NY.info.json",
+      "bytes": 563424,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/RtywqDFBYnQ/RtywqDFBYnQ.en-orig.vtt",
+      "bytes": 218117,
+      "lines": 5249
+    },
+    {
+      "path": "youtube/raw/RtywqDFBYnQ/RtywqDFBYnQ.en.vtt",
+      "bytes": 218117,
+      "lines": 5249
+    },
+    {
+      "path": "youtube/raw/RtywqDFBYnQ/RtywqDFBYnQ.info.json",
+      "bytes": 561699,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/SqHsS737CeA/SqHsS737CeA.en-orig.vtt",
+      "bytes": 208876,
+      "lines": 5161
+    },
+    {
+      "path": "youtube/raw/SqHsS737CeA/SqHsS737CeA.en.vtt",
+      "bytes": 208876,
+      "lines": 5161
+    },
+    {
+      "path": "youtube/raw/SqHsS737CeA/SqHsS737CeA.info.json",
+      "bytes": 556269,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/T7KqH7kYnE4/T7KqH7kYnE4.en-orig.vtt",
+      "bytes": 187792,
+      "lines": 4681
+    },
+    {
+      "path": "youtube/raw/T7KqH7kYnE4/T7KqH7kYnE4.en.vtt",
+      "bytes": 187792,
+      "lines": 4681
+    },
+    {
+      "path": "youtube/raw/T7KqH7kYnE4/T7KqH7kYnE4.info.json",
+      "bytes": 555133,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/T8N0MED3IJo/T8N0MED3IJo.info.json",
+      "bytes": 69440,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/TQd_YQvydVg/TQd_YQvydVg.en-orig.vtt",
+      "bytes": 258750,
+      "lines": 5969
+    },
+    {
+      "path": "youtube/raw/TQd_YQvydVg/TQd_YQvydVg.en.vtt",
+      "bytes": 258750,
+      "lines": 5969
+    },
+    {
+      "path": "youtube/raw/TQd_YQvydVg/TQd_YQvydVg.info.json",
+      "bytes": 543038,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/TkSZqH0n7m0/TkSZqH0n7m0.en-orig.vtt",
+      "bytes": 56408,
+      "lines": 1521
+    },
+    {
+      "path": "youtube/raw/TkSZqH0n7m0/TkSZqH0n7m0.en.vtt",
+      "bytes": 56408,
+      "lines": 1521
+    },
+    {
+      "path": "youtube/raw/TkSZqH0n7m0/TkSZqH0n7m0.info.json",
+      "bytes": 558494,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/TxS-1invhzg/TxS-1invhzg.en-orig.vtt",
+      "bytes": 35968,
+      "lines": 1017
+    },
+    {
+      "path": "youtube/raw/TxS-1invhzg/TxS-1invhzg.en.vtt",
+      "bytes": 35968,
+      "lines": 1017
+    },
+    {
+      "path": "youtube/raw/TxS-1invhzg/TxS-1invhzg.info.json",
+      "bytes": 568395,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/U9jGOz_Lcbo/U9jGOz_Lcbo.info.json",
+      "bytes": 76299,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/U9s9Kxb7p5I/U9s9Kxb7p5I.en-en.vtt",
+      "bytes": 4268,
+      "lines": 224
+    },
+    {
+      "path": "youtube/raw/U9s9Kxb7p5I/U9s9Kxb7p5I.en-orig.vtt",
+      "bytes": 19484,
+      "lines": 489
+    },
+    {
+      "path": "youtube/raw/U9s9Kxb7p5I/U9s9Kxb7p5I.en.vtt",
+      "bytes": 4268,
+      "lines": 224
+    },
+    {
+      "path": "youtube/raw/U9s9Kxb7p5I/U9s9Kxb7p5I.info.json",
+      "bytes": 1039076,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/UCD7Hnx_THQ/UCD7Hnx_THQ.en-orig.vtt",
+      "bytes": 1531,
+      "lines": 97
+    },
+    {
+      "path": "youtube/raw/UCD7Hnx_THQ/UCD7Hnx_THQ.en.vtt",
+      "bytes": 1531,
+      "lines": 97
+    },
+    {
+      "path": "youtube/raw/UCD7Hnx_THQ/UCD7Hnx_THQ.info.json",
+      "bytes": 548097,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/Uvl-tRga98g/Uvl-tRga98g.info.json",
+      "bytes": 74941,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/VueeyKcquoA/VueeyKcquoA.info.json",
+      "bytes": 67971,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/XFaeIbL-lvE/XFaeIbL-lvE.info.json",
+      "bytes": 68876,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/YmQ7jRgf4f0/YmQ7jRgf4f0.info.json",
+      "bytes": 25809,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/_kSAptN8TAY/_kSAptN8TAY.en-en.vtt",
+      "bytes": 5245,
+      "lines": 257
+    },
+    {
+      "path": "youtube/raw/_kSAptN8TAY/_kSAptN8TAY.en-orig.vtt",
+      "bytes": 28154,
+      "lines": 681
+    },
+    {
+      "path": "youtube/raw/_kSAptN8TAY/_kSAptN8TAY.en.vtt",
+      "bytes": 5245,
+      "lines": 257
+    },
+    {
+      "path": "youtube/raw/_kSAptN8TAY/_kSAptN8TAY.info.json",
+      "bytes": 1022460,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/b-ntWZqHF78/b-ntWZqHF78.en-orig.vtt",
+      "bytes": 621,
+      "lines": 41
+    },
+    {
+      "path": "youtube/raw/b-ntWZqHF78/b-ntWZqHF78.en.vtt",
+      "bytes": 621,
+      "lines": 41
+    },
+    {
+      "path": "youtube/raw/b-ntWZqHF78/b-ntWZqHF78.info.json",
+      "bytes": 546548,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/bJKdXhnw7NU/bJKdXhnw7NU.info.json",
+      "bytes": 69028,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/bjdBVZa66oU/bjdBVZa66oU.en-orig.vtt",
+      "bytes": 21530,
+      "lines": 577
+    },
+    {
+      "path": "youtube/raw/bjdBVZa66oU/bjdBVZa66oU.en.vtt",
+      "bytes": 21530,
+      "lines": 577
+    },
+    {
+      "path": "youtube/raw/bjdBVZa66oU/bjdBVZa66oU.info.json",
+      "bytes": 566161,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/bjrmYsFae_g/bjrmYsFae_g.en-en.vtt",
+      "bytes": 4080,
+      "lines": 200
+    },
+    {
+      "path": "youtube/raw/bjrmYsFae_g/bjrmYsFae_g.en-orig.vtt",
+      "bytes": 21550,
+      "lines": 545
+    },
+    {
+      "path": "youtube/raw/bjrmYsFae_g/bjrmYsFae_g.en.vtt",
+      "bytes": 4080,
+      "lines": 200
+    },
+    {
+      "path": "youtube/raw/bjrmYsFae_g/bjrmYsFae_g.info.json",
+      "bytes": 1032050,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/cIctgHKEeMA/cIctgHKEeMA.info.json",
+      "bytes": 78664,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/dDg7vhvtbEE/dDg7vhvtbEE.en-orig.vtt",
+      "bytes": 31018,
+      "lines": 825
+    },
+    {
+      "path": "youtube/raw/dDg7vhvtbEE/dDg7vhvtbEE.en.vtt",
+      "bytes": 31018,
+      "lines": 825
+    },
+    {
+      "path": "youtube/raw/dDg7vhvtbEE/dDg7vhvtbEE.info.json",
+      "bytes": 560865,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/dxqX_6ciVQA/dxqX_6ciVQA.en-orig.vtt",
+      "bytes": 64771,
+      "lines": 1497
+    },
+    {
+      "path": "youtube/raw/dxqX_6ciVQA/dxqX_6ciVQA.en.vtt",
+      "bytes": 64771,
+      "lines": 1497
+    },
+    {
+      "path": "youtube/raw/dxqX_6ciVQA/dxqX_6ciVQA.info.json",
+      "bytes": 537338,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/eSP7PLTXNy8/eSP7PLTXNy8.en-orig.vtt",
+      "bytes": 184930,
+      "lines": 4641
+    },
+    {
+      "path": "youtube/raw/eSP7PLTXNy8/eSP7PLTXNy8.en.vtt",
+      "bytes": 184930,
+      "lines": 4641
+    },
+    {
+      "path": "youtube/raw/eSP7PLTXNy8/eSP7PLTXNy8.info.json",
+      "bytes": 562805,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/eW3oTyfeWZ0/eW3oTyfeWZ0.en-orig.vtt",
+      "bytes": 30753,
+      "lines": 761
+    },
+    {
+      "path": "youtube/raw/eW3oTyfeWZ0/eW3oTyfeWZ0.en.vtt",
+      "bytes": 30753,
+      "lines": 761
+    },
+    {
+      "path": "youtube/raw/eW3oTyfeWZ0/eW3oTyfeWZ0.info.json",
+      "bytes": 562186,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/fVIV-L49eBs/fVIV-L49eBs.en-orig.vtt",
+      "bytes": 1114,
+      "lines": 73
+    },
+    {
+      "path": "youtube/raw/fVIV-L49eBs/fVIV-L49eBs.en.vtt",
+      "bytes": 1114,
+      "lines": 73
+    },
+    {
+      "path": "youtube/raw/fVIV-L49eBs/fVIV-L49eBs.info.json",
+      "bytes": 563315,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/fVJGqzYkq3A/fVJGqzYkq3A.en-en.vtt",
+      "bytes": 2525,
+      "lines": 135
+    },
+    {
+      "path": "youtube/raw/fVJGqzYkq3A/fVJGqzYkq3A.en-orig.vtt",
+      "bytes": 13242,
+      "lines": 329
+    },
+    {
+      "path": "youtube/raw/fVJGqzYkq3A/fVJGqzYkq3A.en.vtt",
+      "bytes": 2525,
+      "lines": 135
+    },
+    {
+      "path": "youtube/raw/fVJGqzYkq3A/fVJGqzYkq3A.info.json",
+      "bytes": 1038229,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/fl1DSmwQKKY/fl1DSmwQKKY.en-orig.vtt",
+      "bytes": 23345,
+      "lines": 585
+    },
+    {
+      "path": "youtube/raw/fl1DSmwQKKY/fl1DSmwQKKY.en.vtt",
+      "bytes": 23345,
+      "lines": 585
+    },
+    {
+      "path": "youtube/raw/fl1DSmwQKKY/fl1DSmwQKKY.info.json",
+      "bytes": 566405,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/foxeK2AXfHQ/foxeK2AXfHQ.en-orig.vtt",
+      "bytes": 98,
+      "lines": 9
+    },
+    {
+      "path": "youtube/raw/foxeK2AXfHQ/foxeK2AXfHQ.en.vtt",
+      "bytes": 98,
+      "lines": 9
+    },
+    {
+      "path": "youtube/raw/foxeK2AXfHQ/foxeK2AXfHQ.info.json",
+      "bytes": 565061,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/gRLMG5YNNTo/gRLMG5YNNTo.en-orig.vtt",
+      "bytes": 18906,
+      "lines": 545
+    },
+    {
+      "path": "youtube/raw/gRLMG5YNNTo/gRLMG5YNNTo.en.vtt",
+      "bytes": 18906,
+      "lines": 545
+    },
+    {
+      "path": "youtube/raw/gRLMG5YNNTo/gRLMG5YNNTo.info.json",
+      "bytes": 559053,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/gbetp6D7J_Q/gbetp6D7J_Q.en-orig.vtt",
+      "bytes": 21493,
+      "lines": 553
+    },
+    {
+      "path": "youtube/raw/gbetp6D7J_Q/gbetp6D7J_Q.en.vtt",
+      "bytes": 21493,
+      "lines": 553
+    },
+    {
+      "path": "youtube/raw/gbetp6D7J_Q/gbetp6D7J_Q.info.json",
+      "bytes": 564763,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/geUv4CjPpxI/geUv4CjPpxI.en-orig.vtt",
+      "bytes": 244329,
+      "lines": 5697
+    },
+    {
+      "path": "youtube/raw/geUv4CjPpxI/geUv4CjPpxI.en.vtt",
+      "bytes": 244329,
+      "lines": 5697
+    },
+    {
+      "path": "youtube/raw/geUv4CjPpxI/geUv4CjPpxI.info.json",
+      "bytes": 540839,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/igO8iyca2_g/igO8iyca2_g.en-orig.vtt",
+      "bytes": 297696,
+      "lines": 6841
+    },
+    {
+      "path": "youtube/raw/igO8iyca2_g/igO8iyca2_g.en.vtt",
+      "bytes": 297696,
+      "lines": 6841
+    },
+    {
+      "path": "youtube/raw/igO8iyca2_g/igO8iyca2_g.info.json",
+      "bytes": 564213,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/jWWsLe4Gh5Y/jWWsLe4Gh5Y.en-orig.vtt",
+      "bytes": 283420,
+      "lines": 6817
+    },
+    {
+      "path": "youtube/raw/jWWsLe4Gh5Y/jWWsLe4Gh5Y.en.vtt",
+      "bytes": 283420,
+      "lines": 6817
+    },
+    {
+      "path": "youtube/raw/jWWsLe4Gh5Y/jWWsLe4Gh5Y.info.json",
+      "bytes": 557108,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/kUQD5ZElyB4/kUQD5ZElyB4.en-en.vtt",
+      "bytes": 4163,
+      "lines": 202
+    },
+    {
+      "path": "youtube/raw/kUQD5ZElyB4/kUQD5ZElyB4.en-orig.vtt",
+      "bytes": 22321,
+      "lines": 545
+    },
+    {
+      "path": "youtube/raw/kUQD5ZElyB4/kUQD5ZElyB4.en.vtt",
+      "bytes": 4163,
+      "lines": 202
+    },
+    {
+      "path": "youtube/raw/kUQD5ZElyB4/kUQD5ZElyB4.info.json",
+      "bytes": 1031948,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/kkBFmwkDzdo/kkBFmwkDzdo.en-orig.vtt",
+      "bytes": 30727,
+      "lines": 801
+    },
+    {
+      "path": "youtube/raw/kkBFmwkDzdo/kkBFmwkDzdo.en.vtt",
+      "bytes": 30727,
+      "lines": 801
+    },
+    {
+      "path": "youtube/raw/kkBFmwkDzdo/kkBFmwkDzdo.info.json",
+      "bytes": 568557,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/l8fxVYIP4HQ/l8fxVYIP4HQ.info.json",
+      "bytes": 66650,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/lsufr1i6ACY/lsufr1i6ACY.en-orig.vtt",
+      "bytes": 32041,
+      "lines": 849
+    },
+    {
+      "path": "youtube/raw/lsufr1i6ACY/lsufr1i6ACY.en.vtt",
+      "bytes": 32041,
+      "lines": 849
+    },
+    {
+      "path": "youtube/raw/lsufr1i6ACY/lsufr1i6ACY.info.json",
+      "bytes": 561171,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/mWvtOHlZM-I/mWvtOHlZM-I.en-orig.vtt",
+      "bytes": 394877,
+      "lines": 9417
+    },
+    {
+      "path": "youtube/raw/mWvtOHlZM-I/mWvtOHlZM-I.en.vtt",
+      "bytes": 394877,
+      "lines": 9417
+    },
+    {
+      "path": "youtube/raw/mWvtOHlZM-I/mWvtOHlZM-I.info.json",
+      "bytes": 563963,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/ma7oe_5h0ag/ma7oe_5h0ag.en-en.vtt",
+      "bytes": 6903,
+      "lines": 398
+    },
+    {
+      "path": "youtube/raw/ma7oe_5h0ag/ma7oe_5h0ag.en-orig.vtt",
+      "bytes": 28119,
+      "lines": 689
+    },
+    {
+      "path": "youtube/raw/ma7oe_5h0ag/ma7oe_5h0ag.en.vtt",
+      "bytes": 6903,
+      "lines": 398
+    },
+    {
+      "path": "youtube/raw/ma7oe_5h0ag/ma7oe_5h0ag.info.json",
+      "bytes": 1039907,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/mhW-XXnDFSU/mhW-XXnDFSU.info.json",
+      "bytes": 69345,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/n4ZxEznNaIY/n4ZxEznNaIY.en-orig.vtt",
+      "bytes": 24759,
+      "lines": 625
+    },
+    {
+      "path": "youtube/raw/n4ZxEznNaIY/n4ZxEznNaIY.en.vtt",
+      "bytes": 24759,
+      "lines": 625
+    },
+    {
+      "path": "youtube/raw/n4ZxEznNaIY/n4ZxEznNaIY.info.json",
+      "bytes": 559809,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/nho1YAEPuwA/nho1YAEPuwA.info.json",
+      "bytes": 69535,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/orTd3grSYsQ/orTd3grSYsQ.info.json",
+      "bytes": 62113,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/qOjleN2-50c/qOjleN2-50c.en-orig.vtt",
+      "bytes": 277768,
+      "lines": 6953
+    },
+    {
+      "path": "youtube/raw/qOjleN2-50c/qOjleN2-50c.en.vtt",
+      "bytes": 277768,
+      "lines": 6953
+    },
+    {
+      "path": "youtube/raw/qOjleN2-50c/qOjleN2-50c.info.json",
+      "bytes": 557473,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/rWaQSQEm_aY/rWaQSQEm_aY.info.json",
+      "bytes": 71777,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/rjSvJYrVY2k/rjSvJYrVY2k.en-en.vtt",
+      "bytes": 4204,
+      "lines": 208
+    },
+    {
+      "path": "youtube/raw/rjSvJYrVY2k/rjSvJYrVY2k.en-orig.vtt",
+      "bytes": 21563,
+      "lines": 553
+    },
+    {
+      "path": "youtube/raw/rjSvJYrVY2k/rjSvJYrVY2k.en.vtt",
+      "bytes": 4204,
+      "lines": 208
+    },
+    {
+      "path": "youtube/raw/rjSvJYrVY2k/rjSvJYrVY2k.info.json",
+      "bytes": 1031435,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/sRvUXLquiRg/sRvUXLquiRg.info.json",
+      "bytes": 77225,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/sZHGbRYQti4/sZHGbRYQti4.en-en.vtt",
+      "bytes": 3237,
+      "lines": 182
+    },
+    {
+      "path": "youtube/raw/sZHGbRYQti4/sZHGbRYQti4.en-orig.vtt",
+      "bytes": 13051,
+      "lines": 321
+    },
+    {
+      "path": "youtube/raw/sZHGbRYQti4/sZHGbRYQti4.en.vtt",
+      "bytes": 3237,
+      "lines": 182
+    },
+    {
+      "path": "youtube/raw/sZHGbRYQti4/sZHGbRYQti4.info.json",
+      "bytes": 1040033,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/snroDwX1-JU/snroDwX1-JU.en-orig.vtt",
+      "bytes": 261976,
+      "lines": 6193
+    },
+    {
+      "path": "youtube/raw/snroDwX1-JU/snroDwX1-JU.en.vtt",
+      "bytes": 261976,
+      "lines": 6193
+    },
+    {
+      "path": "youtube/raw/snroDwX1-JU/snroDwX1-JU.info.json",
+      "bytes": 557218,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/sxfwDbi-_78/sxfwDbi-_78.en-en.vtt",
+      "bytes": 4574,
+      "lines": 263
+    },
+    {
+      "path": "youtube/raw/sxfwDbi-_78/sxfwDbi-_78.en-orig.vtt",
+      "bytes": 17935,
+      "lines": 465
+    },
+    {
+      "path": "youtube/raw/sxfwDbi-_78/sxfwDbi-_78.en.vtt",
+      "bytes": 4574,
+      "lines": 263
+    },
+    {
+      "path": "youtube/raw/sxfwDbi-_78/sxfwDbi-_78.info.json",
+      "bytes": 1023951,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/tP4MGcJ80Y0/tP4MGcJ80Y0.info.json",
+      "bytes": 63453,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/tUoO4ucrNc0/tUoO4ucrNc0.info.json",
+      "bytes": 68260,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/t_LBECIQQqs/t_LBECIQQqs.en-orig.vtt",
+      "bytes": 3365,
+      "lines": 225
+    },
+    {
+      "path": "youtube/raw/t_LBECIQQqs/t_LBECIQQqs.en.vtt",
+      "bytes": 3365,
+      "lines": 225
+    },
+    {
+      "path": "youtube/raw/t_LBECIQQqs/t_LBECIQQqs.info.json",
+      "bytes": 566045,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/tuY2ChJIx48/tuY2ChJIx48.info.json",
+      "bytes": 75658,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/uGroRwlC9y4/uGroRwlC9y4.info.json",
+      "bytes": 68249,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/v5IOHK5xFlc/v5IOHK5xFlc.info.json",
+      "bytes": 79839,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/v9FTCvkV_a0/v9FTCvkV_a0.en-orig.vtt",
+      "bytes": 392153,
+      "lines": 9609
+    },
+    {
+      "path": "youtube/raw/v9FTCvkV_a0/v9FTCvkV_a0.en.vtt",
+      "bytes": 392153,
+      "lines": 9609
+    },
+    {
+      "path": "youtube/raw/v9FTCvkV_a0/v9FTCvkV_a0.info.json",
+      "bytes": 561443,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/wI0ptqCSL0I/wI0ptqCSL0I.info.json",
+      "bytes": 71212,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/xJQuF02NAK8/xJQuF02NAK8.en-orig.vtt",
+      "bytes": 29821,
+      "lines": 737
+    },
+    {
+      "path": "youtube/raw/xJQuF02NAK8/xJQuF02NAK8.en.vtt",
+      "bytes": 29821,
+      "lines": 737
+    },
+    {
+      "path": "youtube/raw/xJQuF02NAK8/xJQuF02NAK8.info.json",
+      "bytes": 567233,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/xpmag2Gvi0g/xpmag2Gvi0g.en-orig.vtt",
+      "bytes": 442,
+      "lines": 25
+    },
+    {
+      "path": "youtube/raw/xpmag2Gvi0g/xpmag2Gvi0g.en.vtt",
+      "bytes": 442,
+      "lines": 25
+    },
+    {
+      "path": "youtube/raw/xpmag2Gvi0g/xpmag2Gvi0g.info.json",
+      "bytes": 530433,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/y5TmF_6o6xk/y5TmF_6o6xk.info.json",
+      "bytes": 68214,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/yB7xjOA05GM/yB7xjOA05GM.en-en.vtt",
+      "bytes": 3926,
+      "lines": 209
+    },
+    {
+      "path": "youtube/raw/yB7xjOA05GM/yB7xjOA05GM.en-orig.vtt",
+      "bytes": 16232,
+      "lines": 393
+    },
+    {
+      "path": "youtube/raw/yB7xjOA05GM/yB7xjOA05GM.en.vtt",
+      "bytes": 3926,
+      "lines": 209
+    },
+    {
+      "path": "youtube/raw/yB7xjOA05GM/yB7xjOA05GM.info.json",
+      "bytes": 1041680,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/zFslvuvYifQ/zFslvuvYifQ.info.json",
+      "bytes": 68293,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/zZlcNxSPMOA/zZlcNxSPMOA.info.json",
+      "bytes": 61356,
+      "lines": 1
+    },
+    {
+      "path": "youtube/raw/zenIB7XLZxQ/zenIB7XLZxQ.en-orig.vtt",
+      "bytes": 303817,
+      "lines": 7345
+    },
+    {
+      "path": "youtube/raw/zenIB7XLZxQ/zenIB7XLZxQ.en.vtt",
+      "bytes": 303817,
+      "lines": 7345
+    },
+    {
+      "path": "youtube/raw/zenIB7XLZxQ/zenIB7XLZxQ.info.json",
+      "bytes": 556212,
+      "lines": 1
+    },
+    {
+      "path": "youtube/transcripts/a-a-murakami-s-the-moon-underwater-sxfwDbi-_78.md",
+      "bytes": 2673,
+      "lines": 109
+    },
+    {
+      "path": "youtube/transcripts/agent-battle-mine-the-most-diamonds-in-45-minutes-dxqX_6ciVQA.md",
+      "bytes": 7717,
+      "lines": 210
+    },
+    {
+      "path": "youtube/transcripts/agents-that-remember-geUv4CjPpxI.md",
+      "bytes": 26861,
+      "lines": 735
+    },
+    {
+      "path": "youtube/transcripts/ai-with-claude-on-aws-from-code-to-orchestration-5YHIrTYxM3w.md",
+      "bytes": 19443,
+      "lines": 565
+    },
+    {
+      "path": "youtube/transcripts/before-we-ship-a-claude-model-these-teams-try-to-break-it-CG7Rcl49C2w.md",
+      "bytes": 3890,
+      "lines": 122
+    },
+    {
+      "path": "youtube/transcripts/build-a-proactive-agent-workflow-with-claude-code-eSP7PLTXNy8.md",
+      "bytes": 20170,
+      "lines": 603
+    },
+    {
+      "path": "youtube/transcripts/build-a-production-ready-agent-with-claude-managed-agents-jWWsLe4Gh5Y.md",
+      "bytes": 30315,
+      "lines": 873
+    },
+    {
+      "path": "youtube/transcripts/build-ai-agents-using-claude-in-microsoft-foundry-TQd_YQvydVg.md",
+      "bytes": 27814,
+      "lines": 769
+    },
+    {
+      "path": "youtube/transcripts/building-a-powerpoint-with-claude-TxS-1invhzg.md",
+      "bytes": 4678,
+      "lines": 150
+    },
+    {
+      "path": "youtube/transcripts/building-signals-that-trade-themselves-EOg4gY0Yln0.md",
+      "bytes": 16742,
+      "lines": 474
+    },
+    {
+      "path": "youtube/transcripts/building-with-claude-managed-agents-and-asana-ai-teammates-BrpB-h1e--k.md",
+      "bytes": 25229,
+      "lines": 710
+    },
+    {
+      "path": "youtube/transcripts/building-with-claude-on-google-cloud-SqHsS737CeA.md",
+      "bytes": 22257,
+      "lines": 668
+    },
+    {
+      "path": "youtube/transcripts/claude-can-now-show-you-Ii99RU3mOJM.md",
+      "bytes": 917,
+      "lines": 33
+    },
+    {
+      "path": "youtube/transcripts/claude-cowork-for-legal-teams-EPUg9pmfPk0.md",
+      "bytes": 4630,
+      "lines": 125
+    },
+    {
+      "path": "youtube/transcripts/claude-cowork-for-marketing-ops-lsufr1i6ACY.md",
+      "bytes": 4593,
+      "lines": 129
+    },
+    {
+      "path": "youtube/transcripts/claude-cowork-for-sales-dDg7vhvtbEE.md",
+      "bytes": 4541,
+      "lines": 126
+    },
+    {
+      "path": "youtube/transcripts/code-with-claude-london-2026-opening-keynote-6amLO7I9xdg.md",
+      "bytes": 37451,
+      "lines": 1078
+    },
+    {
+      "path": "youtube/transcripts/context-management-in-claude-code-eW3oTyfeWZ0.md",
+      "bytes": 4152,
+      "lines": 118
+    },
+    {
+      "path": "youtube/transcripts/cowork-is-now-generally-available--AkiUPvAqbU.md",
+      "bytes": 835,
+      "lines": 30
+    },
+    {
+      "path": "youtube/transcripts/dispatch-tasks-to-claude-cowork-from-anywhere-fVIV-L49eBs.md",
+      "bytes": 961,
+      "lines": 26
+    },
+    {
+      "path": "youtube/transcripts/evals-for-taste-hill-climbing-a-slide-generation-agent-v9FTCvkV_a0.md",
+      "bytes": 41382,
+      "lines": 1223
+    },
+    {
+      "path": "youtube/transcripts/evaluating-and-improving-replit-agent-at-scale-snroDwX1-JU.md",
+      "bytes": 28926,
+      "lines": 797
+    },
+    {
+      "path": "youtube/transcripts/find-and-fix-security-vulnerabilities-with-claude-0SgCiUfoYo8.md",
+      "bytes": 1470,
+      "lines": 24
+    },
+    {
+      "path": "youtube/transcripts/getting-started-with-claude-cowork-Lbml7IuGJYw.md",
+      "bytes": 4416,
+      "lines": 130
+    },
+    {
+      "path": "youtube/transcripts/getting-started-with-claude-in-excel-54BdUqMQUMI.md",
+      "bytes": 7427,
+      "lines": 211
+    },
+    {
+      "path": "youtube/transcripts/giving-coding-agents-their-own-computers-how-cursor-built-cloud-agents-BbYSGxtsMic.md",
+      "bytes": 16353,
+      "lines": 469
+    },
+    {
+      "path": "youtube/transcripts/hooks-in-claude-code-IkaPHiMDazM.md",
+      "bytes": 3557,
+      "lines": 111
+    },
+    {
+      "path": "youtube/transcripts/how-airops-chases-friction-to-build-ai-products-with-claude-M5uwBawBDpw.md",
+      "bytes": 29061,
+      "lines": 832
+    },
+    {
+      "path": "youtube/transcripts/how-anthropic-uses-claude-in-cybersecurity-FPPTnI88RR8.md",
+      "bytes": 4901,
+      "lines": 105
+    },
+    {
+      "path": "youtube/transcripts/how-anthropic-uses-claude-in-gtm-engineering-n4ZxEznNaIY.md",
+      "bytes": 3721,
+      "lines": 101
+    },
+    {
+      "path": "youtube/transcripts/how-anthropic-uses-claude-in-marketing-Jp83_JMK74o.md",
+      "bytes": 3870,
+      "lines": 95
+    },
+    {
+      "path": "youtube/transcripts/how-anthropic-uses-claude-in-product-engineering-ma7oe_5h0ag.md",
+      "bytes": 4158,
+      "lines": 154
+    },
+    {
+      "path": "youtube/transcripts/how-anthropic-uses-claude-in-product-management-91AJ0cpgLlQ.md",
+      "bytes": 3781,
+      "lines": 97
+    },
+    {
+      "path": "youtube/transcripts/how-claude-code-works-6bs5b4FltCU.md",
+      "bytes": 3253,
+      "lines": 94
+    },
+    {
+      "path": "youtube/transcripts/how-emergent-is-making-app-building-more-accessible-with-claude-IGAVa4uyo2w.md",
+      "bytes": 21205,
+      "lines": 679
+    },
+    {
+      "path": "youtube/transcripts/how-figma-make-uses-claude-to-turn-prompts-into-prototypes-fVJGqzYkq3A.md",
+      "bytes": 2209,
+      "lines": 75
+    },
+    {
+      "path": "youtube/transcripts/how-hubspot-uses-claude-for-customer-success-U9s9Kxb7p5I.md",
+      "bytes": 2891,
+      "lines": 96
+    },
+    {
+      "path": "youtube/transcripts/how-lyft-uses-claude-for-faster-more-human-customer-support-sZHGbRYQti4.md",
+      "bytes": 2328,
+      "lines": 82
+    },
+    {
+      "path": "youtube/transcripts/how-notion-built-with-claude-managed-agents-45hPRdfDEsI.md",
+      "bytes": 4243,
+      "lines": 136
+    },
+    {
+      "path": "youtube/transcripts/how-slack-uses-claude-for-ai-search-and-summaries-yB7xjOA05GM.md",
+      "bytes": 2795,
+      "lines": 91
+    },
+    {
+      "path": "youtube/transcripts/how-to-get-to-production-faster-with-claude-managed-agents-zenIB7XLZxQ.md",
+      "bytes": 33196,
+      "lines": 939
+    },
+    {
+      "path": "youtube/transcripts/how-we-claude-code-IlqJqcl8ONE.md",
+      "bytes": 26259,
+      "lines": 880
+    },
+    {
+      "path": "youtube/transcripts/installing-claude-code-0kILa02vKuI.md",
+      "bytes": 3718,
+      "lines": 106
+    },
+    {
+      "path": "youtube/transcripts/introducing-claude-design-by-anthropic-labs-t_LBECIQQqs.md",
+      "bytes": 780,
+      "lines": 24
+    },
+    {
+      "path": "youtube/transcripts/introducing-claude-managed-agents-I1BvAHOsjBU.md",
+      "bytes": 890,
+      "lines": 24
+    },
+    {
+      "path": "youtube/transcripts/introducing-code-review-RKsADl0ZC3Y.md",
+      "bytes": 879,
+      "lines": 25
+    },
+    {
+      "path": "youtube/transcripts/live-coding-session-with-boris-cherny-and-jarred-sumner-DlTCu_pNDHE.md",
+      "bytes": 27946,
+      "lines": 626
+    },
+    {
+      "path": "youtube/transcripts/making-agentic-workflows-trustworthy-and-verifiable-with-a-custom-dsl-qOjleN2-50c.md",
+      "bytes": 29465,
+      "lines": 892
+    },
+    {
+      "path": "youtube/transcripts/mcp-in-claude-code-kkBFmwkDzdo.md",
+      "bytes": 4095,
+      "lines": 123
+    },
+    {
+      "path": "youtube/transcripts/memory-and-dreaming-for-self-learning-agents-IGo225tfF2I.md",
+      "bytes": 17212,
+      "lines": 566
+    },
+    {
+      "path": "youtube/transcripts/memory-and-dreaming-for-self-learning-agents-RtywqDFBYnQ.md",
+      "bytes": 24432,
+      "lines": 679
+    },
+    {
+      "path": "youtube/transcripts/new-agents-for-financial-services-claude-cowork-claude-managed-agents-foxeK2AXfHQ.md",
+      "bytes": 1195,
+      "lines": 24
+    },
+    {
+      "path": "youtube/transcripts/picking-the-right-model-P0uMXS6emHA.md",
+      "bytes": 29136,
+      "lines": 871
+    },
+    {
+      "path": "youtube/transcripts/preview-your-running-app-in-claude-code-on-desktop-UCD7Hnx_THQ.md",
+      "bytes": 1102,
+      "lines": 30
+    },
+    {
+      "path": "youtube/transcripts/refining-a-powerpoint-with-claude-TkSZqH0n7m0.md",
+      "bytes": 7028,
+      "lines": 213
+    },
+    {
+      "path": "youtube/transcripts/running-an-ai-native-engineering-org-IA5LWIGqnyM.md",
+      "bytes": 30272,
+      "lines": 817
+    },
+    {
+      "path": "youtube/transcripts/running-an-ai-native-engineering-org-igO8iyca2_g.md",
+      "bytes": 32524,
+      "lines": 878
+    },
+    {
+      "path": "youtube/transcripts/scheduled-tasks-in-cowork-set-it-once-claude-handles-the-rest-b-ntWZqHF78.md",
+      "bytes": 1340,
+      "lines": 25
+    },
+    {
+      "path": "youtube/transcripts/ship-your-first-managed-agent-19HDQ9HppOA.md",
+      "bytes": 40539,
+      "lines": 1130
+    },
+    {
+      "path": "youtube/transcripts/team-thinking-visualized-by-claude-8N1-XHNupfg.md",
+      "bytes": 1290,
+      "lines": 35
+    },
+    {
+      "path": "youtube/transcripts/the-atlassian-williams-f1-team-is-now-thinking-with-claude-4KBAE92he8E.md",
+      "bytes": 803,
+      "lines": 25
+    },
+    {
+      "path": "youtube/transcripts/the-atlassian-williams-f1-team-is-now-thinking-with-claude-xpmag2Gvi0g.md",
+      "bytes": 860,
+      "lines": 26
+    },
+    {
+      "path": "youtube/transcripts/the-claude-md-file-O0FGCxkHM-U.md",
+      "bytes": 3667,
+      "lines": 105
+    },
+    {
+      "path": "youtube/transcripts/the-expanding-toolkit-KLCuxMDZSDg.md",
+      "bytes": 18588,
+      "lines": 545
+    },
+    {
+      "path": "youtube/transcripts/the-explore-plan-code-commit-workflow-in-claude-code-xJQuF02NAK8.md",
+      "bytes": 4006,
+      "lines": 115
+    },
+    {
+      "path": "youtube/transcripts/the-problem-solvers-anton-osika-at-lovable-rjSvJYrVY2k.md",
+      "bytes": 3625,
+      "lines": 108
+    },
+    {
+      "path": "youtube/transcripts/the-problem-solvers-kay-zhu-at-genspark-MyYe6C4NVu0.md",
+      "bytes": 3265,
+      "lines": 84
+    },
+    {
+      "path": "youtube/transcripts/the-problem-solvers-max-junestrand-at-legora-bjrmYsFae_g.md",
+      "bytes": 3701,
+      "lines": 104
+    },
+    {
+      "path": "youtube/transcripts/the-problem-solvers-michele-catasta-at-replit-kUQD5ZElyB4.md",
+      "bytes": 4011,
+      "lines": 108
+    },
+    {
+      "path": "youtube/transcripts/the-problem-solvers-scott-wu-at-cognition-_kSAptN8TAY.md",
+      "bytes": 4319,
+      "lines": 131
+    },
+    {
+      "path": "youtube/transcripts/the-prompting-playbook-G2B0YWuJUgI.md",
+      "bytes": 26553,
+      "lines": 739
+    },
+    {
+      "path": "youtube/transcripts/the-thinking-lever-OXJO4LldSnc.md",
+      "bytes": 22452,
+      "lines": 641
+    },
+    {
+      "path": "youtube/transcripts/the-thinking-lever-T7KqH7kYnE4.md",
+      "bytes": 20548,
+      "lines": 608
+    },
+    {
+      "path": "youtube/transcripts/tool-skill-or-subagent-decomposing-an-agent-that-outgrew-its-prompt-mWvtOHlZM-I.md",
+      "bytes": 42941,
+      "lines": 1197
+    },
+    {
+      "path": "youtube/transcripts/using-claude-code-remote-control-Ko7_tC1fMMM.md",
+      "bytes": 3072,
+      "lines": 91
+    },
+    {
+      "path": "youtube/transcripts/what-are-skills-bjdBVZa66oU.md",
+      "bytes": 3165,
+      "lines": 95
+    },
+    {
+      "path": "youtube/transcripts/what-is-claude-code-fl1DSmwQKKY.md",
+      "bytes": 3371,
+      "lines": 96
+    },
+    {
+      "path": "youtube/transcripts/what-is-claude-managed-agents-NLWiIj47IdI.md",
+      "bytes": 4456,
+      "lines": 123
+    },
+    {
+      "path": "youtube/transcripts/why-do-ai-models-hallucinate-005JLRt3gXI.md",
+      "bytes": 5261,
+      "lines": 158
+    },
+    {
+      "path": "youtube/transcripts/why-does-bias-exist-in-ai-models-RnOWJoHU_NY.md",
+      "bytes": 4190,
+      "lines": 123
+    },
+    {
+      "path": "youtube/transcripts/working-smarter-with-claude-in-powerpoint-gRLMG5YNNTo.md",
+      "bytes": 2768,
+      "lines": 91
+    },
+    {
+      "path": "youtube/transcripts/your-first-claude-code-prompt-gbetp6D7J_Q.md",
+      "bytes": 3154,
+      "lines": 92
+    },
+    {
+      "path": "youtube/urls.txt",
+      "bytes": 5542,
+      "lines": 127
+    },
+    {
+      "path": "youtube/video_ids.tsv",
+      "bytes": 13502,
+      "lines": 127
+    },
+    {
+      "path": "youtube/video_ids_unique.tsv",
+      "bytes": 13502,
+      "lines": 127
+    }
+  ]
+}

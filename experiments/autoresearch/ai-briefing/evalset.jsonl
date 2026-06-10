@@ -1,0 +1,3 @@
+{"id":"ai-briefing-daily-artifact","input":"Build a daily AI/ML briefing for the current date.","expected":"A Markdown artifact is saved under wiki/outputs/briefs/ with dated AI/ML items and source links."}
+{"id":"ai-briefing-telegram-summary","input":"Summarize a completed briefing for Telegram.","expected":"The final response is concise, under Telegram length limits, and includes the strongest 6-8 items with inline links."}
+{"id":"ai-briefing-freshness-check","input":"Evaluate a briefing item from a feed or arXiv result.","expected":"The item includes a concrete source and date within the requested freshness window, or is skipped with a reason."}

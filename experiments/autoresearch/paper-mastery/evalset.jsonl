@@ -1,0 +1,3 @@
+{"id":"paper-mastery-source-backed-note","input":"Study one section of a research paper.","expected":"A source-backed study note exists with key claims, prerequisites, confusions, and links to exact source evidence."}
+{"id":"paper-mastery-active-recall","input":"Turn a paper section into practice material.","expected":"The output contains active-recall prompts, Anki-style cards, or a quiz that tests the actual mechanism."}
+{"id":"paper-mastery-depth-task","input":"Create a mastery artifact for an equation or mechanism.","expected":"The session produces a derivation, trace, implementation task, or teach-back prompt rather than only a summary."}

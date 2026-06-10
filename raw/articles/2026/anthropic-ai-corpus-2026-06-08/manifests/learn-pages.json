@@ -1,0 +1,846 @@
+[
+  {
+    "url": "https://www.anthropic.com/learn",
+    "lastmod": "2026-06-08T09:03:58.389Z",
+    "path": "/learn",
+    "section": "learn",
+    "title": "AI Learning Resources & Guides from Anthropic \\ Anthropic",
+    "description": "Access comprehensive guides, tutorials, and best practices for working with Claude. Learn how to craft effective prompts and maximize AI interactions in your workflow.",
+    "canonical": "https://www.anthropic.com/learn",
+    "text": "Anthropic Academy\nGet in the know with Anthropic resources. From API development guides to enterprise deployment best practices, the academy has you covered.\nFeatured courses\nNew courses available on Anthropic Academy. Learn more in-depth about AI Fluency, API development, Model Context Protocol and Claude Code. Earn certificates upon completion.\nSee all courses\nFeatured Course\nClaude Code in action\nFeatured Course\nIntroduction to Cowork\nBuild with Claude\nStart developing Claude-powered applications with our comprehensive API guides and best practices\nLearn more\nClaude for work\nLearn to implement Claude across your organization and maximize team productivity\nLearn more\nClaude for personal\nDiscover how to leverage Claude's capabilities for your individual projects and daily tasks\nLearn more\nGet the AI Fluency newsletter\nResearch, frameworks, and resources about how people are collaborating with AI. Delivered quarterly to your inbox.",
+    "links": [
+      {
+        "text": "See all courses",
+        "url": "https://anthropic.skilljar.com/"
+      },
+      {
+        "text": "Featured Course Claude Code in action",
+        "url": "https://anthropic.skilljar.com/claude-code-in-action"
+      },
+      {
+        "text": "Featured Course Introduction to Cowork",
+        "url": "https://anthropic.skilljar.com/introduction-to-claude-cowork"
+      },
+      {
+        "text": "Learn more",
+        "url": "https://www.anthropic.com/learn/build-with-claude"
+      },
+      {
+        "text": "Learn more",
+        "url": "https://www.anthropic.com/learn/claude-for-work"
+      },
+      {
+        "text": "Learn more",
+        "url": "https://www.anthropic.com/learn/claude-for-you"
+      }
+    ],
+    "status_code": 200,
+    "sha256": "de9f1ea677be416134ef4cd7cd8193ca3f2a590e90302410e3ed6981f698c2f0",
+    "included": true,
+    "include_reason": "sitemap /learn page",
+    "file": "learn.md"
+  },
+  {
+    "url": "https://www.anthropic.com/learn/build-with-claude",
+    "lastmod": "2026-03-20T22:44:51.000Z",
+    "path": "/learn/build-with-claude",
+    "section": "learn",
+    "title": "Anthropic Academy: Claude API Development Guide \\ Anthropic",
+    "description": "Learn to build applications with Claude's API. Find detailed documentation, integration guides, code examples, and best practices for developing with our AI capabilities.",
+    "canonical": "https://www.anthropic.com/learn/build-with-claude",
+    "text": "Anthropic Academy\nBuild with Claude\nStart developing Claude-powered applications with our comprehensive API guides and best practices\nStart building\nDeveloper docs\nExplore by topic\nGet started\nLearn what's new in Sonnet 4.5\nView a summary of latest features in the release notes\nEasily switch to Claude 4 models with the model migration checklist\nChoose the right model for your needs with our guide\nOptimize your results with Claude 4 prompting best practices\nDocumentation\nView our model comparison chart\nSee pricing for Claude 4\nInsights\nRead the Claude 4 announcement blog post\nVisit the Claude Opus 4 website\nVisit the Claude Sonnet 4 website\nGet started with SDKs\nPython SDK\nTypeScript SDK\nJava SDK\nGo SDK\nRuby SDK\nGet started with APIs\nUnderstand the Messages API\nProcess multiple Messages API requests at once with the Message Batches API\nOptimize your API usage with prompt caching\nBuild on Amazon with the Amazon Bedrock API\nBuild on Google with the Vertex AI API\nGo deeper with APIs\nUse the Admin API to manage permissions and workspace\nUse the Files API to upload and manage files\nUse PDF support to extract text and understand visual content in PDFs\n[Experimental API] Generate a well written prompt\n[Experimental API] Improve a prompt directly in code\n[Experimental API] Templatize a prompt by identifying and extracting variables\nCourses\nTake an in-depth course that covers building with the Anthropic API\nTake an in-depth course on working with Anthropic models using Amazon Bedrock\nTake an in-depth course on working with Anthropic models using Google Cloud's Vertex AI\nGet started\nExplore agent patterns with the Anthropic Cookbook\nImplement JSON outputs for reliable and consistent agent control\nDocumentation\nLearn about the Model Context Protocol to improve your agentic workflows\nInsights\nRead about building effective agents\nGet Started\nLearn about Skills\nImplement best practices when creating Skills\nDocumentation\nUse Skills in the API\nUse Skills in Claude Code\nGet started\nSet up MCP in Claude Desktop\nUse Anthropic's ready-made MCP servers\nUse MCP with Claude Code\nSet up remote MCP servers\nConnect remote MCP servers from the Messages API\nContribute to MCP on GitHub\nDocumentation\nReference the MCP documentation\nInsights\nLearn about upcoming MCP features\nRead the MCP launch post\nCourses\nTake an in-depth course on getting started with MCP\nTake an in-depth course on more advanced concepts with MCP\nGet started\nInstall Claude Code\nIntegrate Claude Code into your IDE\nConnect Claude Code with Google Vertex or Amazon Bedrock\nBrowse Anthropic's Claude Code common workflows\nDocumentation\nExplore Anthropic's Claude Code documentation\nReference the Claude Code troubleshooting guide\nInsights\nWatch the Claude Code launch video\nCourses\nTake an in-depth course on getting up to speed on Claude Code\nIntroduction to subagents\nIntroduction to agent skills\nGet started\nTake Anthropic's tool use course\nWatch Anthropic's tool use demo video\nExplore Anthropic's tool use cookbooks\nDocumentation\nExplore Anthropic's tool use documentation\nCode execution tool\nText editor tool\nWeb search tool\nInsights\nRead the tool use launch post\nGet started\nLearn about extended thinking models\nFollow the extended thinking guide in Anthropic's Cookbook\nImplement extended thinking best practices\nDocumentation\nExplore Anthropic's extended thinking documentation\nInsights\nView the extended thinking launch video\nGet started\nBuild a toy customer support agent with RAG\nUse Voyage AI for embeddings\nIntegrate RAG with LlamaIndex\nBuild a RAG system with MongoDB\nDocumentation\nRead Anthropic's embeddings documentation\nInsights\nLearn how contextual retrieval works\nGet started\nComplete Anthropic's interactive prompt engineering tutorial\nPractice applying prompting techniques to real-world scenarios\nTry Anthropic's prompt generator tool\nDocumentation\nExplore Anthropic's prompt engineering documentation\nInsights\nWatch Anthropic's prompt engineering roundtable\nGet started\nLearn how to build strong evals\nLearn how to build automated evaluations\nUse the Eval Tool on Claude Console\nDocumentation\nRead Anthropic's evaluations documentation\nGet started\nWatch the prompt caching explainer video\nImplement prompt caching with a guide from the Anthropic Cookbook\nDocumentation\nExplore the prompt caching documentation\nInsights\nRead the prompt caching launch post\nGet started\nGet started with vision\nLearn vision best practices\nUse vision to extract text from images\nUse vision to analyze charts and graphs\nDocumentation\nRead Anthropic's vision documentation\nInsights\nRead the vision launch post\nGet started\nDive into Anthropic's Computer Use quickstart\nImplement Computer Use with the Anthropic API\nDocumentation\nLearn about how Computer Use handles your data\nInsights\nLearn how Computer Use was developed\nRead the Computer Use launch post\nGet started\nSet up your developer account and generate API keys on the Anthropic Console.\nUse our quickstart guide to make your first API call\nGet started with Claude Code with npm install -g @anthropic-ai/claude-code\nKits & projects\nView the Anthropic Cookbook for code snippets and guides for common workflows\nQuickly get started with building applications by using the Anthropic Quickstarts repo\nDocumentation\nReview the full API documentation for all features and products\nView our hackathon workshop slides",
+    "links": [
+      {
+        "text": "Anthropic Academy",
+        "url": "https://www.anthropic.com/learn"
+      },
+      {
+        "text": "Start building",
+        "url": "https://platform.claude.com/"
+      },
+      {
+        "text": "Developer docs",
+        "url": "https://docs.anthropic.com/en/home"
+      },
+      {
+        "text": "Learn what's new in Sonnet 4.5",
+        "url": "https://docs.claude.com/en/docs/about-claude/models/whats-new-sonnet-4-5"
+      },
+      {
+        "text": "View a summary of latest features in the release notes",
+        "url": "https://docs.anthropic.com/en/release-notes/api"
+      },
+      {
+        "text": "Easily switch to Claude 4 models with the model migration checklist",
+        "url": "https://docs.anthropic.com/en/docs/about-claude/models/migrating-to-claude-4"
+      },
+      {
+        "text": "Choose the right model for your needs with our guide",
+        "url": "https://docs.anthropic.com/en/docs/about-claude/models/choosing-a-model"
+      },
+      {
+        "text": "Optimize your results with Claude 4 prompting best practices",
+        "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/claude-4-best-practices"
+      },
+      {
+        "text": "View our model comparison chart",
+        "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview"
+      },
+      {
+        "text": "See pricing for Claude 4",
+        "url": "https://docs.anthropic.com/en/docs/about-claude/pricing"
+      },
+      {
+        "text": "Read the Claude 4 announcement blog post",
+        "url": "https://www.anthropic.com/news/claude-4"
+      },
+      {
+        "text": "Visit the Claude Opus 4 website",
+        "url": "https://www.anthropic.com/claude/opus"
+      },
+      {
+        "text": "Visit the Claude Sonnet 4 website",
+        "url": "https://www.anthropic.com/claude/sonnet"
+      },
+      {
+        "text": "Python SDK",
+        "url": "https://docs.anthropic.com/en/api/client-sdks#python"
+      },
+      {
+        "text": "TypeScript SDK",
+        "url": "https://docs.anthropic.com/en/api/client-sdks#typescript"
+      },
+      {
+        "text": "Java SDK",
+        "url": "https://docs.anthropic.com/en/api/client-sdks#java"
+      },
+      {
+        "text": "Go SDK",
+        "url": "https://docs.anthropic.com/en/api/client-sdks#go"
+      },
+      {
+        "text": "Ruby SDK",
+        "url": "https://docs.anthropic.com/en/api/client-sdks#ruby"
+      },
+      {
+        "text": "Understand the Messages API",
+        "url": "https://docs.anthropic.com/en/api/messages"
+      },
+      {
+        "text": "Process multiple Messages API requests at once with the Message Batches API",
+        "url": "https://docs.anthropic.com/en/docs/build-with-claude/batch-processing"
+      },
+      {
+        "text": "Optimize your API usage with prompt caching",
+        "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching"
+      },
+      {
+        "text": "Build on Amazon with the Amazon Bedrock API",
+        "url": "https://docs.anthropic.com/en/api/claude-on-amazon-bedrock"
+      },
+      {
+        "text": "Build on Google with the Vertex AI API",
+        "url": "https://docs.anthropic.com/en/api/claude-on-vertex-ai"
+      },
+      {
+        "text": "Use the Admin API to manage permissions and workspace",
+        "url": "https://docs.anthropic.com/en/api/admin-api/"
+      },
+      {
+        "text": "Use the Files API to upload and manage files",
+        "url": "https://docs.anthropic.com/en/docs/build-with-claude/files"
+      },
+      {
+        "text": "Use PDF support to extract text and understand visual content in PDFs",
+        "url": "https://docs.anthropic.com/en/docs/build-with-claude/pdf-support"
+      },
+      {
+        "text": "[Experimental API] Generate a well written prompt",
+        "url": "https://docs.anthropic.com/en/api/prompt-tools-generate"
+      },
+      {
+        "text": "[Experimental API] Improve a prompt directly in code",
+        "url": "https://docs.anthropic.com/en/api/prompt-tools-improve"
+      },
+      {
+        "text": "[Experimental API] Templatize a prompt by identifying and extracting variables",
+        "url": "https://docs.anthropic.com/en/api/prompt-tools-templatize"
+      },
+      {
+        "text": "Take an in-depth course that covers building with the Anthropic API",
+        "url": "https://anthropic.skilljar.com/claude-with-the-anthropic-api"
+      },
+      {
+        "text": "Take an in-depth course on working with Anthropic models using Amazon Bedrock",
+        "url": "https://anthropic.skilljar.com/claude-in-amazon-bedrock"
+      },
+      {
+        "text": "Take an in-depth course on working with Anthropic models using Google Cloud's Vertex AI",
+        "url": "https://anthropic.skilljar.com/claude-with-google-vertex"
+      },
+      {
+        "text": "Explore agent patterns with the Anthropic Cookbook",
+        "url": "https://github.com/anthropics/anthropic-cookbook/tree/main/patterns/agents"
+      },
+      {
+        "text": "Implement JSON outputs for reliable and consistent agent control",
+        "url": "https://docs.anthropic.com/en/docs/test-and-evaluate/strengthen-guardrails/increase-consistency"
+      },
+      {
+        "text": "Learn about the Model Context Protocol to improve your agentic workflows",
+        "url": "https://modelcontextprotocol.io/introduction"
+      },
+      {
+        "text": "Read about building effective agents",
+        "url": "https://www.anthropic.com/engineering/building-effective-agents"
+      },
+      {
+        "text": "Learn about Skills",
+        "url": "https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview"
+      },
+      {
+        "text": "Implement best practices when creating Skills",
+        "url": "https://docs.claude.com/en/docs/agents-and-tools/agent-skills/best-practices"
+      },
+      {
+        "text": "Use Skills in the API",
+        "url": "https://docs.claude.com/en/api/skills-guide"
+      },
+      {
+        "text": "Use Skills in Claude Code",
+        "url": "https://docs.claude.com/en/docs/claude-code/skills"
+      },
+      {
+        "text": "Set up MCP in Claude Desktop",
+        "url": "https://modelcontextprotocol.io/quickstart/user"
+      },
+      {
+        "text": "Use Anthropic's ready-made MCP servers",
+        "url": "https://github.com/modelcontextprotocol/servers"
+      },
+      {
+        "text": "Use MCP with Claude Code",
+        "url": "https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/tutorials#set-up-model-context-protocol-mcp"
+      },
+      {
+        "text": "Set up remote MCP servers",
+        "url": "https://docs.anthropic.com/en/docs/agents-and-tools/remote-mcp-servers"
+      },
+      {
+        "text": "Connect remote MCP servers from the Messages API",
+        "url": "https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector"
+      },
+      {
+        "text": "Contribute to MCP on GitHub",
+        "url": "https://github.com/modelcontextprotocol"
+      },
+      {
+        "text": "Reference the MCP documentation",
+        "url": "https://modelcontextprotocol.io/introduction"
+      },
+      {
+        "text": "Learn about upcoming MCP features",
+        "url": "https://modelcontextprotocol.io/development/roadmap"
+      },
+      {
+        "text": "Read the MCP launch post",
+        "url": "https://www.anthropic.com/news/model-context-protocol"
+      },
+      {
+        "text": "Take an in-depth course on getting started with MCP",
+        "url": "https://anthropic.skilljar.com/introduction-to-model-context-protocol"
+      },
+      {
+        "text": "Take an in-depth course on more advanced concepts with MCP",
+        "url": "https://anthropic.skilljar.com/model-context-protocol-advanced-topics"
+      },
+      {
+        "text": "Install Claude Code",
+        "url": "https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview"
+      },
+      {
+        "text": "Integrate Claude Code into your IDE",
+        "url": "https://docs.anthropic.com/en/docs/claude-code/ide-integrations"
+      },
+      {
+        "text": "Connect Claude Code with Google Vertex or Amazon Bedrock",
+        "url": "https://docs.anthropic.com/en/docs/claude-code/enterprise-setup"
+      },
+      {
+        "text": "Browse Anthropic's Claude Code common workflows",
+        "url": "https://docs.claude.com/en/docs/claude-code/common-workflows"
+      },
+      {
+        "text": "Explore Anthropic's Claude Code documentation",
+        "url": "https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview"
+      },
+      {
+        "text": "Reference the Claude Code troubleshooting guide",
+        "url": "https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/troubleshooting"
+      },
+      {
+        "text": "Watch the Claude Code launch video",
+        "url": "https://www.youtube.com/watch?v=AJpK3YTTKZ4"
+      },
+      {
+        "text": "Take an in-depth course on getting up to speed on Claude Code",
+        "url": "https://anthropic.skilljar.com/claude-code-in-action"
+      },
+      {
+        "text": "Introduction to subagents",
+        "url": "https://anthropic.skilljar.com/introduction-to-subagents"
+      },
+      {
+        "text": "Introduction to agent skills",
+        "url": "https://anthropic.skilljar.com/introduction-to-agent-skills"
+      },
+      {
+        "text": "Take Anthropic's tool use course",
+        "url": "https://github.com/anthropics/courses/blob/master/tool_use/README.md"
+      },
+      {
+        "text": "Watch Anthropic's tool use demo video",
+        "url": "https://www.youtube.com/watch?v=6wkFb2_cUik"
+      },
+      {
+        "text": "Explore Anthropic's tool use cookbooks",
+        "url": "https://github.com/anthropics/anthropic-cookbook/tree/main/tool_use"
+      },
+      {
+        "text": "Explore Anthropic's tool use documentation",
+        "url": "https://docs.anthropic.com/en/docs/build-with-claude/tool-use/overview"
+      },
+      {
+        "text": "Code execution tool",
+        "url": "https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/code-execution-tool"
+      },
+      {
+        "text": "Text editor tool",
+        "url": "https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/text-editor-tool"
+      },
+      {
+        "text": "Web search tool",
+        "url": "https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/web-search-tool"
+      },
+      {
+        "text": "Read the tool use launch post",
+        "url": "https://www.anthropic.com/news/tool-use-ga"
+      },
+      {
+        "text": "Learn about extended thinking models",
+        "url": "https://docs.anthropic.com/en/docs/about-claude/models/extended-thinking-models"
+      },
+      {
+        "text": "Follow the extended thinking guide in Anthropic's Cookbook",
+        "url": "https://github.com/anthropics/anthropic-cookbook/tree/main/extended_thinking"
+      },
+      {
+        "text": "Implement extended thinking best practices",
+        "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/extended-thinking-tips"
+      },
+      {
+        "text": "Explore Anthropic's extended thinking documentation",
+        "url": "https://docs.anthropic.com/en/docs/build-with-claude/extended-thinking"
+      },
+      {
+        "text": "View the extended thinking launch video",
+        "url": "https://www.youtube.com/watch?v=t3nnDXa81Hs"
+      },
+      {
+        "text": "Build a toy customer support agent with RAG",
+        "url": "https://github.com/anthropics/anthropic-quickstarts/tree/main/customer-support-agent"
+      },
+      {
+        "text": "Use Voyage AI for embeddings",
+        "url": "https://github.com/anthropics/anthropic-cookbook/blob/main/third_party/VoyageAI/how_to_create_embeddings.md"
+      },
+      {
+        "text": "Integrate RAG with LlamaIndex",
+        "url": "https://github.com/anthropics/anthropic-cookbook/tree/main/third_party/LlamaIndex"
+      },
+      {
+        "text": "Build a RAG system with MongoDB",
+        "url": "https://github.com/anthropics/anthropic-cookbook/blob/main/third_party/MongoDB/rag_using_mongodb.ipynb"
+      },
+      {
+        "text": "Read Anthropic's embeddings documentation",
+        "url": "https://docs.anthropic.com/en/docs/build-with-claude/embeddings"
+      },
+      {
+        "text": "Learn how contextual retrieval works",
+        "url": "https://www.anthropic.com/news/contextual-retrieval"
+      },
+      {
+        "text": "Complete Anthropic's interactive prompt engineering tutorial",
+        "url": "https://github.com/anthropics/courses/blob/master/prompt_engineering_interactive_tutorial/README.md"
+      },
+      {
+        "text": "Practice applying prompting techniques to real-world scenarios",
+        "url": "https://github.com/anthropics/courses/blob/master/real_world_prompting/README.md"
+      },
+      {
+        "text": "Try Anthropic's prompt generator tool",
+        "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/prompt-generator"
+      },
+      {
+        "text": "Explore Anthropic's prompt engineering documentation",
+        "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview"
+      },
+      {
+        "text": "Watch Anthropic's prompt engineering roundtable",
+        "url": "https://www.youtube.com/watch?v=T9aRN5JkmL8"
+      },
+      {
+        "text": "Learn how to build strong evals",
+        "url": "https://github.com/anthropics/courses/blob/master/prompt_evaluations/README.md"
+      },
+      {
+        "text": "Learn how to build automated evaluations",
+        "url": "https://github.com/anthropics/anthropic-cookbook/blob/main/misc/building_evals.ipynb"
+      },
+      {
+        "text": "Use the Eval Tool on Claude Console",
+        "url": "https://docs.anthropic.com/en/docs/test-and-evaluate/eval-tool"
+      },
+      {
+        "text": "Read Anthropic's evaluations documentation",
+        "url": "https://docs.anthropic.com/en/docs/build-with-claude/develop-tests"
+      },
+      {
+        "text": "Watch the prompt caching explainer video",
+        "url": "https://www.youtube.com/watch?v=h18BezoizkI&list=PLf2m23nhTg1OQAT3n_OD0g3P3gnK6pxW-"
+      },
+      {
+        "text": "Implement prompt caching with a guide from the Anthropic Cookbook",
+        "url": "https://github.com/anthropics/anthropic-cookbook/blob/main/misc/prompt_caching.ipynb"
+      },
+      {
+        "text": "Explore the prompt caching documentation",
+        "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching"
+      },
+      {
+        "text": "Read the prompt caching launch post",
+        "url": "https://www.anthropic.com/news/prompt-caching"
+      },
+      {
+        "text": "Get started with vision",
+        "url": "https://github.com/anthropics/anthropic-cookbook/blob/main/multimodal/getting_started_with_vision.ipynb"
+      },
+      {
+        "text": "Learn vision best practices",
+        "url": "https://github.com/anthropics/anthropic-cookbook/blob/main/multimodal/best_practices_for_vision.ipynb"
+      },
+      {
+        "text": "Use vision to extract text from images",
+        "url": "https://github.com/anthropics/anthropic-cookbook/blob/main/multimodal/how_to_transcribe_text.ipynb"
+      },
+      {
+        "text": "Use vision to analyze charts and graphs",
+        "url": "https://github.com/anthropics/anthropic-cookbook/blob/main/multimodal/reading_charts_graphs_powerpoints.ipynb"
+      },
+      {
+        "text": "Read Anthropic's vision documentation",
+        "url": "https://docs.anthropic.com/en/docs/build-with-claude/vision"
+      },
+      {
+        "text": "Read the vision launch post",
+        "url": "https://www.anthropic.com/news/claude-3-5-sonnet"
+      },
+      {
+        "text": "Dive into Anthropic's Computer Use quickstart",
+        "url": "https://github.com/anthropics/anthropic-quickstarts/tree/main/computer-use-demo"
+      },
+      {
+        "text": "Implement Computer Use with the Anthropic API",
+        "url": "https://docs.anthropic.com/en/docs/agents-and-tools/computer-use"
+      },
+      {
+        "text": "Learn about how Computer Use handles your data",
+        "url": "https://privacy.anthropic.com/en/articles/10030352-what-personal-data-will-be-processed-by-computer-use-beta"
+      },
+      {
+        "text": "Learn how Computer Use was developed",
+        "url": "https://www.anthropic.com/news/developing-computer-use"
+      },
+      {
+        "text": "Read the Computer Use launch post",
+        "url": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+      },
+      {
+        "text": "Set up your developer account and generate API keys on the Anthropic Console.",
+        "url": "https://console.anthropic.com"
+      },
+      {
+        "text": "Use our quickstart guide to make your first API call",
+        "url": "https://docs.anthropic.com/en/docs/get-started"
+      },
+      {
+        "text": "Get started with Claude Code with npm install -g @anthropic-ai/claude-code",
+        "url": "https://docs.anthropic.com/en/docs/claude-code/overview"
+      },
+      {
+        "text": "View the Anthropic Cookbook for code snippets and guides for common workflows",
+        "url": "https://github.com/anthropics/anthropic-cookbook"
+      },
+      {
+        "text": "Quickly get started with building applications by using the Anthropic Quickstarts repo",
+        "url": "https://github.com/anthropics/anthropic-quickstarts"
+      },
+      {
+        "text": "Review the full API documentation for all features and products",
+        "url": "https://docs.anthropic.com/en/home"
+      },
+      {
+        "text": "View our hackathon workshop slides",
+        "url": "https://docs.google.com/presentation/d/1ntCqBrd7RRCu5JY6cH7-3tt-miSwNKj96B6KGjm92n0/edit?slide=id.g366fee14ac4_0_0#slide=id.g366fee14ac4_0_0"
+      }
+    ],
+    "status_code": 200,
+    "sha256": "68bcdf8dc8cc5ba093393d38f03853bed96f9d986c2679a295ba05b805aa9462",
+    "included": true,
+    "include_reason": "sitemap /learn page",
+    "file": "learn-build-with-claude.md"
+  },
+  {
+    "url": "https://www.anthropic.com/learn/claude-for-work",
+    "lastmod": "2026-03-20T22:44:03.000Z",
+    "path": "/learn/claude-for-work",
+    "section": "learn",
+    "title": "Anthropic Academy: Claude AI Solutions for Business \\ Anthropic",
+    "description": "Get started with Claude in your professional workflow. Find practical guides, use cases, and implementation tips for integrating AI assistance across your business tasks.",
+    "canonical": "https://www.anthropic.com/learn/claude-for-work",
+    "text": "Anthropic Academy\nClaude for work\nLearn to implement Claude across your organization and maximize team productivity\nClaude for teams\nRequest demo\nExplore by topic\nResources\nGetting Started with Claude.ai\nGet inspired by what you can do with Claude\nClaude 101 course\nGet started\nTry Claude on claude.ai\nGet the most out of Sonnet 4.5\nGet the most from Claude Opus 4.6\nInsights\nRead the Claude 4.6 announcement blog post\nVisit the Claude Opus 4.6 website\nVisit the Claude Sonnet 4.5 website\nVisit the Haiku 4.5 website\nResources\nExplore all Claude use-cases\nUse Claude for Engineering\nUse Claude for Human Resources\nUse Claude for Marketing\nUse Claude for Product Management\nUse Claude for Sales\nUse Claude to plan a team offsite\nResources\nLearn how to use Artifacts\nResources\nLearn how to use Projects\nResources\nLearn about Skills\nUse Skills in Claude\nCreate custom Skills\nResources\nGetting started using research\nLearn how to use research with Google workspace\nResources\nConnect your tools to unlock a smarter, more capable AI companion\nUse the GitHub integration\nUse the Google Docs integration\nUse the analysis tool\nCourses\nAI Fluency for nonprofits\nAI Fluency for Educators\nClaude Code in action\nClaude 101\nIntroduction to Claude Cowork\nGetting started with Claude Cowork\nIntroduction to Claude Cowork",
+    "links": [
+      {
+        "text": "Anthropic Academy",
+        "url": "https://www.anthropic.com/learn"
+      },
+      {
+        "text": "Claude for teams",
+        "url": "https://www.anthropic.com/team"
+      },
+      {
+        "text": "Request demo",
+        "url": "https://www.anthropic.com/contact-sales"
+      },
+      {
+        "text": "Getting Started with Claude.ai",
+        "url": "https://support.claude.com/en/articles/12997377-getting-started-with-claude-ai"
+      },
+      {
+        "text": "Get inspired by what you can do with Claude",
+        "url": "https://claude.com/resources/use-cases"
+      },
+      {
+        "text": "Claude 101 course",
+        "url": "https://anthropic.skilljar.com/claude-101"
+      },
+      {
+        "text": "Try Claude on claude.ai",
+        "url": "https://claude.ai/"
+      },
+      {
+        "text": "Get the most out of Sonnet 4.5",
+        "url": "https://claude.com/resources/tutorials/getting-the-most-out-of-sonnet-4-5-in-claude-ai"
+      },
+      {
+        "text": "Get the most from Claude Opus 4.6",
+        "url": "https://claude.com/resources/tutorials/get-the-most-from-claude-opus-4-6"
+      },
+      {
+        "text": "Read the Claude 4.6 announcement blog post",
+        "url": "https://www.anthropic.com/news/claude-opus-4-6"
+      },
+      {
+        "text": "Visit the Claude Opus 4.6 website",
+        "url": "https://www.anthropic.com/claude/opus"
+      },
+      {
+        "text": "Visit the Claude Sonnet 4.5 website",
+        "url": "https://www.anthropic.com/claude/sonnet"
+      },
+      {
+        "text": "Visit the Haiku 4.5 website",
+        "url": "https://www.anthropic.com/claude/haiku"
+      },
+      {
+        "text": "Explore all Claude use-cases",
+        "url": "https://claude.com/resources/use-cases"
+      },
+      {
+        "text": "Use Claude for Engineering",
+        "url": "https://support.anthropic.com/en/articles/9945689-claude-for-engineering"
+      },
+      {
+        "text": "Use Claude for Human Resources",
+        "url": "https://support.anthropic.com/en/articles/9998942-claude-for-human-resources"
+      },
+      {
+        "text": "Use Claude for Marketing",
+        "url": "https://support.anthropic.com/en/articles/9945697-claude-for-marketing"
+      },
+      {
+        "text": "Use Claude for Product Management",
+        "url": "https://support.anthropic.com/en/articles/9999062-claude-for-product-management"
+      },
+      {
+        "text": "Use Claude for Sales",
+        "url": "https://support.anthropic.com/en/articles/9945703-claude-for-sales"
+      },
+      {
+        "text": "Use Claude to plan a team offsite",
+        "url": "https://support.anthropic.com/en/articles/11106443-using-research"
+      },
+      {
+        "text": "Learn how to use Artifacts",
+        "url": "https://support.anthropic.com/en/articles/9945615-intro-to-artifacts"
+      },
+      {
+        "text": "Learn how to use Projects",
+        "url": "https://support.anthropic.com/en/articles/9945648-intro-to-projects"
+      },
+      {
+        "text": "Learn about Skills",
+        "url": "https://support.claude.com/en/articles/12512176-what-are-skills"
+      },
+      {
+        "text": "Use Skills in Claude",
+        "url": "https://support.claude.com/en/articles/12512180-using-skills-in-claude"
+      },
+      {
+        "text": "Create custom Skills",
+        "url": "https://support.claude.com/en/articles/12512198-creating-custom-skills"
+      },
+      {
+        "text": "Getting started using research",
+        "url": "https://support.anthropic.com/en/articles/11106443-using-research"
+      },
+      {
+        "text": "Learn how to use research with Google workspace",
+        "url": "https://support.anthropic.com/en/articles/11101545-using-research-and-google-workspace"
+      },
+      {
+        "text": "Connect your tools to unlock a smarter, more capable AI companion",
+        "url": "https://support.anthropic.com/en/articles/11817150-connect-your-tools-to-unlock-a-smarter-more-capable-ai-companion"
+      },
+      {
+        "text": "Use the GitHub integration",
+        "url": "https://support.anthropic.com/en/articles/9945670-using-the-github-integration"
+      },
+      {
+        "text": "Use the Google Docs integration",
+        "url": "https://support.anthropic.com/en/articles/10389539-using-the-google-docs-integration"
+      },
+      {
+        "text": "Use the analysis tool",
+        "url": "https://support.anthropic.com/en/articles/10227619-using-the-analysis-tool"
+      },
+      {
+        "text": "AI Fluency for nonprofits",
+        "url": "https://anthropic.skilljar.com/ai-fluency-for-nonprofits"
+      },
+      {
+        "text": "AI Fluency for Educators",
+        "url": "https://anthropic.skilljar.com/ai-fluency-for-educators"
+      },
+      {
+        "text": "Claude Code in action",
+        "url": "https://anthropic.skilljar.com/claude-code-in-action"
+      },
+      {
+        "text": "Claude 101",
+        "url": "https://anthropic.skilljar.com/claude-101"
+      },
+      {
+        "text": "Introduction to Claude Cowork",
+        "url": "https://anthropic.skilljar.com/introduction-to-claude-cowork"
+      }
+    ],
+    "status_code": 200,
+    "sha256": "ad373aac732e91f2ac468462c2246c3092847842d2d636a5e41ddfaf7a2d0992",
+    "included": true,
+    "include_reason": "sitemap /learn page",
+    "file": "learn-claude-for-work.md"
+  },
+  {
+    "url": "https://www.anthropic.com/learn/claude-for-you",
+    "lastmod": "2026-02-12T18:49:16.000Z",
+    "path": "/learn/claude-for-you",
+    "section": "learn",
+    "title": "AI Fluency: Framework and Foundations \\ Anthropic",
+    "description": "Anthropic AI Fluency course and education",
+    "canonical": "https://www.anthropic.com/learn/claude-for-you",
+    "text": "Anthropic Academy\nClaude for personal\nDiscover how to leverage Claude's capabilities for your individual projects and daily tasks\nTry Claude\nGet help\nTake a course\nAI Fluency: Framework & Foundations\nAnthropic has partnered with academic experts Prof. Joseph Feller (University College Cork) and Prof. Rick Dakan (Ringling College) to launch an AI fluency course that teaches practical skills for effective, efficient, ethical, and safe AI interaction.\nThis course has something for everyone, whether you're new to Claude or a seasoned AI practitioner.\nStart the course\nCourse preview\n0\n1\nIntroduction to AI Fluency\n0\n2\nThe AI Fluency Framework\n0\n3\nDeep Dive 1: What is Generative AI?\n0\n4\nDelegation\n0\n5\nApplying Delegation\n0\n6\nDescription\n0\n7\nDeep Dive 2: Effective Prompting Techniques\n0\n8\nDiscernment\n0\n9\nThe Description-Discernment Loop\n0\n10\nDiligence\n11\nConclusion\n12\nAdditional Activities\nExplore by topic\nGet started\nTry Claude on Claude.ai\nGet the most out of Sonnet 4.5\nGet the most from Claude Opus 4.6\nInsights\nRead the Claude 4.6 announcement blog post\nVisit the Claude Opus 4.6 website\nVisit the Claude Sonnet 4.5 website\nVisit the Haiku 4.5 website\nResources\nLearn how to use Artifacts\nPrototype AI-powered apps with Artifacts\nResources\nCollaborate with Claude on Projects\nLearn how to use Projects\nResources\nLearn about Skills\nUse Skills in Claude\nCreate custom Skills\nResources\nConnect your tools to unlock a smarter, more capable AI companion\nUse the GitHub integration\nUse the Google Docs integration\nUse the analysis tool\nEducators\nIntroducing Claude for Education\nAI Fluency for educators\nTeaching AI Fluency\nGetting Started with Claude for Education at Your University\nStudents\nAI Fluency for students\nJoin a Claude campus program\nFAQs on using Claude for Education at your university",
+    "links": [
+      {
+        "text": "Anthropic Academy",
+        "url": "https://www.anthropic.com/learn"
+      },
+      {
+        "text": "Try Claude",
+        "url": "https://claude.ai/"
+      },
+      {
+        "text": "Get help",
+        "url": "https://support.anthropic.com/en/"
+      },
+      {
+        "text": "Start the course",
+        "url": "https://anthropic.skilljar.com/ai-fluency-framework-foundations"
+      },
+      {
+        "text": "0 1 Introduction to AI Fluency",
+        "url": "https://www.anthropic.com/ai-fluency/introduction-to-ai-fluency"
+      },
+      {
+        "text": "0 2 The AI Fluency Framework",
+        "url": "https://www.anthropic.com/ai-fluency/overview"
+      },
+      {
+        "text": "0 3 Deep Dive 1: What is Generative AI?",
+        "url": "https://www.anthropic.com/ai-fluency/deep-dive-1-what-is-generative-ai"
+      },
+      {
+        "text": "0 4 Delegation",
+        "url": "https://www.anthropic.com/ai-fluency/ai-fluency-delegation"
+      },
+      {
+        "text": "0 5 Applying Delegation",
+        "url": "https://www.anthropic.com/ai-fluency/applying-delegation"
+      },
+      {
+        "text": "0 6 Description",
+        "url": "https://www.anthropic.com/ai-fluency/description"
+      },
+      {
+        "text": "0 7 Deep Dive 2: Effective Prompting Techniques",
+        "url": "https://www.anthropic.com/ai-fluency/deep-dive-2-effective-prompting-techniques"
+      },
+      {
+        "text": "0 8 Discernment",
+        "url": "https://www.anthropic.com/ai-fluency/discernment"
+      },
+      {
+        "text": "0 9 The Description-Discernment Loop",
+        "url": "https://www.anthropic.com/ai-fluency/description-discernment-loop"
+      },
+      {
+        "text": "0 10 Diligence",
+        "url": "https://anthropic.skilljar.com/ai-fluency-framework-foundations/291904"
+      },
+      {
+        "text": "11 Conclusion",
+        "url": "https://www.anthropic.com/ai-fluency/conclusion"
+      },
+      {
+        "text": "12 Additional Activities",
+        "url": "https://www.anthropic.com/ai-fluency/additional-activities"
+      },
+      {
+        "text": "Try Claude on Claude.ai",
+        "url": "https://claude.ai/"
+      },
+      {
+        "text": "Get the most out of Sonnet 4.5",
+        "url": "https://claude.com/resources/tutorials/getting-the-most-out-of-sonnet-4-5-in-claude-ai"
+      },
+      {
+        "text": "Get the most from Claude Opus 4.6",
+        "url": "https://claude.com/resources/tutorials/get-the-most-from-claude-opus-4-6"
+      },
+      {
+        "text": "Read the Claude 4.6 announcement blog post",
+        "url": "https://www.anthropic.com/news/claude-opus-4-6"
+      },
+      {
+        "text": "Visit the Claude Opus 4.6 website",
+        "url": "https://www.anthropic.com/claude/opus"
+      },
+      {
+        "text": "Visit the Claude Sonnet 4.5 website",
+        "url": "https://www.anthropic.com/claude/sonnet"
+      },
+      {
+        "text": "Visit the Haiku 4.5 website",
+        "url": "https://www.anthropic.com/claude/haiku"
+      },
+      {
+        "text": "Learn how to use Artifacts",
+        "url": "https://support.claude.com/en/articles/11649427-use-artifacts-to-visualize-and-create-ai-apps-without-ever-writing-a-line-of-code"
+      },
+      {
+        "text": "Prototype AI-powered apps with Artifacts",
+        "url": "https://support.claude.com/en/articles/11649438-prototype-ai-powered-apps-with-claude-artifacts"
+      },
+      {
+        "text": "Collaborate with Claude on Projects",
+        "url": "https://www.anthropic.com/news/projects"
+      },
+      {
+        "text": "Learn how to use Projects",
+        "url": "https://support.anthropic.com/en/articles/9945648-intro-to-projects"
+      },
+      {
+        "text": "Learn about Skills",
+        "url": "https://support.claude.com/en/articles/12512176-what-are-skills"
+      },
+      {
+        "text": "Use Skills in Claude",
+        "url": "https://support.claude.com/en/articles/12512180-using-skills-in-claude"
+      },
+      {
+        "text": "Create custom Skills",
+        "url": "https://support.claude.com/en/articles/12512198-creating-custom-skills"
+      },
+      {
+        "text": "Connect your tools to unlock a smarter, more capable AI companion",
+        "url": "https://support.claude.com/en/articles/11817150-connect-your-tools-to-unlock-a-smarter-more-capable-ai-companion"
+      },
+      {
+        "text": "Use the GitHub integration",
+        "url": "https://support.anthropic.com/en/articles/9945670-using-the-github-integration"
+      },
+      {
+        "text": "Use the Google Docs integration",
+        "url": "https://support.anthropic.com/en/articles/10389539-using-the-google-docs-integration"
+      },
+      {
+        "text": "Use the analysis tool",
+        "url": "https://support.anthropic.com/en/articles/10227619-using-the-analysis-tool"
+      },
+      {
+        "text": "Introducing Claude for Education",
+        "url": "https://www.anthropic.com/news/introducing-claude-for-education"
+      },
+      {
+        "text": "AI Fluency for educators",
+        "url": "http://anthropic.skilljar.com/ai-fluency-for-educators"
+      },
+      {
+        "text": "Teaching AI Fluency",
+        "url": "http://anthropic.skilljar.com/teaching-ai-fluency"
+      },
+      {
+        "text": "Getting Started with Claude for Education at Your University",
+        "url": "https://support.claude.com/en/articles/11139094-getting-started-with-claude-for-education-at-your-university-for-owners-admins"
+      },
+      {
+        "text": "AI Fluency for students",
+        "url": "https://anthropic.skilljar.com/ai-fluency-for-students"
+      },
+      {
+        "text": "Join a Claude campus program",
+        "url": "https://claude.com/programs/campus"
+      },
+      {
+        "text": "FAQs on using Claude for Education at your university",
+        "url": "https://support.claude.com/en/articles/11139144-faqs-on-using-claude-for-education-at-your-university"
+      }
+    ],
+    "status_code": 200,
+    "sha256": "f01b7e265c7ad3fae5f36e11ce51ae5e5912848295ebf4c5f4e310385ab1625a",
+    "included": true,
+    "include_reason": "sitemap /learn page",
+    "file": "learn-claude-for-you.md"
+  }
+]

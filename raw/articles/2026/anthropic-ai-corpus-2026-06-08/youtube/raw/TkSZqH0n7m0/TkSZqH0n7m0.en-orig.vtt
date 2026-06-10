@@ -1,0 +1,1520 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:03.120 --> 00:00:05.229 align:start position:0%
+ 
+In<00:00:03.280><c> a</c><00:00:03.320><c> previous</c><00:00:03.840><c> video,</c><00:00:04.280><c> we</c><00:00:04.560><c> used</c><00:00:04.920><c> Claude</c>
+
+00:00:05.229 --> 00:00:05.239 align:start position:0%
+In a previous video, we used Claude
+ 
+
+00:00:05.239 --> 00:00:06.870 align:start position:0%
+In a previous video, we used Claude
+[music]<00:00:05.240><c> to</c><00:00:05.360><c> build</c><00:00:05.520><c> a</c><00:00:05.600><c> complete</c><00:00:06.080><c> presentation</c>
+
+00:00:06.870 --> 00:00:06.880 align:start position:0%
+[music] to build a complete presentation
+ 
+
+00:00:06.880 --> 00:00:09.310 align:start position:0%
+[music] to build a complete presentation
+from<00:00:07.120><c> a</c><00:00:07.200><c> single</c><00:00:07.560><c> prompt.</c>
+
+00:00:09.310 --> 00:00:09.320 align:start position:0%
+from a single prompt.
+ 
+
+00:00:09.320 --> 00:00:11.150 align:start position:0%
+from a single prompt.
+Now,<00:00:09.600><c> let's</c><00:00:09.840><c> go</c><00:00:10.000><c> further.</c>
+
+00:00:11.150 --> 00:00:11.160 align:start position:0%
+Now, let's go further.
+ 
+
+00:00:11.160 --> 00:00:13.670 align:start position:0%
+Now, let's go further.
+Adding<00:00:11.400><c> new</c><00:00:11.560><c> sections,</c><00:00:12.680><c> making</c><00:00:13.120><c> targeted</c>
+
+00:00:13.670 --> 00:00:13.680 align:start position:0%
+Adding new sections, making targeted
+ 
+
+00:00:13.680 --> 00:00:14.830 align:start position:0%
+Adding new sections, making targeted
+edits,
+
+00:00:14.830 --> 00:00:14.840 align:start position:0%
+edits,
+ 
+
+00:00:14.840 --> 00:00:16.670 align:start position:0%
+edits,
+transforming<00:00:15.560><c> bullet-heavy</c><00:00:16.080><c> slides</c><00:00:16.480><c> into</c>
+
+00:00:16.670 --> 00:00:16.680 align:start position:0%
+transforming bullet-heavy slides into
+ 
+
+00:00:16.680 --> 00:00:18.190 align:start position:0%
+transforming bullet-heavy slides into
+visuals,
+
+00:00:18.190 --> 00:00:18.200 align:start position:0%
+visuals,
+ 
+
+00:00:18.200 --> 00:00:24.030 align:start position:0%
+visuals,
+and<00:00:18.320><c> even</c><00:00:18.560><c> creating</c><00:00:18.960><c> native</c><00:00:19.280><c> charts.</c>
+
+00:00:24.030 --> 00:00:24.040 align:start position:0%
+ 
+ 
+
+00:00:24.040 --> 00:00:25.870 align:start position:0%
+ 
+Our<00:00:24.280><c> fintech</c><00:00:24.680><c> assessment</c><00:00:25.200><c> mentions</c><00:00:25.640><c> AI</c>
+
+00:00:25.870 --> 00:00:25.880 align:start position:0%
+Our fintech assessment mentions AI
+ 
+
+00:00:25.880 --> 00:00:28.670 align:start position:0%
+Our fintech assessment mentions AI
+multiple<00:00:26.440><c> times,</c><00:00:27.440><c> but</c><00:00:27.640><c> there's</c><00:00:27.880><c> no</c><00:00:28.080><c> dedicated</c>
+
+00:00:28.670 --> 00:00:28.680 align:start position:0%
+multiple times, but there's no dedicated
+ 
+
+00:00:28.680 --> 00:00:31.790 align:start position:0%
+multiple times, but there's no dedicated
+slide<00:00:29.000><c> that</c><00:00:29.200><c> pulls</c><00:00:29.560><c> all</c><00:00:29.760><c> of</c><00:00:29.880><c> this</c><00:00:30.080><c> together.</c>
+
+00:00:31.790 --> 00:00:31.800 align:start position:0%
+slide that pulls all of this together.
+ 
+
+00:00:31.800 --> 00:00:33.510 align:start position:0%
+slide that pulls all of this together.
+Let's<00:00:32.080><c> tell</c><00:00:32.279><c> Claude</c><00:00:32.599><c> to</c><00:00:32.720><c> add</c><00:00:32.920><c> a</c><00:00:32.960><c> new</c><00:00:33.200><c> slide</c>
+
+00:00:33.510 --> 00:00:33.520 align:start position:0%
+Let's tell Claude to add a new slide
+ 
+
+00:00:33.520 --> 00:00:40.350 align:start position:0%
+Let's tell Claude to add a new slide
+that<00:00:33.720><c> brings</c><00:00:34.000><c> these</c><00:00:34.200><c> ideas</c><00:00:34.560><c> together.</c>
+
+00:00:40.350 --> 00:00:40.360 align:start position:0%
+ 
+ 
+
+00:00:40.360 --> 00:00:42.870 align:start position:0%
+ 
+We'll<00:00:40.640><c> ask</c><00:00:40.920><c> it</c><00:00:41.120><c> to</c><00:00:41.520><c> ask</c><00:00:41.840><c> questions</c><00:00:42.240><c> as</c><00:00:42.400><c> needed</c>
+
+00:00:42.870 --> 00:00:42.880 align:start position:0%
+We'll ask it to ask questions as needed
+ 
+
+00:00:42.880 --> 00:00:44.910 align:start position:0%
+We'll ask it to ask questions as needed
+to<00:00:43.000><c> fit</c><00:00:43.200><c> in</c><00:00:43.320><c> our</c><00:00:43.440><c> new</c><00:00:43.600><c> slide.</c>
+
+00:00:44.910 --> 00:00:44.920 align:start position:0%
+to fit in our new slide.
+ 
+
+00:00:44.920 --> 00:00:46.830 align:start position:0%
+to fit in our new slide.
+That<00:00:45.280><c> last</c><00:00:45.560><c> sentence</c><00:00:45.960><c> triggers</c><00:00:46.400><c> Claude</c><00:00:46.680><c> to</c>
+
+00:00:46.830 --> 00:00:46.840 align:start position:0%
+That last sentence triggers Claude to
+ 
+
+00:00:46.840 --> 00:00:48.910 align:start position:0%
+That last sentence triggers Claude to
+think<00:00:47.240><c> before</c><00:00:47.560><c> building.</c><00:00:48.400><c> Instead</c><00:00:48.800><c> of</c>
+
+00:00:48.910 --> 00:00:48.920 align:start position:0%
+think before building. Instead of
+ 
+
+00:00:48.920 --> 00:00:50.990 align:start position:0%
+think before building. Instead of
+generating<00:00:49.400><c> the</c><00:00:49.480><c> slide</c><00:00:49.720><c> immediately,</c><00:00:50.640><c> Claude</c>
+
+00:00:50.990 --> 00:00:51.000 align:start position:0%
+generating the slide immediately, Claude
+ 
+
+00:00:51.000 --> 00:00:53.110 align:start position:0%
+generating the slide immediately, Claude
+reads<00:00:51.280><c> the</c><00:00:51.400><c> existing</c><00:00:51.880><c> content,</c><00:00:52.640><c> considers</c>
+
+00:00:53.110 --> 00:00:53.120 align:start position:0%
+reads the existing content, considers
+ 
+
+00:00:53.120 --> 00:00:55.070 align:start position:0%
+reads the existing content, considers
+what's<00:00:53.360><c> missing,</c><00:00:53.960><c> and</c><00:00:54.240><c> asks</c><00:00:54.520><c> clarifying</c>
+
+00:00:55.070 --> 00:00:55.080 align:start position:0%
+what's missing, and asks clarifying
+ 
+
+00:00:55.080 --> 00:00:57.510 align:start position:0%
+what's missing, and asks clarifying
+questions<00:00:55.640><c> first.</c><00:00:56.760><c> Like</c><00:00:56.985><c> [music]</c><00:00:57.040><c> which</c><00:00:57.320><c> AI</c>
+
+00:00:57.510 --> 00:00:57.520 align:start position:0%
+questions first. Like [music] which AI
+ 
+
+00:00:57.520 --> 00:00:59.270 align:start position:0%
+questions first. Like [music] which AI
+native<00:00:57.880><c> players</c><00:00:58.280><c> to</c><00:00:58.400><c> feature,</c><00:00:58.960><c> or</c><00:00:59.120><c> how</c>
+
+00:00:59.270 --> 00:00:59.280 align:start position:0%
+native players to feature, or how
+ 
+
+00:00:59.280 --> 00:01:01.190 align:start position:0%
+native players to feature, or how
+technical<00:00:59.800><c> the</c><00:00:59.920><c> slide</c><00:01:00.240><c> should</c><00:01:00.400><c> be</c><00:01:00.680><c> relative</c>
+
+00:01:01.190 --> 00:01:01.200 align:start position:0%
+technical the slide should be relative
+ 
+
+00:01:01.200 --> 00:01:02.990 align:start position:0%
+technical the slide should be relative
+to<00:01:01.320><c> the</c><00:01:01.440><c> rest</c><00:01:01.720><c> of</c><00:01:01.800><c> the</c><00:01:01.880><c> deck.</c>
+
+00:01:02.990 --> 00:01:03.000 align:start position:0%
+to the rest of the deck.
+ 
+
+00:01:03.000 --> 00:01:04.790 align:start position:0%
+to the rest of the deck.
+Once<00:01:03.320><c> you've</c><00:01:03.480><c> answered,</c><00:01:04.080><c> Claude</c><00:01:04.360><c> generates</c>
+
+00:01:04.790 --> 00:01:04.800 align:start position:0%
+Once you've answered, Claude generates
+ 
+
+00:01:04.800 --> 00:01:06.510 align:start position:0%
+Once you've answered, Claude generates
+the<00:01:04.920><c> slide</c><00:01:05.280><c> with</c><00:01:05.480><c> your</c><00:01:05.760><c> input</c><00:01:06.240><c> already</c>
+
+00:01:06.510 --> 00:01:06.520 align:start position:0%
+the slide with your input already
+ 
+
+00:01:06.520 --> 00:01:08.790 align:start position:0%
+the slide with your input already
+factored<00:01:06.920><c> in.</c><00:01:07.560><c> It</c><00:01:07.800><c> pulls</c><00:01:08.120><c> the</c><00:01:08.200><c> growth</c><00:01:08.480><c> data</c>
+
+00:01:08.790 --> 00:01:08.800 align:start position:0%
+factored in. It pulls the growth data
+ 
+
+00:01:08.800 --> 00:01:10.990 align:start position:0%
+factored in. It pulls the growth data
+from<00:01:09.000><c> the</c><00:01:09.120><c> existing</c><00:01:09.680><c> slides</c><00:01:10.160><c> and</c><00:01:10.400><c> organizes</c>
+
+00:01:10.990 --> 00:01:11.000 align:start position:0%
+from the existing slides and organizes
+ 
+
+00:01:11.000 --> 00:01:12.990 align:start position:0%
+from the existing slides and organizes
+the<00:01:11.120><c> application</c><00:01:11.760><c> areas</c><00:01:12.200><c> into</c><00:01:12.480><c> a</c><00:01:12.520><c> structured</c>
+
+00:01:12.990 --> 00:01:13.000 align:start position:0%
+the application areas into a structured
+ 
+
+00:01:13.000 --> 00:01:14.230 align:start position:0%
+the application areas into a structured
+format.
+
+00:01:14.230 --> 00:01:14.240 align:start position:0%
+format.
+ 
+
+00:01:14.240 --> 00:01:16.390 align:start position:0%
+format.
+The<00:01:14.360><c> fonts,</c><00:01:14.800><c> colors,</c><00:01:15.280><c> and</c><00:01:15.440><c> spacing</c><00:01:16.000><c> match</c><00:01:16.280><c> the</c>
+
+00:01:16.390 --> 00:01:16.400 align:start position:0%
+The fonts, colors, and spacing match the
+ 
+
+00:01:16.400 --> 00:01:17.830 align:start position:0%
+The fonts, colors, and spacing match the
+rest<00:01:16.640><c> of</c><00:01:16.760><c> the</c><00:01:16.840><c> deck.</c>
+
+00:01:17.830 --> 00:01:17.840 align:start position:0%
+rest of the deck.
+ 
+
+00:01:17.840 --> 00:01:19.630 align:start position:0%
+rest of the deck.
+The<00:01:17.920><c> new</c><00:01:18.120><c> slide</c><00:01:18.440><c> fits</c><00:01:18.680><c> seamlessly</c><00:01:19.280><c> into</c><00:01:19.520><c> the</c>
+
+00:01:19.630 --> 00:01:19.640 align:start position:0%
+The new slide fits seamlessly into the
+ 
+
+00:01:19.640 --> 00:01:20.710 align:start position:0%
+The new slide fits seamlessly into the
+flow.
+
+00:01:20.710 --> 00:01:20.720 align:start position:0%
+flow.
+ 
+
+00:01:20.720 --> 00:01:22.510 align:start position:0%
+flow.
+If<00:01:20.960><c> we</c><00:01:21.120><c> want</c><00:01:21.220><c> [music]</c><00:01:21.360><c> to</c><00:01:21.480><c> adjust</c><00:01:21.880><c> it,</c><00:01:22.200><c> we</c><00:01:22.320><c> can</c>
+
+00:01:22.510 --> 00:01:22.520 align:start position:0%
+If we want [music] to adjust it, we can
+ 
+
+00:01:22.520 --> 00:01:24.830 align:start position:0%
+If we want [music] to adjust it, we can
+select<00:01:22.880><c> the</c><00:01:23.000><c> slide</c><00:01:23.320><c> and</c><00:01:23.440><c> say,</c><00:01:24.160><c> "Add</c><00:01:24.440><c> a</c><00:01:24.560><c> data</c>
+
+00:01:24.830 --> 00:01:24.840 align:start position:0%
+select the slide and say, "Add a data
+ 
+
+00:01:24.840 --> 00:01:27.150 align:start position:0%
+select the slide and say, "Add a data
+point<00:01:25.160><c> about</c><00:01:25.480><c> how</c><00:01:25.720><c> AI</c><00:01:26.160><c> is</c><00:01:26.360><c> reducing</c><00:01:26.840><c> fraud</c>
+
+00:01:27.150 --> 00:01:27.160 align:start position:0%
+point about how AI is reducing fraud
+ 
+
+00:01:27.160 --> 00:01:30.350 align:start position:0%
+point about how AI is reducing fraud
+losses<00:01:27.680><c> for</c><00:01:27.840><c> neobanks</c><00:01:28.360><c> specifically."</c>
+
+00:01:30.350 --> 00:01:30.360 align:start position:0%
+losses for neobanks specifically."
+ 
+
+00:01:30.360 --> 00:01:32.230 align:start position:0%
+losses for neobanks specifically."
+Claude<00:01:30.800><c> adds</c><00:01:31.040><c> the</c><00:01:31.160><c> bullet</c><00:01:31.520><c> to</c><00:01:31.640><c> the</c><00:01:31.760><c> selected</c>
+
+00:01:32.230 --> 00:01:32.240 align:start position:0%
+Claude adds the bullet to the selected
+ 
+
+00:01:32.240 --> 00:01:34.311 align:start position:0%
+Claude adds the bullet to the selected
+slide<00:01:32.600><c> without</c><00:01:33.080><c> touching</c><00:01:33.440><c> anything</c><00:01:33.800><c> else.</c>
+
+00:01:34.311 --> 00:01:34.321 align:start position:0%
+slide without touching anything else.
+ 
+
+00:01:34.321 --> 00:01:34.790 align:start position:0%
+slide without touching anything else.
+&gt;&gt; [music]
+
+00:01:34.790 --> 00:01:34.800 align:start position:0%
+&gt;&gt; [music]
+ 
+
+00:01:34.800 --> 00:01:36.710 align:start position:0%
+&gt;&gt; [music]
+&gt;&gt; It<00:01:34.960><c> places</c><00:01:35.360><c> the</c><00:01:35.440><c> new</c><00:01:35.640><c> content</c><00:01:36.200><c> in</c><00:01:36.280><c> the</c><00:01:36.400><c> correct</c>
+
+00:01:36.710 --> 00:01:36.720 align:start position:0%
+&gt;&gt; It places the new content in the correct
+ 
+
+00:01:36.720 --> 00:01:38.590 align:start position:0%
+&gt;&gt; It places the new content in the correct
+text<00:01:37.000><c> box</c><00:01:37.400><c> and</c><00:01:37.560><c> matches</c><00:01:37.960><c> the</c><00:01:38.080><c> existing</c>
+
+00:01:38.590 --> 00:01:38.600 align:start position:0%
+text box and matches the existing
+ 
+
+00:01:38.600 --> 00:01:39.910 align:start position:0%
+text box and matches the existing
+formatting.
+
+00:01:39.910 --> 00:01:39.920 align:start position:0%
+formatting.
+ 
+
+00:01:39.920 --> 00:01:41.670 align:start position:0%
+formatting.
+Claude<00:01:40.280><c> also</c><00:01:40.560><c> tells</c><00:01:40.920><c> you</c><00:01:41.080><c> where</c><00:01:41.320><c> it</c><00:01:41.440><c> sourced</c>
+
+00:01:41.670 --> 00:01:41.680 align:start position:0%
+Claude also tells you where it sourced
+ 
+
+00:01:41.680 --> 00:01:43.670 align:start position:0%
+Claude also tells you where it sourced
+the<00:01:41.800><c> additional</c><00:01:42.240><c> data.</c>
+
+00:01:43.670 --> 00:01:43.680 align:start position:0%
+the additional data.
+ 
+
+00:01:43.680 --> 00:01:46.110 align:start position:0%
+the additional data.
+This<00:01:43.960><c> is</c><00:01:44.080><c> a</c><00:01:44.160><c> common</c><00:01:44.520><c> workflow.</c><00:01:45.400><c> You</c><00:01:45.680><c> notice</c><00:01:46.040><c> a</c>
+
+00:01:46.110 --> 00:01:46.120 align:start position:0%
+This is a common workflow. You notice a
+ 
+
+00:01:46.120 --> 00:01:48.070 align:start position:0%
+This is a common workflow. You notice a
+gap<00:01:46.400><c> in</c><00:01:46.520><c> your</c><00:01:46.680><c> argument,</c><00:01:47.440><c> and</c><00:01:47.600><c> instead</c><00:01:47.960><c> of</c>
+
+00:01:48.070 --> 00:01:48.080 align:start position:0%
+gap in your argument, and instead of
+ 
+
+00:01:48.080 --> 00:01:50.031 align:start position:0%
+gap in your argument, and instead of
+switching<00:01:48.520><c> to</c><00:01:48.680><c> a</c><00:01:48.760><c> browser</c><00:01:49.240><c> to</c><00:01:49.400><c> draft</c><00:01:49.760><c> text</c>
+
+00:01:50.031 --> 00:01:50.041 align:start position:0%
+switching to a browser to draft text
+ 
+
+00:01:50.041 --> 00:01:51.510 align:start position:0%
+switching to a browser to draft text
+[music]<00:01:50.160><c> and</c><00:01:50.320><c> manually</c><00:01:50.760><c> formatting</c><00:01:51.280><c> a</c><00:01:51.320><c> new</c>
+
+00:01:51.510 --> 00:01:51.520 align:start position:0%
+[music] and manually formatting a new
+ 
+
+00:01:51.520 --> 00:01:54.190 align:start position:0%
+[music] and manually formatting a new
+slide,<00:01:52.440><c> you</c><00:01:52.640><c> describe</c><00:01:53.120><c> what's</c><00:01:53.280><c> missing,</c><00:01:54.040><c> and</c>
+
+00:01:54.190 --> 00:01:54.200 align:start position:0%
+slide, you describe what's missing, and
+ 
+
+00:01:54.200 --> 00:01:59.230 align:start position:0%
+slide, you describe what's missing, and
+Claude<00:01:54.480><c> fills</c><00:01:54.720><c> it</c><00:01:54.840><c> in.</c>
+
+00:01:59.230 --> 00:01:59.240 align:start position:0%
+ 
+ 
+
+00:01:59.240 --> 00:02:00.870 align:start position:0%
+ 
+Claude<00:01:59.600><c> knows</c><00:01:59.880><c> which</c><00:02:00.120><c> slide</c><00:02:00.360><c> and</c><00:02:00.480><c> object</c><00:02:00.840><c> you</c>
+
+00:02:00.870 --> 00:02:00.880 align:start position:0%
+Claude knows which slide and object you
+ 
+
+00:02:00.880 --> 00:02:02.390 align:start position:0%
+Claude knows which slide and object you
+have<00:02:01.040><c> selected.</c>
+
+00:02:02.390 --> 00:02:02.400 align:start position:0%
+have selected.
+ 
+
+00:02:02.400 --> 00:02:05.190 align:start position:0%
+have selected.
+This<00:02:02.600><c> makes</c><00:02:02.840><c> targeted</c><00:02:03.141><c> [music]</c><00:02:03.360><c> edits</c><00:02:03.800><c> fast.</c>
+
+00:02:05.190 --> 00:02:05.200 align:start position:0%
+This makes targeted [music] edits fast.
+ 
+
+00:02:05.200 --> 00:02:07.030 align:start position:0%
+This makes targeted [music] edits fast.
+The<00:02:05.360><c> regulatory</c><00:02:05.920><c> landscape</c><00:02:06.400><c> slide</c><00:02:06.760><c> is</c><00:02:06.920><c> the</c>
+
+00:02:07.030 --> 00:02:07.040 align:start position:0%
+The regulatory landscape slide is the
+ 
+
+00:02:07.040 --> 00:02:08.790 align:start position:0%
+The regulatory landscape slide is the
+densest<00:02:07.520><c> in</c><00:02:07.600><c> the</c><00:02:07.720><c> deck.</c>
+
+00:02:08.790 --> 00:02:08.800 align:start position:0%
+densest in the deck.
+ 
+
+00:02:08.800 --> 00:02:10.336 align:start position:0%
+densest in the deck.
+It<00:02:08.960><c> has</c><00:02:09.200><c> four</c><00:02:09.440><c> subsections,</c>
+
+00:02:10.336 --> 00:02:10.346 align:start position:0%
+It has four subsections,
+ 
+
+00:02:10.346 --> 00:02:10.350 align:start position:0%
+It has four subsections,
+&gt;&gt; [music]
+
+00:02:10.350 --> 00:02:10.360 align:start position:0%
+&gt;&gt; [music]
+ 
+
+00:02:10.360 --> 00:02:12.590 align:start position:0%
+&gt;&gt; [music]
+&gt;&gt; each<00:02:10.679><c> with</c><00:02:10.840><c> nested</c><00:02:11.280><c> bullets</c><00:02:11.760><c> covering</c><00:02:12.280><c> open</c>
+
+00:02:12.590 --> 00:02:12.600 align:start position:0%
+&gt;&gt; each with nested bullets covering open
+ 
+
+00:02:12.600 --> 00:02:14.949 align:start position:0%
+&gt;&gt; each with nested bullets covering open
+banking,<00:02:13.320><c> real-time</c><00:02:13.840><c> payments,</c><00:02:14.480><c> digital</c>
+
+00:02:14.949 --> 00:02:14.959 align:start position:0%
+banking, real-time payments, digital
+ 
+
+00:02:14.959 --> 00:02:17.070 align:start position:0%
+banking, real-time payments, digital
+assets,<00:02:15.360><c> and</c><00:02:15.480><c> compliance.</c>
+
+00:02:17.070 --> 00:02:17.080 align:start position:0%
+assets, and compliance.
+ 
+
+00:02:17.080 --> 00:02:19.550 align:start position:0%
+assets, and compliance.
+That's<00:02:17.440><c> a</c><00:02:17.520><c> lot</c><00:02:17.840><c> to</c><00:02:17.959><c> process</c><00:02:18.360><c> on</c><00:02:18.520><c> screen.</c>
+
+00:02:19.550 --> 00:02:19.560 align:start position:0%
+That's a lot to process on screen.
+ 
+
+00:02:19.560 --> 00:02:21.670 align:start position:0%
+That's a lot to process on screen.
+Let's<00:02:19.840><c> select</c><00:02:20.280><c> just</c><00:02:20.560><c> the</c><00:02:20.920><c> compliance</c><00:02:21.560><c> and</c>
+
+00:02:21.670 --> 00:02:21.680 align:start position:0%
+Let's select just the compliance and
+ 
+
+00:02:21.680 --> 00:02:23.510 align:start position:0%
+Let's select just the compliance and
+data<00:02:21.920><c> governance</c><00:02:22.400><c> section.</c>
+
+00:02:23.510 --> 00:02:23.520 align:start position:0%
+data governance section.
+ 
+
+00:02:23.520 --> 00:02:24.630 align:start position:0%
+data governance section.
+We'll<00:02:23.760><c> tell</c><00:02:24.000><c> Claude</c><00:02:24.101><c> [music]</c>
+
+00:02:24.630 --> 00:02:24.640 align:start position:0%
+We'll tell Claude [music]
+ 
+
+00:02:24.640 --> 00:02:27.070 align:start position:0%
+We'll tell Claude [music]
+simplify<00:02:25.280><c> this</c><00:02:25.440><c> section.</c><00:02:26.440><c> It</c><00:02:26.680><c> currently</c>
+
+00:02:27.070 --> 00:02:27.080 align:start position:0%
+simplify this section. It currently
+ 
+
+00:02:27.080 --> 00:02:30.030 align:start position:0%
+simplify this section. It currently
+lists<00:02:27.400><c> Dora,</c><00:02:28.280><c> GDPR,</c><00:02:29.360><c> the</c><00:02:29.520><c> regtech</c><00:02:29.996><c> [music]</c>
+
+00:02:30.030 --> 00:02:30.040 align:start position:0%
+lists Dora, GDPR, the regtech [music]
+ 
+
+00:02:30.040 --> 00:02:33.949 align:start position:0%
+lists Dora, GDPR, the regtech [music]
+market<00:02:30.360><c> figure,</c><00:02:31.040><c> and</c><00:02:31.200><c> regulatory</c><00:02:31.840><c> sandboxes.</c>
+
+00:02:33.949 --> 00:02:33.959 align:start position:0%
+market figure, and regulatory sandboxes.
+ 
+
+00:02:33.959 --> 00:02:36.070 align:start position:0%
+market figure, and regulatory sandboxes.
+Condense<00:02:34.400><c> it</c><00:02:34.560><c> into</c><00:02:34.880><c> one</c><00:02:35.120><c> line</c><00:02:35.400><c> that</c><00:02:35.600><c> captures</c>
+
+00:02:36.070 --> 00:02:36.080 align:start position:0%
+Condense it into one line that captures
+ 
+
+00:02:36.080 --> 00:02:37.670 align:start position:0%
+Condense it into one line that captures
+the<00:02:36.200><c> key</c><00:02:36.400><c> point.</c><00:02:36.546><c> [music]</c>
+
+00:02:37.670 --> 00:02:37.680 align:start position:0%
+the key point. [music]
+ 
+
+00:02:37.680 --> 00:02:39.790 align:start position:0%
+the key point. [music]
+Claude<00:02:38.040><c> rewrites</c><00:02:38.520><c> that</c><00:02:38.720><c> section</c><00:02:39.120><c> in</c><00:02:39.400><c> one</c>
+
+00:02:39.790 --> 00:02:39.800 align:start position:0%
+Claude rewrites that section in one
+ 
+
+00:02:39.800 --> 00:02:42.070 align:start position:0%
+Claude rewrites that section in one
+line.<00:02:40.720><c> The</c><00:02:40.959><c> other</c><00:02:41.200><c> three</c><00:02:41.400><c> sections</c><00:02:41.880><c> on</c><00:02:41.959><c> the</c>
+
+00:02:42.070 --> 00:02:42.080 align:start position:0%
+line. The other three sections on the
+ 
+
+00:02:42.080 --> 00:02:44.470 align:start position:0%
+line. The other three sections on the
+slide<00:02:42.600><c> stay</c><00:02:42.840><c> untouched.</c><00:02:43.920><c> Claude</c><00:02:44.240><c> only</c>
+
+00:02:44.470 --> 00:02:44.480 align:start position:0%
+slide stay untouched. Claude only
+ 
+
+00:02:44.480 --> 00:02:47.870 align:start position:0%
+slide stay untouched. Claude only
+modified<00:02:44.920><c> the</c><00:02:45.000><c> content</c><00:02:45.520><c> we</c><00:02:45.680><c> selected.</c>
+
+00:02:47.870 --> 00:02:47.880 align:start position:0%
+modified the content we selected.
+ 
+
+00:02:47.880 --> 00:02:49.830 align:start position:0%
+modified the content we selected.
+We<00:02:48.080><c> can</c><00:02:48.280><c> also</c><00:02:48.600><c> make</c><00:02:48.840><c> precise</c><00:02:48.991><c> [music]</c><00:02:49.360><c> changes</c>
+
+00:02:49.830 --> 00:02:49.840 align:start position:0%
+We can also make precise [music] changes
+ 
+
+00:02:49.840 --> 00:02:51.990 align:start position:0%
+We can also make precise [music] changes
+to<00:02:50.000><c> individual</c><00:02:50.640><c> elements.</c>
+
+00:02:51.990 --> 00:02:52.000 align:start position:0%
+to individual elements.
+ 
+
+00:02:52.000 --> 00:02:53.870 align:start position:0%
+to individual elements.
+The<00:02:52.120><c> slide</c><00:02:52.440><c> title</c><00:02:52.760><c> reads</c><00:02:53.280><c> regulatory</c>
+
+00:02:53.870 --> 00:02:53.880 align:start position:0%
+The slide title reads regulatory
+ 
+
+00:02:53.880 --> 00:02:56.350 align:start position:0%
+The slide title reads regulatory
+landscape,<00:02:54.640><c> which</c><00:02:54.920><c> is</c><00:02:55.120><c> generic.</c>
+
+00:02:56.350 --> 00:02:56.360 align:start position:0%
+landscape, which is generic.
+ 
+
+00:02:56.360 --> 00:02:58.750 align:start position:0%
+landscape, which is generic.
+We<00:02:56.520><c> can</c><00:02:56.680><c> select</c><00:02:57.080><c> the</c><00:02:57.160><c> title</c><00:02:57.520><c> and</c><00:02:57.680><c> say,</c><00:02:58.480><c> Make</c>
+
+00:02:58.750 --> 00:02:58.760 align:start position:0%
+We can select the title and say, Make
+ 
+
+00:02:58.760 --> 00:03:00.790 align:start position:0%
+We can select the title and say, Make
+this<00:02:58.959><c> title</c><00:02:59.320><c> more</c><00:02:59.560><c> specific</c><00:03:00.239><c> to</c><00:03:00.360><c> the</c><00:03:00.480><c> story</c>
+
+00:03:00.790 --> 00:03:00.800 align:start position:0%
+this title more specific to the story
+ 
+
+00:03:00.800 --> 00:03:03.390 align:start position:0%
+this title more specific to the story
+we're<00:03:00.920><c> telling.</c><00:03:01.880><c> Claude</c><00:03:02.160><c> changes</c><00:03:02.600><c> it</c><00:03:02.800><c> to</c>
+
+00:03:03.390 --> 00:03:03.400 align:start position:0%
+we're telling. Claude changes it to
+ 
+
+00:03:03.400 --> 00:03:05.990 align:start position:0%
+we're telling. Claude changes it to
+regulation<00:03:04.160><c> as</c><00:03:04.320><c> a</c><00:03:04.400><c> growth</c><00:03:04.680><c> catalyst.</c><00:03:05.920><c> The</c>
+
+00:03:05.990 --> 00:03:06.000 align:start position:0%
+regulation as a growth catalyst. The
+ 
+
+00:03:06.000 --> 00:03:08.630 align:start position:0%
+regulation as a growth catalyst. The
+body<00:03:06.280><c> content</c><00:03:06.760><c> stays</c><00:03:07.040><c> the</c><00:03:07.160><c> same.</c>
+
+00:03:08.630 --> 00:03:08.640 align:start position:0%
+body content stays the same.
+ 
+
+00:03:08.640 --> 00:03:10.350 align:start position:0%
+body content stays the same.
+This<00:03:08.920><c> kind</c><00:03:09.160><c> of</c><00:03:09.239><c> precision</c><00:03:09.760><c> matters</c><00:03:10.239><c> when</c>
+
+00:03:10.350 --> 00:03:10.360 align:start position:0%
+This kind of precision matters when
+ 
+
+00:03:10.360 --> 00:03:12.030 align:start position:0%
+This kind of precision matters when
+you're<00:03:10.480><c> polishing</c><00:03:10.959><c> a</c><00:03:11.040><c> deck</c><00:03:11.320><c> for</c><00:03:11.440><c> a</c><00:03:11.519><c> specific</c>
+
+00:03:12.030 --> 00:03:12.040 align:start position:0%
+you're polishing a deck for a specific
+ 
+
+00:03:12.040 --> 00:03:14.270 align:start position:0%
+you're polishing a deck for a specific
+audience.<00:03:13.120><c> You</c><00:03:13.239><c> don't</c><00:03:13.440><c> want</c><00:03:13.600><c> to</c><00:03:13.680><c> regenerate</c>
+
+00:03:14.270 --> 00:03:14.280 align:start position:0%
+audience. You don't want to regenerate
+ 
+
+00:03:14.280 --> 00:03:16.990 align:start position:0%
+audience. You don't want to regenerate
+an<00:03:14.400><c> entire</c><00:03:14.959><c> slide</c><00:03:15.519><c> to</c><00:03:15.680><c> fix</c><00:03:16.000><c> one</c><00:03:16.200><c> headline</c><00:03:16.840><c> or</c>
+
+00:03:16.990 --> 00:03:17.000 align:start position:0%
+an entire slide to fix one headline or
+ 
+
+00:03:17.000 --> 00:03:18.830 align:start position:0%
+an entire slide to fix one headline or
+tighten<00:03:17.320><c> one</c><00:03:17.480><c> paragraph.</c>
+
+00:03:18.830 --> 00:03:18.840 align:start position:0%
+tighten one paragraph.
+ 
+
+00:03:18.840 --> 00:03:20.390 align:start position:0%
+tighten one paragraph.
+Claude<00:03:19.080><c> lets</c><00:03:19.320><c> you</c><00:03:19.440><c> work</c><00:03:19.640><c> at</c><00:03:19.760><c> the</c><00:03:19.880><c> level</c><00:03:20.239><c> of</c>
+
+00:03:20.390 --> 00:03:20.400 align:start position:0%
+Claude lets you work at the level of
+ 
+
+00:03:20.400 --> 00:03:22.630 align:start position:0%
+Claude lets you work at the level of
+individual<00:03:21.000><c> objects,</c><00:03:21.840><c> the</c><00:03:21.959><c> same</c><00:03:22.239><c> way</c><00:03:22.440><c> you'd</c>
+
+00:03:22.630 --> 00:03:22.640 align:start position:0%
+individual objects, the same way you'd
+ 
+
+00:03:22.640 --> 00:03:27.670 align:start position:0%
+individual objects, the same way you'd
+edit<00:03:22.880><c> manually,</c><00:03:23.640><c> but</c><00:03:23.840><c> faster.</c>
+
+00:03:27.670 --> 00:03:27.680 align:start position:0%
+ 
+ 
+
+00:03:27.680 --> 00:03:29.350 align:start position:0%
+ 
+Bullet-heavy<00:03:28.160><c> slides</c><00:03:28.640><c> are</c><00:03:28.760><c> one</c><00:03:28.920><c> of</c><00:03:29.000><c> the</c><00:03:29.120><c> most</c>
+
+00:03:29.350 --> 00:03:29.360 align:start position:0%
+Bullet-heavy slides are one of the most
+ 
+
+00:03:29.360 --> 00:03:31.790 align:start position:0%
+Bullet-heavy slides are one of the most
+common<00:03:29.840><c> presentation</c><00:03:30.480><c> problems.</c>
+
+00:03:31.790 --> 00:03:31.800 align:start position:0%
+common presentation problems.
+ 
+
+00:03:31.800 --> 00:03:33.509 align:start position:0%
+common presentation problems.
+Claude<00:03:32.080><c> can</c><00:03:32.239><c> convert</c><00:03:32.640><c> them</c><00:03:32.880><c> into</c><00:03:33.160><c> native</c>
+
+00:03:33.509 --> 00:03:33.519 align:start position:0%
+Claude can convert them into native
+ 
+
+00:03:33.519 --> 00:03:35.790 align:start position:0%
+Claude can convert them into native
+PowerPoint<00:03:34.000><c> visuals.</c><00:03:34.187><c> [music]</c>
+
+00:03:35.790 --> 00:03:35.800 align:start position:0%
+PowerPoint visuals. [music]
+ 
+
+00:03:35.800 --> 00:03:37.509 align:start position:0%
+PowerPoint visuals. [music]
+The<00:03:35.920><c> emerging</c><00:03:36.400><c> trend</c><00:03:36.680><c> slide</c><00:03:37.000><c> has</c><00:03:37.280><c> four</c>
+
+00:03:37.509 --> 00:03:37.519 align:start position:0%
+The emerging trend slide has four
+ 
+
+00:03:37.519 --> 00:03:39.390 align:start position:0%
+The emerging trend slide has four
+sections,<00:03:38.519><c> each</c><00:03:38.760><c> with</c><00:03:38.780><c> [music]</c><00:03:38.959><c> nested</c>
+
+00:03:39.390 --> 00:03:39.400 align:start position:0%
+sections, each with [music] nested
+ 
+
+00:03:39.400 --> 00:03:40.830 align:start position:0%
+sections, each with [music] nested
+bullet<00:03:39.680><c> points.</c>
+
+00:03:40.830 --> 00:03:40.840 align:start position:0%
+bullet points.
+ 
+
+00:03:40.840 --> 00:03:43.229 align:start position:0%
+bullet points.
+We<00:03:41.000><c> can</c><00:03:41.160><c> tell</c><00:03:41.360><c> Claude,</c><00:03:42.320><c> Convert</c><00:03:42.720><c> this</c><00:03:42.920><c> slide</c>
+
+00:03:43.229 --> 00:03:43.239 align:start position:0%
+We can tell Claude, Convert this slide
+ 
+
+00:03:43.239 --> 00:03:45.910 align:start position:0%
+We can tell Claude, Convert this slide
+into<00:03:43.519><c> a</c><00:03:43.600><c> visual</c><00:03:44.080><c> layout</c><00:03:44.480><c> with</c><00:03:44.720><c> four</c><00:03:45.000><c> blocks,</c>
+
+00:03:45.910 --> 00:03:45.920 align:start position:0%
+into a visual layout with four blocks,
+ 
+
+00:03:45.920 --> 00:03:47.277 align:start position:0%
+into a visual layout with four blocks,
+one<00:03:46.239><c> per</c><00:03:46.440><c> trend.</c>
+
+00:03:47.277 --> 00:03:47.287 align:start position:0%
+one per trend.
+ 
+
+00:03:47.287 --> 00:03:47.350 align:start position:0%
+one per trend.
+&gt;&gt; [music]
+
+00:03:47.350 --> 00:03:47.360 align:start position:0%
+&gt;&gt; [music]
+ 
+
+00:03:47.360 --> 00:03:49.430 align:start position:0%
+&gt;&gt; [music]
+&gt;&gt; Each<00:03:47.600><c> block</c><00:03:47.880><c> should</c><00:03:48.040><c> have</c><00:03:48.239><c> the</c><00:03:48.360><c> trend</c><00:03:48.600><c> name,</c>
+
+00:03:49.430 --> 00:03:49.440 align:start position:0%
+&gt;&gt; Each block should have the trend name,
+ 
+
+00:03:49.440 --> 00:03:51.670 align:start position:0%
+&gt;&gt; Each block should have the trend name,
+the<00:03:49.600><c> key</c><00:03:49.800><c> metric</c><00:03:50.239><c> or</c><00:03:50.320><c> growth</c><00:03:50.640><c> figure,</c>
+
+00:03:51.670 --> 00:03:51.680 align:start position:0%
+the key metric or growth figure,
+ 
+
+00:03:51.680 --> 00:03:53.827 align:start position:0%
+the key metric or growth figure,
+and<00:03:51.880><c> one</c><00:03:52.120><c> sentence</c><00:03:52.720><c> on</c><00:03:52.920><c> why</c><00:03:53.040><c> it</c><00:03:53.200><c> matters.</c>
+
+00:03:53.827 --> 00:03:53.837 align:start position:0%
+and one sentence on why it matters.
+ 
+
+00:03:53.837 --> 00:03:55.430 align:start position:0%
+and one sentence on why it matters.
+&gt;&gt; [music]
+
+00:03:55.430 --> 00:03:55.440 align:start position:0%
+&gt;&gt; [music]
+ 
+
+00:03:55.440 --> 00:03:57.190 align:start position:0%
+&gt;&gt; [music]
+&gt;&gt; Claude<00:03:55.720><c> produces</c><00:03:56.160><c> a</c><00:03:56.240><c> layout</c><00:03:56.600><c> with</c><00:03:56.840><c> four</c>
+
+00:03:57.190 --> 00:03:57.200 align:start position:0%
+&gt;&gt; Claude produces a layout with four
+ 
+
+00:03:57.200 --> 00:03:58.910 align:start position:0%
+&gt;&gt; Claude produces a layout with four
+evenly<00:03:57.640><c> spaced</c><00:03:57.960><c> content</c><00:03:58.422><c> [music]</c><00:03:58.440><c> blocks</c>
+
+00:03:58.910 --> 00:03:58.920 align:start position:0%
+evenly spaced content [music] blocks
+ 
+
+00:03:58.920 --> 00:04:00.470 align:start position:0%
+evenly spaced content [music] blocks
+using<00:03:59.200><c> the</c><00:03:59.320><c> template's</c><00:03:59.800><c> color</c><00:04:00.080><c> scheme</c><00:04:00.360><c> and</c>
+
+00:04:00.470 --> 00:04:00.480 align:start position:0%
+using the template's color scheme and
+ 
+
+00:04:00.480 --> 00:04:01.870 align:start position:0%
+using the template's color scheme and
+fonts.
+
+00:04:01.870 --> 00:04:01.880 align:start position:0%
+fonts.
+ 
+
+00:04:01.880 --> 00:04:03.630 align:start position:0%
+fonts.
+Each<00:04:02.160><c> block</c><00:04:02.480><c> highlights</c><00:04:02.880><c> the</c><00:04:03.000><c> trend</c><00:04:03.240><c> name</c><00:04:03.480><c> as</c>
+
+00:04:03.630 --> 00:04:03.640 align:start position:0%
+Each block highlights the trend name as
+ 
+
+00:04:03.640 --> 00:04:05.310 align:start position:0%
+Each block highlights the trend name as
+a<00:04:03.720><c> subheading,</c><00:04:04.720><c> pulls</c><00:04:04.960><c> the</c><00:04:04.980><c> [music]</c><00:04:05.040><c> most</c>
+
+00:04:05.310 --> 00:04:05.320 align:start position:0%
+a subheading, pulls the [music] most
+ 
+
+00:04:05.320 --> 00:04:07.790 align:start position:0%
+a subheading, pulls the [music] most
+important<00:04:05.920><c> number,</c><00:04:06.640><c> such</c><00:04:06.880><c> as</c><00:04:07.000><c> the</c><00:04:07.160><c> 8.4</c>
+
+00:04:07.790 --> 00:04:07.800 align:start position:0%
+important number, such as the 8.4
+ 
+
+00:04:07.800 --> 00:04:12.150 align:start position:0%
+important number, such as the 8.4
+billion<00:04:08.280><c> to</c><00:04:08.440><c> 69.3</c><00:04:09.560><c> billion</c><00:04:09.959><c> by</c><00:04:10.120><c> 2032</c><00:04:11.040><c> for</c><00:04:11.240><c> AI,</c>
+
+00:04:12.150 --> 00:04:12.160 align:start position:0%
+billion to 69.3 billion by 2032 for AI,
+ 
+
+00:04:12.160 --> 00:04:14.590 align:start position:0%
+billion to 69.3 billion by 2032 for AI,
+and<00:04:12.400><c> adds</c><00:04:12.600><c> a</c><00:04:12.640><c> concise</c><00:04:13.080><c> description.</c>
+
+00:04:14.590 --> 00:04:14.600 align:start position:0%
+and adds a concise description.
+ 
+
+00:04:14.600 --> 00:04:16.550 align:start position:0%
+and adds a concise description.
+The<00:04:14.720><c> dense</c><00:04:15.000><c> bullet</c><00:04:15.320><c> list</c><00:04:15.680><c> is</c><00:04:15.800><c> now</c><00:04:16.000><c> a</c><00:04:16.040><c> scannable</c>
+
+00:04:16.550 --> 00:04:16.560 align:start position:0%
+The dense bullet list is now a scannable
+ 
+
+00:04:16.560 --> 00:04:18.229 align:start position:0%
+The dense bullet list is now a scannable
+visual.
+
+00:04:18.229 --> 00:04:18.239 align:start position:0%
+visual.
+ 
+
+00:04:18.239 --> 00:04:19.870 align:start position:0%
+visual.
+These<00:04:18.440><c> are</c><00:04:18.560><c> native</c><00:04:18.959><c> PowerPoint</c><00:04:19.480><c> shapes</c><00:04:19.760><c> and</c>
+
+00:04:19.870 --> 00:04:19.880 align:start position:0%
+These are native PowerPoint shapes and
+ 
+
+00:04:19.880 --> 00:04:22.830 align:start position:0%
+These are native PowerPoint shapes and
+text<00:04:20.160><c> boxes,</c><00:04:20.920><c> not</c><00:04:21.640><c> a</c><00:04:21.680><c> static</c><00:04:21.799><c> image.</c>
+
+00:04:22.830 --> 00:04:22.840 align:start position:0%
+text boxes, not a static image.
+ 
+
+00:04:22.840 --> 00:04:25.909 align:start position:0%
+text boxes, not a static image.
+You<00:04:22.960><c> can</c><00:04:23.200><c> move,</c><00:04:23.880><c> resize,</c><00:04:24.720><c> recolor,</c><00:04:25.320><c> and</c><00:04:25.520><c> edit</c>
+
+00:04:25.909 --> 00:04:25.919 align:start position:0%
+You can move, resize, recolor, and edit
+ 
+
+00:04:25.919 --> 00:04:28.710 align:start position:0%
+You can move, resize, recolor, and edit
+each<00:04:26.160><c> element</c><00:04:26.600><c> individually.</c>
+
+00:04:28.710 --> 00:04:28.720 align:start position:0%
+each element individually.
+ 
+
+00:04:28.720 --> 00:04:30.310 align:start position:0%
+each element individually.
+The<00:04:28.800><c> difference</c><00:04:29.200><c> between</c><00:04:29.560><c> a</c><00:04:29.640><c> slide</c><00:04:30.000><c> full</c><00:04:30.200><c> of</c>
+
+00:04:30.310 --> 00:04:30.320 align:start position:0%
+The difference between a slide full of
+ 
+
+00:04:30.320 --> 00:04:32.430 align:start position:0%
+The difference between a slide full of
+bullets<00:04:30.960><c> and</c><00:04:31.120><c> a</c><00:04:31.160><c> slide</c><00:04:31.520><c> with</c><00:04:31.680><c> a</c><00:04:31.760><c> clear</c><00:04:32.040><c> visual</c>
+
+00:04:32.430 --> 00:04:32.440 align:start position:0%
+bullets and a slide with a clear visual
+ 
+
+00:04:32.440 --> 00:04:34.310 align:start position:0%
+bullets and a slide with a clear visual
+structure<00:04:33.080><c> is</c><00:04:33.320><c> often</c><00:04:33.680><c> the</c><00:04:33.760><c> difference</c>
+
+00:04:34.310 --> 00:04:34.320 align:start position:0%
+structure is often the difference
+ 
+
+00:04:34.320 --> 00:04:35.870 align:start position:0%
+structure is often the difference
+between<00:04:34.448><c> [music]</c><00:04:34.680><c> an</c><00:04:34.880><c> audience</c><00:04:35.240><c> that</c><00:04:35.480><c> follows</c>
+
+00:04:35.870 --> 00:04:35.880 align:start position:0%
+between [music] an audience that follows
+ 
+
+00:04:35.880 --> 00:04:38.110 align:start position:0%
+between [music] an audience that follows
+your<00:04:36.080><c> argument</c><00:04:37.000><c> and</c><00:04:37.240><c> one</c><00:04:37.440><c> that</c><00:04:37.680><c> checks</c><00:04:37.960><c> their</c>
+
+00:04:38.110 --> 00:04:38.120 align:start position:0%
+your argument and one that checks their
+ 
+
+00:04:38.120 --> 00:04:39.670 align:start position:0%
+your argument and one that checks their
+email.
+
+00:04:39.670 --> 00:04:39.680 align:start position:0%
+email.
+ 
+
+00:04:39.680 --> 00:04:45.230 align:start position:0%
+email.
+Claude<00:04:39.919><c> makes</c><00:04:40.160><c> that</c><00:04:40.320><c> conversion</c><00:04:40.800><c> fast.</c>
+
+00:04:45.230 --> 00:04:45.240 align:start position:0%
+ 
+ 
+
+00:04:45.240 --> 00:04:46.750 align:start position:0%
+ 
+Claude<00:04:45.480><c> can</c><00:04:45.680><c> also</c><00:04:45.919><c> generate</c><00:04:46.400><c> native</c>
+
+00:04:46.750 --> 00:04:46.760 align:start position:0%
+Claude can also generate native
+ 
+
+00:04:46.760 --> 00:04:48.630 align:start position:0%
+Claude can also generate native
+PowerPoint<00:04:47.280><c> charts</c><00:04:47.520><c> from</c><00:04:47.680><c> data</c><00:04:48.120><c> already</c><00:04:48.520><c> in</c>
+
+00:04:48.630 --> 00:04:48.640 align:start position:0%
+PowerPoint charts from data already in
+ 
+
+00:04:48.640 --> 00:04:51.710 align:start position:0%
+PowerPoint charts from data already in
+your<00:04:48.800><c> deck</c><00:04:49.360><c> or</c><00:04:49.640><c> from</c><00:04:49.919><c> data</c><00:04:50.160><c> you</c><00:04:50.280><c> describe.</c>
+
+00:04:51.710 --> 00:04:51.720 align:start position:0%
+your deck or from data you describe.
+ 
+
+00:04:51.720 --> 00:04:53.230 align:start position:0%
+your deck or from data you describe.
+The<00:04:51.880><c> competitive</c><00:04:52.133><c> [music]</c><00:04:52.440><c> landscape</c><00:04:52.919><c> slide</c>
+
+00:04:53.230 --> 00:04:53.240 align:start position:0%
+The competitive [music] landscape slide
+ 
+
+00:04:53.240 --> 00:04:55.190 align:start position:0%
+The competitive [music] landscape slide
+currently<00:04:53.720><c> presents</c><00:04:54.240><c> five</c><00:04:54.600><c> companies</c><00:04:55.080><c> in</c><00:04:55.160><c> a</c>
+
+00:04:55.190 --> 00:04:55.200 align:start position:0%
+currently presents five companies in a
+ 
+
+00:04:55.200 --> 00:04:56.350 align:start position:0%
+currently presents five companies in a
+table.
+
+00:04:56.350 --> 00:04:56.360 align:start position:0%
+table.
+ 
+
+00:04:56.360 --> 00:04:58.510 align:start position:0%
+table.
+Tables<00:04:56.720><c> are</c><00:04:56.840><c> useful</c><00:04:57.240><c> for</c><00:04:57.440><c> reference,</c><00:04:58.240><c> but</c>
+
+00:04:58.510 --> 00:04:58.520 align:start position:0%
+Tables are useful for reference, but
+ 
+
+00:04:58.520 --> 00:05:00.270 align:start position:0%
+Tables are useful for reference, but
+they<00:04:58.600><c> don't</c><00:04:58.880><c> show</c><00:04:59.080><c> relative</c><00:04:59.520><c> positioning</c><00:05:00.160><c> at</c>
+
+00:05:00.270 --> 00:05:00.280 align:start position:0%
+they don't show relative positioning at
+ 
+
+00:05:00.280 --> 00:05:01.590 align:start position:0%
+they don't show relative positioning at
+a<00:05:00.320><c> glance.</c>
+
+00:05:01.590 --> 00:05:01.600 align:start position:0%
+a glance.
+ 
+
+00:05:01.600 --> 00:05:03.310 align:start position:0%
+a glance.
+We<00:05:01.720><c> can</c><00:05:01.880><c> ask</c><00:05:01.958><c> [music]</c><00:05:02.120><c> Claude,</c><00:05:02.880><c> "Turn</c><00:05:03.120><c> this</c>
+
+00:05:03.310 --> 00:05:03.320 align:start position:0%
+We can ask [music] Claude, "Turn this
+ 
+
+00:05:03.320 --> 00:05:05.830 align:start position:0%
+We can ask [music] Claude, "Turn this
+table<00:05:03.760><c> into</c><00:05:04.040><c> a</c><00:05:04.120><c> 2x2</c><00:05:04.720><c> matrix</c><00:05:05.240><c> with</c><00:05:05.480><c> revenue</c>
+
+00:05:05.830 --> 00:05:05.840 align:start position:0%
+table into a 2x2 matrix with revenue
+ 
+
+00:05:05.840 --> 00:05:07.870 align:start position:0%
+table into a 2x2 matrix with revenue
+scale<00:05:06.200><c> on</c><00:05:06.360><c> the</c><00:05:06.440><c> x-axis</c><00:05:07.198><c> [music]</c><00:05:07.360><c> and</c><00:05:07.520><c> growth</c>
+
+00:05:07.870 --> 00:05:07.880 align:start position:0%
+scale on the x-axis [music] and growth
+ 
+
+00:05:07.880 --> 00:05:10.030 align:start position:0%
+scale on the x-axis [music] and growth
+rate<00:05:08.120><c> on</c><00:05:08.240><c> the</c><00:05:08.360><c> y-axis.</c>
+
+00:05:10.030 --> 00:05:10.040 align:start position:0%
+rate on the y-axis.
+ 
+
+00:05:10.040 --> 00:05:11.710 align:start position:0%
+rate on the y-axis.
+Plot<00:05:10.240><c> each</c><00:05:10.440><c> company</c><00:05:10.880><c> based</c><00:05:11.160><c> on</c><00:05:11.280><c> the</c><00:05:11.360><c> data</c><00:05:11.640><c> in</c>
+
+00:05:11.710 --> 00:05:11.720 align:start position:0%
+Plot each company based on the data in
+ 
+
+00:05:11.720 --> 00:05:13.950 align:start position:0%
+Plot each company based on the data in
+the<00:05:11.800><c> table.</c><00:05:12.720><c> Create</c><00:05:13.160><c> icons</c><00:05:13.600><c> for</c><00:05:13.760><c> each</c>
+
+00:05:13.950 --> 00:05:13.960 align:start position:0%
+the table. Create icons for each
+ 
+
+00:05:13.960 --> 00:05:17.750 align:start position:0%
+the table. Create icons for each
+company."
+
+00:05:17.750 --> 00:05:17.760 align:start position:0%
+ 
+ 
+
+00:05:17.760 --> 00:05:19.510 align:start position:0%
+ 
+Claude<00:05:18.040><c> builds</c><00:05:18.320><c> a</c><00:05:18.400><c> quadrant</c><00:05:18.919><c> chart</c><00:05:19.240><c> using</c>
+
+00:05:19.510 --> 00:05:19.520 align:start position:0%
+Claude builds a quadrant chart using
+ 
+
+00:05:19.520 --> 00:05:22.310 align:start position:0%
+Claude builds a quadrant chart using
+native<00:05:19.880><c> shapes</c><00:05:20.240><c> and</c><00:05:20.400><c> positioned</c><00:05:20.919><c> labels.</c>
+
+00:05:22.310 --> 00:05:22.320 align:start position:0%
+native shapes and positioned labels.
+ 
+
+00:05:22.320 --> 00:05:24.218 align:start position:0%
+native shapes and positioned labels.
+Everything<00:05:22.800><c> is</c><00:05:22.960><c> native</c><00:05:23.360><c> and</c><00:05:23.520><c> editable.</c>
+
+00:05:24.218 --> 00:05:24.228 align:start position:0%
+Everything is native and editable.
+ 
+
+00:05:24.228 --> 00:05:24.790 align:start position:0%
+Everything is native and editable.
+&gt;&gt; [music]
+
+00:05:24.790 --> 00:05:24.800 align:start position:0%
+&gt;&gt; [music]
+ 
+
+00:05:24.800 --> 00:05:27.630 align:start position:0%
+&gt;&gt; [music]
+&gt;&gt; You<00:05:24.919><c> can</c><00:05:25.120><c> reposition</c><00:05:25.720><c> labels,</c><00:05:26.480><c> adjust</c><00:05:26.919><c> axes,</c>
+
+00:05:27.630 --> 00:05:27.640 align:start position:0%
+&gt;&gt; You can reposition labels, adjust axes,
+ 
+
+00:05:27.640 --> 00:05:29.790 align:start position:0%
+&gt;&gt; You can reposition labels, adjust axes,
+or<00:05:27.960><c> add</c><00:05:28.160><c> a</c><00:05:28.200><c> new</c><00:05:28.400><c> company</c><00:05:28.880><c> without</c><00:05:29.360><c> rebuilding</c>
+
+00:05:29.790 --> 00:05:29.800 align:start position:0%
+or add a new company without rebuilding
+ 
+
+00:05:29.800 --> 00:05:32.070 align:start position:0%
+or add a new company without rebuilding
+the<00:05:29.880><c> visual.</c>
+
+00:05:32.070 --> 00:05:32.080 align:start position:0%
+the visual.
+ 
+
+00:05:32.080 --> 00:05:33.550 align:start position:0%
+the visual.
+Now,<00:05:32.520><c> let's</c><00:05:32.800><c> look</c><00:05:32.919><c> at</c><00:05:33.040><c> the</c><00:05:33.160><c> regional</c>
+
+00:05:33.550 --> 00:05:33.560 align:start position:0%
+Now, let's look at the regional
+ 
+
+00:05:33.560 --> 00:05:35.110 align:start position:0%
+Now, let's look at the regional
+landscape<00:05:34.040><c> slide.</c><00:05:34.060><c> [music]</c>
+
+00:05:35.110 --> 00:05:35.120 align:start position:0%
+landscape slide. [music]
+ 
+
+00:05:35.120 --> 00:05:36.750 align:start position:0%
+landscape slide. [music]
+It<00:05:35.280><c> currently</c><00:05:35.680><c> shows</c><00:05:35.960><c> a</c><00:05:36.000><c> bar</c><00:05:36.240><c> chart</c><00:05:36.560><c> with</c>
+
+00:05:36.750 --> 00:05:36.760 align:start position:0%
+It currently shows a bar chart with
+ 
+
+00:05:36.760 --> 00:05:38.670 align:start position:0%
+It currently shows a bar chart with
+market<00:05:37.080><c> share</c><00:05:37.280><c> percentages</c><00:05:38.120><c> and</c><00:05:38.280><c> CAGR</c>
+
+00:05:38.670 --> 00:05:38.680 align:start position:0%
+market share percentages and CAGR
+ 
+
+00:05:38.680 --> 00:05:40.909 align:start position:0%
+market share percentages and CAGR
+figures<00:05:39.160><c> for</c><00:05:39.360><c> four</c><00:05:39.640><c> regions.</c>
+
+00:05:40.909 --> 00:05:40.919 align:start position:0%
+figures for four regions.
+ 
+
+00:05:40.919 --> 00:05:42.670 align:start position:0%
+figures for four regions.
+The<00:05:41.080><c> problem</c><00:05:41.680><c> is</c><00:05:41.800><c> that</c><00:05:41.960><c> the</c><00:05:42.080><c> chart</c><00:05:42.400><c> only</c>
+
+00:05:42.670 --> 00:05:42.680 align:start position:0%
+The problem is that the chart only
+ 
+
+00:05:42.680 --> 00:05:44.750 align:start position:0%
+The problem is that the chart only
+visualizes<00:05:43.520><c> one</c><00:05:43.760><c> dimension,</c><00:05:43.878><c> [music]</c>
+
+00:05:44.750 --> 00:05:44.760 align:start position:0%
+visualizes one dimension, [music]
+ 
+
+00:05:44.760 --> 00:05:45.950 align:start position:0%
+visualizes one dimension, [music]
+share,
+
+00:05:45.950 --> 00:05:45.960 align:start position:0%
+share,
+ 
+
+00:05:45.960 --> 00:05:47.790 align:start position:0%
+share,
+while<00:05:46.200><c> the</c><00:05:46.320><c> growth</c><00:05:46.640><c> rates</c><00:05:47.000><c> sit</c><00:05:47.240><c> in</c><00:05:47.360><c> the</c><00:05:47.440><c> legend</c>
+
+00:05:47.790 --> 00:05:47.800 align:start position:0%
+while the growth rates sit in the legend
+ 
+
+00:05:47.800 --> 00:05:48.830 align:start position:0%
+while the growth rates sit in the legend
+text.
+
+00:05:48.830 --> 00:05:48.840 align:start position:0%
+text.
+ 
+
+00:05:48.840 --> 00:05:50.550 align:start position:0%
+text.
+The<00:05:48.920><c> most</c><00:05:49.240><c> interesting</c><00:05:49.773><c> [music]</c><00:05:49.800><c> insight</c>
+
+00:05:50.550 --> 00:05:50.560 align:start position:0%
+The most interesting [music] insight
+ 
+
+00:05:50.560 --> 00:05:52.230 align:start position:0%
+The most interesting [music] insight
+that<00:05:50.760><c> rest</c><00:05:51.000><c> of</c><00:05:51.160><c> world</c><00:05:51.440><c> has</c><00:05:51.600><c> the</c><00:05:51.720><c> smallest</c>
+
+00:05:52.230 --> 00:05:52.240 align:start position:0%
+that rest of world has the smallest
+ 
+
+00:05:52.240 --> 00:05:54.390 align:start position:0%
+that rest of world has the smallest
+share<00:05:52.560><c> but</c><00:05:52.800><c> the</c><00:05:52.880><c> highest</c><00:05:53.240><c> growth</c><00:05:53.520><c> rate</c><00:05:54.200><c> is</c>
+
+00:05:54.390 --> 00:05:54.400 align:start position:0%
+share but the highest growth rate is
+ 
+
+00:05:54.400 --> 00:05:56.470 align:start position:0%
+share but the highest growth rate is
+hard<00:05:54.680><c> to</c><00:05:54.800><c> spot.</c>
+
+00:05:56.470 --> 00:05:56.480 align:start position:0%
+hard to spot.
+ 
+
+00:05:56.480 --> 00:05:58.470 align:start position:0%
+hard to spot.
+Let's<00:05:56.720><c> tell</c><00:05:56.880><c> Claude.</c><00:05:57.520><c> This</c><00:05:57.720><c> chart</c><00:05:58.040><c> is</c><00:05:58.200><c> trying</c>
+
+00:05:58.470 --> 00:05:58.480 align:start position:0%
+Let's tell Claude. This chart is trying
+ 
+
+00:05:58.480 --> 00:06:00.950 align:start position:0%
+Let's tell Claude. This chart is trying
+to<00:05:58.600><c> show</c><00:05:58.840><c> two</c><00:05:59.120><c> things</c><00:05:59.400><c> at</c><00:05:59.520><c> once,</c><00:06:00.200><c> market</c><00:06:00.560><c> share</c>
+
+00:06:00.950 --> 00:06:00.960 align:start position:0%
+to show two things at once, market share
+ 
+
+00:06:00.960 --> 00:06:02.390 align:start position:0%
+to show two things at once, market share
+and<00:06:01.120><c> growth</c><00:06:01.360><c> rate.</c>
+
+00:06:02.390 --> 00:06:02.400 align:start position:0%
+and growth rate.
+ 
+
+00:06:02.400 --> 00:06:04.270 align:start position:0%
+and growth rate.
+Replace<00:06:02.840><c> it</c><00:06:02.960><c> with</c><00:06:03.120><c> a</c><00:06:03.200><c> visualization</c><00:06:04.080><c> that</c>
+
+00:06:04.270 --> 00:06:04.280 align:start position:0%
+Replace it with a visualization that
+ 
+
+00:06:04.280 --> 00:06:06.350 align:start position:0%
+Replace it with a visualization that
+makes<00:06:04.600><c> both</c><00:06:04.840><c> dimensions</c><00:06:05.360><c> clear.</c><00:06:05.494><c> [music]</c>
+
+00:06:06.350 --> 00:06:06.360 align:start position:0%
+makes both dimensions clear. [music]
+ 
+
+00:06:06.360 --> 00:06:08.230 align:start position:0%
+makes both dimensions clear. [music]
+I<00:06:06.440><c> want</c><00:06:06.640><c> the</c><00:06:06.760><c> audience</c><00:06:07.200><c> to</c><00:06:07.320><c> immediately</c><00:06:07.960><c> see</c>
+
+00:06:08.230 --> 00:06:08.240 align:start position:0%
+I want the audience to immediately see
+ 
+
+00:06:08.240 --> 00:06:10.430 align:start position:0%
+I want the audience to immediately see
+which<00:06:08.520><c> regions</c><00:06:09.000><c> are</c><00:06:09.160><c> large</c><00:06:09.480><c> today</c><00:06:09.960><c> versus</c>
+
+00:06:10.430 --> 00:06:10.440 align:start position:0%
+which regions are large today versus
+ 
+
+00:06:10.440 --> 00:06:12.870 align:start position:0%
+which regions are large today versus
+which<00:06:10.680><c> are</c><00:06:10.760><c> growing</c><00:06:11.040><c> fastest.</c>
+
+00:06:12.870 --> 00:06:12.880 align:start position:0%
+which are growing fastest.
+ 
+
+00:06:12.880 --> 00:06:14.630 align:start position:0%
+which are growing fastest.
+Claude<00:06:13.200><c> replaces</c><00:06:13.800><c> the</c><00:06:13.920><c> bar</c><00:06:14.080><c> chart</c><00:06:14.400><c> with</c><00:06:14.560><c> a</c>
+
+00:06:14.630 --> 00:06:14.640 align:start position:0%
+Claude replaces the bar chart with a
+ 
+
+00:06:14.640 --> 00:06:16.619 align:start position:0%
+Claude replaces the bar chart with a
+clustered<00:06:15.200><c> horizontal</c><00:06:15.840><c> bar</c><00:06:16.000><c> chart.</c>
+
+00:06:16.619 --> 00:06:16.629 align:start position:0%
+clustered horizontal bar chart.
+ 
+
+00:06:16.629 --> 00:06:16.870 align:start position:0%
+clustered horizontal bar chart.
+&gt;&gt; [music]
+
+00:06:16.870 --> 00:06:16.880 align:start position:0%
+&gt;&gt; [music]
+ 
+
+00:06:16.880 --> 00:06:18.750 align:start position:0%
+&gt;&gt; [music]
+&gt;&gt; The<00:06:16.960><c> bars</c><00:06:17.240><c> are</c><00:06:17.360><c> scaled</c><00:06:17.680><c> proportionally</c><00:06:18.640><c> so</c>
+
+00:06:18.750 --> 00:06:18.760 align:start position:0%
+&gt;&gt; The bars are scaled proportionally so
+ 
+
+00:06:18.760 --> 00:06:21.150 align:start position:0%
+&gt;&gt; The bars are scaled proportionally so
+the<00:06:18.880><c> contrast</c><00:06:19.560><c> is</c><00:06:19.720><c> immediate.</c><00:06:20.640><c> The</c><00:06:20.800><c> audience</c>
+
+00:06:21.150 --> 00:06:21.160 align:start position:0%
+the contrast is immediate. The audience
+ 
+
+00:06:21.160 --> 00:06:22.990 align:start position:0%
+the contrast is immediate. The audience
+can<00:06:21.320><c> now</c><00:06:21.520><c> see</c><00:06:21.760><c> both</c><00:06:22.000><c> dimensions</c><00:06:22.520><c> at</c><00:06:22.680><c> once</c>
+
+00:06:22.990 --> 00:06:23.000 align:start position:0%
+can now see both dimensions at once
+ 
+
+00:06:23.000 --> 00:06:26.150 align:start position:0%
+can now see both dimensions at once
+without<00:06:23.480><c> reading</c><00:06:23.800><c> legend</c><00:06:24.120><c> text.</c>
+
+00:06:26.150 --> 00:06:26.160 align:start position:0%
+without reading legend text.
+ 
+
+00:06:26.160 --> 00:06:28.230 align:start position:0%
+without reading legend text.
+The<00:06:26.240><c> chart</c><00:06:26.520><c> is</c><00:06:26.640><c> native</c><00:06:26.960><c> and</c><00:06:27.080><c> editable.</c>
+
+00:06:28.230 --> 00:06:28.240 align:start position:0%
+The chart is native and editable.
+ 
+
+00:06:28.240 --> 00:06:29.870 align:start position:0%
+The chart is native and editable.
+You<00:06:28.400><c> can</c><00:06:28.600><c> reposition</c><00:06:29.160><c> elements,</c><00:06:29.729><c> [music]</c>
+
+00:06:29.870 --> 00:06:29.880 align:start position:0%
+You can reposition elements, [music]
+ 
+
+00:06:29.880 --> 00:06:32.110 align:start position:0%
+You can reposition elements, [music]
+adjust<00:06:30.200><c> colors,</c><00:06:30.840><c> or</c><00:06:31.080><c> restyle</c><00:06:31.600><c> the</c><00:06:31.720><c> labels</c>
+
+00:06:32.110 --> 00:06:32.120 align:start position:0%
+adjust colors, or restyle the labels
+ 
+
+00:06:32.120 --> 00:06:35.670 align:start position:0%
+adjust colors, or restyle the labels
+directly<00:06:32.680><c> in</c><00:06:32.760><c> PowerPoint.</c>
+
+00:06:35.670 --> 00:06:35.680 align:start position:0%
+ 
+ 
+
+00:06:35.680 --> 00:06:38.710 align:start position:0%
+ 
+From<00:06:36.000><c> adding</c><00:06:36.280><c> sections</c><00:06:37.080><c> to</c><00:06:37.360><c> reshaping</c><00:06:37.919><c> slides</c>
+
+00:06:38.710 --> 00:06:38.720 align:start position:0%
+From adding sections to reshaping slides
+ 
+
+00:06:38.720 --> 00:06:40.830 align:start position:0%
+From adding sections to reshaping slides
+to<00:06:38.880><c> building</c><00:06:39.200><c> charts,</c><00:06:40.000><c> Claude</c><00:06:40.360><c> handles</c><00:06:40.720><c> the</c>
+
+00:06:40.830 --> 00:06:40.840 align:start position:0%
+to building charts, Claude handles the
+ 
+
+00:06:40.840 --> 00:06:42.950 align:start position:0%
+to building charts, Claude handles the
+heavy<00:06:41.160><c> lifting</c><00:06:41.800><c> so</c><00:06:42.000><c> you</c><00:06:42.200><c> can</c><00:06:42.360><c> focus</c><00:06:42.760><c> on</c><00:06:42.840><c> the</c>
+
+00:06:42.950 --> 00:06:42.960 align:start position:0%
+heavy lifting so you can focus on the
+ 
+
+00:06:42.960 --> 00:06:46.560 align:start position:0%
+heavy lifting so you can focus on the
+story<00:06:43.520><c> your</c><00:06:43.640><c> deck</c><00:06:43.840><c> needs</c><00:06:44.080><c> to</c><00:06:44.200><c> tell.</c>
+

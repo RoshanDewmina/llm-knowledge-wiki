@@ -1,0 +1,20 @@
+{
+  "corpus": "anthropic-ai-corpus-2026-06-08",
+  "captured_at": "2026-06-08T09:06:35Z",
+  "sitemap_url": "https://www.anthropic.com/sitemap.xml",
+  "sitemap_total_urls": 437,
+  "research_sitemap_urls": 124,
+  "research_included_pages": 107,
+  "research_excluded_pages": 17,
+  "learn_sitemap_urls": 4,
+  "learn_pages": 4,
+  "missing_learn_links_from_sitemap": [],
+  "scope_filter": "include AI/LLM/ML/deep-learning/math/CS/alignment/safety/interpretability/agents/evals/coding; exclude primarily economics/biology/non-CS science unless directly model/safety relevant",
+  "manual_scope_corrections": [
+    "/research/AI-fluency-index",
+    "/research/impact-software-development",
+    "/research/project-vend-1",
+    "/research/team/interpretability",
+    "/research/tracing-thoughts-language-model"
+  ]
+}

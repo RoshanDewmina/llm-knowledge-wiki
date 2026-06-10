@@ -83,6 +83,29 @@ def serialize_headings(markdown: str) -> List[Dict[str, Any]]:
     return headings
 
 
+def is_sensitive_page(frontmatter: Dict[str, Any]) -> bool:
+    """Return whether a page should not expose body text in frontend caches."""
+
+    sensitivity = str(frontmatter.get("sensitivity", "")).strip().lower()
+    return bool(sensitivity)
+
+
+def redact_markdown_if_sensitive(frontmatter: Dict[str, Any], markdown: str) -> str:
+    """Keep sensitive pages discoverable without copying PII into site-manifest."""
+
+    if not is_sensitive_page(frontmatter):
+        return markdown
+    return ""
+
+
+def sensitive_excerpt(frontmatter: Dict[str, Any], markdown: str) -> str:
+    """Build an excerpt without leaking sensitive page body text."""
+
+    if is_sensitive_page(frontmatter):
+        return "Sensitive page; body redacted from frontend manifest. Open the local markdown file directly when authorized."
+    return str(frontmatter.get("description") or excerpt_from_markdown(markdown))
+
+
 def serialize_wiki_page(path: Path) -> Dict[str, Any]:
     """Serialize one wiki markdown page for the frontend."""
 
@@ -94,7 +117,8 @@ def serialize_wiki_page(path: Path) -> Dict[str, Any]:
         frontmatter, body = load_markdown_page(path)
 
     title = str(frontmatter.get("title") or extract_first_heading(body) or path.stem.replace("-", " ").title())
-    markdown = remove_leading_title(body, title)
+    full_markdown = remove_leading_title(body, title)
+    markdown = redact_markdown_if_sensitive(frontmatter, full_markdown)
     outbound_targets = sorted(set(extract_wikilinks(body) + frontmatter_refs(frontmatter)))
     relative_path = path.resolve().relative_to(WIKI_DIR.resolve()).as_posix()
 
@@ -107,7 +131,7 @@ def serialize_wiki_page(path: Path) -> Dict[str, Any]:
         "frontmatter": frontmatter,
         "markdown": markdown,
         "headings": serialize_headings(markdown),
-        "excerpt": str(frontmatter.get("description") or excerpt_from_markdown(markdown)),
+        "excerpt": sensitive_excerpt(frontmatter, full_markdown),
         "outbound_targets": outbound_targets,
         "source_path": str(frontmatter.get("source_path", "")).strip() or None,
         "source_url": str(frontmatter.get("source_url", "")).strip() or None,
@@ -119,14 +143,15 @@ def serialize_raw_document(path: Path) -> Dict[str, Any]:
 
     frontmatter, body = load_optional_markdown_page(path)
     title = str(frontmatter.get("title") or extract_first_heading(body) or path.stem.replace("-", " ").title())
-    markdown = remove_leading_title(body, title)
+    full_markdown = remove_leading_title(body, title)
+    markdown = redact_markdown_if_sensitive(frontmatter, full_markdown)
     return {
         "title": title,
         "relative_path": repo_relative(path),
         "frontmatter": frontmatter,
         "markdown": markdown,
         "headings": serialize_headings(markdown),
-        "excerpt": str(frontmatter.get("description") or excerpt_from_markdown(markdown)),
+        "excerpt": sensitive_excerpt(frontmatter, full_markdown),
         "source_url": str(frontmatter.get("source_url", "")).strip() or None,
         "source_domain": str(frontmatter.get("source_domain", "")).strip() or None,
     }

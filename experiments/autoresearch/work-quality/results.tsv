@@ -1,0 +1,3 @@
+run_id	created_at	target	evaluator_version	score	status	decision	description	evidence_path
+work-quality-2024-03-16		day	Work Quality Frozen Evaluator v1		candidate	pending		wiki/reviews/daily/2024-03-16-review.md
+work-quality-2026-05-05	2026-05-06T01:47:54Z	day	Work Quality Frozen Evaluator v1	0.00	scored	lower-scope-tomorrow	No plan, no streak completions, and no last-24h wiki/experiment artifacts; professor goals remain due 2026-05-10.	wiki/reviews/daily/2026-05-05-review.md

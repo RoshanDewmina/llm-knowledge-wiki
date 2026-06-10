@@ -25,6 +25,52 @@ from wiki_utils import (
 
 OUTPUT_PATH = WIKI_DIR / "reviews" / "review-queue.md"
 LOW_CONFIDENCE_THRESHOLD = 0.75
+GENERATED_ARTIFACT_PATHS = [
+    "apps/research-cockpit/.build",
+    "apps/site/test-results",
+]
+
+
+def is_workflow_or_context_ref(ref: str) -> bool:
+    """Return True for low-confidence pages that are workflow/context noise, not research gaps."""
+
+    return ref.startswith((
+        "journal/",
+        "reviews/daily/",
+        "benchmarks/autoresearch/",
+        "questions/",
+        "syntheses/context/",
+        "studies/courses/",
+    ))
+
+
+def human_size(size: int) -> str:
+    """Render a small human-readable file size."""
+
+    value = float(size)
+    for unit in ["B", "KB", "MB", "GB"]:
+        if value < 1024 or unit == "GB":
+            return f"{value:.1f} {unit}" if unit != "B" else f"{int(value)} B"
+        value /= 1024
+    return f"{size} B"
+
+
+def collect_generated_artifacts() -> List[Dict[str, str]]:
+    """Collect generated app/test artifacts that should be excluded from the active vault surface."""
+
+    repo_root = WIKI_DIR.parent
+    items: List[Dict[str, str]] = []
+    for rel in GENERATED_ARTIFACT_PATHS:
+        path = repo_root / rel
+        if not path.exists():
+            continue
+        if path.is_dir():
+            files = [item for item in path.rglob("*") if item.is_file()]
+            size = sum(item.stat().st_size for item in files)
+            items.append({"path": rel + "/", "files": str(len(files)), "size": human_size(size)})
+        elif path.is_file():
+            items.append({"path": rel, "files": "1", "size": human_size(path.stat().st_size)})
+    return items
 
 
 def collect_orphans() -> List[Dict[str, str]]:
@@ -158,6 +204,7 @@ def main() -> int:
     incomplete_source_items = collect_incomplete_sources()
     citation_items = collect_citation_errors([page.path for page in pages])
     duplicate_items = collect_duplicates()
+    generated_artifact_items = collect_generated_artifacts()
 
     source_refs: Set[str] = set()
     for item in stale_items:
@@ -194,6 +241,7 @@ def main() -> int:
         + len(incomplete_source_items)
         + len(citation_items)
         + len(duplicate_items)
+        + len(generated_artifact_items)
     )
     summary_lines.append(f"- Open issue groups: `{issue_count}`")
 
@@ -201,8 +249,15 @@ def main() -> int:
     incomplete_source_lines = [
         f"- [[{item['ref']}]] -> status `{item['status']}`" for item in incomplete_source_items
     ]
-    low_confidence_lines = [
-        f"- [[{item['ref']}]] -> confidence `{item['confidence']}`" for item in low_confidence_items
+    low_confidence_research_lines = [
+        f"- [[{item['ref']}]] -> confidence `{item['confidence']}`"
+        for item in low_confidence_items
+        if not is_workflow_or_context_ref(item["ref"])
+    ]
+    low_confidence_workflow_lines = [
+        f"- [[{item['ref']}]] -> confidence `{item['confidence']}`"
+        for item in low_confidence_items
+        if is_workflow_or_context_ref(item["ref"])
     ]
     orphan_lines = [f"- [[{item['ref']}]] -> no inbound or outbound internal links" for item in orphan_items]
     citation_lines = [f"- `{item['path']}` -> {item['message']}" for item in citation_items]
@@ -213,6 +268,10 @@ def main() -> int:
         )
         for duplicate in duplicate_items
     ]
+    generated_artifact_lines = [
+        f"- `{item['path']}` -> `{item['files']}` generated file(s), `{item['size']}`; exclude or delete only with explicit confirmation"
+        for item in generated_artifact_items
+    ]
 
     body = (
         "# Review Queue\n\n"
@@ -222,7 +281,11 @@ def main() -> int:
         + "\n"
         + build_section("Source Pages Needing Review", incomplete_source_lines, "- No source pages remain in stub or draft status.")
         + "\n"
-        + build_section("Low-Confidence Pages", low_confidence_lines, f"- No page is below confidence `{LOW_CONFIDENCE_THRESHOLD}`.")
+        + build_section("Low-Confidence Research Pages", low_confidence_research_lines, f"- No research/source/study page is below confidence `{LOW_CONFIDENCE_THRESHOLD}`.")
+        + "\n"
+        + build_section("Low-Confidence Workflow / Archive Pages", low_confidence_workflow_lines, "- No low-confidence workflow/archive pages detected.")
+        + "\n"
+        + build_section("Generated Artifact Warnings", generated_artifact_lines, "- No generated app/test artifacts detected in the active vault tree.")
         + "\n"
         + build_section("Citation Gaps", citation_lines, "- Exact citation coverage looks healthy.")
         + "\n"
@@ -231,7 +294,7 @@ def main() -> int:
         + build_section("Duplicate Candidates", duplicate_lines, "- No obvious duplicate concept-like pages detected.")
         + "\n"
         + "## Recommended Next Pass\n\n"
-        + "- Start with the oldest stale page or the newest source page still in `stub`/`draft` status.\n"
+        + "- Start with source pages still in `stub`/`draft` status, then research low-confidence pages. Treat daily-plan/review low-confidence entries as workflow noise unless Roshan is actively using them.\n"
         + "- Add exact evidence anchors under each affected source page before revising derived pages.\n"
         + "- Prefer updating existing concept, synthesis, and output pages over creating new near-duplicates.\n"
     )

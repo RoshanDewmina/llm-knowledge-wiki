@@ -1,0 +1,2027 @@
+[
+  {
+    "id": "n4ZxEznNaIY",
+    "tab": "videos",
+    "title": "How Anthropic uses Claude in GTM Engineering",
+    "url": "https://www.youtube.com/watch?v=n4ZxEznNaIY",
+    "info_json": "youtube/raw/n4ZxEznNaIY/n4ZxEznNaIY.info.json",
+    "caption_files": [
+      "youtube/raw/n4ZxEznNaIY/n4ZxEznNaIY.en-orig.vtt",
+      "youtube/raw/n4ZxEznNaIY/n4ZxEznNaIY.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/n4ZxEznNaIY/n4ZxEznNaIY.en.vtt",
+    "transcript_file": "youtube/transcripts/how-anthropic-uses-claude-in-gtm-engineering-n4ZxEznNaIY.md",
+    "transcript_chars": 2608,
+    "transcript_lines": 78,
+    "upload_date": "20260605",
+    "duration": "2:23"
+  },
+  {
+    "id": "rjSvJYrVY2k",
+    "tab": "videos",
+    "title": "The Problem Solvers | Anton Osika at Lovable",
+    "url": "https://www.youtube.com/watch?v=rjSvJYrVY2k",
+    "info_json": "youtube/raw/rjSvJYrVY2k/rjSvJYrVY2k.info.json",
+    "caption_files": [
+      "youtube/raw/rjSvJYrVY2k/rjSvJYrVY2k.en-en.vtt",
+      "youtube/raw/rjSvJYrVY2k/rjSvJYrVY2k.en-orig.vtt",
+      "youtube/raw/rjSvJYrVY2k/rjSvJYrVY2k.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/rjSvJYrVY2k/rjSvJYrVY2k.en.vtt",
+    "transcript_file": "youtube/transcripts/the-problem-solvers-anton-osika-at-lovable-rjSvJYrVY2k.md",
+    "transcript_chars": 2338,
+    "transcript_lines": 85,
+    "upload_date": "20260604",
+    "duration": "2:40"
+  },
+  {
+    "id": "8N1-XHNupfg",
+    "tab": "videos",
+    "title": "Team thinking, visualized by Claude",
+    "url": "https://www.youtube.com/watch?v=8N1-XHNupfg",
+    "info_json": "youtube/raw/8N1-XHNupfg/8N1-XHNupfg.info.json",
+    "caption_files": [
+      "youtube/raw/8N1-XHNupfg/8N1-XHNupfg.en-orig.vtt",
+      "youtube/raw/8N1-XHNupfg/8N1-XHNupfg.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/8N1-XHNupfg/8N1-XHNupfg.en.vtt",
+    "transcript_file": "youtube/transcripts/team-thinking-visualized-by-claude-8N1-XHNupfg.md",
+    "transcript_chars": 215,
+    "transcript_lines": 12,
+    "upload_date": "20260603",
+    "duration": "30"
+  },
+  {
+    "id": "bjrmYsFae_g",
+    "tab": "videos",
+    "title": "The Problem Solvers | Max Junestrand at Legora",
+    "url": "https://www.youtube.com/watch?v=bjrmYsFae_g",
+    "info_json": "youtube/raw/bjrmYsFae_g/bjrmYsFae_g.info.json",
+    "caption_files": [
+      "youtube/raw/bjrmYsFae_g/bjrmYsFae_g.en-en.vtt",
+      "youtube/raw/bjrmYsFae_g/bjrmYsFae_g.en-orig.vtt",
+      "youtube/raw/bjrmYsFae_g/bjrmYsFae_g.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/bjrmYsFae_g/bjrmYsFae_g.en.vtt",
+    "transcript_file": "youtube/transcripts/the-problem-solvers-max-junestrand-at-legora-bjrmYsFae_g.md",
+    "transcript_chars": 2276,
+    "transcript_lines": 81,
+    "upload_date": "20260602",
+    "duration": "2:43"
+  },
+  {
+    "id": "CG7Rcl49C2w",
+    "tab": "videos",
+    "title": "Before we ship a Claude model, these teams try to break it.",
+    "url": "https://www.youtube.com/watch?v=CG7Rcl49C2w",
+    "info_json": "youtube/raw/CG7Rcl49C2w/CG7Rcl49C2w.info.json",
+    "caption_files": [
+      "youtube/raw/CG7Rcl49C2w/CG7Rcl49C2w.en-en.vtt",
+      "youtube/raw/CG7Rcl49C2w/CG7Rcl49C2w.en-orig.vtt",
+      "youtube/raw/CG7Rcl49C2w/CG7Rcl49C2w.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/CG7Rcl49C2w/CG7Rcl49C2w.en.vtt",
+    "transcript_file": "youtube/transcripts/before-we-ship-a-claude-model-these-teams-try-to-break-it-CG7Rcl49C2w.md",
+    "transcript_chars": 3030,
+    "transcript_lines": 99,
+    "upload_date": "20260528",
+    "duration": "3:13"
+  },
+  {
+    "id": "5HVPeux24WU",
+    "tab": "videos",
+    "title": "Embrace long-running tasks with Opus 4.8 and Claude Code",
+    "url": "https://www.youtube.com/watch?v=5HVPeux24WU",
+    "info_json": "youtube/raw/5HVPeux24WU/5HVPeux24WU.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260528",
+    "duration": "1:21"
+  },
+  {
+    "id": "kUQD5ZElyB4",
+    "tab": "videos",
+    "title": "The Problem Solvers: Michele Catasta at Replit",
+    "url": "https://www.youtube.com/watch?v=kUQD5ZElyB4",
+    "info_json": "youtube/raw/kUQD5ZElyB4/kUQD5ZElyB4.info.json",
+    "caption_files": [
+      "youtube/raw/kUQD5ZElyB4/kUQD5ZElyB4.en-en.vtt",
+      "youtube/raw/kUQD5ZElyB4/kUQD5ZElyB4.en-orig.vtt",
+      "youtube/raw/kUQD5ZElyB4/kUQD5ZElyB4.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/kUQD5ZElyB4/kUQD5ZElyB4.en.vtt",
+    "transcript_file": "youtube/transcripts/the-problem-solvers-michele-catasta-at-replit-kUQD5ZElyB4.md",
+    "transcript_chars": 2390,
+    "transcript_lines": 85,
+    "upload_date": "20260527",
+    "duration": "2:29"
+  },
+  {
+    "id": "19HDQ9HppOA",
+    "tab": "videos",
+    "title": "Ship your first Managed Agent",
+    "url": "https://www.youtube.com/watch?v=19HDQ9HppOA",
+    "info_json": "youtube/raw/19HDQ9HppOA/19HDQ9HppOA.info.json",
+    "caption_files": [
+      "youtube/raw/19HDQ9HppOA/19HDQ9HppOA.en-orig.vtt",
+      "youtube/raw/19HDQ9HppOA/19HDQ9HppOA.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/19HDQ9HppOA/19HDQ9HppOA.en.vtt",
+    "transcript_file": "youtube/transcripts/ship-your-first-managed-agent-19HDQ9HppOA.md",
+    "transcript_chars": 39603,
+    "transcript_lines": 1107,
+    "upload_date": "20260526",
+    "duration": "37:09"
+  },
+  {
+    "id": "mWvtOHlZM-I",
+    "tab": "videos",
+    "title": "Tool, skill, or subagent? Decomposing an agent that outgrew its prompt",
+    "url": "https://www.youtube.com/watch?v=mWvtOHlZM-I",
+    "info_json": "youtube/raw/mWvtOHlZM-I/mWvtOHlZM-I.info.json",
+    "caption_files": [
+      "youtube/raw/mWvtOHlZM-I/mWvtOHlZM-I.en-orig.vtt",
+      "youtube/raw/mWvtOHlZM-I/mWvtOHlZM-I.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/mWvtOHlZM-I/mWvtOHlZM-I.en.vtt",
+    "transcript_file": "youtube/transcripts/tool-skill-or-subagent-decomposing-an-agent-that-outgrew-its-prompt-mWvtOHlZM-I.md",
+    "transcript_chars": 42037,
+    "transcript_lines": 1174,
+    "upload_date": "20260523",
+    "duration": "45:06"
+  },
+  {
+    "id": "dxqX_6ciVQA",
+    "tab": "videos",
+    "title": "Agent Battle: Mine the most diamonds in 45 minutes",
+    "url": "https://www.youtube.com/watch?v=dxqX_6ciVQA",
+    "info_json": "youtube/raw/dxqX_6ciVQA/dxqX_6ciVQA.info.json",
+    "caption_files": [
+      "youtube/raw/dxqX_6ciVQA/dxqX_6ciVQA.en-orig.vtt",
+      "youtube/raw/dxqX_6ciVQA/dxqX_6ciVQA.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/dxqX_6ciVQA/dxqX_6ciVQA.en.vtt",
+    "transcript_file": "youtube/transcripts/agent-battle-mine-the-most-diamonds-in-45-minutes-dxqX_6ciVQA.md",
+    "transcript_chars": 6876,
+    "transcript_lines": 187,
+    "upload_date": "20260523",
+    "duration": "8:45"
+  },
+  {
+    "id": "v9FTCvkV_a0",
+    "tab": "videos",
+    "title": "Evals for taste: Hill-climbing a slide-generation agent",
+    "url": "https://www.youtube.com/watch?v=v9FTCvkV_a0",
+    "info_json": "youtube/raw/v9FTCvkV_a0/v9FTCvkV_a0.info.json",
+    "caption_files": [
+      "youtube/raw/v9FTCvkV_a0/v9FTCvkV_a0.en-orig.vtt",
+      "youtube/raw/v9FTCvkV_a0/v9FTCvkV_a0.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/v9FTCvkV_a0/v9FTCvkV_a0.en.vtt",
+    "transcript_file": "youtube/transcripts/evals-for-taste-hill-climbing-a-slide-generation-agent-v9FTCvkV_a0.md",
+    "transcript_chars": 40519,
+    "transcript_lines": 1200,
+    "upload_date": "20260523",
+    "duration": "39:16"
+  },
+  {
+    "id": "geUv4CjPpxI",
+    "tab": "videos",
+    "title": "Agents that remember",
+    "url": "https://www.youtube.com/watch?v=geUv4CjPpxI",
+    "info_json": "youtube/raw/geUv4CjPpxI/geUv4CjPpxI.info.json",
+    "caption_files": [
+      "youtube/raw/geUv4CjPpxI/geUv4CjPpxI.en-orig.vtt",
+      "youtube/raw/geUv4CjPpxI/geUv4CjPpxI.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/geUv4CjPpxI/geUv4CjPpxI.en.vtt",
+    "transcript_file": "youtube/transcripts/agents-that-remember-geUv4CjPpxI.md",
+    "transcript_chars": 25931,
+    "transcript_lines": 712,
+    "upload_date": "20260523",
+    "duration": "28:42"
+  },
+  {
+    "id": "IlqJqcl8ONE",
+    "tab": "videos",
+    "title": "How we Claude Code",
+    "url": "https://www.youtube.com/watch?v=IlqJqcl8ONE",
+    "info_json": "youtube/raw/IlqJqcl8ONE/IlqJqcl8ONE.info.json",
+    "caption_files": [
+      "youtube/raw/IlqJqcl8ONE/IlqJqcl8ONE.en-orig.vtt",
+      "youtube/raw/IlqJqcl8ONE/IlqJqcl8ONE.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/IlqJqcl8ONE/IlqJqcl8ONE.en.vtt",
+    "transcript_file": "youtube/transcripts/how-we-claude-code-IlqJqcl8ONE.md",
+    "transcript_chars": 25434,
+    "transcript_lines": 857,
+    "upload_date": "20260523",
+    "duration": "31:43"
+  },
+  {
+    "id": "qOjleN2-50c",
+    "tab": "videos",
+    "title": "Making agentic workflows trustworthy and verifiable with a custom DSL",
+    "url": "https://www.youtube.com/watch?v=qOjleN2-50c",
+    "info_json": "youtube/raw/qOjleN2-50c/qOjleN2-50c.info.json",
+    "caption_files": [
+      "youtube/raw/qOjleN2-50c/qOjleN2-50c.en-orig.vtt",
+      "youtube/raw/qOjleN2-50c/qOjleN2-50c.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/qOjleN2-50c/qOjleN2-50c.en.vtt",
+    "transcript_file": "youtube/transcripts/making-agentic-workflows-trustworthy-and-verifiable-with-a-custom-dsl-qOjleN2-50c.md",
+    "transcript_chars": 28522,
+    "transcript_lines": 869,
+    "upload_date": "20260522",
+    "duration": "29:39"
+  },
+  {
+    "id": "MyYe6C4NVu0",
+    "tab": "videos",
+    "title": "The Problem Solvers: Kay Zhu at Genspark",
+    "url": "https://www.youtube.com/watch?v=MyYe6C4NVu0",
+    "info_json": "youtube/raw/MyYe6C4NVu0/MyYe6C4NVu0.info.json",
+    "caption_files": [
+      "youtube/raw/MyYe6C4NVu0/MyYe6C4NVu0.en-en.vtt",
+      "youtube/raw/MyYe6C4NVu0/MyYe6C4NVu0.en-orig.vtt",
+      "youtube/raw/MyYe6C4NVu0/MyYe6C4NVu0.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/MyYe6C4NVu0/MyYe6C4NVu0.en.vtt",
+    "transcript_file": "youtube/transcripts/the-problem-solvers-kay-zhu-at-genspark-MyYe6C4NVu0.md",
+    "transcript_chars": 1731,
+    "transcript_lines": 61,
+    "upload_date": "20260522",
+    "duration": "2:07"
+  },
+  {
+    "id": "tUoO4ucrNc0",
+    "tab": "videos",
+    "title": "Fighting financial crime with Claude Cowork",
+    "url": "https://www.youtube.com/watch?v=tUoO4ucrNc0",
+    "info_json": "youtube/raw/tUoO4ucrNc0/tUoO4ucrNc0.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260522",
+    "duration": "27:52"
+  },
+  {
+    "id": "T8N0MED3IJo",
+    "tab": "videos",
+    "title": "Where code meets court: AI at the legal-technical frontier",
+    "url": "https://www.youtube.com/watch?v=T8N0MED3IJo",
+    "info_json": "youtube/raw/T8N0MED3IJo/T8N0MED3IJo.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260522",
+    "duration": "32:15"
+  },
+  {
+    "id": "M5uwBawBDpw",
+    "tab": "videos",
+    "title": "How AirOps chases friction to build AI products with Claude",
+    "url": "https://www.youtube.com/watch?v=M5uwBawBDpw",
+    "info_json": "youtube/raw/M5uwBawBDpw/M5uwBawBDpw.info.json",
+    "caption_files": [
+      "youtube/raw/M5uwBawBDpw/M5uwBawBDpw.en-orig.vtt",
+      "youtube/raw/M5uwBawBDpw/M5uwBawBDpw.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/M5uwBawBDpw/M5uwBawBDpw.en.vtt",
+    "transcript_file": "youtube/transcripts/how-airops-chases-friction-to-build-ai-products-with-claude-M5uwBawBDpw.md",
+    "transcript_chars": 27931,
+    "transcript_lines": 809,
+    "upload_date": "20260522",
+    "duration": "26:47"
+  },
+  {
+    "id": "A3rmSUp6Dxg",
+    "tab": "videos",
+    "title": "How Metaview built self-improving prompts for application review",
+    "url": "https://www.youtube.com/watch?v=A3rmSUp6Dxg",
+    "info_json": "youtube/raw/A3rmSUp6Dxg/A3rmSUp6Dxg.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260522",
+    "duration": "16:46"
+  },
+  {
+    "id": "uGroRwlC9y4",
+    "tab": "videos",
+    "title": "Teaching agents to learn from your team",
+    "url": "https://www.youtube.com/watch?v=uGroRwlC9y4",
+    "info_json": "youtube/raw/uGroRwlC9y4/uGroRwlC9y4.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260522",
+    "duration": "28:29"
+  },
+  {
+    "id": "tuY2ChJIx48",
+    "tab": "videos",
+    "title": "Beyond the basics with Claude Code",
+    "url": "https://www.youtube.com/watch?v=tuY2ChJIx48",
+    "info_json": "youtube/raw/tuY2ChJIx48/tuY2ChJIx48.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260522",
+    "duration": "47:19"
+  },
+  {
+    "id": "IA5LWIGqnyM",
+    "tab": "videos",
+    "title": "Running an AI-native engineering org",
+    "url": "https://www.youtube.com/watch?v=IA5LWIGqnyM",
+    "info_json": "youtube/raw/IA5LWIGqnyM/IA5LWIGqnyM.info.json",
+    "caption_files": [
+      "youtube/raw/IA5LWIGqnyM/IA5LWIGqnyM.en-orig.vtt",
+      "youtube/raw/IA5LWIGqnyM/IA5LWIGqnyM.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/IA5LWIGqnyM/IA5LWIGqnyM.en.vtt",
+    "transcript_file": "youtube/transcripts/running-an-ai-native-engineering-org-IA5LWIGqnyM.md",
+    "transcript_chars": 29353,
+    "transcript_lines": 794,
+    "upload_date": "20260522",
+    "duration": "26:38"
+  },
+  {
+    "id": "QIriO1-vHYw",
+    "tab": "videos",
+    "title": "Getting more out of the Claude Platform",
+    "url": "https://www.youtube.com/watch?v=QIriO1-vHYw",
+    "info_json": "youtube/raw/QIriO1-vHYw/QIriO1-vHYw.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260522",
+    "duration": "26:41"
+  },
+  {
+    "id": "G2B0YWuJUgI",
+    "tab": "videos",
+    "title": "The prompting playbook",
+    "url": "https://www.youtube.com/watch?v=G2B0YWuJUgI",
+    "info_json": "youtube/raw/G2B0YWuJUgI/G2B0YWuJUgI.info.json",
+    "caption_files": [
+      "youtube/raw/G2B0YWuJUgI/G2B0YWuJUgI.en-orig.vtt",
+      "youtube/raw/G2B0YWuJUgI/G2B0YWuJUgI.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/G2B0YWuJUgI/G2B0YWuJUgI.en.vtt",
+    "transcript_file": "youtube/transcripts/the-prompting-playbook-G2B0YWuJUgI.md",
+    "transcript_chars": 25896,
+    "transcript_lines": 716,
+    "upload_date": "20260522",
+    "duration": "33:49"
+  },
+  {
+    "id": "DNRddIEoH3c",
+    "tab": "videos",
+    "title": "The capability curve",
+    "url": "https://www.youtube.com/watch?v=DNRddIEoH3c",
+    "info_json": "youtube/raw/DNRddIEoH3c/DNRddIEoH3c.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260522",
+    "duration": "26:25"
+  },
+  {
+    "id": "Uvl-tRga98g",
+    "tab": "videos",
+    "title": "Designing with Claude: From prompt to production",
+    "url": "https://www.youtube.com/watch?v=Uvl-tRga98g",
+    "info_json": "youtube/raw/Uvl-tRga98g/Uvl-tRga98g.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260522",
+    "duration": "28:00"
+  },
+  {
+    "id": "K4-flzsPraE",
+    "tab": "videos",
+    "title": "Building the best agentic analytics harness: Powered by Claude, built with Claude Code",
+    "url": "https://www.youtube.com/watch?v=K4-flzsPraE",
+    "info_json": "youtube/raw/K4-flzsPraE/K4-flzsPraE.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260521",
+    "duration": "26:46"
+  },
+  {
+    "id": "l8fxVYIP4HQ",
+    "tab": "videos",
+    "title": "Building with Claude on Google Cloud",
+    "url": "https://www.youtube.com/watch?v=l8fxVYIP4HQ",
+    "info_json": "youtube/raw/l8fxVYIP4HQ/l8fxVYIP4HQ.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260521",
+    "duration": "24:38"
+  },
+  {
+    "id": "EOg4gY0Yln0",
+    "tab": "videos",
+    "title": "Building signals that trade themselves",
+    "url": "https://www.youtube.com/watch?v=EOg4gY0Yln0",
+    "info_json": "youtube/raw/EOg4gY0Yln0/EOg4gY0Yln0.info.json",
+    "caption_files": [
+      "youtube/raw/EOg4gY0Yln0/EOg4gY0Yln0.en-orig.vtt",
+      "youtube/raw/EOg4gY0Yln0/EOg4gY0Yln0.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/EOg4gY0Yln0/EOg4gY0Yln0.en.vtt",
+    "transcript_file": "youtube/transcripts/building-signals-that-trade-themselves-EOg4gY0Yln0.md",
+    "transcript_chars": 15618,
+    "transcript_lines": 451,
+    "upload_date": "20260521",
+    "duration": "20:45"
+  },
+  {
+    "id": "P0uMXS6emHA",
+    "tab": "videos",
+    "title": "Picking the right model",
+    "url": "https://www.youtube.com/watch?v=P0uMXS6emHA",
+    "info_json": "youtube/raw/P0uMXS6emHA/P0uMXS6emHA.info.json",
+    "caption_files": [
+      "youtube/raw/P0uMXS6emHA/P0uMXS6emHA.en-orig.vtt",
+      "youtube/raw/P0uMXS6emHA/P0uMXS6emHA.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/P0uMXS6emHA/P0uMXS6emHA.en.vtt",
+    "transcript_file": "youtube/transcripts/picking-the-right-model-P0uMXS6emHA.md",
+    "transcript_chars": 28423,
+    "transcript_lines": 848,
+    "upload_date": "20260521",
+    "duration": "31:39"
+  },
+  {
+    "id": "IGo225tfF2I",
+    "tab": "videos",
+    "title": "Memory and dreaming for self learning agents",
+    "url": "https://www.youtube.com/watch?v=IGo225tfF2I",
+    "info_json": "youtube/raw/IGo225tfF2I/IGo225tfF2I.info.json",
+    "caption_files": [
+      "youtube/raw/IGo225tfF2I/IGo225tfF2I.en-orig.vtt",
+      "youtube/raw/IGo225tfF2I/IGo225tfF2I.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/IGo225tfF2I/IGo225tfF2I.en.vtt",
+    "transcript_file": "youtube/transcripts/memory-and-dreaming-for-self-learning-agents-IGo225tfF2I.md",
+    "transcript_chars": 16380,
+    "transcript_lines": 543,
+    "upload_date": "20260521",
+    "duration": "21:34"
+  },
+  {
+    "id": "nho1YAEPuwA",
+    "tab": "videos",
+    "title": "What legal agents inherit from coding agents: Lessons from Legora",
+    "url": "https://www.youtube.com/watch?v=nho1YAEPuwA",
+    "info_json": "youtube/raw/nho1YAEPuwA/nho1YAEPuwA.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260521",
+    "duration": "28:43"
+  },
+  {
+    "id": "zenIB7XLZxQ",
+    "tab": "videos",
+    "title": "How to get to production faster with Claude Managed Agents",
+    "url": "https://www.youtube.com/watch?v=zenIB7XLZxQ",
+    "info_json": "youtube/raw/zenIB7XLZxQ/zenIB7XLZxQ.info.json",
+    "caption_files": [
+      "youtube/raw/zenIB7XLZxQ/zenIB7XLZxQ.en-orig.vtt",
+      "youtube/raw/zenIB7XLZxQ/zenIB7XLZxQ.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/zenIB7XLZxQ/zenIB7XLZxQ.en.vtt",
+    "transcript_file": "youtube/transcripts/how-to-get-to-production-faster-with-claude-managed-agents-zenIB7XLZxQ.md",
+    "transcript_chars": 32121,
+    "transcript_lines": 916,
+    "upload_date": "20260521",
+    "duration": "29:04"
+  },
+  {
+    "id": "jWWsLe4Gh5Y",
+    "tab": "videos",
+    "title": "Build a production-ready agent with Claude Managed Agents",
+    "url": "https://www.youtube.com/watch?v=jWWsLe4Gh5Y",
+    "info_json": "youtube/raw/jWWsLe4Gh5Y/jWWsLe4Gh5Y.info.json",
+    "caption_files": [
+      "youtube/raw/jWWsLe4Gh5Y/jWWsLe4Gh5Y.en-orig.vtt",
+      "youtube/raw/jWWsLe4Gh5Y/jWWsLe4Gh5Y.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/jWWsLe4Gh5Y/jWWsLe4Gh5Y.en.vtt",
+    "transcript_file": "youtube/transcripts/build-a-production-ready-agent-with-claude-managed-agents-jWWsLe4Gh5Y.md",
+    "transcript_chars": 29511,
+    "transcript_lines": 850,
+    "upload_date": "20260521",
+    "duration": "27:23"
+  },
+  {
+    "id": "T7KqH7kYnE4",
+    "tab": "videos",
+    "title": "The thinking lever",
+    "url": "https://www.youtube.com/watch?v=T7KqH7kYnE4",
+    "info_json": "youtube/raw/T7KqH7kYnE4/T7KqH7kYnE4.info.json",
+    "caption_files": [
+      "youtube/raw/T7KqH7kYnE4/T7KqH7kYnE4.en-orig.vtt",
+      "youtube/raw/T7KqH7kYnE4/T7KqH7kYnE4.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/T7KqH7kYnE4/T7KqH7kYnE4.en.vtt",
+    "transcript_file": "youtube/transcripts/the-thinking-lever-T7KqH7kYnE4.md",
+    "transcript_chars": 19755,
+    "transcript_lines": 585,
+    "upload_date": "20260520",
+    "duration": "21:17"
+  },
+  {
+    "id": "mhW-XXnDFSU",
+    "tab": "videos",
+    "title": "How Lovable vibecodes production software at scale",
+    "url": "https://www.youtube.com/watch?v=mhW-XXnDFSU",
+    "info_json": "youtube/raw/mhW-XXnDFSU/mhW-XXnDFSU.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260520",
+    "duration": "31:10"
+  },
+  {
+    "id": "XFaeIbL-lvE",
+    "tab": "videos",
+    "title": "Building AI-native at enterprise scale: monday.com, Doctolib, and Delivery Hero",
+    "url": "https://www.youtube.com/watch?v=XFaeIbL-lvE",
+    "info_json": "youtube/raw/XFaeIbL-lvE/XFaeIbL-lvE.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260520",
+    "duration": "29:10"
+  },
+  {
+    "id": "VueeyKcquoA",
+    "tab": "videos",
+    "title": "From one person to 80: Scaling a hypergrowth engineering org with Claude Code",
+    "url": "https://www.youtube.com/watch?v=VueeyKcquoA",
+    "info_json": "youtube/raw/VueeyKcquoA/VueeyKcquoA.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260520",
+    "duration": "23:58"
+  },
+  {
+    "id": "eSP7PLTXNy8",
+    "tab": "videos",
+    "title": "Build a proactive agent workflow with Claude Code",
+    "url": "https://www.youtube.com/watch?v=eSP7PLTXNy8",
+    "info_json": "youtube/raw/eSP7PLTXNy8/eSP7PLTXNy8.info.json",
+    "caption_files": [
+      "youtube/raw/eSP7PLTXNy8/eSP7PLTXNy8.en-orig.vtt",
+      "youtube/raw/eSP7PLTXNy8/eSP7PLTXNy8.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/eSP7PLTXNy8/eSP7PLTXNy8.en.vtt",
+    "transcript_file": "youtube/transcripts/build-a-proactive-agent-workflow-with-claude-code-eSP7PLTXNy8.md",
+    "transcript_chars": 19263,
+    "transcript_lines": 580,
+    "upload_date": "20260520",
+    "duration": "22:03"
+  },
+  {
+    "id": "TQd_YQvydVg",
+    "tab": "videos",
+    "title": "Build AI agents using Claude in Microsoft Foundry",
+    "url": "https://www.youtube.com/watch?v=TQd_YQvydVg",
+    "info_json": "youtube/raw/TQd_YQvydVg/TQd_YQvydVg.info.json",
+    "caption_files": [
+      "youtube/raw/TQd_YQvydVg/TQd_YQvydVg.en-orig.vtt",
+      "youtube/raw/TQd_YQvydVg/TQd_YQvydVg.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/TQd_YQvydVg/TQd_YQvydVg.en.vtt",
+    "transcript_file": "youtube/transcripts/build-ai-agents-using-claude-in-microsoft-foundry-TQd_YQvydVg.md",
+    "transcript_chars": 26980,
+    "transcript_lines": 746,
+    "upload_date": "20260520",
+    "duration": "34:16"
+  },
+  {
+    "id": "zFslvuvYifQ",
+    "tab": "videos",
+    "title": "Coding is no longer the constraint: Scaling devex to teams and agents at Spotify",
+    "url": "https://www.youtube.com/watch?v=zFslvuvYifQ",
+    "info_json": "youtube/raw/zFslvuvYifQ/zFslvuvYifQ.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260520",
+    "duration": "27:36"
+  },
+  {
+    "id": "5YHIrTYxM3w",
+    "tab": "videos",
+    "title": "AI with Claude on AWS: From code to orchestration",
+    "url": "https://www.youtube.com/watch?v=5YHIrTYxM3w",
+    "info_json": "youtube/raw/5YHIrTYxM3w/5YHIrTYxM3w.info.json",
+    "caption_files": [
+      "youtube/raw/5YHIrTYxM3w/5YHIrTYxM3w.en-orig.vtt",
+      "youtube/raw/5YHIrTYxM3w/5YHIrTYxM3w.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/5YHIrTYxM3w/5YHIrTYxM3w.en.vtt",
+    "transcript_file": "youtube/transcripts/ai-with-claude-on-aws-from-code-to-orchestration-5YHIrTYxM3w.md",
+    "transcript_chars": 18571,
+    "transcript_lines": 542,
+    "upload_date": "20260520",
+    "duration": "19:42"
+  },
+  {
+    "id": "wI0ptqCSL0I",
+    "tab": "videos",
+    "title": "Stop babysitting your agents",
+    "url": "https://www.youtube.com/watch?v=wI0ptqCSL0I",
+    "info_json": "youtube/raw/wI0ptqCSL0I/wI0ptqCSL0I.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260520",
+    "duration": "37:07"
+  },
+  {
+    "id": "sRvUXLquiRg",
+    "tab": "videos",
+    "title": "What's new in Claude Code",
+    "url": "https://www.youtube.com/watch?v=sRvUXLquiRg",
+    "info_json": "youtube/raw/sRvUXLquiRg/sRvUXLquiRg.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260520",
+    "duration": "32:04"
+  },
+  {
+    "id": "6amLO7I9xdg",
+    "tab": "videos",
+    "title": "Code with Claude London 2026: Opening Keynote",
+    "url": "https://www.youtube.com/watch?v=6amLO7I9xdg",
+    "info_json": "youtube/raw/6amLO7I9xdg/6amLO7I9xdg.info.json",
+    "caption_files": [
+      "youtube/raw/6amLO7I9xdg/6amLO7I9xdg.en-orig.vtt",
+      "youtube/raw/6amLO7I9xdg/6amLO7I9xdg.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/6amLO7I9xdg/6amLO7I9xdg.en.vtt",
+    "transcript_file": "youtube/transcripts/code-with-claude-london-2026-opening-keynote-6amLO7I9xdg.md",
+    "transcript_chars": 36704,
+    "transcript_lines": 1055,
+    "upload_date": "20260519",
+    "duration": "46:27"
+  },
+  {
+    "id": "_kSAptN8TAY",
+    "tab": "videos",
+    "title": "The Problem Solvers: Scott Wu at Cognition",
+    "url": "https://www.youtube.com/watch?v=_kSAptN8TAY",
+    "info_json": "youtube/raw/_kSAptN8TAY/_kSAptN8TAY.info.json",
+    "caption_files": [
+      "youtube/raw/_kSAptN8TAY/_kSAptN8TAY.en-en.vtt",
+      "youtube/raw/_kSAptN8TAY/_kSAptN8TAY.en-orig.vtt",
+      "youtube/raw/_kSAptN8TAY/_kSAptN8TAY.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/_kSAptN8TAY/_kSAptN8TAY.en.vtt",
+    "transcript_file": "youtube/transcripts/the-problem-solvers-scott-wu-at-cognition-_kSAptN8TAY.md",
+    "transcript_chars": 2976,
+    "transcript_lines": 108,
+    "upload_date": "20260519",
+    "duration": "2:40"
+  },
+  {
+    "id": "EPUg9pmfPk0",
+    "tab": "videos",
+    "title": "Claude Cowork for legal teams",
+    "url": "https://www.youtube.com/watch?v=EPUg9pmfPk0",
+    "info_json": "youtube/raw/EPUg9pmfPk0/EPUg9pmfPk0.info.json",
+    "caption_files": [
+      "youtube/raw/EPUg9pmfPk0/EPUg9pmfPk0.en-orig.vtt",
+      "youtube/raw/EPUg9pmfPk0/EPUg9pmfPk0.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/EPUg9pmfPk0/EPUg9pmfPk0.en.vtt",
+    "transcript_file": "youtube/transcripts/claude-cowork-for-legal-teams-EPUg9pmfPk0.md",
+    "transcript_chars": 3294,
+    "transcript_lines": 102,
+    "upload_date": "20260518",
+    "duration": "2:59"
+  },
+  {
+    "id": "lsufr1i6ACY",
+    "tab": "videos",
+    "title": "Claude Cowork for marketing ops",
+    "url": "https://www.youtube.com/watch?v=lsufr1i6ACY",
+    "info_json": "youtube/raw/lsufr1i6ACY/lsufr1i6ACY.info.json",
+    "caption_files": [
+      "youtube/raw/lsufr1i6ACY/lsufr1i6ACY.en-orig.vtt",
+      "youtube/raw/lsufr1i6ACY/lsufr1i6ACY.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/lsufr1i6ACY/lsufr1i6ACY.en.vtt",
+    "transcript_file": "youtube/transcripts/claude-cowork-for-marketing-ops-lsufr1i6ACY.md",
+    "transcript_chars": 3333,
+    "transcript_lines": 106,
+    "upload_date": "20260518",
+    "duration": "3:35"
+  },
+  {
+    "id": "dDg7vhvtbEE",
+    "tab": "videos",
+    "title": "Claude Cowork for sales",
+    "url": "https://www.youtube.com/watch?v=dDg7vhvtbEE",
+    "info_json": "youtube/raw/dDg7vhvtbEE/dDg7vhvtbEE.info.json",
+    "caption_files": [
+      "youtube/raw/dDg7vhvtbEE/dDg7vhvtbEE.en-orig.vtt",
+      "youtube/raw/dDg7vhvtbEE/dDg7vhvtbEE.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/dDg7vhvtbEE/dDg7vhvtbEE.en.vtt",
+    "transcript_file": "youtube/transcripts/claude-cowork-for-sales-dDg7vhvtbEE.md",
+    "transcript_chars": 3292,
+    "transcript_lines": 103,
+    "upload_date": "20260518",
+    "duration": "3:32"
+  },
+  {
+    "id": "eW3oTyfeWZ0",
+    "tab": "videos",
+    "title": "Context Management in Claude Code",
+    "url": "https://www.youtube.com/watch?v=eW3oTyfeWZ0",
+    "info_json": "youtube/raw/eW3oTyfeWZ0/eW3oTyfeWZ0.info.json",
+    "caption_files": [
+      "youtube/raw/eW3oTyfeWZ0/eW3oTyfeWZ0.en-orig.vtt",
+      "youtube/raw/eW3oTyfeWZ0/eW3oTyfeWZ0.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/eW3oTyfeWZ0/eW3oTyfeWZ0.en.vtt",
+    "transcript_file": "youtube/transcripts/context-management-in-claude-code-eW3oTyfeWZ0.md",
+    "transcript_chars": 3333,
+    "transcript_lines": 95,
+    "upload_date": "20260518",
+    "duration": "3:30"
+  },
+  {
+    "id": "xJQuF02NAK8",
+    "tab": "videos",
+    "title": "The Explore → Plan → Code → Commit workflow in Claude Code",
+    "url": "https://www.youtube.com/watch?v=xJQuF02NAK8",
+    "info_json": "youtube/raw/xJQuF02NAK8/xJQuF02NAK8.info.json",
+    "caption_files": [
+      "youtube/raw/xJQuF02NAK8/xJQuF02NAK8.en-orig.vtt",
+      "youtube/raw/xJQuF02NAK8/xJQuF02NAK8.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/xJQuF02NAK8/xJQuF02NAK8.en.vtt",
+    "transcript_file": "youtube/transcripts/the-explore-plan-code-commit-workflow-in-claude-code-xJQuF02NAK8.md",
+    "transcript_chars": 3122,
+    "transcript_lines": 92,
+    "upload_date": "20260517",
+    "duration": "3:11"
+  },
+  {
+    "id": "gbetp6D7J_Q",
+    "tab": "videos",
+    "title": "Your first Claude Code prompt",
+    "url": "https://www.youtube.com/watch?v=gbetp6D7J_Q",
+    "info_json": "youtube/raw/gbetp6D7J_Q/gbetp6D7J_Q.info.json",
+    "caption_files": [
+      "youtube/raw/gbetp6D7J_Q/gbetp6D7J_Q.en-orig.vtt",
+      "youtube/raw/gbetp6D7J_Q/gbetp6D7J_Q.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/gbetp6D7J_Q/gbetp6D7J_Q.en.vtt",
+    "transcript_file": "youtube/transcripts/your-first-claude-code-prompt-gbetp6D7J_Q.md",
+    "transcript_chars": 2219,
+    "transcript_lines": 69,
+    "upload_date": "20260515",
+    "duration": "2:27"
+  },
+  {
+    "id": "0kILa02vKuI",
+    "tab": "videos",
+    "title": "Installing Claude Code",
+    "url": "https://www.youtube.com/watch?v=0kILa02vKuI",
+    "info_json": "youtube/raw/0kILa02vKuI/0kILa02vKuI.info.json",
+    "caption_files": [
+      "youtube/raw/0kILa02vKuI/0kILa02vKuI.en-orig.vtt",
+      "youtube/raw/0kILa02vKuI/0kILa02vKuI.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/0kILa02vKuI/0kILa02vKuI.en.vtt",
+    "transcript_file": "youtube/transcripts/installing-claude-code-0kILa02vKuI.md",
+    "transcript_chars": 2848,
+    "transcript_lines": 83,
+    "upload_date": "20260514",
+    "duration": "3:01"
+  },
+  {
+    "id": "6bs5b4FltCU",
+    "tab": "videos",
+    "title": "How Claude Code Works",
+    "url": "https://www.youtube.com/watch?v=6bs5b4FltCU",
+    "info_json": "youtube/raw/6bs5b4FltCU/6bs5b4FltCU.info.json",
+    "caption_files": [
+      "youtube/raw/6bs5b4FltCU/6bs5b4FltCU.en-orig.vtt",
+      "youtube/raw/6bs5b4FltCU/6bs5b4FltCU.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/6bs5b4FltCU/6bs5b4FltCU.en.vtt",
+    "transcript_file": "youtube/transcripts/how-claude-code-works-6bs5b4FltCU.md",
+    "transcript_chars": 2400,
+    "transcript_lines": 71,
+    "upload_date": "20260514",
+    "duration": "2:50"
+  },
+  {
+    "id": "IGAVa4uyo2w",
+    "tab": "videos",
+    "title": "How Emergent is making app building more accessible with Claude",
+    "url": "https://www.youtube.com/watch?v=IGAVa4uyo2w",
+    "info_json": "youtube/raw/IGAVa4uyo2w/IGAVa4uyo2w.info.json",
+    "caption_files": [
+      "youtube/raw/IGAVa4uyo2w/IGAVa4uyo2w.en-en.vtt",
+      "youtube/raw/IGAVa4uyo2w/IGAVa4uyo2w.en-orig.vtt",
+      "youtube/raw/IGAVa4uyo2w/IGAVa4uyo2w.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/IGAVa4uyo2w/IGAVa4uyo2w.en.vtt",
+    "transcript_file": "youtube/transcripts/how-emergent-is-making-app-building-more-accessible-with-claude-IGAVa4uyo2w.md",
+    "transcript_chars": 20166,
+    "transcript_lines": 656,
+    "upload_date": "20260513",
+    "duration": "16:39"
+  },
+  {
+    "id": "FPPTnI88RR8",
+    "tab": "videos",
+    "title": "How Anthropic uses Claude in Cybersecurity",
+    "url": "https://www.youtube.com/watch?v=FPPTnI88RR8",
+    "info_json": "youtube/raw/FPPTnI88RR8/FPPTnI88RR8.info.json",
+    "caption_files": [
+      "youtube/raw/FPPTnI88RR8/FPPTnI88RR8.en-en.vtt",
+      "youtube/raw/FPPTnI88RR8/FPPTnI88RR8.en-orig.vtt",
+      "youtube/raw/FPPTnI88RR8/FPPTnI88RR8.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/FPPTnI88RR8/FPPTnI88RR8.en.vtt",
+    "transcript_file": "youtube/transcripts/how-anthropic-uses-claude-in-cybersecurity-FPPTnI88RR8.md",
+    "transcript_chars": 3808,
+    "transcript_lines": 82,
+    "upload_date": "20260512",
+    "duration": "3:42"
+  },
+  {
+    "id": "7-1tNo8HAwk",
+    "tab": "videos",
+    "title": "New agents for legal professionals | Claude Cowork",
+    "url": "https://www.youtube.com/watch?v=7-1tNo8HAwk",
+    "info_json": "youtube/raw/7-1tNo8HAwk/7-1tNo8HAwk.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260512",
+    "duration": "25"
+  },
+  {
+    "id": "-INveHwbRz4",
+    "tab": "videos",
+    "title": "Introducing agent view in Claude Code",
+    "url": "https://www.youtube.com/watch?v=-INveHwbRz4",
+    "info_json": "youtube/raw/-INveHwbRz4/-INveHwbRz4.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260511",
+    "duration": "39"
+  },
+  {
+    "id": "O0FGCxkHM-U",
+    "tab": "videos",
+    "title": "The CLAUDE.md file",
+    "url": "https://www.youtube.com/watch?v=O0FGCxkHM-U",
+    "info_json": "youtube/raw/O0FGCxkHM-U/O0FGCxkHM-U.info.json",
+    "caption_files": [
+      "youtube/raw/O0FGCxkHM-U/O0FGCxkHM-U.en-orig.vtt",
+      "youtube/raw/O0FGCxkHM-U/O0FGCxkHM-U.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/O0FGCxkHM-U/O0FGCxkHM-U.en.vtt",
+    "transcript_file": "youtube/transcripts/the-claude-md-file-O0FGCxkHM-U.md",
+    "transcript_chars": 2827,
+    "transcript_lines": 82,
+    "upload_date": "20260510",
+    "duration": "3:01"
+  },
+  {
+    "id": "kkBFmwkDzdo",
+    "tab": "videos",
+    "title": "MCP in Claude Code",
+    "url": "https://www.youtube.com/watch?v=kkBFmwkDzdo",
+    "info_json": "youtube/raw/kkBFmwkDzdo/kkBFmwkDzdo.info.json",
+    "caption_files": [
+      "youtube/raw/kkBFmwkDzdo/kkBFmwkDzdo.en-orig.vtt",
+      "youtube/raw/kkBFmwkDzdo/kkBFmwkDzdo.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/kkBFmwkDzdo/kkBFmwkDzdo.en.vtt",
+    "transcript_file": "youtube/transcripts/mcp-in-claude-code-kkBFmwkDzdo.md",
+    "transcript_chars": 3290,
+    "transcript_lines": 100,
+    "upload_date": "20260509",
+    "duration": "3:37"
+  },
+  {
+    "id": "KLCuxMDZSDg",
+    "tab": "videos",
+    "title": "The expanding toolkit",
+    "url": "https://www.youtube.com/watch?v=KLCuxMDZSDg",
+    "info_json": "youtube/raw/KLCuxMDZSDg/KLCuxMDZSDg.info.json",
+    "caption_files": [
+      "youtube/raw/KLCuxMDZSDg/KLCuxMDZSDg.en-orig.vtt",
+      "youtube/raw/KLCuxMDZSDg/KLCuxMDZSDg.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/KLCuxMDZSDg/KLCuxMDZSDg.en.vtt",
+    "transcript_file": "youtube/transcripts/the-expanding-toolkit-KLCuxMDZSDg.md",
+    "transcript_chars": 17645,
+    "transcript_lines": 522,
+    "upload_date": "20260508",
+    "duration": "21:22"
+  },
+  {
+    "id": "BrpB-h1e--k",
+    "tab": "videos",
+    "title": "Building with Claude Managed Agents and Asana AI teammates",
+    "url": "https://www.youtube.com/watch?v=BrpB-h1e--k",
+    "info_json": "youtube/raw/BrpB-h1e--k/BrpB-h1e--k.info.json",
+    "caption_files": [
+      "youtube/raw/BrpB-h1e--k/BrpB-h1e--k.en-orig.vtt",
+      "youtube/raw/BrpB-h1e--k/BrpB-h1e--k.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/BrpB-h1e--k/BrpB-h1e--k.en.vtt",
+    "transcript_file": "youtube/transcripts/building-with-claude-managed-agents-and-asana-ai-teammates-BrpB-h1e--k.md",
+    "transcript_chars": 24376,
+    "transcript_lines": 687,
+    "upload_date": "20260508",
+    "duration": "24:57"
+  },
+  {
+    "id": "igO8iyca2_g",
+    "tab": "videos",
+    "title": "Running an AI-native engineering org",
+    "url": "https://www.youtube.com/watch?v=igO8iyca2_g",
+    "info_json": "youtube/raw/igO8iyca2_g/igO8iyca2_g.info.json",
+    "caption_files": [
+      "youtube/raw/igO8iyca2_g/igO8iyca2_g.en-orig.vtt",
+      "youtube/raw/igO8iyca2_g/igO8iyca2_g.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/igO8iyca2_g/igO8iyca2_g.en.vtt",
+    "transcript_file": "youtube/transcripts/running-an-ai-native-engineering-org-igO8iyca2_g.md",
+    "transcript_chars": 31637,
+    "transcript_lines": 855,
+    "upload_date": "20260508",
+    "duration": "28:38"
+  },
+  {
+    "id": "OXJO4LldSnc",
+    "tab": "videos",
+    "title": "The thinking lever",
+    "url": "https://www.youtube.com/watch?v=OXJO4LldSnc",
+    "info_json": "youtube/raw/OXJO4LldSnc/OXJO4LldSnc.info.json",
+    "caption_files": [
+      "youtube/raw/OXJO4LldSnc/OXJO4LldSnc.en-orig.vtt",
+      "youtube/raw/OXJO4LldSnc/OXJO4LldSnc.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/OXJO4LldSnc/OXJO4LldSnc.en.vtt",
+    "transcript_file": "youtube/transcripts/the-thinking-lever-OXJO4LldSnc.md",
+    "transcript_chars": 21657,
+    "transcript_lines": 618,
+    "upload_date": "20260508",
+    "duration": "24:02"
+  },
+  {
+    "id": "SqHsS737CeA",
+    "tab": "videos",
+    "title": "Building with Claude on Google Cloud",
+    "url": "https://www.youtube.com/watch?v=SqHsS737CeA",
+    "info_json": "youtube/raw/SqHsS737CeA/SqHsS737CeA.info.json",
+    "caption_files": [
+      "youtube/raw/SqHsS737CeA/SqHsS737CeA.en-orig.vtt",
+      "youtube/raw/SqHsS737CeA/SqHsS737CeA.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/SqHsS737CeA/SqHsS737CeA.en.vtt",
+    "transcript_file": "youtube/transcripts/building-with-claude-on-google-cloud-SqHsS737CeA.md",
+    "transcript_chars": 21383,
+    "transcript_lines": 645,
+    "upload_date": "20260508",
+    "duration": "26:29"
+  },
+  {
+    "id": "snroDwX1-JU",
+    "tab": "videos",
+    "title": "Evaluating and improving Replit Agent at scale",
+    "url": "https://www.youtube.com/watch?v=snroDwX1-JU",
+    "info_json": "youtube/raw/snroDwX1-JU/snroDwX1-JU.info.json",
+    "caption_files": [
+      "youtube/raw/snroDwX1-JU/snroDwX1-JU.en-orig.vtt",
+      "youtube/raw/snroDwX1-JU/snroDwX1-JU.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/snroDwX1-JU/snroDwX1-JU.en.vtt",
+    "transcript_file": "youtube/transcripts/evaluating-and-improving-replit-agent-at-scale-snroDwX1-JU.md",
+    "transcript_chars": 27738,
+    "transcript_lines": 774,
+    "upload_date": "20260508",
+    "duration": "27:42"
+  },
+  {
+    "id": "BbYSGxtsMic",
+    "tab": "videos",
+    "title": "Giving coding agents their own computers: How Cursor built cloud agents",
+    "url": "https://www.youtube.com/watch?v=BbYSGxtsMic",
+    "info_json": "youtube/raw/BbYSGxtsMic/BbYSGxtsMic.info.json",
+    "caption_files": [
+      "youtube/raw/BbYSGxtsMic/BbYSGxtsMic.en-orig.vtt",
+      "youtube/raw/BbYSGxtsMic/BbYSGxtsMic.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/BbYSGxtsMic/BbYSGxtsMic.en.vtt",
+    "transcript_file": "youtube/transcripts/giving-coding-agents-their-own-computers-how-cursor-built-cloud-agents-BbYSGxtsMic.md",
+    "transcript_chars": 15261,
+    "transcript_lines": 446,
+    "upload_date": "20260508",
+    "duration": "14:35"
+  },
+  {
+    "id": "RtywqDFBYnQ",
+    "tab": "videos",
+    "title": "Memory and dreaming for self-learning agents",
+    "url": "https://www.youtube.com/watch?v=RtywqDFBYnQ",
+    "info_json": "youtube/raw/RtywqDFBYnQ/RtywqDFBYnQ.info.json",
+    "caption_files": [
+      "youtube/raw/RtywqDFBYnQ/RtywqDFBYnQ.en-orig.vtt",
+      "youtube/raw/RtywqDFBYnQ/RtywqDFBYnQ.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/RtywqDFBYnQ/RtywqDFBYnQ.en.vtt",
+    "transcript_file": "youtube/transcripts/memory-and-dreaming-for-self-learning-agents-RtywqDFBYnQ.md",
+    "transcript_chars": 23599,
+    "transcript_lines": 656,
+    "upload_date": "20260508",
+    "duration": "24:28"
+  },
+  {
+    "id": "Lbml7IuGJYw",
+    "tab": "videos",
+    "title": "Getting started with Claude Cowork",
+    "url": "https://www.youtube.com/watch?v=Lbml7IuGJYw",
+    "info_json": "youtube/raw/Lbml7IuGJYw/Lbml7IuGJYw.info.json",
+    "caption_files": [
+      "youtube/raw/Lbml7IuGJYw/Lbml7IuGJYw.en-orig.vtt",
+      "youtube/raw/Lbml7IuGJYw/Lbml7IuGJYw.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/Lbml7IuGJYw/Lbml7IuGJYw.en.vtt",
+    "transcript_file": "youtube/transcripts/getting-started-with-claude-cowork-Lbml7IuGJYw.md",
+    "transcript_chars": 3588,
+    "transcript_lines": 107,
+    "upload_date": "20260508",
+    "duration": "4:16"
+  },
+  {
+    "id": "F6dzjaBCBtU",
+    "tab": "videos",
+    "title": "Collaborate with Claude across Microsoft365 apps",
+    "url": "https://www.youtube.com/watch?v=F6dzjaBCBtU",
+    "info_json": "youtube/raw/F6dzjaBCBtU/F6dzjaBCBtU.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260507",
+    "duration": "1:27"
+  },
+  {
+    "id": "IkaPHiMDazM",
+    "tab": "videos",
+    "title": "Hooks in Claude Code",
+    "url": "https://www.youtube.com/watch?v=IkaPHiMDazM",
+    "info_json": "youtube/raw/IkaPHiMDazM/IkaPHiMDazM.info.json",
+    "caption_files": [
+      "youtube/raw/IkaPHiMDazM/IkaPHiMDazM.en-orig.vtt",
+      "youtube/raw/IkaPHiMDazM/IkaPHiMDazM.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/IkaPHiMDazM/IkaPHiMDazM.en.vtt",
+    "transcript_file": "youtube/transcripts/hooks-in-claude-code-IkaPHiMDazM.md",
+    "transcript_chars": 2758,
+    "transcript_lines": 88,
+    "upload_date": "20260507",
+    "duration": "3:21"
+  },
+  {
+    "id": "fl1DSmwQKKY",
+    "tab": "videos",
+    "title": "What is Claude Code?",
+    "url": "https://www.youtube.com/watch?v=fl1DSmwQKKY",
+    "info_json": "youtube/raw/fl1DSmwQKKY/fl1DSmwQKKY.info.json",
+    "caption_files": [
+      "youtube/raw/fl1DSmwQKKY/fl1DSmwQKKY.en-orig.vtt",
+      "youtube/raw/fl1DSmwQKKY/fl1DSmwQKKY.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/fl1DSmwQKKY/fl1DSmwQKKY.en.vtt",
+    "transcript_file": "youtube/transcripts/what-is-claude-code-fl1DSmwQKKY.md",
+    "transcript_chars": 2521,
+    "transcript_lines": 73,
+    "upload_date": "20260505",
+    "duration": "2:55"
+  },
+  {
+    "id": "foxeK2AXfHQ",
+    "tab": "videos",
+    "title": "New agents for financial services | Claude Cowork + Claude Managed Agents",
+    "url": "https://www.youtube.com/watch?v=foxeK2AXfHQ",
+    "info_json": "youtube/raw/foxeK2AXfHQ/foxeK2AXfHQ.info.json",
+    "caption_files": [
+      "youtube/raw/foxeK2AXfHQ/foxeK2AXfHQ.en-orig.vtt",
+      "youtube/raw/foxeK2AXfHQ/foxeK2AXfHQ.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/foxeK2AXfHQ/foxeK2AXfHQ.en.vtt",
+    "transcript_file": "youtube/transcripts/new-agents-for-financial-services-claude-cowork-claude-managed-agents-foxeK2AXfHQ.md",
+    "transcript_chars": 4,
+    "transcript_lines": 1,
+    "upload_date": "20260505",
+    "duration": "1:04"
+  },
+  {
+    "id": "0SgCiUfoYo8",
+    "tab": "videos",
+    "title": "Find and fix security vulnerabilities with Claude",
+    "url": "https://www.youtube.com/watch?v=0SgCiUfoYo8",
+    "info_json": "youtube/raw/0SgCiUfoYo8/0SgCiUfoYo8.info.json",
+    "caption_files": [
+      "youtube/raw/0SgCiUfoYo8/0SgCiUfoYo8.en-orig.vtt",
+      "youtube/raw/0SgCiUfoYo8/0SgCiUfoYo8.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/0SgCiUfoYo8/0SgCiUfoYo8.en.vtt",
+    "transcript_file": "youtube/transcripts/find-and-fix-security-vulnerabilities-with-claude-0SgCiUfoYo8.md",
+    "transcript_chars": 4,
+    "transcript_lines": 1,
+    "upload_date": "20260430",
+    "duration": "50"
+  },
+  {
+    "id": "Gen8rG40ntA",
+    "tab": "videos",
+    "title": "Claude now connects to Autodesk Fusion",
+    "url": "https://www.youtube.com/watch?v=Gen8rG40ntA",
+    "info_json": "youtube/raw/Gen8rG40ntA/Gen8rG40ntA.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260428",
+    "duration": "1:14"
+  },
+  {
+    "id": "LZMWsZbZU5w",
+    "tab": "videos",
+    "title": "Claude now connects to Blender",
+    "url": "https://www.youtube.com/watch?v=LZMWsZbZU5w",
+    "info_json": "youtube/raw/LZMWsZbZU5w/LZMWsZbZU5w.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260428",
+    "duration": "55"
+  },
+  {
+    "id": "RnOWJoHU_NY",
+    "tab": "videos",
+    "title": "Why does bias exist in AI models?",
+    "url": "https://www.youtube.com/watch?v=RnOWJoHU_NY",
+    "info_json": "youtube/raw/RnOWJoHU_NY/RnOWJoHU_NY.info.json",
+    "caption_files": [
+      "youtube/raw/RnOWJoHU_NY/RnOWJoHU_NY.en-orig.vtt",
+      "youtube/raw/RnOWJoHU_NY/RnOWJoHU_NY.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/RnOWJoHU_NY/RnOWJoHU_NY.en.vtt",
+    "transcript_file": "youtube/transcripts/why-does-bias-exist-in-ai-models-RnOWJoHU_NY.md",
+    "transcript_chars": 3411,
+    "transcript_lines": 100,
+    "upload_date": "20260424",
+    "duration": "4:17"
+  },
+  {
+    "id": "U9jGOz_Lcbo",
+    "tab": "videos",
+    "title": "All your everyday apps, in one conversation",
+    "url": "https://www.youtube.com/watch?v=U9jGOz_Lcbo",
+    "info_json": "youtube/raw/U9jGOz_Lcbo/U9jGOz_Lcbo.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260423",
+    "duration": "1:11"
+  },
+  {
+    "id": "ma7oe_5h0ag",
+    "tab": "videos",
+    "title": "How Anthropic uses Claude in Product Engineering",
+    "url": "https://www.youtube.com/watch?v=ma7oe_5h0ag",
+    "info_json": "youtube/raw/ma7oe_5h0ag/ma7oe_5h0ag.info.json",
+    "caption_files": [
+      "youtube/raw/ma7oe_5h0ag/ma7oe_5h0ag.en-en.vtt",
+      "youtube/raw/ma7oe_5h0ag/ma7oe_5h0ag.en-orig.vtt",
+      "youtube/raw/ma7oe_5h0ag/ma7oe_5h0ag.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/ma7oe_5h0ag/ma7oe_5h0ag.en.vtt",
+    "transcript_file": "youtube/transcripts/how-anthropic-uses-claude-in-product-engineering-ma7oe_5h0ag.md",
+    "transcript_chars": 2782,
+    "transcript_lines": 131,
+    "upload_date": "20260420",
+    "duration": "2:57"
+  },
+  {
+    "id": "t_LBECIQQqs",
+    "tab": "videos",
+    "title": "Introducing Claude Design by Anthropic Labs",
+    "url": "https://www.youtube.com/watch?v=t_LBECIQQqs",
+    "info_json": "youtube/raw/t_LBECIQQqs/t_LBECIQQqs.info.json",
+    "caption_files": [
+      "youtube/raw/t_LBECIQQqs/t_LBECIQQqs.en-orig.vtt",
+      "youtube/raw/t_LBECIQQqs/t_LBECIQQqs.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/t_LBECIQQqs/t_LBECIQQqs.en.vtt",
+    "transcript_file": "youtube/transcripts/introducing-claude-design-by-anthropic-labs-t_LBECIQQqs.md",
+    "transcript_chars": 4,
+    "transcript_lines": 1,
+    "upload_date": "20260417",
+    "duration": "1:22"
+  },
+  {
+    "id": "gRLMG5YNNTo",
+    "tab": "videos",
+    "title": "Working smarter with Claude in PowerPoint",
+    "url": "https://www.youtube.com/watch?v=gRLMG5YNNTo",
+    "info_json": "youtube/raw/gRLMG5YNNTo/gRLMG5YNNTo.info.json",
+    "caption_files": [
+      "youtube/raw/gRLMG5YNNTo/gRLMG5YNNTo.en-orig.vtt",
+      "youtube/raw/gRLMG5YNNTo/gRLMG5YNNTo.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/gRLMG5YNNTo/gRLMG5YNNTo.en.vtt",
+    "transcript_file": "youtube/transcripts/working-smarter-with-claude-in-powerpoint-gRLMG5YNNTo.md",
+    "transcript_chars": 2014,
+    "transcript_lines": 68,
+    "upload_date": "20260416",
+    "duration": "2:15"
+  },
+  {
+    "id": "TkSZqH0n7m0",
+    "tab": "videos",
+    "title": "Refining a PowerPoint with Claude",
+    "url": "https://www.youtube.com/watch?v=TkSZqH0n7m0",
+    "info_json": "youtube/raw/TkSZqH0n7m0/TkSZqH0n7m0.info.json",
+    "caption_files": [
+      "youtube/raw/TkSZqH0n7m0/TkSZqH0n7m0.en-orig.vtt",
+      "youtube/raw/TkSZqH0n7m0/TkSZqH0n7m0.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/TkSZqH0n7m0/TkSZqH0n7m0.en.vtt",
+    "transcript_file": "youtube/transcripts/refining-a-powerpoint-with-claude-TkSZqH0n7m0.md",
+    "transcript_chars": 6106,
+    "transcript_lines": 190,
+    "upload_date": "20260416",
+    "duration": "6:51"
+  },
+  {
+    "id": "TxS-1invhzg",
+    "tab": "videos",
+    "title": "Building a PowerPoint with Claude",
+    "url": "https://www.youtube.com/watch?v=TxS-1invhzg",
+    "info_json": "youtube/raw/TxS-1invhzg/TxS-1invhzg.info.json",
+    "caption_files": [
+      "youtube/raw/TxS-1invhzg/TxS-1invhzg.en-orig.vtt",
+      "youtube/raw/TxS-1invhzg/TxS-1invhzg.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/TxS-1invhzg/TxS-1invhzg.en.vtt",
+    "transcript_file": "youtube/transcripts/building-a-powerpoint-with-claude-TxS-1invhzg.md",
+    "transcript_chars": 3880,
+    "transcript_lines": 127,
+    "upload_date": "20260416",
+    "duration": "4:05"
+  },
+  {
+    "id": "005JLRt3gXI",
+    "tab": "videos",
+    "title": "Why do AI models hallucinate?",
+    "url": "https://www.youtube.com/watch?v=005JLRt3gXI",
+    "info_json": "youtube/raw/005JLRt3gXI/005JLRt3gXI.info.json",
+    "caption_files": [
+      "youtube/raw/005JLRt3gXI/005JLRt3gXI.en-orig.vtt",
+      "youtube/raw/005JLRt3gXI/005JLRt3gXI.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/005JLRt3gXI/005JLRt3gXI.en.vtt",
+    "transcript_file": "youtube/transcripts/why-do-ai-models-hallucinate-005JLRt3gXI.md",
+    "transcript_chars": 4479,
+    "transcript_lines": 135,
+    "upload_date": "20260415",
+    "duration": "5:13"
+  },
+  {
+    "id": "rWaQSQEm_aY",
+    "tab": "videos",
+    "title": "The new Claude Code desktop app, redesigned for parallel agents",
+    "url": "https://www.youtube.com/watch?v=rWaQSQEm_aY",
+    "info_json": "youtube/raw/rWaQSQEm_aY/rWaQSQEm_aY.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260414",
+    "duration": "37"
+  },
+  {
+    "id": "NLWiIj47IdI",
+    "tab": "videos",
+    "title": "What is Claude Managed Agents?",
+    "url": "https://www.youtube.com/watch?v=NLWiIj47IdI",
+    "info_json": "youtube/raw/NLWiIj47IdI/NLWiIj47IdI.info.json",
+    "caption_files": [
+      "youtube/raw/NLWiIj47IdI/NLWiIj47IdI.en-orig.vtt",
+      "youtube/raw/NLWiIj47IdI/NLWiIj47IdI.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/NLWiIj47IdI/NLWiIj47IdI.en.vtt",
+    "transcript_file": "youtube/transcripts/what-is-claude-managed-agents-NLWiIj47IdI.md",
+    "transcript_chars": 3530,
+    "transcript_lines": 100,
+    "upload_date": "20260409",
+    "duration": "3:52"
+  },
+  {
+    "id": "-AkiUPvAqbU",
+    "tab": "videos",
+    "title": "Cowork is now generally available",
+    "url": "https://www.youtube.com/watch?v=-AkiUPvAqbU",
+    "info_json": "youtube/raw/-AkiUPvAqbU/-AkiUPvAqbU.info.json",
+    "caption_files": [
+      "youtube/raw/-AkiUPvAqbU/-AkiUPvAqbU.en-orig.vtt",
+      "youtube/raw/-AkiUPvAqbU/-AkiUPvAqbU.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/-AkiUPvAqbU/-AkiUPvAqbU.en.vtt",
+    "transcript_file": "youtube/transcripts/cowork-is-now-generally-available--AkiUPvAqbU.md",
+    "transcript_chars": 52,
+    "transcript_lines": 7,
+    "upload_date": "20260409",
+    "duration": "33"
+  },
+  {
+    "id": "I1BvAHOsjBU",
+    "tab": "videos",
+    "title": "Introducing Claude Managed Agents",
+    "url": "https://www.youtube.com/watch?v=I1BvAHOsjBU",
+    "info_json": "youtube/raw/I1BvAHOsjBU/I1BvAHOsjBU.info.json",
+    "caption_files": [
+      "youtube/raw/I1BvAHOsjBU/I1BvAHOsjBU.en-orig.vtt",
+      "youtube/raw/I1BvAHOsjBU/I1BvAHOsjBU.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/I1BvAHOsjBU/I1BvAHOsjBU.en.vtt",
+    "transcript_file": "youtube/transcripts/introducing-claude-managed-agents-I1BvAHOsjBU.md",
+    "transcript_chars": 4,
+    "transcript_lines": 1,
+    "upload_date": "20260408",
+    "duration": "59"
+  },
+  {
+    "id": "45hPRdfDEsI",
+    "tab": "videos",
+    "title": "How Notion built with Claude Managed Agents",
+    "url": "https://www.youtube.com/watch?v=45hPRdfDEsI",
+    "info_json": "youtube/raw/45hPRdfDEsI/45hPRdfDEsI.info.json",
+    "caption_files": [
+      "youtube/raw/45hPRdfDEsI/45hPRdfDEsI.en-en.vtt",
+      "youtube/raw/45hPRdfDEsI/45hPRdfDEsI.en-orig.vtt",
+      "youtube/raw/45hPRdfDEsI/45hPRdfDEsI.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/45hPRdfDEsI/45hPRdfDEsI.en.vtt",
+    "transcript_file": "youtube/transcripts/how-notion-built-with-claude-managed-agents-45hPRdfDEsI.md",
+    "transcript_chars": 3404,
+    "transcript_lines": 113,
+    "upload_date": "20260408",
+    "duration": "3:40"
+  },
+  {
+    "id": "91AJ0cpgLlQ",
+    "tab": "videos",
+    "title": "How Anthropic uses Claude in Product Management",
+    "url": "https://www.youtube.com/watch?v=91AJ0cpgLlQ",
+    "info_json": "youtube/raw/91AJ0cpgLlQ/91AJ0cpgLlQ.info.json",
+    "caption_files": [
+      "youtube/raw/91AJ0cpgLlQ/91AJ0cpgLlQ.en-orig.vtt",
+      "youtube/raw/91AJ0cpgLlQ/91AJ0cpgLlQ.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/91AJ0cpgLlQ/91AJ0cpgLlQ.en.vtt",
+    "transcript_file": "youtube/transcripts/how-anthropic-uses-claude-in-product-management-91AJ0cpgLlQ.md",
+    "transcript_chars": 2704,
+    "transcript_lines": 74,
+    "upload_date": "20260326",
+    "duration": "2:57"
+  },
+  {
+    "id": "NAwvkrxompk",
+    "tab": "videos",
+    "title": "Your apps come alive on Claude mobile",
+    "url": "https://www.youtube.com/watch?v=NAwvkrxompk",
+    "info_json": "youtube/raw/NAwvkrxompk/NAwvkrxompk.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260325",
+    "duration": "52"
+  },
+  {
+    "id": "NAauIR6JFps",
+    "tab": "videos",
+    "title": "Put Claude to work on your computer, from anywhere",
+    "url": "https://www.youtube.com/watch?v=NAauIR6JFps",
+    "info_json": "youtube/raw/NAauIR6JFps/NAauIR6JFps.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260323",
+    "duration": "1:13"
+  },
+  {
+    "id": "UCD7Hnx_THQ",
+    "tab": "videos",
+    "title": "Preview your running app in Claude Code on desktop",
+    "url": "https://www.youtube.com/watch?v=UCD7Hnx_THQ",
+    "info_json": "youtube/raw/UCD7Hnx_THQ/UCD7Hnx_THQ.info.json",
+    "caption_files": [
+      "youtube/raw/UCD7Hnx_THQ/UCD7Hnx_THQ.en-orig.vtt",
+      "youtube/raw/UCD7Hnx_THQ/UCD7Hnx_THQ.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/UCD7Hnx_THQ/UCD7Hnx_THQ.en.vtt",
+    "transcript_file": "youtube/transcripts/preview-your-running-app-in-claude-code-on-desktop-UCD7Hnx_THQ.md",
+    "transcript_chars": 74,
+    "transcript_lines": 7,
+    "upload_date": "20260319",
+    "duration": "1:15"
+  },
+  {
+    "id": "b-ntWZqHF78",
+    "tab": "videos",
+    "title": "Scheduled Tasks in Cowork: Set it once, Claude handles the rest",
+    "url": "https://www.youtube.com/watch?v=b-ntWZqHF78",
+    "info_json": "youtube/raw/b-ntWZqHF78/b-ntWZqHF78.info.json",
+    "caption_files": [
+      "youtube/raw/b-ntWZqHF78/b-ntWZqHF78.en-orig.vtt",
+      "youtube/raw/b-ntWZqHF78/b-ntWZqHF78.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/b-ntWZqHF78/b-ntWZqHF78.en.vtt",
+    "transcript_file": "youtube/transcripts/scheduled-tasks-in-cowork-set-it-once-claude-handles-the-rest-b-ntWZqHF78.md",
+    "transcript_chars": 19,
+    "transcript_lines": 2,
+    "upload_date": "20260319",
+    "duration": "25"
+  },
+  {
+    "id": "Ko7_tC1fMMM",
+    "tab": "videos",
+    "title": "Using Claude Code Remote Control",
+    "url": "https://www.youtube.com/watch?v=Ko7_tC1fMMM",
+    "info_json": "youtube/raw/Ko7_tC1fMMM/Ko7_tC1fMMM.info.json",
+    "caption_files": [
+      "youtube/raw/Ko7_tC1fMMM/Ko7_tC1fMMM.en-orig.vtt",
+      "youtube/raw/Ko7_tC1fMMM/Ko7_tC1fMMM.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/Ko7_tC1fMMM/Ko7_tC1fMMM.en.vtt",
+    "transcript_file": "youtube/transcripts/using-claude-code-remote-control-Ko7_tC1fMMM.md",
+    "transcript_chars": 2388,
+    "transcript_lines": 68,
+    "upload_date": "20260317",
+    "duration": "2:40"
+  },
+  {
+    "id": "fVIV-L49eBs",
+    "tab": "videos",
+    "title": "Dispatch tasks to Claude Cowork from anywhere",
+    "url": "https://www.youtube.com/watch?v=fVIV-L49eBs",
+    "info_json": "youtube/raw/fVIV-L49eBs/fVIV-L49eBs.info.json",
+    "caption_files": [
+      "youtube/raw/fVIV-L49eBs/fVIV-L49eBs.en-orig.vtt",
+      "youtube/raw/fVIV-L49eBs/fVIV-L49eBs.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/fVIV-L49eBs/fVIV-L49eBs.en.vtt",
+    "transcript_file": "youtube/transcripts/dispatch-tasks-to-claude-cowork-from-anywhere-fVIV-L49eBs.md",
+    "transcript_chars": 24,
+    "transcript_lines": 3,
+    "upload_date": "20260317",
+    "duration": "40"
+  },
+  {
+    "id": "Ii99RU3mOJM",
+    "tab": "videos",
+    "title": "Claude can now show you",
+    "url": "https://www.youtube.com/watch?v=Ii99RU3mOJM",
+    "info_json": "youtube/raw/Ii99RU3mOJM/Ii99RU3mOJM.info.json",
+    "caption_files": [
+      "youtube/raw/Ii99RU3mOJM/Ii99RU3mOJM.en-orig.vtt",
+      "youtube/raw/Ii99RU3mOJM/Ii99RU3mOJM.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/Ii99RU3mOJM/Ii99RU3mOJM.en.vtt",
+    "transcript_file": "youtube/transcripts/claude-can-now-show-you-Ii99RU3mOJM.md",
+    "transcript_chars": 88,
+    "transcript_lines": 10,
+    "upload_date": "20260312",
+    "duration": "1:19"
+  },
+  {
+    "id": "cIctgHKEeMA",
+    "tab": "videos",
+    "title": "One conversation across Claude for Excel and PowerPoint",
+    "url": "https://www.youtube.com/watch?v=cIctgHKEeMA",
+    "info_json": "youtube/raw/cIctgHKEeMA/cIctgHKEeMA.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260312",
+    "duration": "1:36"
+  },
+  {
+    "id": "yB7xjOA05GM",
+    "tab": "videos",
+    "title": "How Slack uses Claude for AI search and summaries",
+    "url": "https://www.youtube.com/watch?v=yB7xjOA05GM",
+    "info_json": "youtube/raw/yB7xjOA05GM/yB7xjOA05GM.info.json",
+    "caption_files": [
+      "youtube/raw/yB7xjOA05GM/yB7xjOA05GM.en-en.vtt",
+      "youtube/raw/yB7xjOA05GM/yB7xjOA05GM.en-orig.vtt",
+      "youtube/raw/yB7xjOA05GM/yB7xjOA05GM.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/yB7xjOA05GM/yB7xjOA05GM.en.vtt",
+    "transcript_file": "youtube/transcripts/how-slack-uses-claude-for-ai-search-and-summaries-yB7xjOA05GM.md",
+    "transcript_chars": 1780,
+    "transcript_lines": 68,
+    "upload_date": "20260310",
+    "duration": "1:50"
+  },
+  {
+    "id": "RKsADl0ZC3Y",
+    "tab": "videos",
+    "title": "Introducing Code Review",
+    "url": "https://www.youtube.com/watch?v=RKsADl0ZC3Y",
+    "info_json": "youtube/raw/RKsADl0ZC3Y/RKsADl0ZC3Y.info.json",
+    "caption_files": [
+      "youtube/raw/RKsADl0ZC3Y/RKsADl0ZC3Y.en-orig.vtt",
+      "youtube/raw/RKsADl0ZC3Y/RKsADl0ZC3Y.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/RKsADl0ZC3Y/RKsADl0ZC3Y.en.vtt",
+    "transcript_file": "youtube/transcripts/introducing-code-review-RKsADl0ZC3Y.md",
+    "transcript_chars": 15,
+    "transcript_lines": 2,
+    "upload_date": "20260309",
+    "duration": "45"
+  },
+  {
+    "id": "bjdBVZa66oU",
+    "tab": "videos",
+    "title": "What are skills?",
+    "url": "https://www.youtube.com/watch?v=bjdBVZa66oU",
+    "info_json": "youtube/raw/bjdBVZa66oU/bjdBVZa66oU.info.json",
+    "caption_files": [
+      "youtube/raw/bjdBVZa66oU/bjdBVZa66oU.en-orig.vtt",
+      "youtube/raw/bjdBVZa66oU/bjdBVZa66oU.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/bjdBVZa66oU/bjdBVZa66oU.en.vtt",
+    "transcript_file": "youtube/transcripts/what-are-skills-bjdBVZa66oU.md",
+    "transcript_chars": 2412,
+    "transcript_lines": 72,
+    "upload_date": "20260227",
+    "duration": "2:54"
+  },
+  {
+    "id": "v5IOHK5xFlc",
+    "tab": "videos",
+    "title": "Cowork and Plugins: Helping enterprises move faster",
+    "url": "https://www.youtube.com/watch?v=v5IOHK5xFlc",
+    "info_json": "youtube/raw/v5IOHK5xFlc/v5IOHK5xFlc.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260224",
+    "duration": "2:00"
+  },
+  {
+    "id": "sZHGbRYQti4",
+    "tab": "videos",
+    "title": "How Lyft uses Claude for faster, more human customer support",
+    "url": "https://www.youtube.com/watch?v=sZHGbRYQti4",
+    "info_json": "youtube/raw/sZHGbRYQti4/sZHGbRYQti4.info.json",
+    "caption_files": [
+      "youtube/raw/sZHGbRYQti4/sZHGbRYQti4.en-en.vtt",
+      "youtube/raw/sZHGbRYQti4/sZHGbRYQti4.en-orig.vtt",
+      "youtube/raw/sZHGbRYQti4/sZHGbRYQti4.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/sZHGbRYQti4/sZHGbRYQti4.en.vtt",
+    "transcript_file": "youtube/transcripts/how-lyft-uses-claude-for-faster-more-human-customer-support-sZHGbRYQti4.md",
+    "transcript_chars": 1368,
+    "transcript_lines": 59,
+    "upload_date": "20260218",
+    "duration": "1:35"
+  },
+  {
+    "id": "2fHVTe7c--4",
+    "tab": "videos",
+    "title": "Our most capable Sonnet model yet",
+    "url": "https://www.youtube.com/watch?v=2fHVTe7c--4",
+    "info_json": "youtube/raw/2fHVTe7c--4/2fHVTe7c--4.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260217",
+    "duration": "1:29"
+  },
+  {
+    "id": "MWhSjFu_K7E",
+    "tab": "videos",
+    "title": "The making of our Williams F1 film",
+    "url": "https://www.youtube.com/watch?v=MWhSjFu_K7E",
+    "info_json": "youtube/raw/MWhSjFu_K7E/MWhSjFu_K7E.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260210",
+    "duration": "45"
+  },
+  {
+    "id": "U9s9Kxb7p5I",
+    "tab": "videos",
+    "title": "How HubSpot uses Claude for customer success",
+    "url": "https://www.youtube.com/watch?v=U9s9Kxb7p5I",
+    "info_json": "youtube/raw/U9s9Kxb7p5I/U9s9Kxb7p5I.info.json",
+    "caption_files": [
+      "youtube/raw/U9s9Kxb7p5I/U9s9Kxb7p5I.en-en.vtt",
+      "youtube/raw/U9s9Kxb7p5I/U9s9Kxb7p5I.en-orig.vtt",
+      "youtube/raw/U9s9Kxb7p5I/U9s9Kxb7p5I.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/U9s9Kxb7p5I/U9s9Kxb7p5I.en.vtt",
+    "transcript_file": "youtube/transcripts/how-hubspot-uses-claude-for-customer-success-U9s9Kxb7p5I.md",
+    "transcript_chars": 1965,
+    "transcript_lines": 73,
+    "upload_date": "20260209",
+    "duration": "2:11"
+  },
+  {
+    "id": "fVJGqzYkq3A",
+    "tab": "videos",
+    "title": "How Figma Make uses Claude to turn prompts into prototypes",
+    "url": "https://www.youtube.com/watch?v=fVJGqzYkq3A",
+    "info_json": "youtube/raw/fVJGqzYkq3A/fVJGqzYkq3A.info.json",
+    "caption_files": [
+      "youtube/raw/fVJGqzYkq3A/fVJGqzYkq3A.en-en.vtt",
+      "youtube/raw/fVJGqzYkq3A/fVJGqzYkq3A.en-orig.vtt",
+      "youtube/raw/fVJGqzYkq3A/fVJGqzYkq3A.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/fVJGqzYkq3A/fVJGqzYkq3A.en.vtt",
+    "transcript_file": "youtube/transcripts/how-figma-make-uses-claude-to-turn-prompts-into-prototypes-fVJGqzYkq3A.md",
+    "transcript_chars": 1269,
+    "transcript_lines": 52,
+    "upload_date": "20260206",
+    "duration": "1:17"
+  },
+  {
+    "id": "orTd3grSYsQ",
+    "tab": "videos",
+    "title": "Claude for everyday work",
+    "url": "https://www.youtube.com/watch?v=orTd3grSYsQ",
+    "info_json": "youtube/raw/orTd3grSYsQ/orTd3grSYsQ.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260205",
+    "duration": "1:27"
+  },
+  {
+    "id": "xpmag2Gvi0g",
+    "tab": "videos",
+    "title": "The Atlassian Williams F1 team is now thinking with Claude",
+    "url": "https://www.youtube.com/watch?v=xpmag2Gvi0g",
+    "info_json": "youtube/raw/xpmag2Gvi0g/xpmag2Gvi0g.info.json",
+    "caption_files": [
+      "youtube/raw/xpmag2Gvi0g/xpmag2Gvi0g.en-orig.vtt",
+      "youtube/raw/xpmag2Gvi0g/xpmag2Gvi0g.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/xpmag2Gvi0g/xpmag2Gvi0g.en.vtt",
+    "transcript_file": "youtube/transcripts/the-atlassian-williams-f1-team-is-now-thinking-with-claude-xpmag2Gvi0g.md",
+    "transcript_chars": 41,
+    "transcript_lines": 3,
+    "upload_date": "20260202",
+    "duration": "29"
+  },
+  {
+    "id": "sxfwDbi-_78",
+    "tab": "videos",
+    "title": "A.A.Murakami's The Moon Underwater",
+    "url": "https://www.youtube.com/watch?v=sxfwDbi-_78",
+    "info_json": "youtube/raw/sxfwDbi-_78/sxfwDbi-_78.info.json",
+    "caption_files": [
+      "youtube/raw/sxfwDbi-_78/sxfwDbi-_78.en-en.vtt",
+      "youtube/raw/sxfwDbi-_78/sxfwDbi-_78.en-orig.vtt",
+      "youtube/raw/sxfwDbi-_78/sxfwDbi-_78.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/sxfwDbi-_78/sxfwDbi-_78.en.vtt",
+    "transcript_file": "youtube/transcripts/a-a-murakami-s-the-moon-underwater-sxfwDbi-_78.md",
+    "transcript_chars": 1871,
+    "transcript_lines": 86,
+    "upload_date": "20260202",
+    "duration": "3:02"
+  },
+  {
+    "id": "54BdUqMQUMI",
+    "tab": "videos",
+    "title": "Getting started with Claude in Excel",
+    "url": "https://www.youtube.com/watch?v=54BdUqMQUMI",
+    "info_json": "youtube/raw/54BdUqMQUMI/54BdUqMQUMI.info.json",
+    "caption_files": [
+      "youtube/raw/54BdUqMQUMI/54BdUqMQUMI.en-orig.vtt",
+      "youtube/raw/54BdUqMQUMI/54BdUqMQUMI.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/54BdUqMQUMI/54BdUqMQUMI.en.vtt",
+    "transcript_file": "youtube/transcripts/getting-started-with-claude-in-excel-54BdUqMQUMI.md",
+    "transcript_chars": 6497,
+    "transcript_lines": 188,
+    "upload_date": "20260130",
+    "duration": "7:10"
+  },
+  {
+    "id": "Jp83_JMK74o",
+    "tab": "videos",
+    "title": "How Anthropic uses Claude in Marketing",
+    "url": "https://www.youtube.com/watch?v=Jp83_JMK74o",
+    "info_json": "youtube/raw/Jp83_JMK74o/Jp83_JMK74o.info.json",
+    "caption_files": [
+      "youtube/raw/Jp83_JMK74o/Jp83_JMK74o.en-orig.vtt",
+      "youtube/raw/Jp83_JMK74o/Jp83_JMK74o.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/Jp83_JMK74o/Jp83_JMK74o.en.vtt",
+    "transcript_file": "youtube/transcripts/how-anthropic-uses-claude-in-marketing-Jp83_JMK74o.md",
+    "transcript_chars": 2702,
+    "transcript_lines": 72,
+    "upload_date": "20260127",
+    "duration": "2:42"
+  },
+  {
+    "id": "zZlcNxSPMOA",
+    "tab": "shorts",
+    "title": "The making of our Williams F1 film",
+    "url": "https://www.youtube.com/shorts/zZlcNxSPMOA",
+    "info_json": "youtube/raw/zZlcNxSPMOA/zZlcNxSPMOA.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260210",
+    "duration": "45"
+  },
+  {
+    "id": "4KBAE92he8E",
+    "tab": "shorts",
+    "title": "The Atlassian Williams F1 team is now thinking with Claude",
+    "url": "https://www.youtube.com/shorts/4KBAE92he8E",
+    "info_json": "youtube/raw/4KBAE92he8E/4KBAE92he8E.info.json",
+    "caption_files": [
+      "youtube/raw/4KBAE92he8E/4KBAE92he8E.en-orig.vtt",
+      "youtube/raw/4KBAE92he8E/4KBAE92he8E.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/4KBAE92he8E/4KBAE92he8E.en.vtt",
+    "transcript_file": "youtube/transcripts/the-atlassian-williams-f1-team-is-now-thinking-with-claude-4KBAE92he8E.md",
+    "transcript_chars": 37,
+    "transcript_lines": 2,
+    "upload_date": "20260202",
+    "duration": "29"
+  },
+  {
+    "id": "YmQ7jRgf4f0",
+    "tab": "streams",
+    "title": "Claude FM 🎵 music for thinking and building",
+    "url": "https://www.youtube.com/watch?v=YmQ7jRgf4f0",
+    "info_json": "youtube/raw/YmQ7jRgf4f0/YmQ7jRgf4f0.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260509",
+    "duration": ""
+  },
+  {
+    "id": "tP4MGcJ80Y0",
+    "tab": "streams",
+    "title": "The capability curve",
+    "url": "https://www.youtube.com/watch?v=tP4MGcJ80Y0",
+    "info_json": "youtube/raw/tP4MGcJ80Y0/tP4MGcJ80Y0.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260508",
+    "duration": "15:05"
+  },
+  {
+    "id": "7oO37GRhwGk",
+    "tab": "streams",
+    "title": "Getting more out of the Claude Platform",
+    "url": "https://www.youtube.com/watch?v=7oO37GRhwGk",
+    "info_json": "youtube/raw/7oO37GRhwGk/7oO37GRhwGk.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260507",
+    "duration": "28:15"
+  },
+  {
+    "id": "EdmuYPBt_EM",
+    "tab": "streams",
+    "title": "How Datadog built a universal machine tool for Claude Code",
+    "url": "https://www.youtube.com/watch?v=EdmuYPBt_EM",
+    "info_json": "youtube/raw/EdmuYPBt_EM/EdmuYPBt_EM.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260506",
+    "duration": "30:50"
+  },
+  {
+    "id": "bJKdXhnw7NU",
+    "tab": "streams",
+    "title": "Architecting for model step-changes: A fireside with Vercel's Guillermo Rauch",
+    "url": "https://www.youtube.com/watch?v=bJKdXhnw7NU",
+    "info_json": "youtube/raw/bJKdXhnw7NU/bJKdXhnw7NU.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260506",
+    "duration": "27:15"
+  },
+  {
+    "id": "OFDm3T7pVlc",
+    "tab": "streams",
+    "title": "Building AI-native: Inside the stacks powering Cognition, Gamma, and Harvey",
+    "url": "https://www.youtube.com/watch?v=OFDm3T7pVlc",
+    "info_json": "youtube/raw/OFDm3T7pVlc/OFDm3T7pVlc.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260506",
+    "duration": "28:15"
+  },
+  {
+    "id": "DlTCu_pNDHE",
+    "tab": "streams",
+    "title": "Live coding session with Boris Cherny and Jarred Sumner",
+    "url": "https://www.youtube.com/watch?v=DlTCu_pNDHE",
+    "info_json": "youtube/raw/DlTCu_pNDHE/DlTCu_pNDHE.info.json",
+    "caption_files": [
+      "youtube/raw/DlTCu_pNDHE/DlTCu_pNDHE.en-en.vtt",
+      "youtube/raw/DlTCu_pNDHE/DlTCu_pNDHE.en.vtt"
+    ],
+    "chosen_caption_file": "youtube/raw/DlTCu_pNDHE/DlTCu_pNDHE.en.vtt",
+    "transcript_file": "youtube/transcripts/live-coding-session-with-boris-cherny-and-jarred-sumner-DlTCu_pNDHE.md",
+    "transcript_chars": 27118,
+    "transcript_lines": 603,
+    "upload_date": "20260506",
+    "duration": "32:00"
+  },
+  {
+    "id": "7xco5Qd2Oo8",
+    "tab": "streams",
+    "title": "A conversation with Dario Amodei & Daniela Amodei",
+    "url": "https://www.youtube.com/watch?v=7xco5Qd2Oo8",
+    "info_json": "youtube/raw/7xco5Qd2Oo8/7xco5Qd2Oo8.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260506",
+    "duration": "33:10"
+  },
+  {
+    "id": "E9gaQHrw_rg",
+    "tab": "streams",
+    "title": "How to get to production faster with Claude Managed Agents",
+    "url": "https://www.youtube.com/watch?v=E9gaQHrw_rg",
+    "info_json": "youtube/raw/E9gaQHrw_rg/E9gaQHrw_rg.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260506",
+    "duration": "17:25"
+  },
+  {
+    "id": "y5TmF_6o6xk",
+    "tab": "streams",
+    "title": "Caching, harnesses, and advisors: Building on Claude at GitHub scale",
+    "url": "https://www.youtube.com/watch?v=y5TmF_6o6xk",
+    "info_json": "youtube/raw/y5TmF_6o6xk/y5TmF_6o6xk.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260506",
+    "duration": "26:15"
+  },
+  {
+    "id": "IMZa42k6L6M",
+    "tab": "streams",
+    "title": "What's new in Claude Code",
+    "url": "https://www.youtube.com/watch?v=IMZa42k6L6M",
+    "info_json": "youtube/raw/IMZa42k6L6M/IMZa42k6L6M.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260506",
+    "duration": "24:56"
+  },
+  {
+    "id": "GMIWm5y90xA",
+    "tab": "streams",
+    "title": "Code with Claude 2026: Opening Keynote",
+    "url": "https://www.youtube.com/watch?v=GMIWm5y90xA",
+    "info_json": "youtube/raw/GMIWm5y90xA/GMIWm5y90xA.info.json",
+    "caption_files": [],
+    "chosen_caption_file": null,
+    "transcript_file": null,
+    "transcript_chars": 0,
+    "transcript_lines": 0,
+    "upload_date": "20260506",
+    "duration": "47:29"
+  }
+]

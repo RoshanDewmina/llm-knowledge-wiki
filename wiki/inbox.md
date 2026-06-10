@@ -15,11 +15,14 @@ This is the daily triage note for the vault. Open it when you want to see what c
 ## Recent Source Activity
 
 <!-- AUTO-RECENT-SOURCES:START -->
-- 2026-04-28T22:14:05Z | [[sources/transformer-circuits-framework]] | `raw/papers/2026/2026-04-28-transformer-circuits-framework.md`
-- 2026-04-10T12:31:26Z | [[sources/example-transformer-tooling-notes]] | `raw/repos/example-transformer-tooling-notes.md`
-- 2026-04-08T21:18:05Z | [[sources/example-com-residual-stream-notes]] | `raw/articles/2026/2026-04-08-example-com-residual-stream-notes.md`
-- 2026-04-08T13:34:18Z | [[sources/example-com-attention-as-interface]] | `raw/articles/2026/2026-04-07-example-com-attention-as-interface.md`
-- 2026-04-07T21:33:52Z | [[sources/attention-is-all-you-need-excerpt]] | `raw/papers/attention-is-all-you-need-excerpt.md`
+- 2026-05-06T23:52:48Z | [[sources/x-com-launching-a-real-shopify-store-used-to-cost-3-000-claude-just-made-that-0]] | `raw/articles/2026/2026-05-06-0xdepressionn-shopify-mcp-claude-store.md`
+- 2026-05-06T23:35:03Z | [[sources/0xdepressionn-ai-persona-agency]] | `raw/articles/2026/2026-05-04-0xdepressionn-ai-persona-agency.md`
+- 2026-05-06T23:35:03Z | [[sources/rasmic-openclaw-agent-harness-video]] | `raw/articles/2026/2026-05-04-rasmic-openclaw-agent-harness-video.md`
+- 2026-05-06T23:35:03Z | [[sources/rohit-solo-founder-stack-2026]] | `raw/articles/2026/2026-04-24-rohit-solo-founder-stack-2026.md`
+- 2026-05-06T23:35:03Z | [[sources/shmidt-15-hermes-features]] | `raw/articles/2026/2026-05-04-shmidt-15-hermes-features.md`
+- 2026-05-06T23:35:03Z | [[sources/vmiss-what-i-use-hermes-agent-for]] | `raw/articles/2026/2026-05-03-vmiss-what-i-use-hermes-agent-for.md`
+- 2026-05-06T23:10:39Z | [[sources/0xjeff-hermes-as-ultimate-analyst]] | `raw/articles/2026/2026-05-04-0xjeff-hermes-as-ultimate-analyst.md`
+- 2026-05-06T16:08:15Z | [[sources/roshan-profile-2026-05-06]] | `raw/transcripts/2026/2026-05-06-roshan-profile.md`
 <!-- AUTO-RECENT-SOURCES:END -->
 
 ## Next Actions

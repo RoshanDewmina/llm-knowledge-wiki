@@ -13,7 +13,7 @@ from typing import Any, Iterable, Sequence
 
 from doctor import REQUIRED_COMMANDS, REQUIRED_PATHS, command_status, obsidian_status, path_status
 from review_queue import collect_incomplete_sources, collect_low_confidence, collect_orphans, collect_stale
-from wiki_utils import RAW_DIR, REPO_ROOT, WIKI_DIR, load_wiki_pages
+from wiki_utils import RAW_DIR, REPO_ROOT, WIKI_DIR, load_markdown_page, load_wiki_pages
 
 
 CLI_NAME = "llm-wiki"
@@ -70,6 +70,17 @@ def build_parser() -> argparse.ArgumentParser:
     ingest_parser.add_argument("--slug", help="Optional source-page slug override")
     ingest_parser.add_argument("--dry-run", action="store_true", help="Show planned changes without writing")
     ingest_parser.set_defaults(func=cmd_ingest)
+
+    facts_parser = subparsers.add_parser(
+        "facts",
+        help="Personal-facts CLI (add, query, validate, dedupe, expire, rebuild-index)",
+    )
+    facts_parser.add_argument(
+        "facts_args",
+        nargs=argparse.REMAINDER,
+        help="Arguments forwarded to tools/facts_cli.py",
+    )
+    facts_parser.set_defaults(func=cmd_facts)
 
 
     paper_parser = subparsers.add_parser("paper", help="Paper mastery workflows")
@@ -385,6 +396,13 @@ def cmd_ingest(args: argparse.Namespace) -> int:
     return run_python_tool("ingest.py", extra_args)
 
 
+def cmd_facts(args: argparse.Namespace) -> int:
+    """Wrap tools/facts_cli.py."""
+
+    extra_args = list(args.facts_args or [])
+    return run_python_tool("facts_cli.py", extra_args)
+
+
 
 
 def cmd_paper_start(args: argparse.Namespace) -> int:
@@ -423,7 +441,7 @@ def cmd_paper_status(args: argparse.Namespace) -> int:
             print(f"missing: {path.relative_to(REPO_ROOT)}")
             continue
         try:
-            frontmatter, _ = __import__("wiki_utils").load_markdown_page(path)
+            frontmatter, _ = load_markdown_page(path)
             print("{0} | {1} | read_status={2} | mastery_avg={3}".format(
                 path.relative_to(REPO_ROOT),
                 frontmatter.get("title", path.stem),

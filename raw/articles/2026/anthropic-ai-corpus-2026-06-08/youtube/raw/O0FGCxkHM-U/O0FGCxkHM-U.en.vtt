@@ -1,0 +1,656 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.400 --> 00:00:03.950 align:start position:0%
+ 
+One<00:00:02.520><c> of</c><00:00:02.600><c> the</c><00:00:02.680><c> most</c><00:00:02.960><c> useful</c><00:00:03.240><c> parts</c><00:00:03.520><c> of</c><00:00:03.640><c> Claude</c>
+
+00:00:03.950 --> 00:00:03.960 align:start position:0%
+One of the most useful parts of Claude
+ 
+
+00:00:03.960 --> 00:00:06.540 align:start position:0%
+One of the most useful parts of Claude
+Code<00:00:04.360><c> is</c><00:00:04.520><c> the</c><00:00:04.680><c> claw.md</c><00:00:05.560><c> file.</c>
+
+00:00:06.540 --> 00:00:06.550 align:start position:0%
+Code is the claw.md file.
+ 
+
+00:00:06.550 --> 00:00:08.790 align:start position:0%
+Code is the claw.md file.
+&gt;&gt; [music]
+
+00:00:08.790 --> 00:00:08.800 align:start position:0%
+ 
+ 
+
+00:00:08.800 --> 00:00:10.390 align:start position:0%
+ 
+&gt;&gt; It<00:00:08.880><c> gives</c><00:00:09.080><c> Claude</c><00:00:09.320><c> Code</c><00:00:09.560><c> persistent</c><00:00:10.000><c> memory</c>
+
+00:00:10.390 --> 00:00:10.400 align:start position:0%
+&gt;&gt; It gives Claude Code persistent memory
+ 
+
+00:00:10.400 --> 00:00:11.780 align:start position:0%
+&gt;&gt; It gives Claude Code persistent memory
+about<00:00:10.680><c> your</c><00:00:10.800><c> project.</c>
+
+00:00:11.780 --> 00:00:11.790 align:start position:0%
+about your project.
+ 
+
+00:00:11.790 --> 00:00:13.510 align:start position:0%
+about your project.
+&gt;&gt; [music]
+
+00:00:13.510 --> 00:00:13.520 align:start position:0%
+&gt;&gt; [music]
+ 
+
+00:00:13.520 --> 00:00:16.150 align:start position:0%
+&gt;&gt; [music]
+&gt;&gt; When<00:00:13.640><c> you</c><00:00:13.840><c> open</c><00:00:14.400><c> up</c><00:00:14.640><c> Claude</c><00:00:14.960><c> Code</c><00:00:15.360><c> without</c><00:00:16.080><c> a</c>
+
+00:00:16.150 --> 00:00:16.160 align:start position:0%
+&gt;&gt; When you open up Claude Code without a
+ 
+
+00:00:16.160 --> 00:00:18.630 align:start position:0%
+&gt;&gt; When you open up Claude Code without a
+claw.md<00:00:17.040><c> file,</c><00:00:17.640><c> it's</c><00:00:17.840><c> like</c><00:00:18.040><c> it</c><00:00:18.160><c> has</c><00:00:18.320><c> to</c><00:00:18.400><c> start</c>
+
+00:00:18.630 --> 00:00:18.640 align:start position:0%
+claw.md file, it's like it has to start
+ 
+
+00:00:18.640 --> 00:00:20.950 align:start position:0%
+claw.md file, it's like it has to start
+fresh<00:00:19.000><c> every</c><00:00:19.200><c> single</c><00:00:19.520><c> time.</c><00:00:20.400><c> It</c><00:00:20.600><c> has</c><00:00:20.800><c> to</c>
+
+00:00:20.950 --> 00:00:20.960 align:start position:0%
+fresh every single time. It has to
+ 
+
+00:00:20.960 --> 00:00:23.190 align:start position:0%
+fresh every single time. It has to
+re-explore<00:00:21.600><c> your</c><00:00:21.760><c> code</c><00:00:22.000><c> base,</c><00:00:22.600><c> understand</c>
+
+00:00:23.190 --> 00:00:23.200 align:start position:0%
+re-explore your code base, understand
+ 
+
+00:00:23.200 --> 00:00:25.150 align:start position:0%
+re-explore your code base, understand
+what<00:00:23.360><c> dependencies</c><00:00:24.240><c> are</c><00:00:24.400><c> needed,</c><00:00:24.840><c> and</c><00:00:25.040><c> the</c>
+
+00:00:25.150 --> 00:00:25.160 align:start position:0%
+what dependencies are needed, and the
+ 
+
+00:00:25.160 --> 00:00:27.110 align:start position:0%
+what dependencies are needed, and the
+features<00:00:25.560><c> that</c><00:00:25.680><c> are</c><00:00:25.840><c> already</c><00:00:26.120><c> implemented.</c>
+
+00:00:27.110 --> 00:00:27.120 align:start position:0%
+features that are already implemented.
+ 
+
+00:00:27.120 --> 00:00:28.710 align:start position:0%
+features that are already implemented.
+Sometimes<00:00:27.600><c> it</c><00:00:27.720><c> has</c><00:00:27.920><c> to</c><00:00:28.000><c> make</c><00:00:28.200><c> assumptions,</c>
+
+00:00:28.710 --> 00:00:28.720 align:start position:0%
+Sometimes it has to make assumptions,
+ 
+
+00:00:28.720 --> 00:00:30.150 align:start position:0%
+Sometimes it has to make assumptions,
+which<00:00:28.880><c> makes</c><00:00:29.080><c> it</c><00:00:29.200><c> harder</c><00:00:29.480><c> for</c><00:00:29.640><c> us</c><00:00:29.760><c> to</c><00:00:30.040><c> steer</c>
+
+00:00:30.150 --> 00:00:30.160 align:start position:0%
+which makes it harder for us to steer
+ 
+
+00:00:30.160 --> 00:00:32.269 align:start position:0%
+which makes it harder for us to steer
+Claude<00:00:30.480><c> in</c><00:00:30.560><c> the</c><00:00:30.640><c> right</c><00:00:30.800><c> direction.</c><00:00:31.800><c> But,</c>
+
+00:00:32.269 --> 00:00:32.279 align:start position:0%
+Claude in the right direction. But,
+ 
+
+00:00:32.279 --> 00:00:34.670 align:start position:0%
+Claude in the right direction. But,
+that's<00:00:32.560><c> where</c><00:00:32.759><c> claw.md</c><00:00:33.680><c> comes</c><00:00:33.920><c> in.</c>
+
+00:00:34.670 --> 00:00:34.680 align:start position:0%
+that's where claw.md comes in.
+ 
+
+00:00:34.680 --> 00:00:36.550 align:start position:0%
+that's where claw.md comes in.
+It's<00:00:34.960><c> a</c><00:00:35.080><c> markdown</c><00:00:35.520><c> file</c><00:00:35.760><c> that</c><00:00:35.960><c> you</c><00:00:36.160><c> add</c><00:00:36.360><c> to</c><00:00:36.440><c> the</c>
+
+00:00:36.550 --> 00:00:36.560 align:start position:0%
+It's a markdown file that you add to the
+ 
+
+00:00:36.560 --> 00:00:38.190 align:start position:0%
+It's a markdown file that you add to the
+root<00:00:36.720><c> of</c><00:00:36.800><c> your</c><00:00:36.920><c> project,</c><00:00:37.480><c> and</c><00:00:37.640><c> Claude</c><00:00:37.920><c> Code</c>
+
+00:00:38.190 --> 00:00:38.200 align:start position:0%
+root of your project, and Claude Code
+ 
+
+00:00:38.200 --> 00:00:39.990 align:start position:0%
+root of your project, and Claude Code
+reads<00:00:38.400><c> it</c><00:00:38.520><c> automatically</c><00:00:39.440><c> every</c><00:00:39.680><c> time</c><00:00:39.920><c> you</c>
+
+00:00:39.990 --> 00:00:40.000 align:start position:0%
+reads it automatically every time you
+ 
+
+00:00:40.000 --> 00:00:42.510 align:start position:0%
+reads it automatically every time you
+start<00:00:40.240><c> a</c><00:00:40.280><c> session.</c><00:00:41.240><c> It's</c><00:00:41.440><c> like</c><00:00:41.800><c> an</c><00:00:42.080><c> onboarding</c>
+
+00:00:42.510 --> 00:00:42.520 align:start position:0%
+start a session. It's like an onboarding
+ 
+
+00:00:42.520 --> 00:00:44.230 align:start position:0%
+start a session. It's like an onboarding
+script<00:00:42.800><c> for</c><00:00:42.880><c> your</c><00:00:43.000><c> code</c><00:00:43.240><c> base.</c>
+
+00:00:44.230 --> 00:00:44.240 align:start position:0%
+script for your code base.
+ 
+
+00:00:44.240 --> 00:00:47.270 align:start position:0%
+script for your code base.
+Simply<00:00:44.640><c> put,</c><00:00:45.360><c> the</c><00:00:45.480><c> contents</c><00:00:45.960><c> of</c><00:00:46.120><c> claw.md</c><00:00:46.880><c> file</c>
+
+00:00:47.270 --> 00:00:47.280 align:start position:0%
+Simply put, the contents of claw.md file
+ 
+
+00:00:47.280 --> 00:00:49.270 align:start position:0%
+Simply put, the contents of claw.md file
+are<00:00:47.440><c> appended</c><00:00:47.960><c> to</c><00:00:48.040><c> your</c><00:00:48.240><c> own</c><00:00:48.360><c> prompt.</c><00:00:49.040><c> You</c><00:00:49.160><c> can</c>
+
+00:00:49.270 --> 00:00:49.280 align:start position:0%
+are appended to your own prompt. You can
+ 
+
+00:00:49.280 --> 00:00:51.030 align:start position:0%
+are appended to your own prompt. You can
+run<00:00:49.440><c> the</c><00:00:49.560><c> {slash}</c><00:00:50.080><c> init</c><00:00:50.360><c> command,</c><00:00:50.760><c> which</c><00:00:50.920><c> will</c>
+
+00:00:51.030 --> 00:00:51.040 align:start position:0%
+run the {slash} init command, which will
+ 
+
+00:00:51.040 --> 00:00:52.870 align:start position:0%
+run the {slash} init command, which will
+make<00:00:51.240><c> Claude</c><00:00:51.560><c> generate</c><00:00:52.000><c> one</c><00:00:52.320><c> based</c><00:00:52.600><c> off</c><00:00:52.760><c> of</c>
+
+00:00:52.870 --> 00:00:52.880 align:start position:0%
+make Claude generate one based off of
+ 
+
+00:00:52.880 --> 00:00:55.350 align:start position:0%
+make Claude generate one based off of
+your<00:00:53.000><c> code</c><00:00:53.240><c> base.</c>
+
+00:00:55.350 --> 00:00:55.360 align:start position:0%
+your code base.
+ 
+
+00:00:55.360 --> 00:00:57.550 align:start position:0%
+your code base.
+So,<00:00:55.600><c> let's</c><00:00:56.160><c> have</c><00:00:56.320><c> a</c><00:00:56.360><c> look</c><00:00:56.520><c> at</c><00:00:56.600><c> one.</c>
+
+00:00:57.550 --> 00:00:57.560 align:start position:0%
+So, let's have a look at one.
+ 
+
+00:00:57.560 --> 00:01:00.030 align:start position:0%
+So, let's have a look at one.
+This<00:00:57.840><c> is</c><00:00:58.080><c> a</c><00:00:58.160><c> Next.js</c><00:00:58.760><c> 15</c><00:00:59.160><c> app</c><00:00:59.360><c> using</c><00:00:59.600><c> the</c><00:00:59.800><c> app</c>
+
+00:01:00.030 --> 00:01:00.040 align:start position:0%
+This is a Next.js 15 app using the app
+ 
+
+00:01:00.040 --> 00:01:02.430 align:start position:0%
+This is a Next.js 15 app using the app
+router,<00:01:00.640><c> Tailwind,</c><00:01:01.240><c> and</c><00:01:01.360><c> Drizzle</c><00:01:01.720><c> ORM.</c>
+
+00:01:02.430 --> 00:01:02.440 align:start position:0%
+router, Tailwind, and Drizzle ORM.
+ 
+
+00:01:02.440 --> 00:01:06.150 align:start position:0%
+router, Tailwind, and Drizzle ORM.
+Command:<00:01:03.120><c> dev</c><00:01:03.320><c> server,</c><00:01:04.080><c> run</c><00:01:04.320><c> tests,</c><00:01:05.000><c> lint,</c>
+
+00:01:06.150 --> 00:01:06.160 align:start position:0%
+Command: dev server, run tests, lint,
+ 
+
+00:01:06.160 --> 00:01:08.790 align:start position:0%
+Command: dev server, run tests, lint,
+code<00:01:06.400><c> style,</c><00:01:06.960><c> use</c><00:01:07.200><c> two-space</c><00:01:07.720><c> indentation,</c>
+
+00:01:08.790 --> 00:01:08.800 align:start position:0%
+code style, use two-space indentation,
+ 
+
+00:01:08.800 --> 00:01:11.150 align:start position:0%
+code style, use two-space indentation,
+prefer<00:01:09.200><c> named</c><00:01:09.440><c> exports,</c><00:01:10.120><c> all</c><00:01:10.360><c> API</c><00:01:10.720><c> routes</c><00:01:11.000><c> go</c>
+
+00:01:11.150 --> 00:01:11.160 align:start position:0%
+prefer named exports, all API routes go
+ 
+
+00:01:11.160 --> 00:01:12.910 align:start position:0%
+prefer named exports, all API routes go
+in<00:01:11.320><c> app/api,</c>
+
+00:01:12.910 --> 00:01:12.920 align:start position:0%
+in app/api,
+ 
+
+00:01:12.920 --> 00:01:14.830 align:start position:0%
+in app/api,
+use<00:01:13.120><c> server</c><00:01:13.440><c> actions</c><00:01:13.760><c> instead</c><00:01:13.960><c> of</c><00:01:14.120><c> API</c><00:01:14.480><c> routes</c>
+
+00:01:14.830 --> 00:01:14.840 align:start position:0%
+use server actions instead of API routes
+ 
+
+00:01:14.840 --> 00:01:16.190 align:start position:0%
+use server actions instead of API routes
+where<00:01:15.000><c> possible.</c>
+
+00:01:16.190 --> 00:01:16.200 align:start position:0%
+where possible.
+ 
+
+00:01:16.200 --> 00:01:18.830 align:start position:0%
+where possible.
+And<00:01:16.560><c> it's</c><00:01:17.080><c> pretty</c><00:01:17.360><c> straightforward.</c><00:01:18.440><c> Now,</c><00:01:18.640><c> if</c>
+
+00:01:18.830 --> 00:01:18.840 align:start position:0%
+And it's pretty straightforward. Now, if
+ 
+
+00:01:18.840 --> 00:01:20.470 align:start position:0%
+And it's pretty straightforward. Now, if
+I<00:01:18.920><c> ask</c><00:01:19.160><c> Claude</c><00:01:19.440><c> Code</c><00:01:19.720><c> to</c><00:01:19.800><c> create</c><00:01:20.080><c> a</c><00:01:20.120><c> React</c>
+
+00:01:20.470 --> 00:01:20.480 align:start position:0%
+I ask Claude Code to create a React
+ 
+
+00:01:20.480 --> 00:01:22.470 align:start position:0%
+I ask Claude Code to create a React
+component,<00:01:20.960><c> it</c><00:01:21.120><c> knows</c><00:01:21.400><c> how</c><00:01:21.560><c> to</c><00:01:21.720><c> style</c><00:01:22.040><c> it</c><00:01:22.160><c> with</c>
+
+00:01:22.470 --> 00:01:22.480 align:start position:0%
+component, it knows how to style it with
+ 
+
+00:01:22.480 --> 00:01:25.070 align:start position:0%
+component, it knows how to style it with
+Tailwind<00:01:23.000><c> or</c><00:01:23.320><c> any</c><00:01:23.600><c> other</c><00:01:24.240><c> CSS</c><00:01:24.680><c> framework</c><00:01:25.000><c> that</c>
+
+00:01:25.070 --> 00:01:25.080 align:start position:0%
+Tailwind or any other CSS framework that
+ 
+
+00:01:25.080 --> 00:01:27.030 align:start position:0%
+Tailwind or any other CSS framework that
+I'm<00:01:25.200><c> using.</c><00:01:25.720><c> We</c><00:01:25.840><c> can</c><00:01:26.000><c> see</c><00:01:26.160><c> that</c><00:01:26.360><c> Claude</c><00:01:26.680><c> does</c><00:01:26.920><c> a</c>
+
+00:01:27.030 --> 00:01:27.040 align:start position:0%
+I'm using. We can see that Claude does a
+ 
+
+00:01:27.040 --> 00:01:29.350 align:start position:0%
+I'm using. We can see that Claude does a
+better<00:01:27.320><c> job</c><00:01:27.680><c> at</c><00:01:27.800><c> doing</c><00:01:28.040><c> his</c><00:01:28.200><c> job</c><00:01:28.920><c> right</c><00:01:29.200><c> off</c>
+
+00:01:29.350 --> 00:01:29.360 align:start position:0%
+better job at doing his job right off
+ 
+
+00:01:29.360 --> 00:01:31.950 align:start position:0%
+better job at doing his job right off
+the<00:01:29.440><c> bat</c><00:01:30.040><c> versus</c><00:01:30.560><c> having</c><00:01:30.840><c> to</c><00:01:30.960><c> understand</c>
+
+00:01:31.950 --> 00:01:31.960 align:start position:0%
+the bat versus having to understand
+ 
+
+00:01:31.960 --> 00:01:34.990 align:start position:0%
+the bat versus having to understand
+where<00:01:32.240><c> everything</c><00:01:32.600><c> is</c><00:01:32.840><c> at</c><00:01:32.960><c> first.</c>
+
+00:01:34.990 --> 00:01:35.000 align:start position:0%
+where everything is at first.
+ 
+
+00:01:35.000 --> 00:01:37.470 align:start position:0%
+where everything is at first.
+And<00:01:35.120><c> before</c><00:01:35.400><c> you</c><00:01:35.520><c> ask,</c><00:01:36.160><c> the</c><00:01:36.320><c> answer</c><00:01:36.520><c> is</c><00:01:36.640><c> yes.</c>
+
+00:01:37.470 --> 00:01:37.480 align:start position:0%
+And before you ask, the answer is yes.
+ 
+
+00:01:37.480 --> 00:01:38.910 align:start position:0%
+And before you ask, the answer is yes.
+You<00:01:37.680><c> share</c><00:01:37.920><c> this</c><00:01:38.080><c> in</c><00:01:38.160><c> your</c><00:01:38.280><c> version</c><00:01:38.600><c> control</c>
+
+00:01:38.910 --> 00:01:38.920 align:start position:0%
+You share this in your version control
+ 
+
+00:01:38.920 --> 00:01:40.510 align:start position:0%
+You share this in your version control
+for<00:01:39.080><c> your</c><00:01:39.200><c> team</c><00:01:39.400><c> to</c><00:01:39.560><c> use,</c><00:01:40.160><c> but</c><00:01:40.320><c> there's</c>
+
+00:01:40.510 --> 00:01:40.520 align:start position:0%
+for your team to use, but there's
+ 
+
+00:01:40.520 --> 00:01:42.390 align:start position:0%
+for your team to use, but there's
+actually<00:01:40.920><c> a</c><00:01:41.040><c> hierarchy</c><00:01:41.680><c> of</c><00:01:41.800><c> memory</c><00:01:42.080><c> files</c>
+
+00:01:42.390 --> 00:01:42.400 align:start position:0%
+actually a hierarchy of memory files
+ 
+
+00:01:42.400 --> 00:01:44.510 align:start position:0%
+actually a hierarchy of memory files
+depending<00:01:42.840><c> on</c><00:01:42.920><c> who</c><00:01:43.040><c> it's</c><00:01:43.200><c> for.</c><00:01:43.960><c> So,</c><00:01:44.160><c> first</c><00:01:44.400><c> you</c>
+
+00:01:44.510 --> 00:01:44.520 align:start position:0%
+depending on who it's for. So, first you
+ 
+
+00:01:44.520 --> 00:01:46.470 align:start position:0%
+depending on who it's for. So, first you
+have<00:01:44.720><c> your</c><00:01:44.880><c> project-level</c><00:01:45.560><c> claw.md</c><00:01:46.320><c> that</c>
+
+00:01:46.470 --> 00:01:46.480 align:start position:0%
+have your project-level claw.md that
+ 
+
+00:01:46.480 --> 00:01:47.790 align:start position:0%
+have your project-level claw.md that
+lives<00:01:46.720><c> in</c><00:01:46.840><c> the</c><00:01:46.960><c> root</c><00:01:47.160><c> directory</c><00:01:47.560><c> of</c><00:01:47.680><c> your</c>
+
+00:01:47.790 --> 00:01:47.800 align:start position:0%
+lives in the root directory of your
+ 
+
+00:01:47.800 --> 00:01:51.110 align:start position:0%
+lives in the root directory of your
+project.<00:01:48.560><c> You</c><00:01:48.800><c> have</c><00:01:49.160><c> a</c><00:01:49.360><c> user-level</c><00:01:50.240><c> claw.md</c>
+
+00:01:51.110 --> 00:01:51.120 align:start position:0%
+project. You have a user-level claw.md
+ 
+
+00:01:51.120 --> 00:01:53.030 align:start position:0%
+project. You have a user-level claw.md
+that<00:01:51.320><c> lives</c><00:01:51.560><c> in</c><00:01:51.680><c> your</c><00:01:51.800><c> configuration</c><00:01:52.480><c> folder.</c>
+
+00:01:53.030 --> 00:01:53.040 align:start position:0%
+that lives in your configuration folder.
+ 
+
+00:01:53.040 --> 00:01:55.190 align:start position:0%
+that lives in your configuration folder.
+This<00:01:53.240><c> one</c><00:01:53.560><c> is</c><00:01:53.800><c> just</c><00:01:54.080><c> for</c><00:01:54.280><c> you</c><00:01:54.600><c> and</c><00:01:54.720><c> goes</c><00:01:54.880><c> across</c>
+
+00:01:55.190 --> 00:01:55.200 align:start position:0%
+This one is just for you and goes across
+ 
+
+00:01:55.200 --> 00:01:57.470 align:start position:0%
+This one is just for you and goes across
+all<00:01:55.360><c> your</c><00:01:55.480><c> projects.</c><00:01:56.320><c> So,</c><00:01:56.640><c> put</c><00:01:56.880><c> your</c><00:01:57.040><c> personal</c>
+
+00:01:57.470 --> 00:01:57.480 align:start position:0%
+all your projects. So, put your personal
+ 
+
+00:01:57.480 --> 00:01:59.630 align:start position:0%
+all your projects. So, put your personal
+preferences<00:01:58.120><c> here,</c><00:01:58.520><c> like</c><00:01:58.960><c> how</c><00:01:59.200><c> you</c><00:01:59.440><c> write</c>
+
+00:01:59.630 --> 00:01:59.640 align:start position:0%
+preferences here, like how you write
+ 
+
+00:01:59.640 --> 00:02:01.390 align:start position:0%
+preferences here, like how you write
+code<00:01:59.880><c> comments.</c>
+
+00:02:01.390 --> 00:02:01.400 align:start position:0%
+code comments.
+ 
+
+00:02:01.400 --> 00:02:03.030 align:start position:0%
+code comments.
+First,<00:02:01.720><c> if</c><00:02:01.840><c> you</c><00:02:01.960><c> have</c><00:02:02.120><c> to</c><00:02:02.200><c> correct</c><00:02:02.600><c> Claude</c><00:02:02.920><c> to</c>
+
+00:02:03.030 --> 00:02:03.040 align:start position:0%
+First, if you have to correct Claude to
+ 
+
+00:02:03.040 --> 00:02:04.990 align:start position:0%
+First, if you have to correct Claude to
+do<00:02:03.200><c> something</c><00:02:03.600><c> like</c><00:02:04.120><c> always</c><00:02:04.479><c> use</c><00:02:04.680><c> server</c>
+
+00:02:04.990 --> 00:02:05.000 align:start position:0%
+do something like always use server
+ 
+
+00:02:05.000 --> 00:02:06.990 align:start position:0%
+do something like always use server
+actions<00:02:05.360><c> instead</c><00:02:05.600><c> of</c><00:02:05.680><c> API</c><00:02:06.040><c> routes,</c>
+
+00:02:06.990 --> 00:02:07.000 align:start position:0%
+actions instead of API routes,
+ 
+
+00:02:07.000 --> 00:02:09.389 align:start position:0%
+actions instead of API routes,
+then<00:02:07.320><c> explicitly</c><00:02:08.080><c> ask</c><00:02:08.440><c> Claude</c><00:02:08.759><c> to</c><00:02:08.920><c> save</c><00:02:09.160><c> this</c>
+
+00:02:09.389 --> 00:02:09.399 align:start position:0%
+then explicitly ask Claude to save this
+ 
+
+00:02:09.399 --> 00:02:11.270 align:start position:0%
+then explicitly ask Claude to save this
+to<00:02:09.520><c> memory,</c><00:02:10.160><c> so</c><00:02:10.320><c> that</c><00:02:10.479><c> when</c><00:02:10.640><c> you</c><00:02:10.759><c> come</c><00:02:10.960><c> back</c><00:02:11.200><c> to</c>
+
+00:02:11.270 --> 00:02:11.280 align:start position:0%
+to memory, so that when you come back to
+ 
+
+00:02:11.280 --> 00:02:12.870 align:start position:0%
+to memory, so that when you come back to
+this<00:02:11.440><c> project,</c><00:02:12.000><c> it</c><00:02:12.080><c> will</c><00:02:12.200><c> know</c><00:02:12.400><c> every</c><00:02:12.600><c> single</c>
+
+00:02:12.870 --> 00:02:12.880 align:start position:0%
+this project, it will know every single
+ 
+
+00:02:12.880 --> 00:02:14.070 align:start position:0%
+this project, it will know every single
+time.
+
+00:02:14.070 --> 00:02:14.080 align:start position:0%
+time.
+ 
+
+00:02:14.080 --> 00:02:16.430 align:start position:0%
+time.
+Second,<00:02:14.600><c> if</c><00:02:14.840><c> you</c><00:02:15.040><c> have</c><00:02:15.360><c> docs</c><00:02:15.760><c> in</c><00:02:15.880><c> your</c><00:02:16.040><c> project</c>
+
+00:02:16.430 --> 00:02:16.440 align:start position:0%
+Second, if you have docs in your project
+ 
+
+00:02:16.440 --> 00:02:18.310 align:start position:0%
+Second, if you have docs in your project
+that<00:02:16.600><c> you</c><00:02:16.760><c> want</c><00:02:17.000><c> Claude</c><00:02:17.240><c> to</c><00:02:17.360><c> reference,</c><00:02:18.000><c> just</c>
+
+00:02:18.310 --> 00:02:18.320 align:start position:0%
+that you want Claude to reference, just
+ 
+
+00:02:18.320 --> 00:02:20.990 align:start position:0%
+that you want Claude to reference, just
+use<00:02:18.560><c> the</c><00:02:18.800><c> @</c><00:02:19.000><c> symbol</c><00:02:19.360><c> with</c><00:02:19.520><c> the</c><00:02:19.600><c> file</c><00:02:19.880><c> path.</c>
+
+00:02:20.990 --> 00:02:21.000 align:start position:0%
+use the @ symbol with the file path.
+ 
+
+00:02:21.000 --> 00:02:23.110 align:start position:0%
+use the @ symbol with the file path.
+And<00:02:21.160><c> third</c><00:02:21.520><c> is</c><00:02:21.760><c> we</c><00:02:21.959><c> recommend</c><00:02:22.440><c> you</c><00:02:22.520><c> start</c><00:02:22.920><c> off</c>
+
+00:02:23.110 --> 00:02:23.120 align:start position:0%
+And third is we recommend you start off
+ 
+
+00:02:23.120 --> 00:02:26.150 align:start position:0%
+And third is we recommend you start off
+a<00:02:23.200><c> project</c><00:02:23.720><c> without</c><00:02:24.400><c> a</c><00:02:24.480><c> Claude.md</c><00:02:25.720><c> file,</c><00:02:26.000><c> can</c>
+
+00:02:26.150 --> 00:02:26.160 align:start position:0%
+a project without a Claude.md file, can
+ 
+
+00:02:26.160 --> 00:02:27.990 align:start position:0%
+a project without a Claude.md file, can
+see<00:02:26.360><c> where</c><00:02:26.560><c> you</c><00:02:26.720><c> have</c><00:02:26.880><c> to</c><00:02:27.000><c> constantly</c><00:02:27.720><c> course</c>
+
+00:02:27.990 --> 00:02:28.000 align:start position:0%
+see where you have to constantly course
+ 
+
+00:02:28.000 --> 00:02:29.670 align:start position:0%
+see where you have to constantly course
+correct<00:02:28.320><c> the</c><00:02:28.400><c> model.</c><00:02:29.040><c> This</c><00:02:29.240><c> keeps</c><00:02:29.520><c> your</c>
+
+00:02:29.670 --> 00:02:29.680 align:start position:0%
+correct the model. This keeps your
+ 
+
+00:02:29.680 --> 00:02:32.110 align:start position:0%
+correct the model. This keeps your
+Claude.md<00:02:30.440><c> file</c><00:02:30.720><c> compact</c><00:02:31.280><c> and</c><00:02:31.440><c> contain</c><00:02:31.880><c> only</c>
+
+00:02:32.110 --> 00:02:32.120 align:start position:0%
+Claude.md file compact and contain only
+ 
+
+00:02:32.120 --> 00:02:34.390 align:start position:0%
+Claude.md file compact and contain only
+the<00:02:32.240><c> necessary</c><00:02:32.840><c> information</c><00:02:33.760><c> that</c><00:02:34.120><c> Claude</c>
+
+00:02:34.390 --> 00:02:34.400 align:start position:0%
+the necessary information that Claude
+ 
+
+00:02:34.400 --> 00:02:39.030 align:start position:0%
+the necessary information that Claude
+can<00:02:34.560><c> work</c><00:02:34.800><c> with.</c>
+
+00:02:39.030 --> 00:02:39.040 align:start position:0%
+ 
+ 
+
+00:02:39.040 --> 00:02:40.670 align:start position:0%
+ 
+The<00:02:39.080><c> difference</c><00:02:39.440><c> between</c><00:02:39.840><c> a</c><00:02:39.959><c> frustrating</c>
+
+00:02:40.670 --> 00:02:40.680 align:start position:0%
+The difference between a frustrating
+ 
+
+00:02:40.680 --> 00:02:42.590 align:start position:0%
+The difference between a frustrating
+Claude<00:02:40.959><c> code</c><00:02:41.200><c> session</c><00:02:41.600><c> and</c><00:02:41.800><c> a</c><00:02:41.880><c> productive</c><00:02:42.400><c> one</c>
+
+00:02:42.590 --> 00:02:42.600 align:start position:0%
+Claude code session and a productive one
+ 
+
+00:02:42.600 --> 00:02:45.030 align:start position:0%
+Claude code session and a productive one
+comes<00:02:42.840><c> down</c><00:02:43.080><c> to</c><00:02:43.240><c> the</c><00:02:43.480><c> context</c><00:02:44.520><c> and</c><00:02:44.840><c> the</c>
+
+00:02:45.030 --> 00:02:45.040 align:start position:0%
+comes down to the context and the
+ 
+
+00:02:45.040 --> 00:02:46.830 align:start position:0%
+comes down to the context and the
+Claude.md<00:02:45.760><c> file</c><00:02:46.080><c> is</c><00:02:46.120><c> how</c><00:02:46.240><c> you</c><00:02:46.320><c> provide</c><00:02:46.680><c> that</c>
+
+00:02:46.830 --> 00:02:46.840 align:start position:0%
+Claude.md file is how you provide that
+ 
+
+00:02:46.840 --> 00:02:49.350 align:start position:0%
+Claude.md file is how you provide that
+context.
+
+00:02:49.350 --> 00:02:49.360 align:start position:0%
+context.
+ 
+
+00:02:49.360 --> 00:02:51.510 align:start position:0%
+context.
+Start<00:02:49.600><c> with</c><00:02:49.760><c> your</c><00:02:49.880><c> stack,</c><00:02:50.560><c> your</c><00:02:50.720><c> preferences,</c>
+
+00:02:51.510 --> 00:02:51.520 align:start position:0%
+Start with your stack, your preferences,
+ 
+
+00:02:51.520 --> 00:02:52.911 align:start position:0%
+Start with your stack, your preferences,
+and<00:02:51.680><c> then</c><00:02:51.800><c> commands,</c><00:02:52.640><c> and</c>
+
+00:02:52.911 --> 00:02:52.921 align:start position:0%
+and then commands, and
+ 
+
+00:02:52.921 --> 00:02:53.030 align:start position:0%
+and then commands, and
+&gt;&gt; [music]
+
+00:02:53.030 --> 00:02:53.040 align:start position:0%
+&gt;&gt; [music]
+ 
+
+00:02:53.040 --> 00:02:56.480 align:start position:0%
+&gt;&gt; [music]
+&gt;&gt; just<00:02:53.280><c> build</c><00:02:53.520><c> from</c><00:02:53.680><c> there</c><00:02:53.840><c> as</c><00:02:54.000><c> you</c><00:02:54.120><c> go.</c>
+

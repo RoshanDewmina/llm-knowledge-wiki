@@ -3,6 +3,7 @@
 from __future__ import annotations
 import argparse
 import re
+import sys
 from pathlib import Path
 from typing import List
 
@@ -62,7 +63,11 @@ def main() -> int:
     parser.add_argument("--n", type=int, default=5)
     parser.add_argument("--kind", choices=("recall", "confusion", "derivation", "mixed"), default="mixed")
     args = parser.parse_args()
-    path = study_path(args.slug)
+    try:
+        path = study_path(args.slug)
+    except FileNotFoundError as exc:
+        print(f"error: {exc}", file=sys.stderr)
+        return 1
     questions = build_questions(path, args.kind, args.n)
     print(f"Study: {repo_relative(path)}")
     if not questions:

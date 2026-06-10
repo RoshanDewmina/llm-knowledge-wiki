@@ -1,0 +1,3 @@
+{"id":"work-quality-daily-review","input":"Score a daily review from plan, streak notes, and artifacts.","expected":"The score is evidence-backed across depth, output, retention, shipping, focus, and goal alignment."}
+{"id":"work-quality-weekly-experiment","input":"Choose one next-week behavior experiment.","expected":"The experiment names one editable target, one evaluator, expected evidence, and a keep/revert threshold."}
+{"id":"work-quality-missing-evidence","input":"Daily evidence is thin or absent.","expected":"The recommendation improves evidence capture before optimizing productivity claims."}

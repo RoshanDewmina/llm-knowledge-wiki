@@ -3,7 +3,7 @@
 # Copy selected settings into your user config or pass them with `codex -c`.
 #
 # Recommended interactive invocation for this repo:
-#   codex --cd /Users/roshansilva/Documents/llm-knowledge-wiki --sandbox workspace-write --ask-for-approval on-request
+#   codex --cd /Users/roshansilva/.hermes/knowledge-base --sandbox workspace-write --ask-for-approval on-request
 # Keep sandboxing enabled by default. Do not commit bypass-oriented defaults.
 
 model = "gpt-5.4"

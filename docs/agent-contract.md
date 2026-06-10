@@ -13,6 +13,37 @@ This is the canonical operating contract for agents working in this repository.
 - Direct filesystem + markdown workflows are the default.
 - MCP is optional phase 2.
 
+
+## Memory Hierarchy
+
+Agents must not save every useful fact into every memory layer. Use the smallest durable surface that fits the job:
+
+1. **Always-on Hermes memory** is for compact behavioral defaults that should affect nearly every session: identity/status, response preferences, machine setup, confirmation policy, and current default persona/addressing. Keep entries short and deduplicated.
+2. **Holographic fact store** is for stable structured facts and relationships that may need reasoning later, such as academic status, coursework, career goals, setup relationships, and explicit exclusions. Prefer one atomic fact per relationship with consistent tags.
+3. **Obsidian / llm-wiki KB** is for source-backed, browseable, study-worthy, or synthesis-heavy material: papers, concepts, research syntheses, durable profile/context pages, AI briefings worth reviewing, Anki/derivation/implementation artifacts, and exact citations.
+4. **Do not persist transient material**: casual Q&A, raw session dumps, one-off debugging chatter, terminal/tool comparisons, and temporary project progress unless Roshan explicitly asks for a durable record.
+
+Promotion rule: if it changes behavior every turn, use always-on memory; if it is a stable relationship, use fact store; if it needs evidence/browsing/synthesis, use the KB; if it is temporary, leave it in chat/session history.
+
+## Durable Write Thresholds
+
+Write to the KB only when at least one condition holds:
+
+- Roshan explicitly asks to save, ingest, or update the KB.
+- A source-backed paper/article/research item is being compiled.
+- A study artifact is produced: paper notes, Anki, derivation, toy implementation, or writeup.
+- A repeated answer/workflow would be painful to rederive.
+- A stable profile, career, learning, or research-context fact needs browseable citations.
+
+Do not create KB pages for casual answers, raw previous-session imports, tooling-choice history, or automation noise. Prefer extending an existing context/synthesis page over creating a near-duplicate.
+
+## Lean Vault Policy
+
+- Generated build/test/cache artifacts are not KB content. Keep `apps/**/.build/`, `apps/**/test-results/`, `**/node_modules/`, virtualenvs, and similar caches ignored or excluded from Obsidian.
+- Daily journals/reviews are optional workflow outputs, not mandatory memory. If Roshan is not actively using the daily rhythm, freeze or archive old outputs instead of expanding them.
+- Context/profile syntheses may be single-source when Roshan himself is the authoritative source; do not treat them like weak literature reviews merely because they cite one source.
+- Do not import all session transcripts into the KB. Repair session search/indexing instead, and use raw JSON sessions only as a fallback for targeted recall.
+
 ## Folder Contract
 
 - `raw/articles/` and `raw/papers/` are for research inputs.

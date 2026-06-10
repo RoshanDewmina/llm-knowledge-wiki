@@ -1,0 +1,3 @@
+{"id":"prompt-handoff-repo-change","input":"Hand off a repo implementation task to another agent.","expected":"The prompt names source-of-truth files, exact files to inspect, forbidden actions, verification commands, and final report format."}
+{"id":"prompt-handoff-study-pack","input":"Hand off a study-pack generation task.","expected":"The prompt preserves scope, official-source requirements, artifact paths, answer-key separation, and coverage checks."}
+{"id":"prompt-handoff-cleanup","input":"Hand off a filesystem cleanup task.","expected":"The prompt requires audit-first behavior, archive/quarantine paths, no destructive deletion without approval, and a clear summary."}

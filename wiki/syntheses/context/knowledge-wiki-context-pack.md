@@ -2,25 +2,26 @@
 title: Knowledge Wiki Context Pack
 type: synthesis
 created: 2026-04-10T12:31:26Z
-updated: 2026-04-10T12:31:26Z
+updated: 2026-05-06T16:05:03Z
 status: reviewed
 confidence: 0.86
 related:
   - projects/knowledge-wiki-project-memory
+  - syntheses/context/roshan-profile-context
   - syntheses/codebases/knowledge-wiki-architecture
   - journal/2026-04-10-daily-note
 source_pages:
   - sources/example-transformer-tooling-notes
   - sources/example-com-attention-as-interface
   - sources/example-com-residual-stream-notes
-compiled_at: 2026-04-10T12:31:26Z
+compiled_at: 2026-05-06T16:05:03Z
 ---
 
 # Knowledge Wiki Context Pack
 
 ## Scope
 
-- This page is the compact state summary an agent should read before diving into the rest of the vault.
+- This page is the compact state summary an agent should read before diving into the rest of the vault. For user-specific academic/career/learning preferences, read [[syntheses/context/roshan-profile-context]].
 
 ## Current State
 
@@ -31,6 +32,7 @@ compiled_at: 2026-04-10T12:31:26Z
 ## Read First
 
 - [[projects/knowledge-wiki-project-memory]]
+- [[syntheses/context/roshan-profile-context]]
 - [[concepts/transformer-architecture]]
 - [[syntheses/transformer-orientation]]
 

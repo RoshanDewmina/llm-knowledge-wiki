@@ -20,3 +20,30 @@ CLAUDE.local.md
 .obsidian/community-plugins.json
 .hermes/
 .obsidian/plugins/obsidian-spaced-repetition/data.json
+# Generated app/test artifacts (not KB content)
+apps/**/.build/
+apps/**/test-results/
+**/node_modules/
+**/.turbo/
+**/dist/
+**/build/
+
+# MCP project config — contains absolute machine path, not safe to commit
+.mcp.json
+
+# Personal sensitive content — never commit cleartext
+secure/cleartext/
+secure/encrypted/
+secure/source-hashes.json
+raw/inbox/
+*.personal.md
+**/*roshan-personal*facts*.jsonl
+**/*roshan-personal*.md
+**/*roshan-profile*.md
+**/*roshan-immigration-documents*.md
+
+# Regenerable caches / themes — not KB content (added 2026-06-10, cross-machine sync)
+wiki/.cache/
+.obsidian/themes/
+# yt-dlp scrape exhaust (metadata sidecars) — keep transcripts/.vtt, drop .info.json
+**/*.info.json

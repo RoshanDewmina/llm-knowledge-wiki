@@ -1,0 +1,168 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.760
+Cyber security at Anthropic I would&nbsp;
+[music] say is I'm biased but I think&nbsp;&nbsp;
+
+00:00:03.760 --> 00:00:07.320
+it's one of the most interesting parts of&nbsp;
+the company. There's no [music] precedent&nbsp;&nbsp;
+
+00:00:07.320 --> 00:00:12.160
+for what we're building and so securing it&nbsp;
+is also kind of you know a new frontier.
+
+00:00:17.080 --> 00:00:22.040
+The thing that I've always kind of [music] been&nbsp;
+stuck on is that we have these tools to do this&nbsp;&nbsp;
+
+00:00:22.040 --> 00:00:26.680
+work, but a lot of them don't actually fit&nbsp;
+[music] what the analysts or investigators,&nbsp;&nbsp;
+
+00:00:26.680 --> 00:00:30.360
+people with boots on the ground are&nbsp;
+doing. Before investigating a security&nbsp;&nbsp;
+
+00:00:30.360 --> 00:00:35.080
+event would be [music] jumping between five&nbsp;
+to six different tools, running, you know,&nbsp;&nbsp;
+
+00:00:35.080 --> 00:00:40.200
+three to four different query languages over&nbsp;
+different databases. For a simple investigation,&nbsp;&nbsp;
+
+00:00:40.200 --> 00:00:45.160
+it would take a couple hours at least [music] and&nbsp;
+a couple days at most. And that is part of why we&nbsp;&nbsp;
+
+00:00:45.160 --> 00:00:50.120
+built Clue. Clue is a detection and response&nbsp;
+platform that we've built with cloud code.&nbsp;&nbsp;
+
+00:00:50.120 --> 00:00:55.320
+One thing that makes Clue so powerful is&nbsp;
+it is connected to our internal system. So&nbsp;&nbsp;
+
+00:00:55.320 --> 00:01:01.600
+it has access [music] via tool use to query our&nbsp;
+data warehouses, but it also has the ability to&nbsp;&nbsp;
+
+00:01:01.600 --> 00:01:06.960
+query like internal knowledge of our company.&nbsp;
+[music] So Slack messages and our code bases.&nbsp;&nbsp;
+
+00:01:06.960 --> 00:01:12.000
+That is usually like that missing piece [music]&nbsp;
+that really helps alerts be contextualized for&nbsp;&nbsp;
+
+00:01:12.000 --> 00:01:16.440
+your environment. to note this is just a&nbsp;
+sample set of data that I've imported into&nbsp;&nbsp;
+
+00:01:16.440 --> 00:01:22.200
+clue. So this isn't actually anthropic internal&nbsp;
+information. How we start in clue investigate is&nbsp;&nbsp;
+
+00:01:22.200 --> 00:01:27.720
+the user being me would ask a question. So I say&nbsp;
+a developer just gave themselves [music] admin&nbsp;&nbsp;
+
+00:01:27.720 --> 00:01:33.040
+access. Is this authorized? Can you check for&nbsp;
+credential compromise and what actions they&nbsp;&nbsp;
+
+00:01:33.040 --> 00:01:37.880
+took afterwards? [music] And so we have asked&nbsp;
+Claude to come up with a plan on how it would&nbsp;&nbsp;
+
+00:01:37.880 --> 00:01:44.160
+investigate this. [music] Comes up with these six&nbsp;
+steps. Then it will kick up a bunch of queries.&nbsp;&nbsp;
+
+00:01:44.160 --> 00:01:49.240
+And so these are the tools that's reaching out&nbsp;
+for more information to help us figure out what's&nbsp;&nbsp;
+
+00:01:49.240 --> 00:01:55.440
+going on. And we see the assistant Claude has&nbsp;
+come back and has gathered some more information.&nbsp;&nbsp;
+
+00:01:55.440 --> 00:02:00.480
+And it says, you know, this kind of looks like a&nbsp;
+pretty classic privilege escalation. Here's some&nbsp;&nbsp;
+
+00:02:00.480 --> 00:02:06.200
+of the reasons I'm coming to that verdict.&nbsp;
+And it's going to issue some more queries.&nbsp;&nbsp;
+
+00:02:06.200 --> 00:02:12.000
+This is again this is sample data but it the&nbsp;
+source IP when looked up was a Russian data center&nbsp;&nbsp;
+
+00:02:12.000 --> 00:02:17.840
+and it was flagged as malicious by virus total&nbsp;
+and it then actually comes to you know good news&nbsp;&nbsp;
+
+00:02:17.840 --> 00:02:22.200
+this [music] seems to be isolated but it's also&nbsp;
+identifying there's some gaps in our security&nbsp;&nbsp;
+
+00:02:22.200 --> 00:02:28.720
+posture on this system so there's some afteraction&nbsp;
+items that we could take and then finally the&nbsp;&nbsp;
+
+00:02:28.720 --> 00:02:35.200
+final investigation summary that Claude will come&nbsp;
+up with and share with you all the investigations&nbsp;&nbsp;
+
+00:02:35.200 --> 00:02:40.440
+that were taken and the findings we have this&nbsp;
+ability to go through immense amounts of data,&nbsp;&nbsp;
+
+00:02:40.440 --> 00:02:46.280
+immense amounts of alerts [music] and then just&nbsp;
+raise what actually a human should look at. I had&nbsp;&nbsp;
+
+00:02:46.280 --> 00:02:51.400
+been working on our Q4 plans and I was like okay&nbsp;
+we're going to work on this suppression engine&nbsp;&nbsp;
+
+00:02:51.400 --> 00:02:55.640
+and this is going to take you know at least 1 to&nbsp;
+[music] two months. One of our new hires built&nbsp;&nbsp;
+
+00:02:55.640 --> 00:03:00.480
+it in a week. Most of it is because Claude Code is&nbsp;
+able to explain to [music] them here's how this is&nbsp;&nbsp;
+
+00:03:00.480 --> 00:03:05.400
+set up. Here's how it's working. And it feels like&nbsp;
+for me when I bring people on that I'm giving them&nbsp;&nbsp;
+
+00:03:05.400 --> 00:03:10.920
+a tool that will [music] give them that autonomy&nbsp;
+rather than them having to, you know, kind of like&nbsp;&nbsp;
+
+00:03:10.920 --> 00:03:15.040
+swim in the deep end immediately. [music] I'm&nbsp;
+building the tools that I wish that I had. And&nbsp;&nbsp;
+
+00:03:15.040 --> 00:03:21.320
+I'm actually able to [music] do what I feel like&nbsp;
+is pushing from being a practitioner to being a&nbsp;&nbsp;
+
+00:03:21.320 --> 00:03:27.360
+researcher, kind of a scientist, [music] because&nbsp;
+I'm getting to test out a lot of the ways that,&nbsp;&nbsp;
+
+00:03:27.360 --> 00:03:31.280
+you know, I've only imagined us being able to&nbsp;
+process, you know, this immense [music] amount&nbsp;&nbsp;
+
+00:03:31.280 --> 00:03:37.640
+of data and have more visibility into our&nbsp;
+systems that previously was just out of reach.
+

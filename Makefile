@@ -5,7 +5,7 @@ SOURCE ?= raw/articles/2026/2026-04-07-example-com-attention-as-interface.md
 SYNTHESIS ?= wiki/syntheses/transformer-orientation.md
 QUESTION ?= What should this vault explain next?
 
-.PHONY: help onboard setup doctor health status check review review-daily manifest query query-json ingest ingest-demo daily question research-demo project-demo export export-demo test site-dev site-build site-lint site-test
+.PHONY: help onboard setup doctor health status check review review-daily manifest query query-json ingest ingest-demo daily question research-demo project-demo export export-demo test site-dev site-build site-lint site-test cockpit-build cockpit-test cockpit-run cockpit-package
 
 help:
 	@printf '%s\n' \
@@ -30,6 +30,10 @@ help:
 		'  make export SYNTHESIS=wiki/...     Export a synthesis/output to Marp markdown through the repo CLI' \
 		'  make export-demo                   Export the seeded demo synthesis' \
 		'  make test                          Run Python tests plus frontend lint/build/e2e' \
+		'  make cockpit-build                 Build the native macOS Research Cockpit app' \
+		'  make cockpit-test                  Run Research Cockpit Swift tests' \
+		'  make cockpit-run                   Build and launch Research Cockpit.app' \
+		'  make cockpit-package               Sign and zip Research Cockpit for direct download' \
 		'  make site-dev                      Run the Next.js frontend with Bun' \
 		'  make site-build                    Build the Next.js frontend with Bun' \
 		'  make site-lint                     Lint the Next.js frontend' \
@@ -116,3 +120,15 @@ site-lint:
 site-test:
 	$(PYTHON) tools/build_site_manifest.py
 	cd apps/site && bun run test:e2e
+
+cockpit-build:
+	cd apps/research-cockpit && swift build
+
+cockpit-test:
+	cd apps/research-cockpit && swift test
+
+cockpit-run:
+	cd apps/research-cockpit && ./script/build_and_run.sh
+
+cockpit-package:
+	cd apps/research-cockpit && ./script/package_release.sh --skip-notarize

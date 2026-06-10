@@ -1,0 +1,2 @@
+run_id	created_at	target	evaluator_version	score	status	decision	description	evidence_path
+baseline-2026-04-28	2026-04-29T00:11:32Z	~/.hermes/skills/personal/ai-briefing/SKILL.md	v1	2	baseline	keep-as-baseline	Existing cron run produced a usable briefing but the skill instructed writes to the legacy Obsidian briefings path and the cron job delivered locally instead of Telegram.	~/.hermes/cron/output/83a163ab928e/2026-04-28_10-48-47.md

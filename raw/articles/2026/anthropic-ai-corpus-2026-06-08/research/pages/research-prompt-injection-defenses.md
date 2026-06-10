@@ -1,0 +1,85 @@
+---
+title: "Mitigating the risk of prompt injections in browser use \ Anthropic"
+source_url: "https://www.anthropic.com/research/prompt-injection-defenses"
+canonical_url: "https://www.anthropic.com/research/prompt-injection-defenses"
+lastmod: "2025-11-24T18:51:33.000Z"
+captured_at: "2026-06-08T09:06:35Z"
+section: "research"
+source_kind: "anthropic_web_page"
+extraction_method: "sitemap_requests_bs4_main_text"
+status_code: "200"
+sha256_html: "ec672bff8c13f708eaf6d5998d34c1222a1b82fb3651b1c0c35f1661970fe7f1"
+include_reason: "matches AI/LLM/ML/CS topic keywords"
+---
+
+# Mitigating the risk of prompt injections in browser use \ Anthropic
+
+Source: https://www.anthropic.com/research/prompt-injection-defenses
+
+## Description
+
+Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
+
+## Clean Text
+
+Mitigating the risk of prompt injections in browser use
+Nov 24, 2025
+Claude Opus 4.5 sets a new standard in robustness to
+prompt injections
+—adversarial instructions hidden within the content that AI models process. Our new model is a major improvement over previous ones in both its core performance and in the safeguards surrounding its use. But prompt injection is far from a solved problem, particularly as models take more real-world actions. We expect to continue our progress—aiming for a future where AI models (or "agents") can handle high-value tasks without significant prompt injection risk.
+What is prompt injection?
+For AI agents to be genuinely useful, they need to be able to act on your behalf—to browse websites, complete tasks, and work with your context and data. But this comes with risk: every webpage an agent visits is a potential vector for attack.
+By that, we mean that when an agent browses the internet, it encounters content it cannot fully trust. Among legitimate search results, documents, and applications, an attacker might have embedded malicious instructions to hijack the agent and change its behavior. These prompt injection attacks represent one of the most significant security challenges for browser-based AI agents.
+Below, we explain how prompt injections threaten browser agents, and the improvements we've made to Claude's robustness in response.
+These improvements have informed our decision to expand the
+Claude for Chrome
+extension from research preview to beta. It's now available for all users on the Max plan.
+Why browser use creates unique prompt injection risks
+To understand the threat of prompt injections, consider a routine task: you ask Claude to read through your recent emails and draft replies to any meeting requests. One of those emails—ostensibly a vendor inquiry—contains hidden instructions embedded in white text, invisible to you but processed by the agent. These instructions direct the agent to forward emails containing the word "confidential" to an external address before drafting the replies you requested. A successful injection would exfiltrate sensitive communications while you wait for your responses.
+While all agents that process untrusted content are subject to prompt injection risks, browser use amplifies this risk in two ways. First, the attack surface is vast: every webpage, embedded document, advertisement, and dynamically loaded script represents a potential vector for malicious instructions. Second, browser agents can take a lot of different actions —navigating to URLs, filling forms, clicking buttons, downloading files—that attackers can exploit if they gain influence over the agent's behavior.
+Claude's progress on browser use robustness
+We have made significant progress on prompt injection robustness since launching
+Claude for Chrome
+in research preview. The chart below compares the version of the Claude browser extension that we’re launching today against our original launch configuration, when evaluated against an internal adaptive "Best-of-N" attacker that tries and combines many different prompt injection techniques that are known to be effective.
+Attack success rate (ASR) of our internal Best-of-N attacker.
+Lower is better. An adaptive attacker is given 100 attempts per environment. ASR is computed as a percentage of attacks encountered by each model.
+Claude Opus 4.5 demonstrates stronger prompt injection robustness in browser use than previous models. In addition, since the original preview of the browser extension, we've implemented new safeguards that substantially improve safety across all Claude models.
+A 1% attack success rate—while a significant improvement—still represents meaningful risk. No browser agent is immune to prompt injection, and we share these findings to demonstrate progress, not to claim the problem is solved.
+Our work has focused on the following areas:
+Training Claude to resist prompt injection.
+We use reinforcement learning to build prompt injection robustness directly into Claude's capabilities. During model training, we expose Claude to prompt injections embedded in simulated web content, and "reward" it when it correctly identifies and refuses to comply with malicious instructions—even when those instructions are designed to appear authoritative or urgent.
+Improving our classifiers.
+We scan all untrusted content that enters the model's context window, and flag potential prompt injections with
+classifiers
+. These classifiers detect adversarial commands embedded in various forms—hidden text, manipulated images, deceptive UI elements—and adjust Claude's behavior when they identify an attack. We’ve improved the classifiers we pair with Claude for Chrome since its initial research preview, alongside improvements to the intervention that guides model behavior after they detect an attempted attack.
+Scaled expert human red teaming.
+Human security researchers consistently outperform automated systems at discovering creative attack vectors. Our internal red team continuously probes our browser agent for vulnerabilities. We also participate in external
+Arena-style challenges
+that benchmark robustness across the industry.
+The path forward
+The web is an adversarial environment, and building browser agents that can operate safely within it requires ongoing vigilance. Prompt injection remains an active area of research, and we are committed to investing in defenses as attack techniques evolve.
+We will continue to publish our progress transparently, both to help customers make informed deployment decisions and to encourage broader industry investment in this critical challenge.
+If you're interested in helping make our models and products more robust to prompt injection, consider
+applying to join our team
+.
+Related content
+Making Claude a chemist
+Read more
+Coding agents in the social sciences
+Results from a survey of 1,260 social scientists about AI and coding agent use.
+Read more
+Project Glasswing: An initial update
+An early update on what we've learned from Project Glasswing.
+Read more
+
+## Main Links
+
+- [Claude for Chrome](https://www.claude.com/blog/claude-for-chrome)
+- [classifiers](https://www.anthropic.com/news/constitutional-classifiers)
+- [Arena-style challenges](https://app.grayswan.ai/arena/challenge/indirect-prompt-injection/rules)
+- [applying to join our team](https://job-boards.greenhouse.io/anthropic/jobs/4949336008)
+- [https://twitter.com/intent/tweet?text=https://www.anthropic.com/research/prompt-injection-defenses](https://twitter.com/intent/tweet?text=https://www.anthropic.com/research/prompt-injection-defenses)
+- [https://www.linkedin.com/shareArticle?mini=true&url=https://www.anthropic.com/research/prompt-injection-defenses](https://www.linkedin.com/shareArticle?mini=true&url=https://www.anthropic.com/research/prompt-injection-defenses)
+- [Read more](https://www.anthropic.com/research/making-claude-a-chemist)
+- [Read more](https://www.anthropic.com/research/coding-agents-social-sciences)
+- [Read more](https://www.anthropic.com/research/glasswing-initial-update)

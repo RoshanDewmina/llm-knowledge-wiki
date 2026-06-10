@@ -1,0 +1,2187 @@
+[
+  {
+    "url": "https://www.anthropic.com/",
+    "lastmod": "2026-06-08T09:03:58.389Z",
+    "path": "/"
+  },
+  {
+    "url": "https://www.anthropic.com/about-anthropic-interviewer",
+    "lastmod": "2026-03-23T17:15:18.000Z",
+    "path": "/about-anthropic-interviewer"
+  },
+  {
+    "url": "https://www.anthropic.com/ai-for-science-program-rules",
+    "lastmod": "2025-04-28T21:27:14.000Z",
+    "path": "/ai-for-science-program-rules"
+  },
+  {
+    "url": "https://www.anthropic.com/candidate-ai-guidance",
+    "lastmod": "2025-10-08T14:02:32.000Z",
+    "path": "/candidate-ai-guidance"
+  },
+  {
+    "url": "https://www.anthropic.com/careers",
+    "lastmod": "2026-01-15T00:23:05.000Z",
+    "path": "/careers"
+  },
+  {
+    "url": "https://www.anthropic.com/claude/haiku",
+    "lastmod": "2026-04-09T19:55:36.000Z",
+    "path": "/claude/haiku"
+  },
+  {
+    "url": "https://www.anthropic.com/claude/opus",
+    "lastmod": "2026-05-28T16:50:19.000Z",
+    "path": "/claude/opus"
+  },
+  {
+    "url": "https://www.anthropic.com/claude/sonnet",
+    "lastmod": "2026-04-09T19:55:49.000Z",
+    "path": "/claude/sonnet"
+  },
+  {
+    "url": "https://www.anthropic.com/company",
+    "lastmod": "2026-05-12T13:34:47.000Z",
+    "path": "/company"
+  },
+  {
+    "url": "https://www.anthropic.com/constitution",
+    "lastmod": "2026-06-08T09:03:58.389Z",
+    "path": "/constitution"
+  },
+  {
+    "url": "https://www.anthropic.com/coordinated-vulnerability-disclosure",
+    "lastmod": "2026-03-06T17:29:36.000Z",
+    "path": "/coordinated-vulnerability-disclosure"
+  },
+  {
+    "url": "https://www.anthropic.com/economic-futures",
+    "lastmod": "2025-11-20T19:03:39.000Z",
+    "path": "/economic-futures"
+  },
+  {
+    "url": "https://www.anthropic.com/economic-futures/program",
+    "lastmod": "2025-11-20T17:41:58.000Z",
+    "path": "/economic-futures/program"
+  },
+  {
+    "url": "https://www.anthropic.com/economic-futures/symposium-proposals",
+    "lastmod": "2025-10-14T17:05:03.000Z",
+    "path": "/economic-futures/symposium-proposals"
+  },
+  {
+    "url": "https://www.anthropic.com/engineering",
+    "lastmod": "2025-01-24T13:34:54.000Z",
+    "path": "/engineering"
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues",
+    "lastmod": "2025-12-14T20:27:33.000Z",
+    "path": "/engineering/a-postmortem-of-three-recent-issues"
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/advanced-tool-use",
+    "lastmod": "2026-03-16T16:09:03.000Z",
+    "path": "/engineering/advanced-tool-use"
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations",
+    "lastmod": "2026-01-22T01:16:20.000Z",
+    "path": "/engineering/AI-resistant-technical-evaluations"
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+    "lastmod": "2026-04-30T21:34:23.000Z",
+    "path": "/engineering/april-23-postmortem"
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/building-c-compiler",
+    "lastmod": "2026-02-05T19:38:29.000Z",
+    "path": "/engineering/building-c-compiler"
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/building-effective-agents",
+    "lastmod": "2026-04-13T17:46:47.000Z",
+    "path": "/engineering/building-effective-agents"
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+    "lastmod": "2026-05-27T11:44:48.000Z",
+    "path": "/engineering/claude-code-auto-mode"
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/claude-code-best-practices",
+    "lastmod": "2026-01-26T23:24:56.000Z",
+    "path": "/engineering/claude-code-best-practices"
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/claude-code-sandboxing",
+    "lastmod": "2025-11-03T21:01:45.000Z",
+    "path": "/engineering/claude-code-sandboxing"
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/claude-think-tool",
+    "lastmod": "2025-12-15T18:02:25.000Z",
+    "path": "/engineering/claude-think-tool"
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/code-execution-with-mcp",
+    "lastmod": "2025-11-04T22:06:04.000Z",
+    "path": "/engineering/code-execution-with-mcp"
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/contextual-retrieval",
+    "lastmod": "2026-01-07T15:00:44.000Z",
+    "path": "/engineering/contextual-retrieval"
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
+    "lastmod": "2026-03-18T18:48:35.000Z",
+    "path": "/engineering/demystifying-evals-for-ai-agents"
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/desktop-extensions",
+    "lastmod": "2025-09-12T00:43:28.000Z",
+    "path": "/engineering/desktop-extensions"
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+    "lastmod": "2026-01-06T15:31:12.000Z",
+    "path": "/engineering/effective-context-engineering-for-ai-agents"
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents",
+    "lastmod": "2025-11-26T18:07:21.000Z",
+    "path": "/engineering/effective-harnesses-for-long-running-agents"
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills",
+    "lastmod": "2026-04-15T14:39:01.000Z",
+    "path": "/engineering/equipping-agents-for-the-real-world-with-agent-skills"
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/eval-awareness-browsecomp",
+    "lastmod": "2026-03-18T20:16:12.000Z",
+    "path": "/engineering/eval-awareness-browsecomp"
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
+    "lastmod": "2026-03-24T16:23:08.000Z",
+    "path": "/engineering/harness-design-long-running-apps"
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+    "lastmod": "2026-06-06T00:28:16.000Z",
+    "path": "/engineering/how-we-contain-claude"
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/infrastructure-noise",
+    "lastmod": "2026-04-24T14:21:28.000Z",
+    "path": "/engineering/infrastructure-noise"
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/managed-agents",
+    "lastmod": "2026-04-24T14:19:43.000Z",
+    "path": "/engineering/managed-agents"
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/multi-agent-research-system",
+    "lastmod": "2026-01-06T15:09:32.000Z",
+    "path": "/engineering/multi-agent-research-system"
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/swe-bench-sonnet",
+    "lastmod": "2025-03-19T20:43:04.000Z",
+    "path": "/engineering/swe-bench-sonnet"
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/writing-tools-for-agents",
+    "lastmod": "2026-01-06T15:05:23.000Z",
+    "path": "/engineering/writing-tools-for-agents"
+  },
+  {
+    "url": "https://www.anthropic.com/events",
+    "lastmod": "2026-06-08T09:03:58.389Z",
+    "path": "/events"
+  },
+  {
+    "url": "https://www.anthropic.com/events/aws-summit-dc",
+    "lastmod": "2026-06-08T09:03:58.389Z",
+    "path": "/events/aws-summit-dc"
+  },
+  {
+    "url": "https://www.anthropic.com/events/aws-summit-london",
+    "lastmod": "2026-06-08T09:03:58.389Z",
+    "path": "/events/aws-summit-london"
+  },
+  {
+    "url": "https://www.anthropic.com/events/aws-summit-nyc",
+    "lastmod": "2026-06-08T09:03:58.389Z",
+    "path": "/events/aws-summit-nyc"
+  },
+  {
+    "url": "https://www.anthropic.com/events/aws-summit-tokyo",
+    "lastmod": "2026-06-08T09:03:58.389Z",
+    "path": "/events/aws-summit-tokyo"
+  },
+  {
+    "url": "https://www.anthropic.com/events/claude-for-finance",
+    "lastmod": "2026-06-08T09:03:58.389Z",
+    "path": "/events/claude-for-finance"
+  },
+  {
+    "url": "https://www.anthropic.com/events/google-cloud-next-2025",
+    "lastmod": "2026-06-08T09:03:58.389Z",
+    "path": "/events/google-cloud-next-2025"
+  },
+  {
+    "url": "https://www.anthropic.com/events/paris-builder-summit",
+    "lastmod": "2026-06-08T09:03:58.389Z",
+    "path": "/events/paris-builder-summit"
+  },
+  {
+    "url": "https://www.anthropic.com/events/seoul-builder-summit",
+    "lastmod": "2026-06-08T09:03:58.389Z",
+    "path": "/events/seoul-builder-summit"
+  },
+  {
+    "url": "https://www.anthropic.com/features/81k-interviews",
+    "lastmod": "2026-06-08T09:03:58.389Z",
+    "path": "/features/81k-interviews"
+  },
+  {
+    "url": "https://www.anthropic.com/features/claude-on-mars",
+    "lastmod": "2026-06-08T09:03:58.389Z",
+    "path": "/features/claude-on-mars"
+  },
+  {
+    "url": "https://www.anthropic.com/features/project-deal",
+    "lastmod": "2026-06-08T09:03:58.389Z",
+    "path": "/features/project-deal"
+  },
+  {
+    "url": "https://www.anthropic.com/glasswing",
+    "lastmod": "2026-06-08T09:03:58.389Z",
+    "path": "/glasswing"
+  },
+  {
+    "url": "https://www.anthropic.com/learn",
+    "lastmod": "2026-06-08T09:03:58.389Z",
+    "path": "/learn"
+  },
+  {
+    "url": "https://www.anthropic.com/learn/build-with-claude",
+    "lastmod": "2026-03-20T22:44:51.000Z",
+    "path": "/learn/build-with-claude"
+  },
+  {
+    "url": "https://www.anthropic.com/learn/claude-for-work",
+    "lastmod": "2026-03-20T22:44:03.000Z",
+    "path": "/learn/claude-for-work"
+  },
+  {
+    "url": "https://www.anthropic.com/learn/claude-for-you",
+    "lastmod": "2026-02-12T18:49:16.000Z",
+    "path": "/learn/claude-for-you"
+  },
+  {
+    "url": "https://www.anthropic.com/legal/acst-disclosure",
+    "lastmod": "2026-05-12T17:19:31.000Z",
+    "path": "/legal/acst-disclosure"
+  },
+  {
+    "url": "https://www.anthropic.com/legal/aup",
+    "lastmod": "2026-05-14T19:11:16.000Z",
+    "path": "/legal/aup"
+  },
+  {
+    "url": "https://www.anthropic.com/legal/commercial-terms",
+    "lastmod": "2026-05-12T17:12:36.000Z",
+    "path": "/legal/commercial-terms"
+  },
+  {
+    "url": "https://www.anthropic.com/legal/consumer-health-data-privacy-policy",
+    "lastmod": "2026-05-12T17:19:02.000Z",
+    "path": "/legal/consumer-health-data-privacy-policy"
+  },
+  {
+    "url": "https://www.anthropic.com/legal/consumer-terms",
+    "lastmod": "2026-05-12T17:12:22.000Z",
+    "path": "/legal/consumer-terms"
+  },
+  {
+    "url": "https://www.anthropic.com/legal/cookies",
+    "lastmod": "2026-05-12T17:13:51.000Z",
+    "path": "/legal/cookies"
+  },
+  {
+    "url": "https://www.anthropic.com/legal/cpna",
+    "lastmod": "2026-06-02T16:36:03.000Z",
+    "path": "/legal/cpna"
+  },
+  {
+    "url": "https://www.anthropic.com/legal/credit-terms",
+    "lastmod": "2026-05-12T17:18:34.000Z",
+    "path": "/legal/credit-terms"
+  },
+  {
+    "url": "https://www.anthropic.com/legal/data-processing-addendum",
+    "lastmod": "2026-05-12T17:14:06.000Z",
+    "path": "/legal/data-processing-addendum"
+  },
+  {
+    "url": "https://www.anthropic.com/legal/inbound-services-agreement",
+    "lastmod": "2024-06-26T23:06:40.000Z",
+    "path": "/legal/inbound-services-agreement"
+  },
+  {
+    "url": "https://www.anthropic.com/legal/independent-contractor-agreement",
+    "lastmod": "2026-05-07T16:43:10.000Z",
+    "path": "/legal/independent-contractor-agreement"
+  },
+  {
+    "url": "https://www.anthropic.com/legal/non-user-privacy-policy",
+    "lastmod": "2025-10-31T14:54:50.000Z",
+    "path": "/legal/non-user-privacy-policy"
+  },
+  {
+    "url": "https://www.anthropic.com/legal/privacy",
+    "lastmod": "2026-05-12T17:12:52.000Z",
+    "path": "/legal/privacy"
+  },
+  {
+    "url": "https://www.anthropic.com/legal/promotion-credit-terms",
+    "lastmod": "2026-05-21T19:55:11.000Z",
+    "path": "/legal/promotion-credit-terms"
+  },
+  {
+    "url": "https://www.anthropic.com/legal/promotion-terms",
+    "lastmod": "2026-05-12T18:27:29.000Z",
+    "path": "/legal/promotion-terms"
+  },
+  {
+    "url": "https://www.anthropic.com/legal/referral-partner-program-terms",
+    "lastmod": "2025-03-26T20:55:40.000Z",
+    "path": "/legal/referral-partner-program-terms"
+  },
+  {
+    "url": "https://www.anthropic.com/legal/service-specific-terms",
+    "lastmod": "2026-05-12T17:14:18.000Z",
+    "path": "/legal/service-specific-terms"
+  },
+  {
+    "url": "https://www.anthropic.com/legal/trademark-guidelines",
+    "lastmod": "2026-05-12T17:19:48.000Z",
+    "path": "/legal/trademark-guidelines"
+  },
+  {
+    "url": "https://www.anthropic.com/news",
+    "lastmod": "2026-02-04T16:13:46.000Z",
+    "path": "/news"
+  },
+  {
+    "url": "https://www.anthropic.com/news/100k-context-windows",
+    "lastmod": "2025-05-02T00:49:29.000Z",
+    "path": "/news/100k-context-windows"
+  },
+  {
+    "url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+    "lastmod": "2025-07-23T18:02:00.000Z",
+    "path": "/news/3-5-models-and-computer-use"
+  },
+  {
+    "url": "https://www.anthropic.com/news/a-new-initiative-for-developing-third-party-model-evaluations",
+    "lastmod": "2024-09-10T17:28:44.000Z",
+    "path": "/news/a-new-initiative-for-developing-third-party-model-evaluations"
+  },
+  {
+    "url": "https://www.anthropic.com/news/accelerating-scientific-research",
+    "lastmod": "2026-01-15T22:49:21.000Z",
+    "path": "/news/accelerating-scientific-research"
+  },
+  {
+    "url": "https://www.anthropic.com/news/accenture-aws-anthropic",
+    "lastmod": "2024-09-10T17:28:44.000Z",
+    "path": "/news/accenture-aws-anthropic"
+  },
+  {
+    "url": "https://www.anthropic.com/news/acquires-vercept",
+    "lastmod": "2026-02-25T16:58:30.000Z",
+    "path": "/news/acquires-vercept"
+  },
+  {
+    "url": "https://www.anthropic.com/news/activating-asl3-protections",
+    "lastmod": "2025-07-23T18:03:34.000Z",
+    "path": "/news/activating-asl3-protections"
+  },
+  {
+    "url": "https://www.anthropic.com/news/advancing-claude-for-education",
+    "lastmod": "2025-07-23T18:03:18.000Z",
+    "path": "/news/advancing-claude-for-education"
+  },
+  {
+    "url": "https://www.anthropic.com/news/advancing-claude-for-financial-services",
+    "lastmod": "2025-10-27T19:47:26.000Z",
+    "path": "/news/advancing-claude-for-financial-services"
+  },
+  {
+    "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
+    "lastmod": "2026-06-03T16:18:23.000Z",
+    "path": "/news/AI-enabled-cyber-threats-mitre-attack"
+  },
+  {
+    "url": "https://www.anthropic.com/news/ai-for-science-program",
+    "lastmod": "2025-07-23T18:02:36.000Z",
+    "path": "/news/ai-for-science-program"
+  },
+  {
+    "url": "https://www.anthropic.com/news/an-ai-policy-tool-for-today-ambitiously-invest-in-nist",
+    "lastmod": "2024-12-19T19:00:24.000Z",
+    "path": "/news/an-ai-policy-tool-for-today-ambitiously-invest-in-nist"
+  },
+  {
+    "url": "https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy",
+    "lastmod": "2024-10-15T20:44:11.000Z",
+    "path": "/news/announcing-our-updated-responsible-scaling-policy"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-accenture-partnership",
+    "lastmod": "2025-12-09T17:55:19.000Z",
+    "path": "/news/anthropic-accenture-partnership"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-achieves-iso-42001-certification-for-responsible-ai",
+    "lastmod": "2025-01-13T17:13:13.000Z",
+    "path": "/news/anthropic-achieves-iso-42001-certification-for-responsible-ai"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone",
+    "lastmod": "2025-12-02T18:17:32.000Z",
+    "path": "/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+    "lastmod": "2026-05-19T18:06:44.000Z",
+    "path": "/news/anthropic-acquires-stainless"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-amazon",
+    "lastmod": "2024-11-22T13:51:14.000Z",
+    "path": "/news/anthropic-amazon"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
+    "lastmod": "2026-04-24T15:50:13.000Z",
+    "path": "/news/anthropic-amazon-compute"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-amazon-trainium",
+    "lastmod": "2024-11-22T14:29:44.000Z",
+    "path": "/news/anthropic-amazon-trainium"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-and-iceland-announce-one-of-the-world-s-first-national-ai-education-pilots",
+    "lastmod": "2025-11-04T07:36:15.000Z",
+    "path": "/news/anthropic-and-iceland-announce-one-of-the-world-s-first-national-ai-education-pilots"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-and-the-department-of-defense-to-advance-responsible-ai-in-defense-operations",
+    "lastmod": "2025-07-14T18:39:54.000Z",
+    "path": "/news/anthropic-and-the-department-of-defense-to-advance-responsible-ai-in-defense-operations"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-appoints-irina-ghose-as-managing-director-of-india",
+    "lastmod": "2026-01-16T03:28:16.000Z",
+    "path": "/news/anthropic-appoints-irina-ghose-as-managing-director-of-india"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-bcg",
+    "lastmod": "2024-08-05T19:55:40.000Z",
+    "path": "/news/anthropic-bcg"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-codepath-partnership",
+    "lastmod": "2026-02-13T16:19:50.000Z",
+    "path": "/news/anthropic-codepath-partnership"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-economic-index-insights-from-claude-sonnet-3-7",
+    "lastmod": "2025-12-07T14:53:39.000Z",
+    "path": "/news/anthropic-economic-index-insights-from-claude-sonnet-3-7"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-education-report-how-educators-use-claude",
+    "lastmod": "2025-11-22T20:40:06.000Z",
+    "path": "/news/anthropic-education-report-how-educators-use-claude"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-education-report-how-university-students-use-claude",
+    "lastmod": "2025-07-23T18:04:16.000Z",
+    "path": "/news/anthropic-education-report-how-university-students-use-claude"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-expands-global-leadership-in-enterprise-ai-naming-chris-ciauri-as-managing-director-of",
+    "lastmod": "2025-09-26T15:00:11.000Z",
+    "path": "/news/anthropic-expands-global-leadership-in-enterprise-ai-naming-chris-ciauri-as-managing-director-of"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-higher-education-initiatives",
+    "lastmod": "2025-08-21T22:09:41.000Z",
+    "path": "/news/anthropic-higher-education-initiatives"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-infosys",
+    "lastmod": "2026-02-17T09:26:56.000Z",
+    "path": "/news/anthropic-infosys"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure",
+    "lastmod": "2025-11-12T16:56:05.000Z",
+    "path": "/news/anthropic-invests-50-billion-in-american-ai-infrastructure"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-is-endorsing-sb-53",
+    "lastmod": "2025-09-08T12:17:10.000Z",
+    "path": "/news/anthropic-is-endorsing-sb-53"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-kpmg",
+    "lastmod": "2026-05-19T13:30:59.000Z",
+    "path": "/news/anthropic-kpmg"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-nec",
+    "lastmod": "2026-04-24T04:06:50.000Z",
+    "path": "/news/anthropic-nec"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute",
+    "lastmod": "2026-02-02T14:22:01.000Z",
+    "path": "/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-partners-with-google-cloud",
+    "lastmod": "2024-08-05T19:55:40.000Z",
+    "path": "/news/anthropic-partners-with-google-cloud"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-partners-with-menlo-ventures-to-launch-anthology-fund",
+    "lastmod": "2024-09-10T17:28:44.000Z",
+    "path": "/news/anthropic-partners-with-menlo-ventures-to-launch-anthology-fund"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-partners-with-the-university-of-chicago-s-becker-friedman-institute-on-ai-economic",
+    "lastmod": "2025-07-23T14:58:55.000Z",
+    "path": "/news/anthropic-partners-with-the-university-of-chicago-s-becker-friedman-institute-on-ai-economic"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-partners-with-u-s-national-labs-for-first-1-000-scientist-ai-jam",
+    "lastmod": "2025-02-28T15:56:14.000Z",
+    "path": "/news/anthropic-partners-with-u-s-national-labs-for-first-1-000-scientist-ai-jam"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems",
+    "lastmod": "2024-08-05T19:55:40.000Z",
+    "path": "/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
+    "lastmod": "2026-02-12T21:43:18.000Z",
+    "path": "/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-raises-series-b-to-build-safe-reliable-ai",
+    "lastmod": "2025-07-21T17:37:31.000Z",
+    "path": "/news/anthropic-raises-series-b-to-build-safe-reliable-ai"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-raises-series-e-at-usd61-5b-post-money-valuation",
+    "lastmod": "2025-08-14T12:56:24.000Z",
+    "path": "/news/anthropic-raises-series-e-at-usd61-5b-post-money-valuation"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation",
+    "lastmod": "2025-11-20T16:26:11.000Z",
+    "path": "/news/anthropic-raises-series-f-at-usd183b-post-money-valuation"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-rwanda-mou",
+    "lastmod": "2026-02-17T10:01:21.000Z",
+    "path": "/news/anthropic-rwanda-mou"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-s-recommendations-ostp-u-s-ai-action-plan",
+    "lastmod": "2025-07-23T18:04:22.000Z",
+    "path": "/news/anthropic-s-recommendations-ostp-u-s-ai-action-plan"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-s-response-to-governor-newsom-s-ai-working-group-draft-report",
+    "lastmod": "2025-07-23T18:04:13.000Z",
+    "path": "/news/anthropic-s-response-to-governor-newsom-s-ai-working-group-draft-report"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-series-c",
+    "lastmod": "2025-05-02T00:51:33.000Z",
+    "path": "/news/anthropic-series-c"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-signs-cms-health-tech-ecosystem-pledge-to-advance-healthcare-interoperability",
+    "lastmod": "2025-12-02T23:19:08.000Z",
+    "path": "/news/anthropic-signs-cms-health-tech-ecosystem-pledge-to-advance-healthcare-interoperability"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-signs-pledge-to-americas-youth-investing-in-ai-education",
+    "lastmod": "2025-09-04T19:53:40.000Z",
+    "path": "/news/anthropic-signs-pledge-to-americas-youth-investing-in-ai-education"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropic-teach-for-all",
+    "lastmod": "2026-01-21T17:36:00.000Z",
+    "path": "/news/anthropic-teach-for-all"
+  },
+  {
+    "url": "https://www.anthropic.com/news/anthropics-responsible-scaling-policy",
+    "lastmod": "2025-01-28T00:17:55.000Z",
+    "path": "/news/anthropics-responsible-scaling-policy"
+  },
+  {
+    "url": "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk",
+    "lastmod": "2026-02-03T18:06:03.000Z",
+    "path": "/news/apple-xcode-claude-agent-sdk"
+  },
+  {
+    "url": "https://www.anthropic.com/news/australia-MOU",
+    "lastmod": "2026-03-31T23:16:54.000Z",
+    "path": "/news/australia-MOU"
+  },
+  {
+    "url": "https://www.anthropic.com/news/bengaluru-office-partnerships-across-india",
+    "lastmod": "2026-02-17T15:11:31.000Z",
+    "path": "/news/bengaluru-office-partnerships-across-india"
+  },
+  {
+    "url": "https://www.anthropic.com/news/build-ai-in-america",
+    "lastmod": "2025-07-23T18:03:47.000Z",
+    "path": "/news/build-ai-in-america"
+  },
+  {
+    "url": "https://www.anthropic.com/news/building-safeguards-for-claude",
+    "lastmod": "2025-08-16T14:13:13.000Z",
+    "path": "/news/building-safeguards-for-claude"
+  },
+  {
+    "url": "https://www.anthropic.com/news/challenges-in-red-teaming-ai-systems",
+    "lastmod": "2024-12-19T18:52:16.000Z",
+    "path": "/news/challenges-in-red-teaming-ai-systems"
+  },
+  {
+    "url": "https://www.anthropic.com/news/charting-a-path-to-ai-accountability",
+    "lastmod": "2024-08-05T19:55:40.000Z",
+    "path": "/news/charting-a-path-to-ai-accountability"
+  },
+  {
+    "url": "https://www.anthropic.com/news/child-safety-principles",
+    "lastmod": "2024-12-19T18:52:29.000Z",
+    "path": "/news/child-safety-principles"
+  },
+  {
+    "url": "https://www.anthropic.com/news/chris-liddell-appointed-anthropic-board",
+    "lastmod": "2026-02-13T16:21:14.000Z",
+    "path": "/news/chris-liddell-appointed-anthropic-board"
+  },
+  {
+    "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
+    "lastmod": "2026-06-05T14:58:47.000Z",
+    "path": "/news/chris-olah-pope-leo-encyclical"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-2",
+    "lastmod": "2024-08-05T19:55:40.000Z",
+    "path": "/news/claude-2"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-2-1",
+    "lastmod": "2024-08-05T19:55:40.000Z",
+    "path": "/news/claude-2-1"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+    "lastmod": "2025-08-28T15:58:52.000Z",
+    "path": "/news/claude-3-5-sonnet"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+    "lastmod": "2025-09-16T17:05:40.000Z",
+    "path": "/news/claude-3-7-sonnet"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-3-family",
+    "lastmod": "2024-12-19T19:00:30.000Z",
+    "path": "/news/claude-3-family"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-3-haiku",
+    "lastmod": "2024-08-05T19:55:40.000Z",
+    "path": "/news/claude-3-haiku"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-4",
+    "lastmod": "2025-09-16T16:56:20.000Z",
+    "path": "/news/claude-4"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-and-alexa-plus",
+    "lastmod": "2025-02-26T18:41:21.000Z",
+    "path": "/news/claude-and-alexa-plus"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-brazil",
+    "lastmod": "2024-12-19T18:53:01.000Z",
+    "path": "/news/claude-brazil"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-code-on-team-and-enterprise",
+    "lastmod": "2025-08-20T17:56:48.000Z",
+    "path": "/news/claude-code-on-team-and-enterprise"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-code-security",
+    "lastmod": "2026-02-20T17:59:33.000Z",
+    "path": "/news/claude-code-security"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+    "lastmod": "2026-05-28T19:33:59.000Z",
+    "path": "/news/claude-design-anthropic-labs"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-europe",
+    "lastmod": "2024-09-10T17:28:44.000Z",
+    "path": "/news/claude-europe"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-for-creative-work",
+    "lastmod": "2026-05-01T15:44:00.000Z",
+    "path": "/news/claude-for-creative-work"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-for-financial-services",
+    "lastmod": "2026-04-10T12:11:09.000Z",
+    "path": "/news/claude-for-financial-services"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-for-life-sciences",
+    "lastmod": "2025-10-21T02:53:49.000Z",
+    "path": "/news/claude-for-life-sciences"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-for-nonprofits",
+    "lastmod": "2026-02-09T15:51:38.000Z",
+    "path": "/news/claude-for-nonprofits"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-for-small-business",
+    "lastmod": "2026-05-14T16:16:25.000Z",
+    "path": "/news/claude-for-small-business"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-gov-models-for-u-s-national-security-customers",
+    "lastmod": "2025-07-30T22:58:04.000Z",
+    "path": "/news/claude-gov-models-for-u-s-national-security-customers"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-haiku-4-5",
+    "lastmod": "2025-11-20T16:25:50.000Z",
+    "path": "/news/claude-haiku-4-5"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-in-amazon-bedrock-fedramp-high",
+    "lastmod": "2025-07-23T18:04:11.000Z",
+    "path": "/news/claude-in-amazon-bedrock-fedramp-high"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-in-microsoft-foundry",
+    "lastmod": "2025-11-18T16:52:14.000Z",
+    "path": "/news/claude-in-microsoft-foundry"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-in-xcode",
+    "lastmod": "2025-09-15T21:27:03.000Z",
+    "path": "/news/claude-in-xcode"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+    "lastmod": "2026-02-04T17:29:42.000Z",
+    "path": "/news/claude-is-a-space-to-think"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-new-constitution",
+    "lastmod": "2026-01-21T16:34:47.000Z",
+    "path": "/news/claude-new-constitution"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-opus-4-1",
+    "lastmod": "2025-08-14T16:28:38.000Z",
+    "path": "/news/claude-opus-4-1"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-opus-4-5",
+    "lastmod": "2026-03-13T20:56:07.000Z",
+    "path": "/news/claude-opus-4-5"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-opus-4-6",
+    "lastmod": "2026-03-11T17:28:58.000Z",
+    "path": "/news/claude-opus-4-6"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-opus-4-7",
+    "lastmod": "2026-05-04T23:23:49.000Z",
+    "path": "/news/claude-opus-4-7"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-opus-4-8",
+    "lastmod": "2026-06-01T10:18:23.000Z",
+    "path": "/news/claude-opus-4-8"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-partner-network",
+    "lastmod": "2026-03-12T19:25:16.000Z",
+    "path": "/news/claude-partner-network"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-pro",
+    "lastmod": "2024-08-05T19:55:40.000Z",
+    "path": "/news/claude-pro"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-sonnet-4-5",
+    "lastmod": "2025-11-20T16:26:28.000Z",
+    "path": "/news/claude-sonnet-4-5"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
+    "lastmod": "2026-03-11T17:28:36.000Z",
+    "path": "/news/claude-sonnet-4-6"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claudes-constitution",
+    "lastmod": "2026-01-21T18:26:10.000Z",
+    "path": "/news/claudes-constitution"
+  },
+  {
+    "url": "https://www.anthropic.com/news/cognizant-partnership",
+    "lastmod": "2025-11-06T20:57:55.000Z",
+    "path": "/news/cognizant-partnership"
+  },
+  {
+    "url": "https://www.anthropic.com/news/compliance-framework-SB53",
+    "lastmod": "2025-12-19T21:05:06.000Z",
+    "path": "/news/compliance-framework-SB53"
+  },
+  {
+    "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+    "lastmod": "2026-06-01T15:59:13.000Z",
+    "path": "/news/confidential-draft-s1-sec"
+  },
+  {
+    "url": "https://www.anthropic.com/news/contextual-retrieval",
+    "lastmod": "2024-12-19T19:00:43.000Z",
+    "path": "/news/contextual-retrieval"
+  },
+  {
+    "url": "https://www.anthropic.com/news/core-views-on-ai-safety",
+    "lastmod": "2025-07-23T18:02:22.000Z",
+    "path": "/news/core-views-on-ai-safety"
+  },
+  {
+    "url": "https://www.anthropic.com/news/covering-electricity-price-increases",
+    "lastmod": "2026-02-11T21:08:31.000Z",
+    "path": "/news/covering-electricity-price-increases"
+  },
+  {
+    "url": "https://www.anthropic.com/news/deloitte-anthropic-partnership",
+    "lastmod": "2025-10-06T20:38:02.000Z",
+    "path": "/news/deloitte-anthropic-partnership"
+  },
+  {
+    "url": "https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025",
+    "lastmod": "2025-08-21T21:06:42.000Z",
+    "path": "/news/detecting-and-countering-malicious-uses-of-claude-march-2025"
+  },
+  {
+    "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
+    "lastmod": "2026-02-23T19:24:39.000Z",
+    "path": "/news/detecting-and-preventing-distillation-attacks"
+  },
+  {
+    "url": "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025",
+    "lastmod": "2025-08-27T10:11:24.000Z",
+    "path": "/news/detecting-countering-misuse-aug-2025"
+  },
+  {
+    "url": "https://www.anthropic.com/news/developing-computer-use",
+    "lastmod": "2025-08-28T15:58:57.000Z",
+    "path": "/news/developing-computer-use"
+  },
+  {
+    "url": "https://www.anthropic.com/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership",
+    "lastmod": "2025-08-21T10:00:01.000Z",
+    "path": "/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership"
+  },
+  {
+    "url": "https://www.anthropic.com/news/disrupting-AI-espionage",
+    "lastmod": "2025-11-14T11:25:56.000Z",
+    "path": "/news/disrupting-AI-espionage"
+  },
+  {
+    "url": "https://www.anthropic.com/news/donate-public-first-action",
+    "lastmod": "2026-02-12T14:45:37.000Z",
+    "path": "/news/donate-public-first-action"
+  },
+  {
+    "url": "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation",
+    "lastmod": "2025-12-11T18:14:55.000Z",
+    "path": "/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation"
+  },
+  {
+    "url": "https://www.anthropic.com/news/economic-futures-uk-europe",
+    "lastmod": "2025-11-05T07:57:22.000Z",
+    "path": "/news/economic-futures-uk-europe"
+  },
+  {
+    "url": "https://www.anthropic.com/news/election-safeguards-update",
+    "lastmod": "2026-04-28T08:59:45.000Z",
+    "path": "/news/election-safeguards-update"
+  },
+  {
+    "url": "https://www.anthropic.com/news/elections-ai-2024",
+    "lastmod": "2024-12-12T21:28:18.000Z",
+    "path": "/news/elections-ai-2024"
+  },
+  {
+    "url": "https://www.anthropic.com/news/enabling-claude-code-to-work-more-autonomously",
+    "lastmod": "2026-03-02T21:07:46.000Z",
+    "path": "/news/enabling-claude-code-to-work-more-autonomously"
+  },
+  {
+    "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
+    "lastmod": "2026-05-04T15:43:58.000Z",
+    "path": "/news/enterprise-ai-services-company"
+  },
+  {
+    "url": "https://www.anthropic.com/news/eu-code-practice",
+    "lastmod": "2025-07-21T09:15:47.000Z",
+    "path": "/news/eu-code-practice"
+  },
+  {
+    "url": "https://www.anthropic.com/news/expanded-legal-protections-api-improvements",
+    "lastmod": "2024-12-19T19:00:52.000Z",
+    "path": "/news/expanded-legal-protections-api-improvements"
+  },
+  {
+    "url": "https://www.anthropic.com/news/expanding-access-to-claude-for-government",
+    "lastmod": "2024-09-10T17:28:44.000Z",
+    "path": "/news/expanding-access-to-claude-for-government"
+  },
+  {
+    "url": "https://www.anthropic.com/news/expanding-global-operations-to-india",
+    "lastmod": "2025-10-08T00:58:04.000Z",
+    "path": "/news/expanding-global-operations-to-india"
+  },
+  {
+    "url": "https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services",
+    "lastmod": "2025-10-23T20:34:59.000Z",
+    "path": "/news/expanding-our-use-of-google-cloud-tpus-and-services"
+  },
+  {
+    "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+    "lastmod": "2026-06-02T14:03:15.000Z",
+    "path": "/news/expanding-project-glasswing"
+  },
+  {
+    "url": "https://www.anthropic.com/news/federal-government-departments-and-agencies-can-now-purchase-claude-through-the-gsa-schedule",
+    "lastmod": "2025-08-05T21:28:13.000Z",
+    "path": "/news/federal-government-departments-and-agencies-can-now-purchase-claude-through-the-gsa-schedule"
+  },
+  {
+    "url": "https://www.anthropic.com/news/finance-agents",
+    "lastmod": "2026-05-07T20:29:52.000Z",
+    "path": "/news/finance-agents"
+  },
+  {
+    "url": "https://www.anthropic.com/news/fine-tune-claude-3-haiku",
+    "lastmod": "2024-11-01T21:48:21.000Z",
+    "path": "/news/fine-tune-claude-3-haiku"
+  },
+  {
+    "url": "https://www.anthropic.com/news/frontier-model-security",
+    "lastmod": "2024-12-19T19:01:12.000Z",
+    "path": "/news/frontier-model-security"
+  },
+  {
+    "url": "https://www.anthropic.com/news/frontier-threats-red-teaming-for-ai-safety",
+    "lastmod": "2024-12-19T19:01:19.000Z",
+    "path": "/news/frontier-threats-red-teaming-for-ai-safety"
+  },
+  {
+    "url": "https://www.anthropic.com/news/gates-foundation-partnership",
+    "lastmod": "2026-05-14T16:05:24.000Z",
+    "path": "/news/gates-foundation-partnership"
+  },
+  {
+    "url": "https://www.anthropic.com/news/genesis-mission-partnership",
+    "lastmod": "2025-12-18T23:06:17.000Z",
+    "path": "/news/genesis-mission-partnership"
+  },
+  {
+    "url": "https://www.anthropic.com/news/github-copilot",
+    "lastmod": "2025-06-23T23:45:38.000Z",
+    "path": "/news/github-copilot"
+  },
+  {
+    "url": "https://www.anthropic.com/news/golden-gate-claude",
+    "lastmod": "2024-09-10T17:28:44.000Z",
+    "path": "/news/golden-gate-claude"
+  },
+  {
+    "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+    "lastmod": "2026-04-06T21:43:38.000Z",
+    "path": "/news/google-broadcom-partnership-compute"
+  },
+  {
+    "url": "https://www.anthropic.com/news/google-vertex-general-availability",
+    "lastmod": "2024-12-19T18:53:26.000Z",
+    "path": "/news/google-vertex-general-availability"
+  },
+  {
+    "url": "https://www.anthropic.com/news/gov-UK-partnership",
+    "lastmod": "2026-01-27T17:47:33.000Z",
+    "path": "/news/gov-UK-partnership"
+  },
+  {
+    "url": "https://www.anthropic.com/news/head-of-EMEA-new-roles",
+    "lastmod": "2025-07-21T17:31:49.000Z",
+    "path": "/news/head-of-EMEA-new-roles"
+  },
+  {
+    "url": "https://www.anthropic.com/news/head-of-japan-hiring-plans",
+    "lastmod": "2025-08-12T17:33:28.000Z",
+    "path": "/news/head-of-japan-hiring-plans"
+  },
+  {
+    "url": "https://www.anthropic.com/news/healthcare-life-sciences",
+    "lastmod": "2026-04-09T20:25:31.000Z",
+    "path": "/news/healthcare-life-sciences"
+  },
+  {
+    "url": "https://www.anthropic.com/news/higher-limits-spacex",
+    "lastmod": "2026-05-06T16:35:37.000Z",
+    "path": "/news/higher-limits-spacex"
+  },
+  {
+    "url": "https://www.anthropic.com/news/how-people-use-claude-for-support-advice-and-companionship",
+    "lastmod": "2025-12-12T01:47:15.000Z",
+    "path": "/news/how-people-use-claude-for-support-advice-and-companionship"
+  },
+  {
+    "url": "https://www.anthropic.com/news/introducing-anthropic-labs",
+    "lastmod": "2026-01-13T22:46:14.000Z",
+    "path": "/news/introducing-anthropic-labs"
+  },
+  {
+    "url": "https://www.anthropic.com/news/introducing-anthropic-transparency-hub",
+    "lastmod": "2025-02-28T17:49:09.000Z",
+    "path": "/news/introducing-anthropic-transparency-hub"
+  },
+  {
+    "url": "https://www.anthropic.com/news/introducing-claude",
+    "lastmod": "2025-05-02T00:52:02.000Z",
+    "path": "/news/introducing-claude"
+  },
+  {
+    "url": "https://www.anthropic.com/news/introducing-claude-for-education",
+    "lastmod": "2025-07-23T18:02:18.000Z",
+    "path": "/news/introducing-claude-for-education"
+  },
+  {
+    "url": "https://www.anthropic.com/news/introducing-claude-to-canada",
+    "lastmod": "2024-09-10T17:28:44.000Z",
+    "path": "/news/introducing-claude-to-canada"
+  },
+  {
+    "url": "https://www.anthropic.com/news/Introducing-code-with-claude",
+    "lastmod": "2025-04-03T17:48:30.000Z",
+    "path": "/news/Introducing-code-with-claude"
+  },
+  {
+    "url": "https://www.anthropic.com/news/introducing-the-anthropic-economic-advisory-council",
+    "lastmod": "2025-07-23T18:02:45.000Z",
+    "path": "/news/introducing-the-anthropic-economic-advisory-council"
+  },
+  {
+    "url": "https://www.anthropic.com/news/introducing-the-anthropic-economic-futures-program",
+    "lastmod": "2025-08-14T14:38:32.000Z",
+    "path": "/news/introducing-the-anthropic-economic-futures-program"
+  },
+  {
+    "url": "https://www.anthropic.com/news/introducing-the-anthropic-national-security-and-public-sector-advisory-council",
+    "lastmod": "2025-08-27T13:01:25.000Z",
+    "path": "/news/introducing-the-anthropic-national-security-and-public-sector-advisory-council"
+  },
+  {
+    "url": "https://www.anthropic.com/news/investing-in-energy-to-secure-america-s-ai-future",
+    "lastmod": "2025-07-23T18:29:19.000Z",
+    "path": "/news/investing-in-energy-to-secure-america-s-ai-future"
+  },
+  {
+    "url": "https://www.anthropic.com/news/jay-kreps-appointed-to-board-of-directors",
+    "lastmod": "2024-09-10T17:28:44.000Z",
+    "path": "/news/jay-kreps-appointed-to-board-of-directors"
+  },
+  {
+    "url": "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea",
+    "lastmod": "2026-05-26T23:11:06.000Z",
+    "path": "/news/kiyoung-choi-representative-director-anthropic-korea"
+  },
+  {
+    "url": "https://www.anthropic.com/news/krishna-rao-joins-anthropic",
+    "lastmod": "2024-05-21T17:52:07.000Z",
+    "path": "/news/krishna-rao-joins-anthropic"
+  },
+  {
+    "url": "https://www.anthropic.com/news/lawrence-livermore-national-laboratory-expands-claude-for-enterprise-to-empower-scientists-and",
+    "lastmod": "2025-07-23T18:03:21.000Z",
+    "path": "/news/lawrence-livermore-national-laboratory-expands-claude-for-enterprise-to-empower-scientists-and"
+  },
+  {
+    "url": "https://www.anthropic.com/news/lyft-announcement",
+    "lastmod": "2025-02-06T14:00:07.000Z",
+    "path": "/news/lyft-announcement"
+  },
+  {
+    "url": "https://www.anthropic.com/news/mariano-florentino-long-term-benefit-trust",
+    "lastmod": "2026-01-20T15:09:28.000Z",
+    "path": "/news/mariano-florentino-long-term-benefit-trust"
+  },
+  {
+    "url": "https://www.anthropic.com/news/maryland-partnership",
+    "lastmod": "2025-11-13T17:57:34.000Z",
+    "path": "/news/maryland-partnership"
+  },
+  {
+    "url": "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships",
+    "lastmod": "2025-11-18T18:17:07.000Z",
+    "path": "/news/microsoft-nvidia-anthropic-announce-strategic-partnerships"
+  },
+  {
+    "url": "https://www.anthropic.com/news/mike-krieger-joins-anthropic",
+    "lastmod": "2024-09-10T17:28:44.000Z",
+    "path": "/news/mike-krieger-joins-anthropic"
+  },
+  {
+    "url": "https://www.anthropic.com/news/milan-office-opening",
+    "lastmod": "2026-05-28T13:00:32.000Z",
+    "path": "/news/milan-office-opening"
+  },
+  {
+    "url": "https://www.anthropic.com/news/model-context-protocol",
+    "lastmod": "2026-05-07T20:07:05.000Z",
+    "path": "/news/model-context-protocol"
+  },
+  {
+    "url": "https://www.anthropic.com/news/model-safety-bug-bounty",
+    "lastmod": "2024-09-10T17:28:44.000Z",
+    "path": "/news/model-safety-bug-bounty"
+  },
+  {
+    "url": "https://www.anthropic.com/news/mou-uk-government",
+    "lastmod": "2025-07-23T18:02:28.000Z",
+    "path": "/news/mou-uk-government"
+  },
+  {
+    "url": "https://www.anthropic.com/news/mozilla-firefox-security",
+    "lastmod": "2026-03-26T11:05:56.000Z",
+    "path": "/news/mozilla-firefox-security"
+  },
+  {
+    "url": "https://www.anthropic.com/news/narasimhan-board",
+    "lastmod": "2026-04-14T14:00:04.000Z",
+    "path": "/news/narasimhan-board"
+  },
+  {
+    "url": "https://www.anthropic.com/news/national-security-expert-richard-fontaine-appointed-to-anthropic-s-long-term-benefit-trust",
+    "lastmod": "2025-07-11T23:54:01.000Z",
+    "path": "/news/national-security-expert-richard-fontaine-appointed-to-anthropic-s-long-term-benefit-trust"
+  },
+  {
+    "url": "https://www.anthropic.com/news/new-offices-in-paris-and-munich-expand-european-presence",
+    "lastmod": "2025-11-12T18:10:23.000Z",
+    "path": "/news/new-offices-in-paris-and-munich-expand-european-presence"
+  },
+  {
+    "url": "https://www.anthropic.com/news/offering-expanded-claude-access-across-all-three-branches-of-government",
+    "lastmod": "2025-08-12T13:07:07.000Z",
+    "path": "/news/offering-expanded-claude-access-across-all-three-branches-of-government"
+  },
+  {
+    "url": "https://www.anthropic.com/news/opening-our-tokyo-office",
+    "lastmod": "2025-10-29T21:42:18.000Z",
+    "path": "/news/opening-our-tokyo-office"
+  },
+  {
+    "url": "https://www.anthropic.com/news/our-approach-to-understanding-and-addressing-ai-harms",
+    "lastmod": "2025-07-23T18:04:25.000Z",
+    "path": "/news/our-approach-to-understanding-and-addressing-ai-harms"
+  },
+  {
+    "url": "https://www.anthropic.com/news/our-framework-for-developing-safe-and-trustworthy-agents",
+    "lastmod": "2025-08-05T20:35:14.000Z",
+    "path": "/news/our-framework-for-developing-safe-and-trustworthy-agents"
+  },
+  {
+    "url": "https://www.anthropic.com/news/paris-ai-summit",
+    "lastmod": "2025-02-20T14:57:47.000Z",
+    "path": "/news/paris-ai-summit"
+  },
+  {
+    "url": "https://www.anthropic.com/news/partnering-with-scale",
+    "lastmod": "2024-08-05T19:55:40.000Z",
+    "path": "/news/partnering-with-scale"
+  },
+  {
+    "url": "https://www.anthropic.com/news/paul-smith-to-join-anthropic",
+    "lastmod": "2025-07-15T03:13:38.000Z",
+    "path": "/news/paul-smith-to-join-anthropic"
+  },
+  {
+    "url": "https://www.anthropic.com/news/policy-recap-q4-2023",
+    "lastmod": "2024-12-19T19:01:31.000Z",
+    "path": "/news/policy-recap-q4-2023"
+  },
+  {
+    "url": "https://www.anthropic.com/news/political-even-handedness",
+    "lastmod": "2025-12-10T00:18:44.000Z",
+    "path": "/news/political-even-handedness"
+  },
+  {
+    "url": "https://www.anthropic.com/news/preparing-for-global-elections-in-2024",
+    "lastmod": "2024-12-19T19:01:39.000Z",
+    "path": "/news/preparing-for-global-elections-in-2024"
+  },
+  {
+    "url": "https://www.anthropic.com/news/projects",
+    "lastmod": "2024-09-10T17:28:44.000Z",
+    "path": "/news/projects"
+  },
+  {
+    "url": "https://www.anthropic.com/news/prompt-engineering-for-business-performance",
+    "lastmod": "2024-12-19T18:53:38.000Z",
+    "path": "/news/prompt-engineering-for-business-performance"
+  },
+  {
+    "url": "https://www.anthropic.com/news/prompting-long-context",
+    "lastmod": "2026-01-06T15:23:18.000Z",
+    "path": "/news/prompting-long-context"
+  },
+  {
+    "url": "https://www.anthropic.com/news/protecting-well-being-of-users",
+    "lastmod": "2026-02-03T22:04:42.000Z",
+    "path": "/news/protecting-well-being-of-users"
+  },
+  {
+    "url": "https://www.anthropic.com/news/pwc-expanded-partnership",
+    "lastmod": "2026-05-15T17:32:36.000Z",
+    "path": "/news/pwc-expanded-partnership"
+  },
+  {
+    "url": "https://www.anthropic.com/news/rahul-patil-joins-anthropic",
+    "lastmod": "2025-10-07T19:17:27.000Z",
+    "path": "/news/rahul-patil-joins-anthropic"
+  },
+  {
+    "url": "https://www.anthropic.com/news/reed-hastings",
+    "lastmod": "2025-05-28T15:59:35.000Z",
+    "path": "/news/reed-hastings"
+  },
+  {
+    "url": "https://www.anthropic.com/news/reflections-on-our-responsible-scaling-policy",
+    "lastmod": "2024-09-10T17:28:44.000Z",
+    "path": "/news/reflections-on-our-responsible-scaling-policy"
+  },
+  {
+    "url": "https://www.anthropic.com/news/releasing-claude-instant-1-2",
+    "lastmod": "2025-04-04T20:19:14.000Z",
+    "path": "/news/releasing-claude-instant-1-2"
+  },
+  {
+    "url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
+    "lastmod": "2026-02-25T23:57:06.000Z",
+    "path": "/news/responsible-scaling-policy-v3"
+  },
+  {
+    "url": "https://www.anthropic.com/news/rwandan-government-partnership-ai-education",
+    "lastmod": "2025-11-17T13:29:53.000Z",
+    "path": "/news/rwandan-government-partnership-ai-education"
+  },
+  {
+    "url": "https://www.anthropic.com/news/salesforce-anthropic-expanded-partnership",
+    "lastmod": "2025-10-14T12:02:03.000Z",
+    "path": "/news/salesforce-anthropic-expanded-partnership"
+  },
+  {
+    "url": "https://www.anthropic.com/news/salesforce-partnership",
+    "lastmod": "2024-10-16T16:29:04.000Z",
+    "path": "/news/salesforce-partnership"
+  },
+  {
+    "url": "https://www.anthropic.com/news/securing-america-s-compute-advantage-anthropic-s-position-on-the-diffusion-rule",
+    "lastmod": "2025-07-23T18:03:43.000Z",
+    "path": "/news/securing-america-s-compute-advantage-anthropic-s-position-on-the-diffusion-rule"
+  },
+  {
+    "url": "https://www.anthropic.com/news/seoul-becomes-third-anthropic-office-in-asia-pacific",
+    "lastmod": "2025-10-23T23:11:18.000Z",
+    "path": "/news/seoul-becomes-third-anthropic-office-in-asia-pacific"
+  },
+  {
+    "url": "https://www.anthropic.com/news/series-h",
+    "lastmod": "2026-06-01T15:29:46.000Z",
+    "path": "/news/series-h"
+  },
+  {
+    "url": "https://www.anthropic.com/news/servicenow-anthropic-claude",
+    "lastmod": "2026-01-28T22:27:37.000Z",
+    "path": "/news/servicenow-anthropic-claude"
+  },
+  {
+    "url": "https://www.anthropic.com/news/services-track-partner-hub",
+    "lastmod": "2026-06-03T15:30:11.000Z",
+    "path": "/news/services-track-partner-hub"
+  },
+  {
+    "url": "https://www.anthropic.com/news/skt-partnership-announcement",
+    "lastmod": "2024-08-05T19:55:40.000Z",
+    "path": "/news/skt-partnership-announcement"
+  },
+  {
+    "url": "https://www.anthropic.com/news/snowflake-anthropic-expanded-partnership",
+    "lastmod": "2025-12-03T21:13:50.000Z",
+    "path": "/news/snowflake-anthropic-expanded-partnership"
+  },
+  {
+    "url": "https://www.anthropic.com/news/statement-comments-secretary-war",
+    "lastmod": "2026-02-28T01:31:43.000Z",
+    "path": "/news/statement-comments-secretary-war"
+  },
+  {
+    "url": "https://www.anthropic.com/news/statement-dario-amodei-american-ai-leadership",
+    "lastmod": "2025-10-21T14:30:53.000Z",
+    "path": "/news/statement-dario-amodei-american-ai-leadership"
+  },
+  {
+    "url": "https://www.anthropic.com/news/statement-department-of-war",
+    "lastmod": "2026-02-26T22:46:57.000Z",
+    "path": "/news/statement-department-of-war"
+  },
+  {
+    "url": "https://www.anthropic.com/news/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team",
+    "lastmod": "2025-03-19T16:57:23.000Z",
+    "path": "/news/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team"
+  },
+  {
+    "url": "https://www.anthropic.com/news/strengthening-our-safeguards-through-collaboration-with-us-caisi-and-uk-aisi",
+    "lastmod": "2025-09-12T19:19:36.000Z",
+    "path": "/news/strengthening-our-safeguards-through-collaboration-with-us-caisi-and-uk-aisi"
+  },
+  {
+    "url": "https://www.anthropic.com/news/sydney-fourth-office-asia-pacific",
+    "lastmod": "2026-03-11T02:10:54.000Z",
+    "path": "/news/sydney-fourth-office-asia-pacific"
+  },
+  {
+    "url": "https://www.anthropic.com/news/testing-and-mitigating-elections-related-risks",
+    "lastmod": "2024-12-19T18:53:48.000Z",
+    "path": "/news/testing-and-mitigating-elections-related-risks"
+  },
+  {
+    "url": "https://www.anthropic.com/news/testing-our-safety-defenses-with-a-new-bug-bounty-program",
+    "lastmod": "2025-07-23T18:02:54.000Z",
+    "path": "/news/testing-our-safety-defenses-with-a-new-bug-bounty-program"
+  },
+  {
+    "url": "https://www.anthropic.com/news/the-anthropic-economic-index",
+    "lastmod": "2025-12-07T14:53:27.000Z",
+    "path": "/news/the-anthropic-economic-index"
+  },
+  {
+    "url": "https://www.anthropic.com/news/the-anthropic-institute",
+    "lastmod": "2026-03-11T15:17:09.000Z",
+    "path": "/news/the-anthropic-institute"
+  },
+  {
+    "url": "https://www.anthropic.com/news/the-case-for-targeted-regulation",
+    "lastmod": "2024-10-31T20:26:54.000Z",
+    "path": "/news/the-case-for-targeted-regulation"
+  },
+  {
+    "url": "https://www.anthropic.com/news/the-long-term-benefit-trust",
+    "lastmod": "2026-04-30T16:44:34.000Z",
+    "path": "/news/the-long-term-benefit-trust"
+  },
+  {
+    "url": "https://www.anthropic.com/news/the-need-for-transparency-in-frontier-ai",
+    "lastmod": "2025-07-23T11:44:44.000Z",
+    "path": "/news/the-need-for-transparency-in-frontier-ai"
+  },
+  {
+    "url": "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand",
+    "lastmod": "2026-04-27T22:30:22.000Z",
+    "path": "/news/theo-hourmouzis-general-manager-australia-new-zealand"
+  },
+  {
+    "url": "https://www.anthropic.com/news/third-party-testing",
+    "lastmod": "2024-12-19T18:53:58.000Z",
+    "path": "/news/third-party-testing"
+  },
+  {
+    "url": "https://www.anthropic.com/news/thoughts-on-america-s-ai-action-plan",
+    "lastmod": "2025-11-20T16:26:24.000Z",
+    "path": "/news/thoughts-on-america-s-ai-action-plan"
+  },
+  {
+    "url": "https://www.anthropic.com/news/uk-ai-safety-summit",
+    "lastmod": "2024-08-05T19:55:40.000Z",
+    "path": "/news/uk-ai-safety-summit"
+  },
+  {
+    "url": "https://www.anthropic.com/news/updates-to-our-consumer-terms",
+    "lastmod": "2025-09-26T21:00:15.000Z",
+    "path": "/news/updates-to-our-consumer-terms"
+  },
+  {
+    "url": "https://www.anthropic.com/news/updating-our-usage-policy",
+    "lastmod": "2024-09-10T17:28:44.000Z",
+    "path": "/news/updating-our-usage-policy"
+  },
+  {
+    "url": "https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions",
+    "lastmod": "2025-09-04T22:01:03.000Z",
+    "path": "/news/updating-restrictions-of-sales-to-unsupported-regions"
+  },
+  {
+    "url": "https://www.anthropic.com/news/us-elections-readiness",
+    "lastmod": "2024-10-08T18:29:46.000Z",
+    "path": "/news/us-elections-readiness"
+  },
+  {
+    "url": "https://www.anthropic.com/news/usage-policy-update",
+    "lastmod": "2025-08-16T14:12:51.000Z",
+    "path": "/news/usage-policy-update"
+  },
+  {
+    "url": "https://www.anthropic.com/news/where-stand-department-war",
+    "lastmod": "2026-03-06T00:51:17.000Z",
+    "path": "/news/where-stand-department-war"
+  },
+  {
+    "url": "https://www.anthropic.com/news/widening-conversation-ai",
+    "lastmod": "2026-06-05T14:40:24.000Z",
+    "path": "/news/widening-conversation-ai"
+  },
+  {
+    "url": "https://www.anthropic.com/news/zoom-partnership-and-investment",
+    "lastmod": "2024-08-05T19:55:40.000Z",
+    "path": "/news/zoom-partnership-and-investment"
+  },
+  {
+    "url": "https://www.anthropic.com/product/claude-code",
+    "lastmod": "2026-04-01T19:28:13.000Z",
+    "path": "/product/claude-code"
+  },
+  {
+    "url": "https://www.anthropic.com/product/claude-cowork",
+    "lastmod": "2026-03-20T20:01:20.000Z",
+    "path": "/product/claude-cowork"
+  },
+  {
+    "url": "https://www.anthropic.com/product/enterprise",
+    "lastmod": "2026-05-06T23:42:48.000Z",
+    "path": "/product/enterprise"
+  },
+  {
+    "url": "https://www.anthropic.com/product/security",
+    "lastmod": "2026-05-08T02:34:35.000Z",
+    "path": "/product/security"
+  },
+  {
+    "url": "https://www.anthropic.com/project/glasswing",
+    "lastmod": "2026-04-07T18:08:17.000Z",
+    "path": "/project/glasswing"
+  },
+  {
+    "url": "https://www.anthropic.com/research",
+    "lastmod": "2025-11-20T19:03:41.000Z",
+    "path": "/research"
+  },
+  {
+    "url": "https://www.anthropic.com/research/2028-ai-leadership",
+    "lastmod": "2026-05-15T15:28:58.000Z",
+    "path": "/research/2028-ai-leadership"
+  },
+  {
+    "url": "https://www.anthropic.com/research/81k-economics",
+    "lastmod": "2026-04-22T17:04:00.000Z",
+    "path": "/research/81k-economics"
+  },
+  {
+    "url": "https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment",
+    "lastmod": "2024-12-19T18:54:17.000Z",
+    "path": "/research/a-general-language-assistant-as-a-laboratory-for-alignment"
+  },
+  {
+    "url": "https://www.anthropic.com/research/a-mathematical-framework-for-transformer-circuits",
+    "lastmod": "2024-08-05T19:55:40.000Z",
+    "path": "/research/a-mathematical-framework-for-transformer-circuits"
+  },
+  {
+    "url": "https://www.anthropic.com/research/agentic-misalignment",
+    "lastmod": "2025-06-23T08:51:14.000Z",
+    "path": "/research/agentic-misalignment"
+  },
+  {
+    "url": "https://www.anthropic.com/research/AI-assistance-coding-skills",
+    "lastmod": "2026-02-05T00:34:35.000Z",
+    "path": "/research/AI-assistance-coding-skills"
+  },
+  {
+    "url": "https://www.anthropic.com/research/AI-fluency-index",
+    "lastmod": "2026-02-23T22:24:23.000Z",
+    "path": "/research/AI-fluency-index"
+  },
+  {
+    "url": "https://www.anthropic.com/research/alignment-faking",
+    "lastmod": "2025-11-20T16:15:29.000Z",
+    "path": "/research/alignment-faking"
+  },
+  {
+    "url": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report",
+    "lastmod": "2026-03-23T19:41:07.000Z",
+    "path": "/research/anthropic-economic-index-january-2026-report"
+  },
+  {
+    "url": "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report",
+    "lastmod": "2026-01-15T01:06:36.000Z",
+    "path": "/research/anthropic-economic-index-september-2025-report"
+  },
+  {
+    "url": "https://www.anthropic.com/research/anthropic-institute-agenda",
+    "lastmod": "2026-05-07T10:15:44.000Z",
+    "path": "/research/anthropic-institute-agenda"
+  },
+  {
+    "url": "https://www.anthropic.com/research/anthropic-interviewer",
+    "lastmod": "2026-02-19T04:03:53.000Z",
+    "path": "/research/anthropic-interviewer"
+  },
+  {
+    "url": "https://www.anthropic.com/research/assistant-axis",
+    "lastmod": "2026-06-05T15:37:12.000Z",
+    "path": "/research/assistant-axis"
+  },
+  {
+    "url": "https://www.anthropic.com/research/auditing-hidden-objectives",
+    "lastmod": "2025-11-20T16:15:19.000Z",
+    "path": "/research/auditing-hidden-objectives"
+  },
+  {
+    "url": "https://www.anthropic.com/research/automated-alignment-researchers",
+    "lastmod": "2026-06-05T15:19:26.000Z",
+    "path": "/research/automated-alignment-researchers"
+  },
+  {
+    "url": "https://www.anthropic.com/research/bloom",
+    "lastmod": "2025-12-20T17:09:41.000Z",
+    "path": "/research/bloom"
+  },
+  {
+    "url": "https://www.anthropic.com/research/building-ai-cyber-defenders",
+    "lastmod": "2025-10-03T19:33:59.000Z",
+    "path": "/research/building-ai-cyber-defenders"
+  },
+  {
+    "url": "https://www.anthropic.com/research/building-effective-agents",
+    "lastmod": "2024-12-19T18:13:47.000Z",
+    "path": "/research/building-effective-agents"
+  },
+  {
+    "url": "https://www.anthropic.com/research/circuits-updates-april-2024",
+    "lastmod": "2024-04-26T20:32:53.000Z",
+    "path": "/research/circuits-updates-april-2024"
+  },
+  {
+    "url": "https://www.anthropic.com/research/circuits-updates-august-2024",
+    "lastmod": "2024-09-06T15:47:11.000Z",
+    "path": "/research/circuits-updates-august-2024"
+  },
+  {
+    "url": "https://www.anthropic.com/research/circuits-updates-july-2024",
+    "lastmod": "2024-07-31T19:24:21.000Z",
+    "path": "/research/circuits-updates-july-2024"
+  },
+  {
+    "url": "https://www.anthropic.com/research/circuits-updates-june-2024",
+    "lastmod": "2024-10-01T09:43:56.000Z",
+    "path": "/research/circuits-updates-june-2024"
+  },
+  {
+    "url": "https://www.anthropic.com/research/circuits-updates-may-2023",
+    "lastmod": "2024-12-19T18:54:29.000Z",
+    "path": "/research/circuits-updates-may-2023"
+  },
+  {
+    "url": "https://www.anthropic.com/research/circuits-updates-sept-2024",
+    "lastmod": "2024-10-01T09:43:14.000Z",
+    "path": "/research/circuits-updates-sept-2024"
+  },
+  {
+    "url": "https://www.anthropic.com/research/claude-character",
+    "lastmod": "2025-11-20T16:15:32.000Z",
+    "path": "/research/claude-character"
+  },
+  {
+    "url": "https://www.anthropic.com/research/claude-personal-guidance",
+    "lastmod": "2026-06-05T15:31:07.000Z",
+    "path": "/research/claude-personal-guidance"
+  },
+  {
+    "url": "https://www.anthropic.com/research/clio",
+    "lastmod": "2025-08-28T15:58:31.000Z",
+    "path": "/research/clio"
+  },
+  {
+    "url": "https://www.anthropic.com/research/coding-agents-social-sciences",
+    "lastmod": "2026-05-27T23:35:45.000Z",
+    "path": "/research/coding-agents-social-sciences"
+  },
+  {
+    "url": "https://www.anthropic.com/research/collective-constitutional-ai-aligning-a-language-model-with-public-input",
+    "lastmod": "2025-11-20T16:14:28.000Z",
+    "path": "/research/collective-constitutional-ai-aligning-a-language-model-with-public-input"
+  },
+  {
+    "url": "https://www.anthropic.com/research/confidential-inference-trusted-vms",
+    "lastmod": "2025-06-18T16:16:11.000Z",
+    "path": "/research/confidential-inference-trusted-vms"
+  },
+  {
+    "url": "https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback",
+    "lastmod": "2024-12-19T18:54:52.000Z",
+    "path": "/research/constitutional-ai-harmlessness-from-ai-feedback"
+  },
+  {
+    "url": "https://www.anthropic.com/research/constitutional-classifiers",
+    "lastmod": "2025-11-20T16:16:54.000Z",
+    "path": "/research/constitutional-classifiers"
+  },
+  {
+    "url": "https://www.anthropic.com/research/crosscoder-model-diffing",
+    "lastmod": "2025-02-20T23:53:28.000Z",
+    "path": "/research/crosscoder-model-diffing"
+  },
+  {
+    "url": "https://www.anthropic.com/research/decomposing-language-models-into-understandable-components",
+    "lastmod": "2024-08-05T19:55:40.000Z",
+    "path": "/research/decomposing-language-models-into-understandable-components"
+  },
+  {
+    "url": "https://www.anthropic.com/research/deprecation-commitments",
+    "lastmod": "2025-11-04T16:36:56.000Z",
+    "path": "/research/deprecation-commitments"
+  },
+  {
+    "url": "https://www.anthropic.com/research/deprecation-updates-opus-3",
+    "lastmod": "2026-02-25T20:58:11.000Z",
+    "path": "/research/deprecation-updates-opus-3"
+  },
+  {
+    "url": "https://www.anthropic.com/research/diff-tool",
+    "lastmod": "2026-04-03T21:02:41.000Z",
+    "path": "/research/diff-tool"
+  },
+  {
+    "url": "https://www.anthropic.com/research/discovering-language-model-behaviors-with-model-written-evaluations",
+    "lastmod": "2024-12-19T18:55:34.000Z",
+    "path": "/research/discovering-language-model-behaviors-with-model-written-evaluations"
+  },
+  {
+    "url": "https://www.anthropic.com/research/disempowerment-patterns",
+    "lastmod": "2026-01-28T22:01:01.000Z",
+    "path": "/research/disempowerment-patterns"
+  },
+  {
+    "url": "https://www.anthropic.com/research/distributed-representations-composition-superposition",
+    "lastmod": "2024-12-19T18:55:43.000Z",
+    "path": "/research/distributed-representations-composition-superposition"
+  },
+  {
+    "url": "https://www.anthropic.com/research/donating-open-source-petri",
+    "lastmod": "2026-05-07T21:27:38.000Z",
+    "path": "/research/donating-open-source-petri"
+  },
+  {
+    "url": "https://www.anthropic.com/research/economic-index-geography",
+    "lastmod": "2025-11-20T16:14:42.000Z",
+    "path": "/research/economic-index-geography"
+  },
+  {
+    "url": "https://www.anthropic.com/research/economic-index-march-2026-report",
+    "lastmod": "2026-03-25T13:15:57.000Z",
+    "path": "/research/economic-index-march-2026-report"
+  },
+  {
+    "url": "https://www.anthropic.com/research/economic-index-primitives",
+    "lastmod": "2026-02-03T15:57:16.000Z",
+    "path": "/research/economic-index-primitives"
+  },
+  {
+    "url": "https://www.anthropic.com/research/economic-index-survey-announcement",
+    "lastmod": "2026-04-22T17:01:04.000Z",
+    "path": "/research/economic-index-survey-announcement"
+  },
+  {
+    "url": "https://www.anthropic.com/research/economic-policy-responses",
+    "lastmod": "2025-10-14T17:05:02.000Z",
+    "path": "/research/economic-policy-responses"
+  },
+  {
+    "url": "https://www.anthropic.com/research/emergent-misalignment-reward-hacking",
+    "lastmod": "2026-06-05T15:20:07.000Z",
+    "path": "/research/emergent-misalignment-reward-hacking"
+  },
+  {
+    "url": "https://www.anthropic.com/research/emotion-concepts-function",
+    "lastmod": "2026-06-05T15:19:58.000Z",
+    "path": "/research/emotion-concepts-function"
+  },
+  {
+    "url": "https://www.anthropic.com/research/end-subset-conversations",
+    "lastmod": "2025-08-15T19:36:25.000Z",
+    "path": "/research/end-subset-conversations"
+  },
+  {
+    "url": "https://www.anthropic.com/research/engineering-challenges-interpretability",
+    "lastmod": "2024-06-13T15:57:37.000Z",
+    "path": "/research/engineering-challenges-interpretability"
+  },
+  {
+    "url": "https://www.anthropic.com/research/estimating-productivity-gains",
+    "lastmod": "2026-06-05T15:32:46.000Z",
+    "path": "/research/estimating-productivity-gains"
+  },
+  {
+    "url": "https://www.anthropic.com/research/evaluating-ai-systems",
+    "lastmod": "2024-12-19T19:04:12.000Z",
+    "path": "/research/evaluating-ai-systems"
+  },
+  {
+    "url": "https://www.anthropic.com/research/evaluating-and-mitigating-discrimination-in-language-model-decisions",
+    "lastmod": "2024-08-05T19:55:40.000Z",
+    "path": "/research/evaluating-and-mitigating-discrimination-in-language-model-decisions"
+  },
+  {
+    "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+    "lastmod": "2026-04-30T15:03:14.000Z",
+    "path": "/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench"
+  },
+  {
+    "url": "https://www.anthropic.com/research/evaluating-feature-steering",
+    "lastmod": "2024-12-19T18:55:53.000Z",
+    "path": "/research/evaluating-feature-steering"
+  },
+  {
+    "url": "https://www.anthropic.com/research/exploring-model-welfare",
+    "lastmod": "2025-04-24T14:38:39.000Z",
+    "path": "/research/exploring-model-welfare"
+  },
+  {
+    "url": "https://www.anthropic.com/research/features-as-classifiers",
+    "lastmod": "2024-10-17T23:50:27.000Z",
+    "path": "/research/features-as-classifiers"
+  },
+  {
+    "url": "https://www.anthropic.com/research/forecasting-rare-behaviors",
+    "lastmod": "2025-02-28T21:57:01.000Z",
+    "path": "/research/forecasting-rare-behaviors"
+  },
+  {
+    "url": "https://www.anthropic.com/research/glasswing-initial-update",
+    "lastmod": "2026-05-22T20:37:40.000Z",
+    "path": "/research/glasswing-initial-update"
+  },
+  {
+    "url": "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic",
+    "lastmod": "2026-06-05T15:38:44.000Z",
+    "path": "/research/how-ai-is-transforming-work-at-anthropic"
+  },
+  {
+    "url": "https://www.anthropic.com/research/how-australia-uses-claude",
+    "lastmod": "2026-03-31T22:35:47.000Z",
+    "path": "/research/how-australia-uses-claude"
+  },
+  {
+    "url": "https://www.anthropic.com/research/impact-software-development",
+    "lastmod": "2025-11-20T16:14:37.000Z",
+    "path": "/research/impact-software-development"
+  },
+  {
+    "url": "https://www.anthropic.com/research/in-context-learning-and-induction-heads",
+    "lastmod": "2024-08-05T19:55:40.000Z",
+    "path": "/research/in-context-learning-and-induction-heads"
+  },
+  {
+    "url": "https://www.anthropic.com/research/india-brief-economic-index",
+    "lastmod": "2026-02-17T19:36:33.000Z",
+    "path": "/research/india-brief-economic-index"
+  },
+  {
+    "url": "https://www.anthropic.com/research/influence-functions",
+    "lastmod": "2024-12-19T18:56:04.000Z",
+    "path": "/research/influence-functions"
+  },
+  {
+    "url": "https://www.anthropic.com/research/interpretability-dreams",
+    "lastmod": "2024-12-19T18:56:34.000Z",
+    "path": "/research/interpretability-dreams"
+  },
+  {
+    "url": "https://www.anthropic.com/research/introducing-anthropic-science",
+    "lastmod": "2026-03-25T13:20:42.000Z",
+    "path": "/research/introducing-anthropic-science"
+  },
+  {
+    "url": "https://www.anthropic.com/research/introspection",
+    "lastmod": "2026-06-05T15:36:49.000Z",
+    "path": "/research/introspection"
+  },
+  {
+    "url": "https://www.anthropic.com/research/labor-market-impacts",
+    "lastmod": "2026-04-08T14:10:47.000Z",
+    "path": "/research/labor-market-impacts"
+  },
+  {
+    "url": "https://www.anthropic.com/research/language-models-mostly-know-what-they-know",
+    "lastmod": "2024-12-19T18:56:32.000Z",
+    "path": "/research/language-models-mostly-know-what-they-know"
+  },
+  {
+    "url": "https://www.anthropic.com/research/long-running-Claude",
+    "lastmod": "2026-03-25T13:20:22.000Z",
+    "path": "/research/long-running-Claude"
+  },
+  {
+    "url": "https://www.anthropic.com/research/making-claude-a-chemist",
+    "lastmod": "2026-06-05T20:13:40.000Z",
+    "path": "/research/making-claude-a-chemist"
+  },
+  {
+    "url": "https://www.anthropic.com/research/many-shot-jailbreaking",
+    "lastmod": "2024-12-19T18:56:29.000Z",
+    "path": "/research/many-shot-jailbreaking"
+  },
+  {
+    "url": "https://www.anthropic.com/research/mapping-mind-language-model",
+    "lastmod": "2026-03-02T21:30:45.000Z",
+    "path": "/research/mapping-mind-language-model"
+  },
+  {
+    "url": "https://www.anthropic.com/research/measuring-agent-autonomy",
+    "lastmod": "2026-06-05T15:49:18.000Z",
+    "path": "/research/measuring-agent-autonomy"
+  },
+  {
+    "url": "https://www.anthropic.com/research/measuring-faithfulness-in-chain-of-thought-reasoning",
+    "lastmod": "2024-12-19T18:57:26.000Z",
+    "path": "/research/measuring-faithfulness-in-chain-of-thought-reasoning"
+  },
+  {
+    "url": "https://www.anthropic.com/research/measuring-model-persuasiveness",
+    "lastmod": "2024-09-10T17:28:44.000Z",
+    "path": "/research/measuring-model-persuasiveness"
+  },
+  {
+    "url": "https://www.anthropic.com/research/measuring-progress-on-scalable-oversight-for-large-language-models",
+    "lastmod": "2024-12-19T18:57:38.000Z",
+    "path": "/research/measuring-progress-on-scalable-oversight-for-large-language-models"
+  },
+  {
+    "url": "https://www.anthropic.com/research/natural-language-autoencoders",
+    "lastmod": "2026-06-05T15:14:37.000Z",
+    "path": "/research/natural-language-autoencoders"
+  },
+  {
+    "url": "https://www.anthropic.com/research/next-generation-constitutional-classifiers",
+    "lastmod": "2026-06-05T15:19:41.000Z",
+    "path": "/research/next-generation-constitutional-classifiers"
+  },
+  {
+    "url": "https://www.anthropic.com/research/open-source-circuit-tracing",
+    "lastmod": "2025-05-29T16:14:52.000Z",
+    "path": "/research/open-source-circuit-tracing"
+  },
+  {
+    "url": "https://www.anthropic.com/research/persona-selection-model",
+    "lastmod": "2026-06-05T15:19:12.000Z",
+    "path": "/research/persona-selection-model"
+  },
+  {
+    "url": "https://www.anthropic.com/research/persona-vectors",
+    "lastmod": "2025-11-20T16:16:15.000Z",
+    "path": "/research/persona-vectors"
+  },
+  {
+    "url": "https://www.anthropic.com/research/petri-open-source-auditing",
+    "lastmod": "2025-10-06T17:12:39.000Z",
+    "path": "/research/petri-open-source-auditing"
+  },
+  {
+    "url": "https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models",
+    "lastmod": "2025-11-20T16:14:26.000Z",
+    "path": "/research/predictability-and-surprise-in-large-generative-models"
+  },
+  {
+    "url": "https://www.anthropic.com/research/privileged-bases-in-the-transformer-residual-stream",
+    "lastmod": "2024-12-19T18:57:52.000Z",
+    "path": "/research/privileged-bases-in-the-transformer-residual-stream"
+  },
+  {
+    "url": "https://www.anthropic.com/research/probes-catch-sleeper-agents",
+    "lastmod": "2024-05-02T15:41:15.000Z",
+    "path": "/research/probes-catch-sleeper-agents"
+  },
+  {
+    "url": "https://www.anthropic.com/research/project-fetch-robot-dog",
+    "lastmod": "2026-03-26T11:07:12.000Z",
+    "path": "/research/project-fetch-robot-dog"
+  },
+  {
+    "url": "https://www.anthropic.com/research/project-vend-1",
+    "lastmod": "2026-03-26T11:03:57.000Z",
+    "path": "/research/project-vend-1"
+  },
+  {
+    "url": "https://www.anthropic.com/research/project-vend-2",
+    "lastmod": "2026-03-26T11:07:02.000Z",
+    "path": "/research/project-vend-2"
+  },
+  {
+    "url": "https://www.anthropic.com/research/prompt-injection-defenses",
+    "lastmod": "2025-11-24T18:51:33.000Z",
+    "path": "/research/prompt-injection-defenses"
+  },
+  {
+    "url": "https://www.anthropic.com/research/question-decomposition-improves-the-faithfulness-of-model-generated-reasoning",
+    "lastmod": "2024-12-19T18:57:59.000Z",
+    "path": "/research/question-decomposition-improves-the-faithfulness-of-model-generated-reasoning"
+  },
+  {
+    "url": "https://www.anthropic.com/research/reasoning-models-dont-say-think",
+    "lastmod": "2025-04-04T09:11:36.000Z",
+    "path": "/research/reasoning-models-dont-say-think"
+  },
+  {
+    "url": "https://www.anthropic.com/research/red-teaming-language-models-to-reduce-harms-methods-scaling-behaviors-and-lessons-learned",
+    "lastmod": "2024-12-19T18:58:05.000Z",
+    "path": "/research/red-teaming-language-models-to-reduce-harms-methods-scaling-behaviors-and-lessons-learned"
+  },
+  {
+    "url": "https://www.anthropic.com/research/reward-tampering",
+    "lastmod": "2025-11-20T16:15:12.000Z",
+    "path": "/research/reward-tampering"
+  },
+  {
+    "url": "https://www.anthropic.com/research/sabotage-evaluations",
+    "lastmod": "2024-10-18T17:54:45.000Z",
+    "path": "/research/sabotage-evaluations"
+  },
+  {
+    "url": "https://www.anthropic.com/research/scaling-laws-and-interpretability-of-learning-from-repeated-data",
+    "lastmod": "2024-12-19T18:58:11.000Z",
+    "path": "/research/scaling-laws-and-interpretability-of-learning-from-repeated-data"
+  },
+  {
+    "url": "https://www.anthropic.com/research/shade-arena-sabotage-monitoring",
+    "lastmod": "2025-06-25T00:45:44.000Z",
+    "path": "/research/shade-arena-sabotage-monitoring"
+  },
+  {
+    "url": "https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training",
+    "lastmod": "2024-08-05T19:55:40.000Z",
+    "path": "/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training"
+  },
+  {
+    "url": "https://www.anthropic.com/research/small-samples-poison",
+    "lastmod": "2025-10-09T16:01:15.000Z",
+    "path": "/research/small-samples-poison"
+  },
+  {
+    "url": "https://www.anthropic.com/research/softmax-linear-units",
+    "lastmod": "2024-12-19T18:58:34.000Z",
+    "path": "/research/softmax-linear-units"
+  },
+  {
+    "url": "https://www.anthropic.com/research/specific-versus-general-principles-for-constitutional-ai",
+    "lastmod": "2024-12-19T18:58:41.000Z",
+    "path": "/research/specific-versus-general-principles-for-constitutional-ai"
+  },
+  {
+    "url": "https://www.anthropic.com/research/statistical-approach-to-model-evals",
+    "lastmod": "2024-11-19T20:49:39.000Z",
+    "path": "/research/statistical-approach-to-model-evals"
+  },
+  {
+    "url": "https://www.anthropic.com/research/studying-large-language-model-generalization-with-influence-functions",
+    "lastmod": "2024-12-19T18:58:59.000Z",
+    "path": "/research/studying-large-language-model-generalization-with-influence-functions"
+  },
+  {
+    "url": "https://www.anthropic.com/research/superposition-memorization-and-double-descent",
+    "lastmod": "2024-12-19T18:59:07.000Z",
+    "path": "/research/superposition-memorization-and-double-descent"
+  },
+  {
+    "url": "https://www.anthropic.com/research/swe-bench-sonnet",
+    "lastmod": "2024-12-19T18:59:14.000Z",
+    "path": "/research/swe-bench-sonnet"
+  },
+  {
+    "url": "https://www.anthropic.com/research/teaching-claude-why",
+    "lastmod": "2026-05-20T13:19:12.000Z",
+    "path": "/research/teaching-claude-why"
+  },
+  {
+    "url": "https://www.anthropic.com/research/team/alignment",
+    "lastmod": "2025-11-20T19:03:42.000Z",
+    "path": "/research/team/alignment"
+  },
+  {
+    "url": "https://www.anthropic.com/research/team/economic-research",
+    "lastmod": "2025-12-05T22:37:18.000Z",
+    "path": "/research/team/economic-research"
+  },
+  {
+    "url": "https://www.anthropic.com/research/team/interpretability",
+    "lastmod": "2025-11-20T19:03:41.000Z",
+    "path": "/research/team/interpretability"
+  },
+  {
+    "url": "https://www.anthropic.com/research/team/societal-impacts",
+    "lastmod": "2025-11-20T19:03:43.000Z",
+    "path": "/research/team/societal-impacts"
+  },
+  {
+    "url": "https://www.anthropic.com/research/the-capacity-for-moral-self-correction-in-large-language-models",
+    "lastmod": "2024-12-19T18:59:21.000Z",
+    "path": "/research/the-capacity-for-moral-self-correction-in-large-language-models"
+  },
+  {
+    "url": "https://www.anthropic.com/research/towards-measuring-the-representation-of-subjective-global-opinions-in-language-models",
+    "lastmod": "2024-12-19T18:59:28.000Z",
+    "path": "/research/towards-measuring-the-representation-of-subjective-global-opinions-in-language-models"
+  },
+  {
+    "url": "https://www.anthropic.com/research/towards-monosemanticity-decomposing-language-models-with-dictionary-learning",
+    "lastmod": "2024-12-19T18:59:35.000Z",
+    "path": "/research/towards-monosemanticity-decomposing-language-models-with-dictionary-learning"
+  },
+  {
+    "url": "https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models",
+    "lastmod": "2024-12-19T18:59:42.000Z",
+    "path": "/research/towards-understanding-sycophancy-in-language-models"
+  },
+  {
+    "url": "https://www.anthropic.com/research/toy-models-of-superposition",
+    "lastmod": "2025-11-20T16:16:12.000Z",
+    "path": "/research/toy-models-of-superposition"
+  },
+  {
+    "url": "https://www.anthropic.com/research/tracing-thoughts-language-model",
+    "lastmod": "2025-11-20T16:16:19.000Z",
+    "path": "/research/tracing-thoughts-language-model"
+  },
+  {
+    "url": "https://www.anthropic.com/research/training-a-helpful-and-harmless-assistant-with-reinforcement-learning-from-human-feedback",
+    "lastmod": "2024-12-19T18:59:50.000Z",
+    "path": "/research/training-a-helpful-and-harmless-assistant-with-reinforcement-learning-from-human-feedback"
+  },
+  {
+    "url": "https://www.anthropic.com/research/transformer-circuits",
+    "lastmod": "2024-08-05T19:55:40.000Z",
+    "path": "/research/transformer-circuits"
+  },
+  {
+    "url": "https://www.anthropic.com/research/trustworthy-agents",
+    "lastmod": "2026-04-09T17:00:08.000Z",
+    "path": "/research/trustworthy-agents"
+  },
+  {
+    "url": "https://www.anthropic.com/research/values-wild",
+    "lastmod": "2026-06-05T15:38:54.000Z",
+    "path": "/research/values-wild"
+  },
+  {
+    "url": "https://www.anthropic.com/research/vibe-physics",
+    "lastmod": "2026-03-25T13:19:51.000Z",
+    "path": "/research/vibe-physics"
+  },
+  {
+    "url": "https://www.anthropic.com/research/visible-extended-thinking",
+    "lastmod": "2025-07-23T18:02:08.000Z",
+    "path": "/research/visible-extended-thinking"
+  },
+  {
+    "url": "https://www.anthropic.com/responsible-disclosure-policy",
+    "lastmod": "2024-12-16T21:24:39.000Z",
+    "path": "/responsible-disclosure-policy"
+  },
+  {
+    "url": "https://www.anthropic.com/responsible-scaling-policy",
+    "lastmod": "2026-02-24T20:02:48.000Z",
+    "path": "/responsible-scaling-policy"
+  },
+  {
+    "url": "https://www.anthropic.com/responsible-scaling-policy/updates",
+    "lastmod": "2026-04-03T23:44:10.000Z",
+    "path": "/responsible-scaling-policy/updates"
+  },
+  {
+    "url": "https://www.anthropic.com/science",
+    "lastmod": "2026-03-23T22:07:58.000Z",
+    "path": "/science"
+  },
+  {
+    "url": "https://www.anthropic.com/startup-program-official-terms",
+    "lastmod": "2025-05-23T16:48:39.000Z",
+    "path": "/startup-program-official-terms"
+  },
+  {
+    "url": "https://www.anthropic.com/supported-countries",
+    "lastmod": "2026-05-12T13:34:55.000Z",
+    "path": "/supported-countries"
+  },
+  {
+    "url": "https://www.anthropic.com/system-cards",
+    "lastmod": "2026-01-07T17:09:35.000Z",
+    "path": "/system-cards"
+  },
+  {
+    "url": "https://www.anthropic.com/transparency",
+    "lastmod": "2026-05-19T17:56:57.000Z",
+    "path": "/transparency"
+  },
+  {
+    "url": "https://www.anthropic.com/vc-partner-program-official-terms",
+    "lastmod": "2025-05-27T11:40:21.000Z",
+    "path": "/vc-partner-program-official-terms"
+  }
+]

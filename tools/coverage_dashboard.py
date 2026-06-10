@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 from collections import Counter, defaultdict
+from pathlib import Path
 from typing import Any, Dict, List, Set
 
 from stale_pages import collect_stale_entries
@@ -20,6 +21,53 @@ from wiki_utils import (
 )
 
 OUTPUT_PATH = WIKI_DIR / "reviews" / "coverage-dashboard.md"
+GENERATED_ARTIFACT_PATHS = [
+    "apps/research-cockpit/.build",
+    "apps/site/test-results",
+]
+
+
+def is_context_or_profile_source(page: Any) -> bool:
+    """Return True for authoritative context/profile sources that do not need concept coverage."""
+
+    source_kind = str(page.frontmatter.get("source_kind", ""))
+    source_path = str(page.frontmatter.get("source_path", ""))
+    return source_kind == "transcripts" or source_path.startswith("raw/transcripts/")
+
+
+def is_context_synthesis(page: Any) -> bool:
+    """Return True for compact agent-context pages where a single authoritative source is acceptable."""
+
+    return page.ref.startswith("syntheses/context/")
+
+
+def human_size(size: int) -> str:
+    """Render a small human-readable file size."""
+
+    value = float(size)
+    for unit in ["B", "KB", "MB", "GB"]:
+        if value < 1024 or unit == "GB":
+            return f"{value:.1f} {unit}" if unit != "B" else f"{int(value)} B"
+        value /= 1024
+    return f"{size} B"
+
+
+def collect_generated_artifacts() -> List[str]:
+    """Find generated app/test artifacts that should stay out of the active KB surface."""
+
+    repo_root = WIKI_DIR.parent
+    lines: List[str] = []
+    for rel in GENERATED_ARTIFACT_PATHS:
+        path = repo_root / rel
+        if not path.exists():
+            continue
+        if path.is_dir():
+            files = [item for item in path.rglob("*") if item.is_file()]
+            size = sum(item.stat().st_size for item in files)
+            lines.append(f"- `{rel}/` -> `{len(files)}` generated file(s), `{human_size(size)}`; exclude or delete only with explicit confirmation")
+        elif path.is_file():
+            lines.append(f"- `{rel}` -> `{human_size(path.stat().st_size)}`; generated artifact")
+    return lines
 
 
 def collect_stale_refs() -> Set[str]:
@@ -92,7 +140,7 @@ def main() -> int:
     source_without_concepts = [
         f"- [[{page.ref}]] -> no concept page cites this source yet"
         for page in source_pages
-        if not concepts_by_source.get(page.ref)
+        if not concepts_by_source.get(page.ref) and not is_context_or_profile_source(page)
     ]
 
     concepts_with_one_source = [
@@ -109,6 +157,7 @@ def main() -> int:
         if str(page.frontmatter.get("type", "")) == "synthesis"
         and isinstance(page.frontmatter.get("source_pages"), list)
         and len(page.frontmatter.get("source_pages", [])) < 2
+        and not is_context_synthesis(page)
     ]
 
     drifting_outputs = [
@@ -120,8 +169,9 @@ def main() -> int:
     underlinked_sources = [
         f"- [[{page.ref}]] -> linked by `{len(derived_by_source.get(page.ref, set()))}` derived page(s)"
         for page in source_pages
-        if len(derived_by_source.get(page.ref, set())) <= 1
+        if len(derived_by_source.get(page.ref, set())) <= 1 and not is_context_or_profile_source(page)
     ]
+    generated_artifact_lines = collect_generated_artifacts()
 
     summary_lines = [
         f"- Total content pages: `{len(pages)}`",
@@ -155,9 +205,12 @@ def main() -> int:
         + "\n"
         + build_section("Underlinked Sources", underlinked_sources, "- Every source feeds more than one derived page.")
         + "\n"
+        + build_section("Generated Artifact Warnings", generated_artifact_lines, "- No generated app/test artifacts detected in the active vault tree.")
+        + "\n"
         + "## Notes\n\n"
         + "- Use [[reviews/review-queue]] for the action-oriented queue.\n"
         + "- Use this dashboard to decide whether the vault is compounding or just accumulating isolated notes.\n"
+        + "- Context/profile sources may be authoritative single-source pages; do not force them into research-concept coverage.\n"
     )
 
     source_refs = sorted(page.ref for page in source_pages) or ["sources/attention-is-all-you-need-excerpt"]

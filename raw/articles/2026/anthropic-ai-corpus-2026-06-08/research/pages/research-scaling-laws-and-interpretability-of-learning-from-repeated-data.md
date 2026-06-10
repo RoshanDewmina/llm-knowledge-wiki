@@ -1,0 +1,50 @@
+---
+title: "Scaling Laws and Interpretability of Learning from Repeated Data \ Anthropic"
+source_url: "https://www.anthropic.com/research/scaling-laws-and-interpretability-of-learning-from-repeated-data"
+canonical_url: "https://www.anthropic.com/research/scaling-laws-and-interpretability-of-learning-from-repeated-data"
+lastmod: "2024-12-19T18:58:11.000Z"
+captured_at: "2026-06-08T09:06:35Z"
+section: "research"
+source_kind: "anthropic_web_page"
+extraction_method: "sitemap_requests_bs4_main_text"
+status_code: "200"
+sha256_html: "a45a604cf2b19c9c866f9b899440c2c053f4f96e4201c42bcfa1153746d849f2"
+include_reason: "matches AI/LLM/ML/CS topic keywords"
+---
+
+# Scaling Laws and Interpretability of Learning from Repeated Data \ Anthropic
+
+Source: https://www.anthropic.com/research/scaling-laws-and-interpretability-of-learning-from-repeated-data
+
+## Description
+
+Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
+
+## Clean Text
+
+Interpretability
+Scaling Laws and Interpretability of Learning from Repeated Data
+May 21, 2022
+Read Paper
+Abstract
+Recent large language models have been trained on vast datasets, but also often on repeated data, either intentionally for the purpose of upweighting higher quality data, or unintentionally because data deduplication is not perfect and the model is exposed to repeated data at the sentence, paragraph, or document level. Some works have reported substantial negative performance effects of this repeated data. In this paper we attempt to study repeated data systematically and to understand its effects mechanistically. To do this, we train a family of models where most of the data is unique but a small fraction of it is repeated many times. We find a strong double descent phenomenon, in which repeated data can lead test loss to increase midway through training. A predictable range of repetition frequency leads to surprisingly severe degradation in performance. For instance, performance of an 800M parameter model can be degraded to that of a 2x smaller model (400M params) by repeating 0.1% of the data 100 times, despite the other 90% of the training tokens remaining unique. We suspect there is a range in the middle where the data can be memorized and doing so consumes a large fraction of the model's capacity, and this may be where the peak of degradation occurs. Finally, we connect these observations to recent mechanistic interpretability work - attempting to reverse engineer the detailed computations performed by the model - by showing that data repetition disproportionately damages copying and internal structures associated with generalization, such as induction heads, providing a possible mechanism for the shift from generalization to memorization. Taken together, these results provide a hypothesis for why repeating a relatively small fraction of data in large language models could lead to disproportionately large harms to performance.
+Authors
+Amanda Askell, Yuntao Bai, Anna Chen, Dawn Drain, Deep Ganguli, Tom Henighan, Andy Jones, Nicholas Joseph, Ben Mann, Nova DasSarma, Nelson Elhage, Zac Hatfield-Dodds, Danny Hernandez, Jackson Kernion, Kamal Ndousse, Catherine Olsson, Dario Amodei, Tom Brown, Jack Clark, Sam McCandlish, Chris Olah, Jared Kaplan
+Related content
+Making Claude a chemist
+Read more
+Coding agents in the social sciences
+Results from a survey of 1,260 social scientists about AI and coding agent use.
+Read more
+Project Glasswing: An initial update
+An early update on what we've learned from Project Glasswing.
+Read more
+
+## Main Links
+
+- [Read Paper](https://arxiv.org/abs/2205.10487)
+- [https://twitter.com/intent/tweet?text=https://www.anthropic.com/research/scaling-laws-and-interpretability-of-learning-from-repeated-data](https://twitter.com/intent/tweet?text=https://www.anthropic.com/research/scaling-laws-and-interpretability-of-learning-from-repeated-data)
+- [https://www.linkedin.com/shareArticle?mini=true&url=https://www.anthropic.com/research/scaling-laws-and-interpretability-of-learning-from-repeated-data](https://www.linkedin.com/shareArticle?mini=true&url=https://www.anthropic.com/research/scaling-laws-and-interpretability-of-learning-from-repeated-data)
+- [Read more](https://www.anthropic.com/research/making-claude-a-chemist)
+- [Read more](https://www.anthropic.com/research/coding-agents-social-sciences)
+- [Read more](https://www.anthropic.com/research/glasswing-initial-update)

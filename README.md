@@ -7,6 +7,7 @@ It is designed to work well with:
 - Obsidian for browsing, clipping, backlinks, and graph view
 - Claude Code for query, synthesis, and durable write-back
 - Codex for multi-file maintenance work
+- Research Cockpit for a native macOS course-pack workflow
 - a local Next.js site for read-only browsing in the browser
 
 ## What This Repo Is
@@ -152,6 +153,8 @@ This repo now supports these main workflows:
   - [docs/use-cases/codebase-memory.md](docs/use-cases/codebase-memory.md)
 - Durable outputs from the same wiki
   - [docs/use-cases/durable-outputs.md](docs/use-cases/durable-outputs.md)
+- Native macOS course-pack cockpit
+  - [docs/research-cockpit.md](docs/research-cockpit.md)
 - MCP as optional phase 2
   - [docs/use-cases/mcp-optional.md](docs/use-cases/mcp-optional.md)
 
@@ -176,6 +179,7 @@ wiki/outputs/slides/            Slide-ready markdown
 wiki/reviews/                   Generated maintenance pages
 templates/                      Reusable note templates
 tools/                          Local CLI tools
+apps/research-cockpit/          Native macOS course-pack cockpit
 apps/site/                      Bun + Next.js frontend
 ```
 

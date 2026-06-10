@@ -1,0 +1,3 @@
+{"id":"retrieval-residual-stream","query":"residual stream","expected_ref":"concepts/residual-stream","notes":"Baseline transformer-circuits query; expected page should appear in top 5."}
+{"id":"retrieval-transformer-circuits","query":"transformer circuits framework","expected_ref":"sources/transformer-circuits-framework","notes":"Should find the reviewed transformer-circuits source page or equivalent source note."}
+{"id":"retrieval-work-quality","query":"work quality autoresearch","expected_ref":"benchmarks/autoresearch/2026-W18-work-quality","notes":"Should find the weekly work-quality benchmark report."}

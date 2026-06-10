@@ -1,0 +1,276 @@
+# Anthropic / Claude AI Corpus Index
+
+Generated: 2026-06-08T09:15:13Z
+
+## Primary manifests
+- `manifests/anthropic-web-summary.json`
+- `manifests/research-pages.json`
+- `manifests/research-excluded.json`
+- `manifests/learn-pages.json`
+- `manifests/youtube-summary.json`
+- `manifests/youtube-transcripts.json`
+- `manifests/sitemap-all.json`
+
+## Anthropic Learn pages
+- `learn.md` — AI Learning Resources & Guides from Anthropic \ Anthropic — https://www.anthropic.com/learn
+- `learn-build-with-claude.md` — Anthropic Academy: Claude API Development Guide \ Anthropic — https://www.anthropic.com/learn/build-with-claude
+- `learn-claude-for-work.md` — Anthropic Academy: Claude AI Solutions for Business \ Anthropic — https://www.anthropic.com/learn/claude-for-work
+- `learn-claude-for-you.md` — AI Fluency: Framework and Foundations \ Anthropic — https://www.anthropic.com/learn/claude-for-you
+
+## Anthropic Research pages included
+- `research/pages/research.md` — Research \ Anthropic — https://www.anthropic.com/research
+- `research/pages/research-2028-ai-leadership.md` — 2028: Two scenarios for global AI leadership \ Anthropic — https://www.anthropic.com/research/2028-ai-leadership
+- `research/pages/research-a-general-language-assistant-as-a-laboratory-for-alignment.md` — A General Language Assistant as a Laboratory for Alignment \ Anthropic — https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment
+- `research/pages/research-a-mathematical-framework-for-transformer-circuits.md` — A Mathematical Framework for Transformer Circuits \ Anthropic — https://www.anthropic.com/research/a-mathematical-framework-for-transformer-circuits
+- `research/pages/research-agentic-misalignment.md` — Agentic Misalignment: How LLMs could be insider threats \ Anthropic — https://www.anthropic.com/research/agentic-misalignment
+- `research/pages/research-ai-assistance-coding-skills.md` — How AI assistance impacts the formation of coding skills \ Anthropic — https://www.anthropic.com/research/AI-assistance-coding-skills
+- `research/pages/research-ai-fluency-index.md` — Anthropic Education Report: The AI Fluency Index \ Anthropic — https://www.anthropic.com/research/AI-fluency-index
+- `research/pages/research-alignment-faking.md` — Alignment faking in large language models \ Anthropic — https://www.anthropic.com/research/alignment-faking
+- `research/pages/research-anthropic-interviewer.md` — Introducing Anthropic Interviewer \ Anthropic — https://www.anthropic.com/research/anthropic-interviewer
+- `research/pages/research-assistant-axis.md` — The assistant axis: situating and stabilizing the character of large language models \ Anthropic — https://www.anthropic.com/research/assistant-axis
+- `research/pages/research-auditing-hidden-objectives.md` — Auditing language models for hidden objectives \ Anthropic — https://www.anthropic.com/research/auditing-hidden-objectives
+- `research/pages/research-automated-alignment-researchers.md` — Automated Alignment Researchers: Using large language models to scale scalable oversight \ Anthropic — https://www.anthropic.com/research/automated-alignment-researchers
+- `research/pages/research-bloom.md` — Introducing Bloom: an open source tool for automated behavioral evaluations \ Anthropic — https://www.anthropic.com/research/bloom
+- `research/pages/research-building-ai-cyber-defenders.md` — Building AI for cyber defenders \ Anthropic — https://www.anthropic.com/research/building-ai-cyber-defenders
+- `research/pages/research-building-effective-agents.md` — Building Effective AI Agents \ Anthropic — https://www.anthropic.com/research/building-effective-agents
+- `research/pages/research-circuits-updates-april-2024.md` — Circuits Updates – April 2024 \ Anthropic — https://www.anthropic.com/research/circuits-updates-april-2024
+- `research/pages/research-circuits-updates-august-2024.md` — Circuits Updates – August 2024 \ Anthropic — https://www.anthropic.com/research/circuits-updates-august-2024
+- `research/pages/research-circuits-updates-july-2024.md` — Circuits Updates – July 2024 \ Anthropic — https://www.anthropic.com/research/circuits-updates-july-2024
+- `research/pages/research-circuits-updates-june-2024.md` — Circuits Updates – June 2024 \ Anthropic — https://www.anthropic.com/research/circuits-updates-june-2024
+- `research/pages/research-circuits-updates-may-2023.md` — Circuits Updates — May 2023 \ Anthropic — https://www.anthropic.com/research/circuits-updates-may-2023
+- `research/pages/research-circuits-updates-sept-2024.md` — Circuits Updates – September 2024 \ Anthropic — https://www.anthropic.com/research/circuits-updates-sept-2024
+- `research/pages/research-claude-character.md` — Claude’s Character \ Anthropic — https://www.anthropic.com/research/claude-character
+- `research/pages/research-claude-personal-guidance.md` — How people ask Claude for personal guidance \ Anthropic — https://www.anthropic.com/research/claude-personal-guidance
+- `research/pages/research-clio.md` — Clio: Privacy-preserving insights into real-world AI use \ Anthropic — https://www.anthropic.com/research/clio
+- `research/pages/research-coding-agents-social-sciences.md` — Coding agents in the social sciences \ Anthropic — https://www.anthropic.com/research/coding-agents-social-sciences
+- `research/pages/research-collective-constitutional-ai-aligning-a-language-model-with-public-input.md` — Collective Constitutional AI: Aligning a Language Model with Public Input \ Anthropic — https://www.anthropic.com/research/collective-constitutional-ai-aligning-a-language-model-with-public-input
+- `research/pages/research-confidential-inference-trusted-vms.md` — Confidential Inference via Trusted Virtual Machines \ Anthropic — https://www.anthropic.com/research/confidential-inference-trusted-vms
+- `research/pages/research-constitutional-ai-harmlessness-from-ai-feedback.md` — Constitutional AI: Harmlessness from AI Feedback \ Anthropic — https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback
+- `research/pages/research-constitutional-classifiers.md` — Constitutional Classifiers: Defending against universal jailbreaks \ Anthropic — https://www.anthropic.com/research/constitutional-classifiers
+- `research/pages/research-crosscoder-model-diffing.md` — Insights on Crosscoder Model Diffing \ Anthropic — https://www.anthropic.com/research/crosscoder-model-diffing
+- `research/pages/research-decomposing-language-models-into-understandable-components.md` — Decomposing Language Models Into Understandable Components \ Anthropic — https://www.anthropic.com/research/decomposing-language-models-into-understandable-components
+- `research/pages/research-deprecation-commitments.md` — Commitments on model deprecation and preservation \ Anthropic — https://www.anthropic.com/research/deprecation-commitments
+- `research/pages/research-deprecation-updates-opus-3.md` — An update on our model deprecation commitments for Claude Opus 3 \ Anthropic — https://www.anthropic.com/research/deprecation-updates-opus-3
+- `research/pages/research-diff-tool.md` — A “diff” tool for AI: Finding behavioral differences in new models \ Anthropic — https://www.anthropic.com/research/diff-tool
+- `research/pages/research-discovering-language-model-behaviors-with-model-written-evaluations.md` — Discovering Language Model Behaviors with Model-Written Evaluations \ Anthropic — https://www.anthropic.com/research/discovering-language-model-behaviors-with-model-written-evaluations
+- `research/pages/research-disempowerment-patterns.md` — Disempowerment patterns in real-world AI usage \ Anthropic — https://www.anthropic.com/research/disempowerment-patterns
+- `research/pages/research-distributed-representations-composition-superposition.md` — Distributed Representations: Composition & Superposition \ Anthropic — https://www.anthropic.com/research/distributed-representations-composition-superposition
+- `research/pages/research-donating-open-source-petri.md` — Donating our open-source alignment tool \ Anthropic — https://www.anthropic.com/research/donating-open-source-petri
+- `research/pages/research-emergent-misalignment-reward-hacking.md` — From shortcuts to sabotage: natural emergent misalignment from reward hacking \ Anthropic — https://www.anthropic.com/research/emergent-misalignment-reward-hacking
+- `research/pages/research-emotion-concepts-function.md` — Emotion concepts and their function in a large language model \ Anthropic — https://www.anthropic.com/research/emotion-concepts-function
+- `research/pages/research-end-subset-conversations.md` — Claude Opus 4 and 4.1 can now end a rare subset of conversations \ Anthropic — https://www.anthropic.com/research/end-subset-conversations
+- `research/pages/research-engineering-challenges-interpretability.md` — The engineering challenges of scaling interpretability \ Anthropic — https://www.anthropic.com/research/engineering-challenges-interpretability
+- `research/pages/research-evaluating-ai-systems.md` — Challenges in evaluating AI systems \ Anthropic — https://www.anthropic.com/research/evaluating-ai-systems
+- `research/pages/research-evaluating-and-mitigating-discrimination-in-language-model-decisions.md` — Evaluating and Mitigating Discrimination in Language Model Decisions \ Anthropic — https://www.anthropic.com/research/evaluating-and-mitigating-discrimination-in-language-model-decisions
+- `research/pages/research-evaluating-feature-steering.md` — Evaluating feature steering: A case study in mitigating social biases \ Anthropic — https://www.anthropic.com/research/evaluating-feature-steering
+- `research/pages/research-exploring-model-welfare.md` — Exploring model welfare \ Anthropic — https://www.anthropic.com/research/exploring-model-welfare
+- `research/pages/research-features-as-classifiers.md` — Using dictionary learning features as classifiers \ Anthropic — https://www.anthropic.com/research/features-as-classifiers
+- `research/pages/research-forecasting-rare-behaviors.md` — Forecasting rare language model behaviors \ Anthropic — https://www.anthropic.com/research/forecasting-rare-behaviors
+- `research/pages/research-glasswing-initial-update.md` — Project Glasswing: An initial update \ Anthropic — https://www.anthropic.com/research/glasswing-initial-update
+- `research/pages/research-how-ai-is-transforming-work-at-anthropic.md` — How AI Is Transforming Work at Anthropic \ Anthropic — https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic
+- `research/pages/research-impact-software-development.md` — Anthropic Economic Index: AI's impact on software development \ Anthropic — https://www.anthropic.com/research/impact-software-development
+- `research/pages/research-in-context-learning-and-induction-heads.md` — In-context Learning and Induction Heads \ Anthropic — https://www.anthropic.com/research/in-context-learning-and-induction-heads
+- `research/pages/research-influence-functions.md` — Tracing Model Outputs to the Training Data \ Anthropic — https://www.anthropic.com/research/influence-functions
+- `research/pages/research-interpretability-dreams.md` — Interpretability Dreams \ Anthropic — https://www.anthropic.com/research/interpretability-dreams
+- `research/pages/research-introspection.md` — Emergent introspective awareness in large language models \ Anthropic — https://www.anthropic.com/research/introspection
+- `research/pages/research-language-models-mostly-know-what-they-know.md` — Language Models (Mostly) Know What They Know \ Anthropic — https://www.anthropic.com/research/language-models-mostly-know-what-they-know
+- `research/pages/research-long-running-claude.md` — Long-running Claude for scientific computing \ Anthropic — https://www.anthropic.com/research/long-running-Claude
+- `research/pages/research-making-claude-a-chemist.md` — Making Claude a chemist \ Anthropic — https://www.anthropic.com/research/making-claude-a-chemist
+- `research/pages/research-many-shot-jailbreaking.md` — Many-shot jailbreaking \ Anthropic — https://www.anthropic.com/research/many-shot-jailbreaking
+- `research/pages/research-mapping-mind-language-model.md` — Mapping the Mind of a Large Language Model \ Anthropic — https://www.anthropic.com/research/mapping-mind-language-model
+- `research/pages/research-measuring-agent-autonomy.md` — Measuring AI agent autonomy in practice \ Anthropic — https://www.anthropic.com/research/measuring-agent-autonomy
+- `research/pages/research-measuring-faithfulness-in-chain-of-thought-reasoning.md` — Measuring Faithfulness in Chain-of-Thought Reasoning \ Anthropic — https://www.anthropic.com/research/measuring-faithfulness-in-chain-of-thought-reasoning
+- `research/pages/research-measuring-model-persuasiveness.md` — Measuring the Persuasiveness of Language Models \ Anthropic — https://www.anthropic.com/research/measuring-model-persuasiveness
+- `research/pages/research-measuring-progress-on-scalable-oversight-for-large-language-models.md` — Measuring Progress on Scalable Oversight for Large Language Models \ Anthropic — https://www.anthropic.com/research/measuring-progress-on-scalable-oversight-for-large-language-models
+- `research/pages/research-natural-language-autoencoders.md` — Natural Language Autoencoders \ Anthropic — https://www.anthropic.com/research/natural-language-autoencoders
+- `research/pages/research-next-generation-constitutional-classifiers.md` — Next-generation Constitutional Classifiers: More efficient protection against universal jailbreaks \ Anthropic — https://www.anthropic.com/research/next-generation-constitutional-classifiers
+- `research/pages/research-open-source-circuit-tracing.md` — Open-sourcing circuit-tracing tools \ Anthropic — https://www.anthropic.com/research/open-source-circuit-tracing
+- `research/pages/research-persona-selection-model.md` — The persona selection model \ Anthropic — https://www.anthropic.com/research/persona-selection-model
+- `research/pages/research-persona-vectors.md` — Persona vectors: Monitoring and controlling character traits in language models \ Anthropic — https://www.anthropic.com/research/persona-vectors
+- `research/pages/research-petri-open-source-auditing.md` — Petri: An open-source auditing tool to accelerate AI safety research \ Anthropic — https://www.anthropic.com/research/petri-open-source-auditing
+- `research/pages/research-predictability-and-surprise-in-large-generative-models.md` — Predictability and Surprise in Large Generative Models \ Anthropic — https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models
+- `research/pages/research-privileged-bases-in-the-transformer-residual-stream.md` — Privileged Bases in the Transformer Residual Stream \ Anthropic — https://www.anthropic.com/research/privileged-bases-in-the-transformer-residual-stream
+- `research/pages/research-probes-catch-sleeper-agents.md` — Simple probes can catch sleeper agents \ Anthropic — https://www.anthropic.com/research/probes-catch-sleeper-agents
+- `research/pages/research-project-fetch-robot-dog.md` — Project Fetch: Can Claude train a robot dog? \ Anthropic — https://www.anthropic.com/research/project-fetch-robot-dog
+- `research/pages/research-project-vend-1.md` — Project Vend: Can Claude run a small shop? (And why does that matter?) \ Anthropic — https://www.anthropic.com/research/project-vend-1
+- `research/pages/research-project-vend-2.md` — Project Vend: Phase two \ Anthropic — https://www.anthropic.com/research/project-vend-2
+- `research/pages/research-prompt-injection-defenses.md` — Mitigating the risk of prompt injections in browser use \ Anthropic — https://www.anthropic.com/research/prompt-injection-defenses
+- `research/pages/research-question-decomposition-improves-the-faithfulness-of-model-generated-reasoning.md` — Question Decomposition Improves the Faithfulness of Model-Generated Reasoning \ Anthropic — https://www.anthropic.com/research/question-decomposition-improves-the-faithfulness-of-model-generated-reasoning
+- `research/pages/research-reasoning-models-dont-say-think.md` — Reasoning models don't always say what they think \ Anthropic — https://www.anthropic.com/research/reasoning-models-dont-say-think
+- `research/pages/research-red-teaming-language-models-to-reduce-harms-methods-scaling-behaviors-and-lessons-learned.md` — Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned \ Anthropic — https://www.anthropic.com/research/red-teaming-language-models-to-reduce-harms-methods-scaling-behaviors-and-lessons-learned
+- `research/pages/research-reward-tampering.md` — Sycophancy to subterfuge: Investigating reward tampering in language models  \ Anthropic — https://www.anthropic.com/research/reward-tampering
+- `research/pages/research-sabotage-evaluations.md` — Sabotage evaluations for frontier models \ Anthropic — https://www.anthropic.com/research/sabotage-evaluations
+- `research/pages/research-scaling-laws-and-interpretability-of-learning-from-repeated-data.md` — Scaling Laws and Interpretability of Learning from Repeated Data \ Anthropic — https://www.anthropic.com/research/scaling-laws-and-interpretability-of-learning-from-repeated-data
+- `research/pages/research-shade-arena-sabotage-monitoring.md` — SHADE-Arena: Evaluating Sabotage and Monitoring in LLM Agents \ Anthropic — https://www.anthropic.com/research/shade-arena-sabotage-monitoring
+- `research/pages/research-sleeper-agents-training-deceptive-llms-that-persist-through-safety-training.md` — Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training \ Anthropic — https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training
+- `research/pages/research-small-samples-poison.md` — A small number of samples can poison LLMs of any size \ Anthropic — https://www.anthropic.com/research/small-samples-poison
+- `research/pages/research-softmax-linear-units.md` — Softmax Linear Units \ Anthropic — https://www.anthropic.com/research/softmax-linear-units
+- `research/pages/research-specific-versus-general-principles-for-constitutional-ai.md` — Specific versus General Principles for Constitutional AI \ Anthropic — https://www.anthropic.com/research/specific-versus-general-principles-for-constitutional-ai
+- `research/pages/research-statistical-approach-to-model-evals.md` — A statistical approach to model evaluations \ Anthropic — https://www.anthropic.com/research/statistical-approach-to-model-evals
+- `research/pages/research-studying-large-language-model-generalization-with-influence-functions.md` — Studying Large Language Model Generalization with Influence Functions \ Anthropic — https://www.anthropic.com/research/studying-large-language-model-generalization-with-influence-functions
+- `research/pages/research-superposition-memorization-and-double-descent.md` — Superposition, Memorization, and Double Descent \ Anthropic — https://www.anthropic.com/research/superposition-memorization-and-double-descent
+- `research/pages/research-swe-bench-sonnet.md` — Claude SWE-Bench Performance \ Anthropic — https://www.anthropic.com/research/swe-bench-sonnet
+- `research/pages/research-teaching-claude-why.md` — Teaching Claude why \ Anthropic — https://www.anthropic.com/research/teaching-claude-why
+- `research/pages/research-team-alignment.md` — Alignment Research \ Anthropic — https://www.anthropic.com/research/team/alignment
+- `research/pages/research-team-interpretability.md` — Interpretability Research \ Anthropic — https://www.anthropic.com/research/team/interpretability
+- `research/pages/research-the-capacity-for-moral-self-correction-in-large-language-models.md` — The Capacity for Moral Self-Correction in Large Language Models \ Anthropic — https://www.anthropic.com/research/the-capacity-for-moral-self-correction-in-large-language-models
+- `research/pages/research-towards-measuring-the-representation-of-subjective-global-opinions-in-language-models.md` — Towards Measuring the Representation of Subjective Global Opinions in Language Models \ Anthropic — https://www.anthropic.com/research/towards-measuring-the-representation-of-subjective-global-opinions-in-language-models
+- `research/pages/research-towards-monosemanticity-decomposing-language-models-with-dictionary-learning.md` — Towards Monosemanticity: Decomposing Language Models With Dictionary Learning \ Anthropic — https://www.anthropic.com/research/towards-monosemanticity-decomposing-language-models-with-dictionary-learning
+- `research/pages/research-towards-understanding-sycophancy-in-language-models.md` — Towards Understanding Sycophancy in Language Models \ Anthropic — https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models
+- `research/pages/research-toy-models-of-superposition.md` — Toy Models of Superposition \ Anthropic — https://www.anthropic.com/research/toy-models-of-superposition
+- `research/pages/research-tracing-thoughts-language-model.md` — Tracing the thoughts of a large language model \ Anthropic — https://www.anthropic.com/research/tracing-thoughts-language-model
+- `research/pages/research-training-a-helpful-and-harmless-assistant-with-reinforcement-learning-from-human-feedback.md` — Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback \ Anthropic — https://www.anthropic.com/research/training-a-helpful-and-harmless-assistant-with-reinforcement-learning-from-human-feedback
+- `research/pages/research-transformer-circuits.md` — Reflections on Qualitative Research \ Anthropic — https://www.anthropic.com/research/transformer-circuits
+- `research/pages/research-trustworthy-agents.md` — Trustworthy agents in practice \ Anthropic — https://www.anthropic.com/research/trustworthy-agents
+- `research/pages/research-values-wild.md` — Values in the wild: Discovering and analyzing values in real-world language model interactions \ Anthropic — https://www.anthropic.com/research/values-wild
+- `research/pages/research-vibe-physics.md` — Vibe physics: The AI grad student \ Anthropic — https://www.anthropic.com/research/vibe-physics
+- `research/pages/research-visible-extended-thinking.md` — Claude's extended thinking \ Anthropic — https://www.anthropic.com/research/visible-extended-thinking
+
+## Research pages excluded by scope
+- What 81,000 people told us about the economics of AI \ Anthropic — https://www.anthropic.com/research/81k-economics — excluded: primarily economics/labor-market page
+- Anthropic Economic Index report: Economic primitives \ Anthropic — https://www.anthropic.com/research/anthropic-economic-index-january-2026-report — excluded: primarily economics/labor-market page
+- Anthropic Economic Index report: Uneven geographic and enterprise AI adoption \ Anthropic — https://www.anthropic.com/research/anthropic-economic-index-september-2025-report — excluded: primarily economics/labor-market page
+- Focus areas for The Anthropic Institute \ Anthropic — https://www.anthropic.com/research/anthropic-institute-agenda — excluded: primarily economics/labor-market page
+- Anthropic Economic Index: Tracking AI's role in the US and global economy \ Anthropic — https://www.anthropic.com/research/economic-index-geography — excluded: primarily economics/labor-market page
+- Anthropic Economic Index report: Learning curves \ Anthropic — https://www.anthropic.com/research/economic-index-march-2026-report — excluded: primarily economics/labor-market page
+- The Anthropic Economic Index report: New building blocks for understanding AI use \ Anthropic — https://www.anthropic.com/research/economic-index-primitives — excluded: primarily economics/labor-market page
+- Announcing the Anthropic Economic Index Survey  \ Anthropic — https://www.anthropic.com/research/economic-index-survey-announcement — excluded: primarily economics/labor-market page
+- Preparing for AI’s economic impact: exploring policy responses \ Anthropic — https://www.anthropic.com/research/economic-policy-responses — excluded: primarily economics/labor-market page
+- Estimating AI productivity gains \ Anthropic — https://www.anthropic.com/research/estimating-productivity-gains — excluded: primarily economics/labor-market page
+- Evaluating Claude’s bioinformatics research capabilities with BioMysteryBench \ Anthropic — https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench — excluded: primarily biology/biosecurity/non-CS science page
+- How Australia Uses Claude: Findings from the Anthropic Economic Index \ Anthropic — https://www.anthropic.com/research/how-australia-uses-claude — excluded: primarily economics/labor-market page
+- India Country Brief: The Anthropic Economic Index \ Anthropic — https://www.anthropic.com/research/india-brief-economic-index — excluded: primarily economics/labor-market page
+- Introducing our Science Blog \ Anthropic — https://www.anthropic.com/research/introducing-anthropic-science — excluded: primarily biology/biosecurity/non-CS science page
+- Labor market impacts of AI: A new measure and early evidence \ Anthropic — https://www.anthropic.com/research/labor-market-impacts — excluded: primarily economics/labor-market page
+- Economic Research \ Anthropic — https://www.anthropic.com/research/team/economic-research — excluded: primarily economics/labor-market page
+- Societal Impacts Research \ Anthropic — https://www.anthropic.com/research/team/societal-impacts — excluded: primarily economics/labor-market page
+
+## YouTube transcripts saved
+- `youtube/transcripts/how-anthropic-uses-claude-in-gtm-engineering-n4ZxEznNaIY.md` — How Anthropic uses Claude in GTM Engineering — https://www.youtube.com/watch?v=n4ZxEznNaIY
+- `youtube/transcripts/the-problem-solvers-anton-osika-at-lovable-rjSvJYrVY2k.md` — The Problem Solvers | Anton Osika at Lovable — https://www.youtube.com/watch?v=rjSvJYrVY2k
+- `youtube/transcripts/team-thinking-visualized-by-claude-8N1-XHNupfg.md` — Team thinking, visualized by Claude — https://www.youtube.com/watch?v=8N1-XHNupfg
+- `youtube/transcripts/the-problem-solvers-max-junestrand-at-legora-bjrmYsFae_g.md` — The Problem Solvers | Max Junestrand at Legora — https://www.youtube.com/watch?v=bjrmYsFae_g
+- `youtube/transcripts/before-we-ship-a-claude-model-these-teams-try-to-break-it-CG7Rcl49C2w.md` — Before we ship a Claude model, these teams try to break it. — https://www.youtube.com/watch?v=CG7Rcl49C2w
+- `youtube/transcripts/the-problem-solvers-michele-catasta-at-replit-kUQD5ZElyB4.md` — The Problem Solvers: Michele Catasta at Replit — https://www.youtube.com/watch?v=kUQD5ZElyB4
+- `youtube/transcripts/ship-your-first-managed-agent-19HDQ9HppOA.md` — Ship your first Managed Agent — https://www.youtube.com/watch?v=19HDQ9HppOA
+- `youtube/transcripts/tool-skill-or-subagent-decomposing-an-agent-that-outgrew-its-prompt-mWvtOHlZM-I.md` — Tool, skill, or subagent? Decomposing an agent that outgrew its prompt — https://www.youtube.com/watch?v=mWvtOHlZM-I
+- `youtube/transcripts/agent-battle-mine-the-most-diamonds-in-45-minutes-dxqX_6ciVQA.md` — Agent Battle: Mine the most diamonds in 45 minutes — https://www.youtube.com/watch?v=dxqX_6ciVQA
+- `youtube/transcripts/evals-for-taste-hill-climbing-a-slide-generation-agent-v9FTCvkV_a0.md` — Evals for taste: Hill-climbing a slide-generation agent — https://www.youtube.com/watch?v=v9FTCvkV_a0
+- `youtube/transcripts/agents-that-remember-geUv4CjPpxI.md` — Agents that remember — https://www.youtube.com/watch?v=geUv4CjPpxI
+- `youtube/transcripts/how-we-claude-code-IlqJqcl8ONE.md` — How we Claude Code — https://www.youtube.com/watch?v=IlqJqcl8ONE
+- `youtube/transcripts/making-agentic-workflows-trustworthy-and-verifiable-with-a-custom-dsl-qOjleN2-50c.md` — Making agentic workflows trustworthy and verifiable with a custom DSL — https://www.youtube.com/watch?v=qOjleN2-50c
+- `youtube/transcripts/the-problem-solvers-kay-zhu-at-genspark-MyYe6C4NVu0.md` — The Problem Solvers: Kay Zhu at Genspark — https://www.youtube.com/watch?v=MyYe6C4NVu0
+- `youtube/transcripts/how-airops-chases-friction-to-build-ai-products-with-claude-M5uwBawBDpw.md` — How AirOps chases friction to build AI products with Claude — https://www.youtube.com/watch?v=M5uwBawBDpw
+- `youtube/transcripts/running-an-ai-native-engineering-org-IA5LWIGqnyM.md` — Running an AI-native engineering org — https://www.youtube.com/watch?v=IA5LWIGqnyM
+- `youtube/transcripts/the-prompting-playbook-G2B0YWuJUgI.md` — The prompting playbook — https://www.youtube.com/watch?v=G2B0YWuJUgI
+- `youtube/transcripts/building-signals-that-trade-themselves-EOg4gY0Yln0.md` — Building signals that trade themselves — https://www.youtube.com/watch?v=EOg4gY0Yln0
+- `youtube/transcripts/picking-the-right-model-P0uMXS6emHA.md` — Picking the right model — https://www.youtube.com/watch?v=P0uMXS6emHA
+- `youtube/transcripts/memory-and-dreaming-for-self-learning-agents-IGo225tfF2I.md` — Memory and dreaming for self learning agents — https://www.youtube.com/watch?v=IGo225tfF2I
+- `youtube/transcripts/how-to-get-to-production-faster-with-claude-managed-agents-zenIB7XLZxQ.md` — How to get to production faster with Claude Managed Agents — https://www.youtube.com/watch?v=zenIB7XLZxQ
+- `youtube/transcripts/build-a-production-ready-agent-with-claude-managed-agents-jWWsLe4Gh5Y.md` — Build a production-ready agent with Claude Managed Agents — https://www.youtube.com/watch?v=jWWsLe4Gh5Y
+- `youtube/transcripts/the-thinking-lever-T7KqH7kYnE4.md` — The thinking lever — https://www.youtube.com/watch?v=T7KqH7kYnE4
+- `youtube/transcripts/build-a-proactive-agent-workflow-with-claude-code-eSP7PLTXNy8.md` — Build a proactive agent workflow with Claude Code — https://www.youtube.com/watch?v=eSP7PLTXNy8
+- `youtube/transcripts/build-ai-agents-using-claude-in-microsoft-foundry-TQd_YQvydVg.md` — Build AI agents using Claude in Microsoft Foundry — https://www.youtube.com/watch?v=TQd_YQvydVg
+- `youtube/transcripts/ai-with-claude-on-aws-from-code-to-orchestration-5YHIrTYxM3w.md` — AI with Claude on AWS: From code to orchestration — https://www.youtube.com/watch?v=5YHIrTYxM3w
+- `youtube/transcripts/code-with-claude-london-2026-opening-keynote-6amLO7I9xdg.md` — Code with Claude London 2026: Opening Keynote — https://www.youtube.com/watch?v=6amLO7I9xdg
+- `youtube/transcripts/the-problem-solvers-scott-wu-at-cognition-_kSAptN8TAY.md` — The Problem Solvers: Scott Wu at Cognition — https://www.youtube.com/watch?v=_kSAptN8TAY
+- `youtube/transcripts/claude-cowork-for-legal-teams-EPUg9pmfPk0.md` — Claude Cowork for legal teams — https://www.youtube.com/watch?v=EPUg9pmfPk0
+- `youtube/transcripts/claude-cowork-for-marketing-ops-lsufr1i6ACY.md` — Claude Cowork for marketing ops — https://www.youtube.com/watch?v=lsufr1i6ACY
+- `youtube/transcripts/claude-cowork-for-sales-dDg7vhvtbEE.md` — Claude Cowork for sales — https://www.youtube.com/watch?v=dDg7vhvtbEE
+- `youtube/transcripts/context-management-in-claude-code-eW3oTyfeWZ0.md` — Context Management in Claude Code — https://www.youtube.com/watch?v=eW3oTyfeWZ0
+- `youtube/transcripts/the-explore-plan-code-commit-workflow-in-claude-code-xJQuF02NAK8.md` — The Explore → Plan → Code → Commit workflow in Claude Code — https://www.youtube.com/watch?v=xJQuF02NAK8
+- `youtube/transcripts/your-first-claude-code-prompt-gbetp6D7J_Q.md` — Your first Claude Code prompt — https://www.youtube.com/watch?v=gbetp6D7J_Q
+- `youtube/transcripts/installing-claude-code-0kILa02vKuI.md` — Installing Claude Code — https://www.youtube.com/watch?v=0kILa02vKuI
+- `youtube/transcripts/how-claude-code-works-6bs5b4FltCU.md` — How Claude Code Works — https://www.youtube.com/watch?v=6bs5b4FltCU
+- `youtube/transcripts/how-emergent-is-making-app-building-more-accessible-with-claude-IGAVa4uyo2w.md` — How Emergent is making app building more accessible with Claude — https://www.youtube.com/watch?v=IGAVa4uyo2w
+- `youtube/transcripts/how-anthropic-uses-claude-in-cybersecurity-FPPTnI88RR8.md` — How Anthropic uses Claude in Cybersecurity — https://www.youtube.com/watch?v=FPPTnI88RR8
+- `youtube/transcripts/the-claude-md-file-O0FGCxkHM-U.md` — The CLAUDE.md file — https://www.youtube.com/watch?v=O0FGCxkHM-U
+- `youtube/transcripts/mcp-in-claude-code-kkBFmwkDzdo.md` — MCP in Claude Code — https://www.youtube.com/watch?v=kkBFmwkDzdo
+- `youtube/transcripts/the-expanding-toolkit-KLCuxMDZSDg.md` — The expanding toolkit — https://www.youtube.com/watch?v=KLCuxMDZSDg
+- `youtube/transcripts/building-with-claude-managed-agents-and-asana-ai-teammates-BrpB-h1e--k.md` — Building with Claude Managed Agents and Asana AI teammates — https://www.youtube.com/watch?v=BrpB-h1e--k
+- `youtube/transcripts/running-an-ai-native-engineering-org-igO8iyca2_g.md` — Running an AI-native engineering org — https://www.youtube.com/watch?v=igO8iyca2_g
+- `youtube/transcripts/the-thinking-lever-OXJO4LldSnc.md` — The thinking lever — https://www.youtube.com/watch?v=OXJO4LldSnc
+- `youtube/transcripts/building-with-claude-on-google-cloud-SqHsS737CeA.md` — Building with Claude on Google Cloud — https://www.youtube.com/watch?v=SqHsS737CeA
+- `youtube/transcripts/evaluating-and-improving-replit-agent-at-scale-snroDwX1-JU.md` — Evaluating and improving Replit Agent at scale — https://www.youtube.com/watch?v=snroDwX1-JU
+- `youtube/transcripts/giving-coding-agents-their-own-computers-how-cursor-built-cloud-agents-BbYSGxtsMic.md` — Giving coding agents their own computers: How Cursor built cloud agents — https://www.youtube.com/watch?v=BbYSGxtsMic
+- `youtube/transcripts/memory-and-dreaming-for-self-learning-agents-RtywqDFBYnQ.md` — Memory and dreaming for self-learning agents — https://www.youtube.com/watch?v=RtywqDFBYnQ
+- `youtube/transcripts/getting-started-with-claude-cowork-Lbml7IuGJYw.md` — Getting started with Claude Cowork — https://www.youtube.com/watch?v=Lbml7IuGJYw
+- `youtube/transcripts/hooks-in-claude-code-IkaPHiMDazM.md` — Hooks in Claude Code — https://www.youtube.com/watch?v=IkaPHiMDazM
+- `youtube/transcripts/what-is-claude-code-fl1DSmwQKKY.md` — What is Claude Code? — https://www.youtube.com/watch?v=fl1DSmwQKKY
+- `youtube/transcripts/new-agents-for-financial-services-claude-cowork-claude-managed-agents-foxeK2AXfHQ.md` — New agents for financial services | Claude Cowork + Claude Managed Agents — https://www.youtube.com/watch?v=foxeK2AXfHQ
+- `youtube/transcripts/find-and-fix-security-vulnerabilities-with-claude-0SgCiUfoYo8.md` — Find and fix security vulnerabilities with Claude — https://www.youtube.com/watch?v=0SgCiUfoYo8
+- `youtube/transcripts/why-does-bias-exist-in-ai-models-RnOWJoHU_NY.md` — Why does bias exist in AI models? — https://www.youtube.com/watch?v=RnOWJoHU_NY
+- `youtube/transcripts/how-anthropic-uses-claude-in-product-engineering-ma7oe_5h0ag.md` — How Anthropic uses Claude in Product Engineering — https://www.youtube.com/watch?v=ma7oe_5h0ag
+- `youtube/transcripts/introducing-claude-design-by-anthropic-labs-t_LBECIQQqs.md` — Introducing Claude Design by Anthropic Labs — https://www.youtube.com/watch?v=t_LBECIQQqs
+- `youtube/transcripts/working-smarter-with-claude-in-powerpoint-gRLMG5YNNTo.md` — Working smarter with Claude in PowerPoint — https://www.youtube.com/watch?v=gRLMG5YNNTo
+- `youtube/transcripts/refining-a-powerpoint-with-claude-TkSZqH0n7m0.md` — Refining a PowerPoint with Claude — https://www.youtube.com/watch?v=TkSZqH0n7m0
+- `youtube/transcripts/building-a-powerpoint-with-claude-TxS-1invhzg.md` — Building a PowerPoint with Claude — https://www.youtube.com/watch?v=TxS-1invhzg
+- `youtube/transcripts/why-do-ai-models-hallucinate-005JLRt3gXI.md` — Why do AI models hallucinate? — https://www.youtube.com/watch?v=005JLRt3gXI
+- `youtube/transcripts/what-is-claude-managed-agents-NLWiIj47IdI.md` — What is Claude Managed Agents? — https://www.youtube.com/watch?v=NLWiIj47IdI
+- `youtube/transcripts/cowork-is-now-generally-available--AkiUPvAqbU.md` — Cowork is now generally available — https://www.youtube.com/watch?v=-AkiUPvAqbU
+- `youtube/transcripts/introducing-claude-managed-agents-I1BvAHOsjBU.md` — Introducing Claude Managed Agents — https://www.youtube.com/watch?v=I1BvAHOsjBU
+- `youtube/transcripts/how-notion-built-with-claude-managed-agents-45hPRdfDEsI.md` — How Notion built with Claude Managed Agents — https://www.youtube.com/watch?v=45hPRdfDEsI
+- `youtube/transcripts/how-anthropic-uses-claude-in-product-management-91AJ0cpgLlQ.md` — How Anthropic uses Claude in Product Management — https://www.youtube.com/watch?v=91AJ0cpgLlQ
+- `youtube/transcripts/preview-your-running-app-in-claude-code-on-desktop-UCD7Hnx_THQ.md` — Preview your running app in Claude Code on desktop — https://www.youtube.com/watch?v=UCD7Hnx_THQ
+- `youtube/transcripts/scheduled-tasks-in-cowork-set-it-once-claude-handles-the-rest-b-ntWZqHF78.md` — Scheduled Tasks in Cowork: Set it once, Claude handles the rest — https://www.youtube.com/watch?v=b-ntWZqHF78
+- `youtube/transcripts/using-claude-code-remote-control-Ko7_tC1fMMM.md` — Using Claude Code Remote Control — https://www.youtube.com/watch?v=Ko7_tC1fMMM
+- `youtube/transcripts/dispatch-tasks-to-claude-cowork-from-anywhere-fVIV-L49eBs.md` — Dispatch tasks to Claude Cowork from anywhere — https://www.youtube.com/watch?v=fVIV-L49eBs
+- `youtube/transcripts/claude-can-now-show-you-Ii99RU3mOJM.md` — Claude can now show you — https://www.youtube.com/watch?v=Ii99RU3mOJM
+- `youtube/transcripts/how-slack-uses-claude-for-ai-search-and-summaries-yB7xjOA05GM.md` — How Slack uses Claude for AI search and summaries — https://www.youtube.com/watch?v=yB7xjOA05GM
+- `youtube/transcripts/introducing-code-review-RKsADl0ZC3Y.md` — Introducing Code Review — https://www.youtube.com/watch?v=RKsADl0ZC3Y
+- `youtube/transcripts/what-are-skills-bjdBVZa66oU.md` — What are skills? — https://www.youtube.com/watch?v=bjdBVZa66oU
+- `youtube/transcripts/how-lyft-uses-claude-for-faster-more-human-customer-support-sZHGbRYQti4.md` — How Lyft uses Claude for faster, more human customer support — https://www.youtube.com/watch?v=sZHGbRYQti4
+- `youtube/transcripts/how-hubspot-uses-claude-for-customer-success-U9s9Kxb7p5I.md` — How HubSpot uses Claude for customer success — https://www.youtube.com/watch?v=U9s9Kxb7p5I
+- `youtube/transcripts/how-figma-make-uses-claude-to-turn-prompts-into-prototypes-fVJGqzYkq3A.md` — How Figma Make uses Claude to turn prompts into prototypes — https://www.youtube.com/watch?v=fVJGqzYkq3A
+- `youtube/transcripts/the-atlassian-williams-f1-team-is-now-thinking-with-claude-xpmag2Gvi0g.md` — The Atlassian Williams F1 team is now thinking with Claude — https://www.youtube.com/watch?v=xpmag2Gvi0g
+- `youtube/transcripts/a-a-murakami-s-the-moon-underwater-sxfwDbi-_78.md` — A.A.Murakami's The Moon Underwater — https://www.youtube.com/watch?v=sxfwDbi-_78
+- `youtube/transcripts/getting-started-with-claude-in-excel-54BdUqMQUMI.md` — Getting started with Claude in Excel — https://www.youtube.com/watch?v=54BdUqMQUMI
+- `youtube/transcripts/how-anthropic-uses-claude-in-marketing-Jp83_JMK74o.md` — How Anthropic uses Claude in Marketing — https://www.youtube.com/watch?v=Jp83_JMK74o
+- `youtube/transcripts/the-atlassian-williams-f1-team-is-now-thinking-with-claude-4KBAE92he8E.md` — The Atlassian Williams F1 team is now thinking with Claude — https://www.youtube.com/shorts/4KBAE92he8E
+- `youtube/transcripts/live-coding-session-with-boris-cherny-and-jarred-sumner-DlTCu_pNDHE.md` — Live coding session with Boris Cherny and Jarred Sumner — https://www.youtube.com/watch?v=DlTCu_pNDHE
+
+## YouTube videos without exposed captions/subtitles
+- 5HVPeux24WU — Embrace long-running tasks with Opus 4.8 and Claude Code — https://www.youtube.com/watch?v=5HVPeux24WU
+- tUoO4ucrNc0 — Fighting financial crime with Claude Cowork — https://www.youtube.com/watch?v=tUoO4ucrNc0
+- T8N0MED3IJo — Where code meets court: AI at the legal-technical frontier — https://www.youtube.com/watch?v=T8N0MED3IJo
+- A3rmSUp6Dxg — How Metaview built self-improving prompts for application review — https://www.youtube.com/watch?v=A3rmSUp6Dxg
+- uGroRwlC9y4 — Teaching agents to learn from your team — https://www.youtube.com/watch?v=uGroRwlC9y4
+- tuY2ChJIx48 — Beyond the basics with Claude Code — https://www.youtube.com/watch?v=tuY2ChJIx48
+- QIriO1-vHYw — Getting more out of the Claude Platform — https://www.youtube.com/watch?v=QIriO1-vHYw
+- DNRddIEoH3c — The capability curve — https://www.youtube.com/watch?v=DNRddIEoH3c
+- Uvl-tRga98g — Designing with Claude: From prompt to production — https://www.youtube.com/watch?v=Uvl-tRga98g
+- K4-flzsPraE — Building the best agentic analytics harness: Powered by Claude, built with Claude Code — https://www.youtube.com/watch?v=K4-flzsPraE
+- l8fxVYIP4HQ — Building with Claude on Google Cloud — https://www.youtube.com/watch?v=l8fxVYIP4HQ
+- nho1YAEPuwA — What legal agents inherit from coding agents: Lessons from Legora — https://www.youtube.com/watch?v=nho1YAEPuwA
+- mhW-XXnDFSU — How Lovable vibecodes production software at scale — https://www.youtube.com/watch?v=mhW-XXnDFSU
+- XFaeIbL-lvE — Building AI-native at enterprise scale: monday.com, Doctolib, and Delivery Hero — https://www.youtube.com/watch?v=XFaeIbL-lvE
+- VueeyKcquoA — From one person to 80: Scaling a hypergrowth engineering org with Claude Code — https://www.youtube.com/watch?v=VueeyKcquoA
+- zFslvuvYifQ — Coding is no longer the constraint: Scaling devex to teams and agents at Spotify — https://www.youtube.com/watch?v=zFslvuvYifQ
+- wI0ptqCSL0I — Stop babysitting your agents — https://www.youtube.com/watch?v=wI0ptqCSL0I
+- sRvUXLquiRg — What's new in Claude Code — https://www.youtube.com/watch?v=sRvUXLquiRg
+- 7-1tNo8HAwk — New agents for legal professionals | Claude Cowork — https://www.youtube.com/watch?v=7-1tNo8HAwk
+- -INveHwbRz4 — Introducing agent view in Claude Code — https://www.youtube.com/watch?v=-INveHwbRz4
+- F6dzjaBCBtU — Collaborate with Claude across Microsoft365 apps — https://www.youtube.com/watch?v=F6dzjaBCBtU
+- Gen8rG40ntA — Claude now connects to Autodesk Fusion — https://www.youtube.com/watch?v=Gen8rG40ntA
+- LZMWsZbZU5w — Claude now connects to Blender — https://www.youtube.com/watch?v=LZMWsZbZU5w
+- U9jGOz_Lcbo — All your everyday apps, in one conversation — https://www.youtube.com/watch?v=U9jGOz_Lcbo
+- rWaQSQEm_aY — The new Claude Code desktop app, redesigned for parallel agents — https://www.youtube.com/watch?v=rWaQSQEm_aY
+- NAwvkrxompk — Your apps come alive on Claude mobile — https://www.youtube.com/watch?v=NAwvkrxompk
+- NAauIR6JFps — Put Claude to work on your computer, from anywhere — https://www.youtube.com/watch?v=NAauIR6JFps
+- cIctgHKEeMA — One conversation across Claude for Excel and PowerPoint — https://www.youtube.com/watch?v=cIctgHKEeMA
+- v5IOHK5xFlc — Cowork and Plugins: Helping enterprises move faster — https://www.youtube.com/watch?v=v5IOHK5xFlc
+- 2fHVTe7c--4 — Our most capable Sonnet model yet — https://www.youtube.com/watch?v=2fHVTe7c--4
+- MWhSjFu_K7E — The making of our Williams F1 film — https://www.youtube.com/watch?v=MWhSjFu_K7E
+- orTd3grSYsQ — Claude for everyday work — https://www.youtube.com/watch?v=orTd3grSYsQ
+- zZlcNxSPMOA — The making of our Williams F1 film — https://www.youtube.com/shorts/zZlcNxSPMOA
+- YmQ7jRgf4f0 — Claude FM 🎵 music for thinking and building — https://www.youtube.com/watch?v=YmQ7jRgf4f0
+- tP4MGcJ80Y0 — The capability curve — https://www.youtube.com/watch?v=tP4MGcJ80Y0
+- 7oO37GRhwGk — Getting more out of the Claude Platform — https://www.youtube.com/watch?v=7oO37GRhwGk
+- EdmuYPBt_EM — How Datadog built a universal machine tool for Claude Code — https://www.youtube.com/watch?v=EdmuYPBt_EM
+- bJKdXhnw7NU — Architecting for model step-changes: A fireside with Vercel's Guillermo Rauch — https://www.youtube.com/watch?v=bJKdXhnw7NU
+- OFDm3T7pVlc — Building AI-native: Inside the stacks powering Cognition, Gamma, and Harvey — https://www.youtube.com/watch?v=OFDm3T7pVlc
+- 7xco5Qd2Oo8 — A conversation with Dario Amodei & Daniela Amodei — https://www.youtube.com/watch?v=7xco5Qd2Oo8
+- E9gaQHrw_rg — How to get to production faster with Claude Managed Agents — https://www.youtube.com/watch?v=E9gaQHrw_rg
+- y5TmF_6o6xk — Caching, harnesses, and advisors: Building on Claude at GitHub scale — https://www.youtube.com/watch?v=y5TmF_6o6xk
+- IMZa42k6L6M — What's new in Claude Code — https://www.youtube.com/watch?v=IMZa42k6L6M
+- GMIWm5y90xA — Code with Claude 2026: Opening Keynote — https://www.youtube.com/watch?v=GMIWm5y90xA

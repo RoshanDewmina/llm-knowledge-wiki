@@ -4,11 +4,23 @@ Read [docs/agent-contract.md](docs/agent-contract.md) before making durable chan
 
 ## Core Rules
 
+- **This repo (`/Users/roshansilva/.hermes/knowledge-base`) is the single source of truth** for notes and personal knowledge. It is the only registered, active Obsidian vault.
+- The legacy vault `/Users/roshansilva/Documents/Obsidian/files` is RETIRED and empty — never read from or write to it. Migrated legacy notes live under `raw/legacy-obsidian/`.
+- Personal/PII facts are reached ONLY via the `personal-kb` MCP server (`query_facts`); writes go through `propose_fact` → human approval. Never read raw files under `secure/`.
 - The repo root is the Obsidian vault.
 - `raw/` is immutable source material. Add new files there, but do not rewrite existing raw files.
 - `wiki/` is the agent-maintained compiled knowledge graph.
 - Save durable work into files, not chat alone.
 - Use direct file access first. MCP is optional later when plain files are insufficient.
+
+
+## Lean Memory / KB Rules
+
+- Always-on memory: only compact defaults that should affect nearly every session.
+- Fact store: stable structured facts and relationships.
+- KB/Obsidian: source-backed, browseable, study-worthy, or synthesis-heavy material.
+- Do not persist casual Q&A, raw session dumps, tooling comparisons, or temporary project progress.
+- Generated build/test/cache artifacts are not knowledge; ignore/exclude them rather than browsing them in Obsidian.
 
 ## Main Commands
 
@@ -57,6 +69,13 @@ Read [docs/agent-contract.md](docs/agent-contract.md) before making durable chan
 - Study skills may point to missing `concepts/...` candidates, but they must not auto-create concept pages without user confirmation.
 - Set `created`, `updated`, and `compiled_at` from `date -u +%Y-%m-%dT%H:%M:%SZ` when creating or refreshing durable pages.
 - When adding durable pages, update `wiki/index.md` and `wiki/log.md`.
+
+## Manual Capture Conventions
+
+- For manually captured papers, articles, videos, ideas, and briefings, use lowercase kebab-case filenames. Date prefixes are acceptable for daily briefings and dated clippings.
+- Include YAML frontmatter with `title`, `source`, `captured_at`, `tags`, and `type` when those facts are known.
+- Use hierarchical tags such as `ml/llm`, `ml/inference`, `ml/training`, `infra/gpu`, and `cs/systems`.
+- If the category is unclear, save a triage note in `wiki/inbox.md` or capture the source under `raw/` instead of creating a parallel vault.
 
 ## Study Workflow
 
