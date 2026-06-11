@@ -55,6 +55,7 @@ SORT mastery_avg ASC
 
 ## Active Outputs
 
+- [[outputs/briefs/2026-06-11-market-brief-pre-open]]
 - [[outputs/briefs/2026-06-10-market-brief-pre-open]]
 - [[outputs/briefs/2026-06-09-market-brief-post-close]]
 
@@ -136,3 +137,4 @@ SORT mastery_avg ASC
 - [[outputs/briefs/2026-05-06-ai-briefing|AI Briefing 2026-05-06]]
 - [[outputs/briefs/2026-06-09-market-brief-post-close|Market Brief 2026-06-09 post-close]]
 - [[outputs/briefs/2026-06-10-market-brief-pre-open|Market Brief 2026-06-10 pre-open]]
+- [[outputs/briefs/2026-06-11-market-brief-pre-open|Market Brief 2026-06-11 pre-open]]
