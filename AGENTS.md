@@ -12,6 +12,10 @@ Read [docs/agent-contract.md](docs/agent-contract.md) before making durable chan
 - `wiki/` is the agent-maintained compiled knowledge graph.
 - Save durable work into files, not chat alone.
 - Use direct file access first. MCP is optional later when plain files are insufficient.
+- **Local Downloads Policy:** If Roshan requests any document, report, or markdown file to be saved to the downloads folder of his local computer:
+  - **Local Execution:** If running locally on macOS, write the file directly to `/Users/roshansilva/Downloads/`.
+  - **Remote Execution (e.g. `hermes-box`):** Save the file locally on the remote host first, notify Roshan of the path, and output the exact `scp` command that he can run on his local computer to copy it.
+
 
 
 ## Lean Memory / KB Rules
