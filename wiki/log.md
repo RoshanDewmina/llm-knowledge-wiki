@@ -66,3 +66,4 @@ Durable wiki actions belong here. Tooling manages the auto-ingest block; humans 
 - 2026-06-09T21:14:32Z | briefing | [[outputs/briefs/2026-06-09-market-brief-post-close]] | Created post-close market brief from Finnhub watchlist/news fetcher; 8 items selected from 79 in-window candidates.
 - 2026-06-10T12:39:24Z | briefing | [[outputs/briefs/2026-06-10-market-brief-pre-open]] | Created pre-open market brief from Finnhub watchlist/news fetcher; 6 items selected from 111 in-window candidates.
 - 2026-06-11T12:33:53Z | briefing | [[outputs/briefs/2026-06-11-market-brief-pre-open]] | Created pre-open market brief from Finnhub watchlist/news fetcher; 6 items selected from 358 in-window candidates.
+- 2026-06-11T16:31:29Z | briefing | [[outputs/briefs/2026-06-11-market-brief-midday]] | Created midday market brief from Finnhub watchlist/news fetcher; 6 items selected from 312 post-dedup candidates.

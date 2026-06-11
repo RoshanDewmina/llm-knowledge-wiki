@@ -2,7 +2,7 @@
 title: Coverage Dashboard
 type: review
 created: 2026-04-08T22:32:49Z
-updated: 2026-06-11T12:38:43Z
+updated: 2026-06-11T16:36:21Z
 status: reviewed
 confidence: 0.92
 related:
@@ -29,14 +29,14 @@ source_pages:
   - sources/transformer-circuits-framework
   - sources/vmiss-what-i-use-hermes-agent-for
   - sources/x-com-launching-a-real-shopify-store-used-to-cost-3-000-claude-just-made-that-0
-compiled_at: 2026-06-11T12:38:43Z
+compiled_at: 2026-06-11T16:36:21Z
 ---
 
 # Coverage Dashboard
 
 ## Summary
 
-- Total content pages: `93`
+- Total content pages: `94`
 - Source pages: `19`
 - Derived pages: `49`
 
@@ -44,7 +44,7 @@ compiled_at: 2026-06-11T12:38:43Z
 
 - `benchmark` -> `1`
 - `concept` -> `11`
-- `journal` -> `23`
+- `journal` -> `24`
 - `output` -> `10`
 - `project` -> `1`
 - `question` -> `2`
@@ -56,7 +56,7 @@ compiled_at: 2026-06-11T12:38:43Z
 ## Pages By Status
 
 - `archived` -> `7`
-- `draft` -> `39`
+- `draft` -> `40`
 - `reviewed` -> `45`
 - `stub` -> `2`
 
