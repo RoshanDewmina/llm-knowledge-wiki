@@ -2,7 +2,7 @@
 title: Review Queue
 type: review
 created: 2026-04-08T22:32:49Z
-updated: 2026-06-11T16:36:22Z
+updated: 2026-06-12T12:37:02Z
 status: reviewed
 confidence: 0.9
 related:
@@ -19,7 +19,7 @@ source_pages:
   - sources/shmidt-15-hermes-features
   - sources/transformer-circuits-framework
   - sources/x-com-launching-a-real-shopify-store-used-to-cost-3-000-claude-just-made-that-0
-compiled_at: 2026-06-11T16:36:22Z
+compiled_at: 2026-06-12T12:37:02Z
 ---
 
 # Review Queue
@@ -28,7 +28,7 @@ compiled_at: 2026-06-11T16:36:22Z
 
 - Review this queue from top to bottom and clear the highest-signal items first.
 - Run `python3 tools/check_wiki.py` again after making substantial changes.
-- Open issue groups: `40`
+- Open issue groups: `41`
 
 ## Stale Pages
 
@@ -53,6 +53,7 @@ compiled_at: 2026-06-11T16:36:22Z
 - [[outputs/briefs/2026-06-10-market-brief-pre-open]] -> confidence `0.7`
 - [[outputs/briefs/2026-06-11-market-brief-midday]] -> confidence `0.7`
 - [[outputs/briefs/2026-06-11-market-brief-pre-open]] -> confidence `0.7`
+- [[outputs/briefs/2026-06-12-market-brief-pre-open]] -> confidence `0.7`
 - [[sources/comp1501a-legacy-study-artifacts]] -> confidence `0.7`
 - [[sources/rohit-solo-founder-stack-2026]] -> confidence `0.72`
 - [[sources/shmidt-15-hermes-features]] -> confidence `0.74`
