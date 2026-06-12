@@ -55,6 +55,7 @@ SORT mastery_avg ASC
 
 ## Active Outputs
 
+- [[outputs/briefs/2026-06-12-market-brief-midday]]
 - [[outputs/briefs/2026-06-12-market-brief-pre-open]]
 - [[outputs/briefs/2026-06-11-market-brief-midday]]
 - [[outputs/briefs/2026-06-11-market-brief-pre-open]]
