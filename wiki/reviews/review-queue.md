@@ -2,7 +2,7 @@
 title: Review Queue
 type: review
 created: 2026-04-08T22:32:49Z
-updated: 2026-06-12T16:35:52Z
+updated: 2026-06-14T01:06:13Z
 status: reviewed
 confidence: 0.9
 related:
@@ -16,10 +16,11 @@ source_pages:
   - sources/comp1501a-legacy-study-artifacts
   - sources/example-transformer-tooling-notes
   - sources/rohit-solo-founder-stack-2026
+  - sources/roshan-profile-2026-05-06
   - sources/shmidt-15-hermes-features
   - sources/transformer-circuits-framework
   - sources/x-com-launching-a-real-shopify-store-used-to-cost-3-000-claude-just-made-that-0
-compiled_at: 2026-06-12T16:35:52Z
+compiled_at: 2026-06-14T01:06:13Z
 ---
 
 # Review Queue
@@ -28,7 +29,7 @@ compiled_at: 2026-06-12T16:35:52Z
 
 - Review this queue from top to bottom and clear the highest-signal items first.
 - Run `python3 tools/check_wiki.py` again after making substantial changes.
-- Open issue groups: `42`
+- Open issue groups: `45`
 
 ## Stale Pages
 
@@ -52,6 +53,7 @@ compiled_at: 2026-06-12T16:35:52Z
 - [[outputs/briefs/2026-06-09-market-brief-post-close]] -> confidence `0.7`
 - [[outputs/briefs/2026-06-10-market-brief-pre-open]] -> confidence `0.7`
 - [[outputs/briefs/2026-06-11-market-brief-midday]] -> confidence `0.7`
+- [[outputs/briefs/2026-06-11-market-brief-post-close]] -> confidence `0.7`
 - [[outputs/briefs/2026-06-11-market-brief-pre-open]] -> confidence `0.7`
 - [[outputs/briefs/2026-06-12-market-brief-midday]] -> confidence `0.7`
 - [[outputs/briefs/2026-06-12-market-brief-pre-open]] -> confidence `0.7`
@@ -78,6 +80,8 @@ compiled_at: 2026-06-12T16:35:52Z
 - [[journal/2026-05-01-plan]] -> confidence `0.55`
 - [[benchmarks/autoresearch/README]] -> confidence `0.6`
 - [[journal/2026-05-06-plan]] -> confidence `0.6`
+- [[journal/2026-06-12-plan]] -> confidence `0.7`
+- [[reviews/daily/2026-06-13-review]] -> confidence `0.7`
 - [[studies/courses/comp1501a/01-hard-mcq-answer-key]] -> confidence `0.7`
 - [[studies/courses/comp1501a/01-hard-mcq-papers]] -> confidence `0.7`
 - [[studies/courses/comp1501a/02-final-50-hard-answer-key]] -> confidence `0.7`

@@ -2,7 +2,7 @@
 title: Daily Review
 type: review
 created: 2026-04-10T12:47:25Z
-updated: 2026-06-12T16:35:52Z
+updated: 2026-06-14T01:06:13Z
 status: reviewed
 confidence: 0.85
 related:
@@ -17,7 +17,7 @@ source_pages:
   - sources/roshan-personal-travel-documents-2026-05-09
   - sources/roshan-profile-2026-05-06
   - sources/x-com-launching-a-real-shopify-store-used-to-cost-3-000-claude-just-made-that-0
-compiled_at: 2026-06-12T16:35:52Z
+compiled_at: 2026-06-14T01:06:13Z
 ---
 
 # Daily Review
@@ -38,11 +38,11 @@ compiled_at: 2026-06-12T16:35:52Z
 
 ## Recent Journal Notes
 
+- 2026-06-14T01:02:33Z | [[outputs/briefs/telegram-rich-cron-plan-2026-06-13]]
+- 2026-06-13T12:03:58Z | [[goals/goal-registry]]
+- 2026-06-13T12:02:29Z | [[journal/2026-06-12-plan]]
 - 2026-06-12T16:35:08Z | [[outputs/briefs/2026-06-12-market-brief-midday]]
 - 2026-06-12T12:36:29Z | [[outputs/briefs/2026-06-12-market-brief-pre-open]]
-- 2026-06-11T16:35:57Z | [[outputs/briefs/2026-06-11-market-brief-midday]]
-- 2026-06-11T12:33:53Z | [[outputs/briefs/2026-06-11-market-brief-pre-open]]
-- 2026-06-10T12:39:24Z | [[outputs/briefs/2026-06-10-market-brief-pre-open]]
 
 ## Open Questions
 
@@ -53,7 +53,7 @@ compiled_at: 2026-06-12T16:35:52Z
 
 - stale pages: `0`
 - source pages still in stub/draft: `3`
-- low-confidence pages: `37`
+- low-confidence pages: `40`
 
 ## Next Best Actions
 

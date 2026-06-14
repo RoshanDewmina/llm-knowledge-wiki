@@ -36,10 +36,12 @@ SORT mastery_avg ASC
 
 ## Autoresearch Loop
 
-- Plan: [[journal/2026-05-06-plan]]
-- Previous plan: [[journal/2026-05-01-plan]]
-- Today's daily review: [[reviews/daily/2026-05-06-review]]
-- Latest scored daily review: [[reviews/daily/2026-05-05-review]]
+- Plan: [[journal/2026-06-12-plan]]
+- Previous plan: [[journal/2026-05-06-plan]]
+- Today's daily review: [[reviews/daily/2026-06-13-review]]
+- Latest scored daily review: [[reviews/daily/2026-06-13-review]]
+- Previous daily review: [[reviews/daily/2026-05-06-review]]
+- Previous scored daily review: [[reviews/daily/2026-05-05-review]]
 - Previous daily review: [[reviews/daily/2026-05-01-review]]
 - Previous daily review: [[reviews/daily/2026-04-29-review]]
 - Weekly report: [[benchmarks/autoresearch/2026-W18-work-quality]]
@@ -55,8 +57,10 @@ SORT mastery_avg ASC
 
 ## Active Outputs
 
+- [[outputs/briefs/telegram-rich-cron-plan-2026-06-13]]
 - [[outputs/briefs/2026-06-12-market-brief-midday]]
 - [[outputs/briefs/2026-06-12-market-brief-pre-open]]
+- [[outputs/briefs/2026-06-11-market-brief-post-close]]
 - [[outputs/briefs/2026-06-11-market-brief-midday]]
 - [[outputs/briefs/2026-06-11-market-brief-pre-open]]
 - [[outputs/briefs/2026-06-10-market-brief-pre-open]]
@@ -128,6 +132,7 @@ SORT mastery_avg ASC
 
 
 ## Outputs
+- [[outputs/briefs/2026-06-12-market-brief-midday|Market Brief 2026-06-12 midday]]
 - [[outputs/briefs/2026-06-08-market-brief-midday|Market Brief 2026-06-08 midday]]
 - [[outputs/briefs/2026-06-07-market-brief-midday|Market Brief 2026-06-07 midday]]
 - [[outputs/briefs/2026-06-04-ai-briefing|AI Briefing 2026-06-04]]
@@ -142,4 +147,5 @@ SORT mastery_avg ASC
 - [[outputs/briefs/2026-06-10-market-brief-pre-open|Market Brief 2026-06-10 pre-open]]
 - [[outputs/briefs/2026-06-11-market-brief-pre-open|Market Brief 2026-06-11 pre-open]]
 - [[outputs/briefs/2026-06-11-market-brief-midday|Market Brief 2026-06-11 midday]]
+- [[outputs/briefs/2026-06-11-market-brief-post-close|Market Brief 2026-06-11 post-close]]
 - [[outputs/briefs/2026-06-12-market-brief-pre-open|Market Brief 2026-06-12 pre-open]]
